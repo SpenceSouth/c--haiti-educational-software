@@ -23,6 +23,7 @@ namespace haiti
         public HomePage()
         {
             InitializeComponent();
+            DataSheetParser.parse();
         }
 
         private void Button_Click(object sender, RoutedEventArgs e)

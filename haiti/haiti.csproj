@@ -112,6 +112,10 @@
     <Compile Include="HomePage.xaml.cs">
       <DependentUpon>HomePage.xaml</DependentUpon>
     </Compile>
+    <Compile Include="parser\Category.cs" />
+    <Compile Include="parser\DataSheetParser.cs" />
+    <Compile Include="parser\Software.cs" />
+    <Compile Include="parser\Subject.cs" />
     <Compile Include="ProgramsPage.xaml.cs">
       <DependentUpon>ProgramsPage.xaml</DependentUpon>
     </Compile>
@@ -142,9 +146,7 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="parser\" />
-  </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
     <BootstrapperPackage Include=".NETFramework,Version=v4.5">
       <Visible>False</Visible>
