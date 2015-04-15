@@ -55,7 +55,7 @@
                 <ColumnDefinition Width="1*"/>
             </Grid.ColumnDefinitions>
 
-            <TextBlock Grid.Row="0" Grid.Column="1" Text="Statement Of Faith" FontSize="20" TextAlignment="Center" Foreground="Gray" FontWeight="Bold" VerticalAlignment="Bottom" HorizontalAlignment="Center"  Grid.ColumnSpan="3"/>
+            <TextBlock Grid.Row="0" Grid.Column="1" Text="Statement Of Faith" FontSize="20" TextAlignment="Center" FontWeight="ExtraBold" Foreground="Gray" VerticalAlignment="Bottom" HorizontalAlignment="Center"/>
             <TextBlock Grid.Row="1" Grid.Column="1"  TextWrapping="Wrap" FontSize="14" TextAlignment="Center" Text="The Holy Bible is taught at Christian Light School Haiti, Inc.
 We believe that the Bible is the infallible, inspired, authoritative Word of God.
 We believe in the Holy Trinity. There is one God in three persons,God the Father, God the Son (Jesus Christ. who was conceived of the virgin, Mary) by God the Holy Spirit.

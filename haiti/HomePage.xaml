@@ -49,18 +49,21 @@
                 <RowDefinition Height="1*" />
                 <RowDefinition Height="1*" />
                 <RowDefinition Height="4*" />
+                <RowDefinition Height="0.5*" />
             </Grid.RowDefinitions>
             <Grid.ColumnDefinitions>
-                <ColumnDefinition Width="1*" />
+                <ColumnDefinition Width="0.5*" />
+                <ColumnDefinition Width="5*" />
+                <ColumnDefinition Width="0.5*" />
+                
             </Grid.ColumnDefinitions>
 
-            <TextBlock Grid.Row="0" Grid.Column="0" Text="Welcome to the Christian Light Study Program" Foreground="Gray" FontWeight="Bold" VerticalAlignment="Bottom" HorizontalAlignment="Center"/>
-            <TextBlock Grid.Row="1" Grid.Column="0" Text="A safe place where students can create, learn, and play." VerticalAlignment="Top" HorizontalAlignment="Center"/>
-            <Image Grid.Row="2" Grid.Column="0" Source="assets/banner1.jpg"/>
+            <TextBlock Grid.Row="0" Grid.Column="1" Text="Welcome to the Christian Light Study Program" FontSize="20" TextAlignment="Center" FontWeight="ExtraBold" Foreground="Gray" VerticalAlignment="Bottom" HorizontalAlignment="Center"/>
+            <TextBlock Grid.Row="1" Grid.Column="1" Text="A safe place where students can create, learn, and play." FontSize="14" VerticalAlignment="Top" HorizontalAlignment="Center"/>
+            <Image Grid.Row="2" Grid.Column="1" Source="assets\homePageLogo.png"/>
         </Grid>
-
-        <Grid Grid.Column="1" Grid.Row="1">
-
+        
+        <Grid Grid.Row="1" Grid.Column="0">
             <Grid.RowDefinitions>
                 <RowDefinition Height="1*" />
                 <RowDefinition Height="3*" />
@@ -71,12 +74,25 @@
                 <ColumnDefinition Width="3*" />
                 <ColumnDefinition Width="1*" />
             </Grid.ColumnDefinitions>
-
-           
-
+            
         </Grid>
 
-        <Image Grid.Row="1" Grid.Column="0" Source="assets\homePageLogo.png"/>
+        <Grid Grid.Column="0" Grid.Row="1">
+
+            <Grid.RowDefinitions>
+                <RowDefinition Height="0.5*" />
+                <RowDefinition Height="6*" />
+                <RowDefinition Height="0.5*" />
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="0.25*" />
+                <ColumnDefinition Width="3*" />
+                <ColumnDefinition Width="0.25*" />
+            </Grid.ColumnDefinitions>
+            
+            <Image Grid.Row="1" Grid.Column="1" Source="assets/homePagePic.png"/>
+        </Grid>
+
     </Grid>
 
 
