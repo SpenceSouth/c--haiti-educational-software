@@ -92,13 +92,17 @@
                 </Grid.RowDefinitions>
                 <Grid.ColumnDefinitions>
                     <ColumnDefinition Width="1*" />
-                    <ColumnDefinition Width="8*" />
+                    <ColumnDefinition Width="3*" />
+                    <ColumnDefinition Width="7*" />
                     <ColumnDefinition Width="1*" />
                 </Grid.ColumnDefinitions>
 
-                <Button Grid.Row="1" Grid.Column="1" Content="Level 1"/>
-                <Button Grid.Row="2" Grid.Column="1" Content="Level 2"/>
-                <Button Grid.Row="3" Grid.Column="1" Content="Level 3"/>
+                <Image  Grid.Row="1" Grid.Column="1" Source="assets/level1icon.png" HorizontalAlignment="Right"/>
+                <Button Grid.Row="1" Grid.Column="2" Content="Level 1"/>
+                <Image  Grid.Row="2" Grid.Column="1" Source="assets/level2icon.png" HorizontalAlignment="Right"/>
+                <Button Grid.Row="2" Grid.Column="2" Content="Level 2"/>
+                <Image  Grid.Row="3" Grid.Column="1" Source="assets/level3icon.png" HorizontalAlignment="Right"/>
+                <Button Grid.Row="3" Grid.Column="2" Content="Level 3"/>
 
             </Grid>
 
