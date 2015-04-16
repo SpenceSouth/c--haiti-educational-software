@@ -14,7 +14,8 @@ namespace haiti
 
         //Decs
         private static List<Category> categories = new List<Category>();
-        private static bool debug = true;
+        private static bool parsed = false;
+        private static bool debug = false;
 
         private DataSheetParser()
         {
@@ -34,6 +35,7 @@ namespace haiti
                 }
             }
 
+            parsed = true;
         }
 
         /**Gets the data out of each sudo-XML and adds it to the arraylist of categories */
@@ -94,6 +96,16 @@ namespace haiti
         public static List<Category> getCategories()
         {
             return categories;
+        }
+
+        public static int getSize()
+        {
+            return categories.Count;
+        }
+
+        public static bool hasBeenParsed()
+        {
+            return parsed;
         }
 
     }
