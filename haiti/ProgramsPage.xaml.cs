@@ -22,6 +22,7 @@ namespace haiti
     {
         public ProgramsPage()
         {
+            MessageBox.Show("Number of categories found by parser " + DataSheetParser.getSize().ToString());
         }
 
 
