@@ -98,11 +98,11 @@
                 </Grid.ColumnDefinitions>
 
                 <Image  Grid.Row="1" Grid.Column="1" Source="assets/level1icon.png" HorizontalAlignment="Right"/>
-                <Button Grid.Row="1" Grid.Column="2" Content="Level 1"/>
+                <Button Grid.Row="1" Grid.Column="2" Content="Level 1" Click="program1"/>
                 <Image  Grid.Row="2" Grid.Column="1" Source="assets/level2icon.png" HorizontalAlignment="Right"/>
-                <Button Grid.Row="2" Grid.Column="2" Content="Level 2"/>
+                <Button Grid.Row="2" Grid.Column="2" Content="Level 2" Click="program2"/>
                 <Image  Grid.Row="3" Grid.Column="1" Source="assets/level3icon.png" HorizontalAlignment="Right"/>
-                <Button Grid.Row="3" Grid.Column="2" Content="Level 3"/>
+                <Button Grid.Row="3" Grid.Column="2" Content="Level 3" Click="program3"/>
 
             </Grid>
 

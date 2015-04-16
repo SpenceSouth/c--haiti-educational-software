@@ -47,5 +47,70 @@ namespace haiti
             }
 
         }
+
+        private void program1(object sender, RoutedEventArgs e)
+        {
+            //Find all the program content for grades 1-4
+            List<Category> local = new List<Category>();
+
+            foreach (Category cat in DataSheetParser.getCategories())
+            {
+                foreach(Subject sub in cat.getSubjects()){
+
+                    if (sub.getGrade().Contains("1") || sub.getGrade().Contains("2") || sub.getGrade().Contains("3") || sub.getGrade().Contains("4"))
+                    {
+                        local.Add(cat);
+                    }
+
+                }
+            }
+
+            MessageBox.Show("There are " + local.Count + " categories suitable for this grade level");
+
+        }
+
+        private void program2(object sender, RoutedEventArgs e)
+        {
+            //Find all the program content for grades 5-8
+            List<Category> local = new List<Category>();
+
+            foreach (Category cat in DataSheetParser.getCategories())
+            {
+                foreach (Subject sub in cat.getSubjects())
+                {
+
+                    if (sub.getGrade().Contains("5") || sub.getGrade().Contains("6") || sub.getGrade().Contains("7") || sub.getGrade().Contains("8"))
+                    {
+                        local.Add(cat);
+                    }
+
+                }
+            }
+
+            MessageBox.Show("There are " + local.Count + " categories suitable for this grade level");
+
+        }
+
+        private void program3(object sender, RoutedEventArgs e)
+        {
+            //Find all the program content for grades 9-12
+            List<Category> local = new List<Category>();
+
+            foreach (Category cat in DataSheetParser.getCategories())
+            {
+                foreach (Subject sub in cat.getSubjects())
+                {
+
+                    if (sub.getGrade().Contains("9") || sub.getGrade().Contains("10") || sub.getGrade().Contains("11") || sub.getGrade().Contains("12"))
+                    {
+                        local.Add(cat);
+                    }
+
+                }
+            }
+
+            MessageBox.Show("There are " + local.Count + " categories suitable for this grade level");
+
+        }
     }
 }

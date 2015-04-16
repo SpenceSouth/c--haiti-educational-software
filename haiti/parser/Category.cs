@@ -49,5 +49,10 @@ namespace haiti
             subjects.Add(subject);
         }
 
+        public List<Subject> getSubjects()
+        {
+            return subjects;
+        }
+
     }
 }
