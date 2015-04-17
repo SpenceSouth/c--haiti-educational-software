@@ -27,11 +27,41 @@ namespace haiti
         public KidsPage()
         {
             InitializeComponent();
-            //Get all of the categories that contain subject appropriate for this grade level.
-            getCategories();
 
-            //Dynamically create buttons for each category
-            createCategoryButtons();
+            //Add images to existing xaml buttons level 1
+            addImageToButton(artButton, "/assets/art.png");
+            addImageToButton(alphabetButton, "/assets/alphabet.png");
+            addImageToButton(numbersButton, "/assets/numbers.png");
+            addImageToButton(phonicsButton, "/assets/phonics.png");
+            addImageToButton(rhymesButton, "/assets/rhymes.png");
+
+            //Add images to level 2
+            addImageToButton(healthButton, "assets/healthAndSafety.png");
+            addImageToButton(readingButton, "assets/readingAndWriting.png");
+            addImageToButton(storybooksButton, "assets/storybooks.png");
+            addImageToButton(activitybooksButton, "assets/activity.png");
+
+            //Add images to level 3
+            addImageToButton(mathButton, "assets/math.png");
+            addImageToButton(englishButton, "assets/english.png");
+            addImageToButton(scienceButton, "assets/science.png");
+            addImageToButton(computerButton, "assets/computer.png");
+        }
+
+        private void addImageToButton(Button b, String src)
+        {
+
+            Image img = new Image();
+            img.Source = new BitmapImage(new Uri(src, UriKind.RelativeOrAbsolute));
+
+            StackPanel stackPnl = new StackPanel();
+            stackPnl.Orientation = Orientation.Horizontal;
+            stackPnl.Margin = new Thickness(10);
+            stackPnl.Children.Add(img);
+
+            b.Content = stackPnl;
+            b.Background = Brushes.White;
+
         }
 
         private void getCategories()
@@ -93,7 +123,7 @@ namespace haiti
             }
         }
 
-        private void createPage(object sender, EventArgs e)
+        private void createPage(object sender, RoutedEventArgs e)
         {
             MessageBox.Show("clicked");
         }
@@ -115,6 +145,14 @@ namespace haiti
                 case "Kids":
                     Uri programsUri = new Uri("KidsPage.xaml", UriKind.Relative);
                     this.NavigationService.Navigate(programsUri);
+                    break;
+                case "Teens":
+                    Uri teensUri = new Uri("TeensPage.xaml", UriKind.Relative);
+                    this.NavigationService.Navigate(teensUri);
+                    break;
+                case "Teachers":
+                    Uri teachersUri = new Uri("TeachersPage.xaml", UriKind.Relative);
+                    this.NavigationService.Navigate(teachersUri);
                     break;
             }
 

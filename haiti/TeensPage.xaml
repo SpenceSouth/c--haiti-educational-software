@@ -1,11 +1,11 @@
-﻿<Page x:Class="haiti.KidsPage"
+﻿<Page x:Class="haiti.TeensPage"
       xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
       xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
       xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
       xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
       mc:Ignorable="d" 
       d:DesignHeight="300" d:DesignWidth="300"
-	Title="Kids Page">
+	Title="TeensPage">
 
     <Grid>
         <Grid.RowDefinitions>
@@ -30,7 +30,7 @@
 
 
             <Grid Grid.Row="0" Grid.Column="0" Background="Black">
-                <TextBlock Grid.Row="0" Grid.Column="0" Text="Kids - Christian Light Haiti" Background="Black" Foreground="White" TextWrapping="Wrap" FontSize="30" FontWeight="Bold" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                <TextBlock Grid.Row="0" Grid.Column="0" Text="Teens - Christian Light Haiti" Background="Black" Foreground="White" TextWrapping="Wrap" FontSize="30" FontWeight="Bold" HorizontalAlignment="Center" VerticalAlignment="Center"/>
             </Grid>
 
             <Grid Grid.Row="0" Grid.Column="1" Margin="0.2,0,-0.4,0.2">
@@ -59,49 +59,20 @@
         <Grid x:Name="ProgramField" Grid.Row="1" Grid.Column="0" >
             <Grid.RowDefinitions>
                 <RowDefinition Height="1*" />
-                <RowDefinition Height="2*" />
-                <RowDefinition Height="1*" />
-                <RowDefinition Height="2*" />
-                <RowDefinition Height="2*" />
-                <RowDefinition Height="2*" />
-                <RowDefinition Height="2*" />
-                <RowDefinition Height="2*" />
+                <RowDefinition Height="4*" />
+                <RowDefinition Height="4*" />
+                <RowDefinition Height="4*" />
+                <RowDefinition Height="4*" />
                 <RowDefinition Height="1*" />
             </Grid.RowDefinitions>
             <Grid.ColumnDefinitions>
                 <ColumnDefinition Width="1*" />
-                <ColumnDefinition Width="3*" />
-                <ColumnDefinition Width="3*" />
-                <ColumnDefinition Width="3*" />
+                <ColumnDefinition Width="4*" />
+                <ColumnDefinition Width="4*" />
+                <ColumnDefinition Width="4*" />
+                <ColumnDefinition Width="4*" />
                 <ColumnDefinition Width="1*" />
             </Grid.ColumnDefinitions>
-
-            <!--Headers for level columns-->
-            <Image Grid.Row="1" Grid.Column="1" Source="assets/level1icon.png"/>
-            <TextBlock Grid.Row="2" Grid.Column="1" Text="LEVEL 1" HorizontalAlignment="Center"/>
-            <Image Grid.Row="1" Grid.Column="2" Source="assets/level2icon.png"/>
-            <TextBlock Grid.Row="2" Grid.Column="2" Text="LEVEL 2" HorizontalAlignment="Center"/>
-            <Image Grid.Row="1" Grid.Column="3" Source="assets/level3icon.png"/>
-            <TextBlock Grid.Row="2" Grid.Column="3" Text="LEVEL 3" HorizontalAlignment="Center"/>
-            
-            <!--Categories for Level 1-->
-            <Button x:Name="artButton"              Grid.Row="3" Grid.Column="1"/>
-            <Button x:Name="alphabetButton"         Grid.Row="4" Grid.Column="1"/>
-            <Button x:Name="numbersButton"          Grid.Row="5" Grid.Column="1"/>
-            <Button x:Name="phonicsButton"          Grid.Row="6" Grid.Column="1"/>
-            <Button x:Name="rhymesButton"           Grid.Row="7" Grid.Column="1"/>
-
-            <!--Categories for Level 1-->
-            <Button x:Name="healthButton"           Grid.Row="3" Grid.Column="2"/>
-            <Button x:Name="readingButton"          Grid.Row="4" Grid.Column="2"/>
-            <Button x:Name="storybooksButton"       Grid.Row="5" Grid.Column="2"/>
-            <Button x:Name="activitybooksButton"    Grid.Row="6" Grid.Column="2"/>
-
-            <!--Categories for Level 1-->
-            <Button x:Name="mathButton"             Grid.Row="3" Grid.Column="3"/>
-            <Button x:Name="englishButton"          Grid.Row="4" Grid.Column="3"/>
-            <Button x:Name="scienceButton"          Grid.Row="5" Grid.Column="3"/>
-            <Button x:Name="computerButton"         Grid.Row="6" Grid.Column="3"/>
 
         </Grid>
 
