@@ -41,8 +41,8 @@ namespace haiti
                     Uri aboutUri = new Uri("AboutPage.xaml", UriKind.Relative);
                     this.NavigationService.Navigate(aboutUri);
                     break;
-                case "Programs":
-                    Uri programsUri = new Uri("ProgramsPage.xaml", UriKind.Relative);
+                case "Kids":
+                    Uri programsUri = new Uri("KidsPage.xaml", UriKind.Relative);
                     this.NavigationService.Navigate(programsUri);
                     break;
             }            

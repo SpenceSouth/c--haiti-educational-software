@@ -36,8 +36,8 @@
             </Grid.ColumnDefinitions>
 
             <Button Grid.Row="0" Grid.Column="0" Content="Home"      Background="#33B5E5" Foreground="White" Click="Button_Click"/>
-            <Button Grid.Row="0" Grid.Column="1" Content="Programs"  Background="#AA66CC" Foreground="White" Click="Button_Click"/>
-            <Button Grid.Row="0" Grid.Column="2" Content="Gallery"   Background="#99CC00" Foreground="White" Click="Button_Click"/>
+            <Button Grid.Row="0" Grid.Column="1" Content="Kids"      Background="#AA66CC" Foreground="White" Click="Button_Click"/>
+            <Button Grid.Row="0" Grid.Column="2" Content="Teens"     Background="#99CC00" Foreground="White" Click="Button_Click"/>
             <Button Grid.Row="0" Grid.Column="3" Content="Teachers"  Background="#FF4444" Foreground="White" Click="Button_Click"/>
             <Button Grid.Row="0" Grid.Column="4" Content="About"     Background="#FFBB33" Foreground="White" Click="Button_Click"/>
         </Grid>

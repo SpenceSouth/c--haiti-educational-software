@@ -100,7 +100,7 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="ProgramsPage.xaml">
+    <Page Include="KidsPage.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -117,8 +117,8 @@
     <Compile Include="parser\DataSheetParser.cs" />
     <Compile Include="parser\Software.cs" />
     <Compile Include="parser\Subject.cs" />
-    <Compile Include="ProgramsPage.xaml.cs">
-      <DependentUpon>ProgramsPage.xaml</DependentUpon>
+    <Compile Include="KidsPage.xaml.cs">
+      <DependentUpon>KidsPage.xaml</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs">
       <SubType>Code</SubType>
