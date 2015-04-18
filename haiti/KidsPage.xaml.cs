@@ -157,5 +157,21 @@ namespace haiti
             }
 
         }
+
+        private void Category_Click(object sender, RoutedEventArgs e)
+        {
+            string name = (string)((Button)sender).Name;
+
+            switch (name)
+            {
+                case "mathButton":
+                    this.NavigationService.Navigate(new Uri("/level_one/Math_Level_One.xaml",UriKind.Relative));
+                    break;
+                default:
+                    return;
+            }
+
+        }
+
     }
 }
