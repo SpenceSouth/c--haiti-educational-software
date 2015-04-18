@@ -94,6 +94,9 @@
     <Compile Include="TeensPage.xaml.cs">
       <DependentUpon>TeensPage.xaml</DependentUpon>
     </Compile>
+    <Compile Include="template.xaml.cs">
+      <DependentUpon>template.xaml</DependentUpon>
+    </Compile>
     <Page Include="AboutPage.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -115,6 +118,10 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="TeensPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="template.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
