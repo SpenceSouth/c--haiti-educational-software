@@ -98,7 +98,7 @@ namespace haiti
             switch (name)
             {
                 case "Addition":
-                    Process.Start("C:\\Olltwit\\Addition\\addition.exe");
+                    Program.runOlliwitAddition();
                     break;
             }
         }
