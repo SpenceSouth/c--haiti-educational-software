@@ -45,7 +45,7 @@ namespace haiti
 
         public static void runOlliwitAddition()
         {
-            start("C:\\Olltwit\\Addition\\additin.exe", "installers\\addition.exe");
+            start("C:\\Olltwit\\Addition\\addition.exe", "installers\\addition.exe");
         }
 
     }
