@@ -85,8 +85,20 @@
       <DependentUpon>App.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="kids\Alphabet_Level_One.xaml.cs">
+      <DependentUpon>Alphabet_Level_One.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="kids\Art_Level_One.xaml.cs">
+      <DependentUpon>Art_Level_One.xaml</DependentUpon>
+    </Compile>
     <Compile Include="kids\Math_Level_Three.xaml.cs">
       <DependentUpon>Math_Level_Three.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="kids\Numbers_Level_One.xaml.cs">
+      <DependentUpon>Numbers_Level_One.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="kids\Phonics_Level_One.xaml.cs">
+      <DependentUpon>Phonics_Level_One.xaml</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="TeachersPage.xaml.cs">
@@ -107,9 +119,25 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="kids\Alphabet_Level_One.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="kids\Art_Level_One.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
     <Page Include="kids\Math_Level_Three.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
+    </Page>
+    <Page Include="kids\Numbers_Level_One.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="kids\Phonics_Level_One.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="TeachersPage.xaml">
       <SubType>Designer</SubType>

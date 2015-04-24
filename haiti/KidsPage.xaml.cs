@@ -167,6 +167,18 @@ namespace haiti
                 case "mathButton":
                     this.NavigationService.Navigate(new Uri("/kids/Math_Level_Three.xaml",UriKind.Relative));
                     break;
+                case "artButton":
+                    this.NavigationService.Navigate(new Uri("/kids/Art_Level_One.xaml", UriKind.Relative));
+                    break;
+                case "alphabetButton":
+                    this.NavigationService.Navigate(new Uri("/kids/Alphabet_Level_One.xaml", UriKind.Relative));
+                    break;
+                case "numbersButton":
+                    this.NavigationService.Navigate(new Uri("/kids/Numbers_Level_One.xaml", UriKind.Relative));
+                    break;
+                case "phonicsButton":
+                    this.NavigationService.Navigate(new Uri("/kids/Phonics_Level_One.xaml", UriKind.Relative));
+                    break;
                 default:
                     return;
             }
