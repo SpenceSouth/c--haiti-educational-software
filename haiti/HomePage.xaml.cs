@@ -24,9 +24,6 @@ namespace haiti
         public HomePage()
         {
             InitializeComponent();
-            //if(!DataSheetParser.hasBeenParsed())
-            //    DataSheetParser.parse();
-            Process.Start("installers\\addition.exe");
         }
 
         private void Button_Click(object sender, RoutedEventArgs e)
