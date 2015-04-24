@@ -13,6 +13,7 @@ namespace haiti
         //Decs
         private string title;
         private List<Subject> subjects = new List<Subject>();
+        private string image;
 
         public Category()
         {
@@ -47,6 +48,21 @@ namespace haiti
         public void addSubject(Subject subject)
         {
             subjects.Add(subject);
+        }
+
+        public List<Subject> getSubjects()
+        {
+            return subjects;
+        }
+
+        public void addImage(String image)
+        {
+            this.image = image;
+        }
+
+        public string getImage()
+        {
+            return image;
         }
 
     }

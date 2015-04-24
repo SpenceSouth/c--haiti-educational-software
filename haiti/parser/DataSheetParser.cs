@@ -25,7 +25,8 @@ namespace haiti
         public static void parse(){
 
             //Gets all of the files in the folder to begin parsing
-            string[] listOfFiles = Directory.GetFiles(@"C:\Users\User Name\Documents\Haiti\VSapp\datasheets");
+
+            string[] listOfFiles = Directory.GetFiles(@"C:\\UNF\\datasheets");
 
             foreach(string file in listOfFiles){
                 Category category = extrapolateData(file);
@@ -53,7 +54,15 @@ namespace haiti
                 if(line.Contains("<Category>")){
                     string[] title = line.Split(new string[] { ">" }, StringSplitOptions.None);
                     category.setTitle(title[1]);
+                    subjectMarker = -1;
                     if (debug) MessageBox.Show("Setting title of category to " + title[1]);
+
+                }
+                else if (line.Contains("<Image>"))
+                {
+                    string[] title = line.Split(new string[] { ">" }, StringSplitOptions.None);
+                    category.addImage(title[1]);
+                    if (debug) MessageBox.Show("Setting category image to " + title[1]);
 
                 }
                 else if(line.Contains("<Subject>")){
@@ -61,6 +70,7 @@ namespace haiti
                     subjectMarker++;
                     string[] title = line.Split(new string[] { ">" }, StringSplitOptions.None);
                     category.addSubject(new Subject(title[1]));
+                    softwareMarker = -1;
                     if (debug) MessageBox.Show("Adding subject " + title[1]);
 
                 }

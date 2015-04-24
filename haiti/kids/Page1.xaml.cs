@@ -10,23 +10,19 @@ using System.Windows.Documents;
 using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
+using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace haiti
+namespace haiti.level_one
 {
     /// <summary>
-    /// Interaction logic for about.xaml
+    /// Interaction logic for Page1.xaml
     /// </summary>
-    public partial class about : Window
+    public partial class Page1 : Page
     {
-        public about()
+        public Page1()
         {
             InitializeComponent();
-        }
-
-        public void buttonClick(object sender, RoutedEventArgs e)
-        {
-            MessageBox.Show("Button pressed!");
         }
     }
 }

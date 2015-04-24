@@ -16,13 +16,13 @@ using System.Windows.Shapes;
 namespace haiti
 {
     /// <summary>
-    /// Interaction logic for AboutPage.xaml
+    /// Interaction logic for template.xaml
     /// </summary>
-    public partial class AboutPage : Page
+    public partial class template : Page
     {
-        public AboutPage()
+        public template()
         {
-
+            InitializeComponent();
         }
 
         private void Button_Click(object sender, RoutedEventArgs e)
@@ -54,6 +54,5 @@ namespace haiti
             }
 
         }
-    
     }
 }

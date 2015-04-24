@@ -23,8 +23,8 @@ namespace haiti
         public HomePage()
         {
             InitializeComponent();
-            if(!DataSheetParser.hasBeenParsed())
-                DataSheetParser.parse();
+            //if(!DataSheetParser.hasBeenParsed())
+            //    DataSheetParser.parse();
         }
 
         private void Button_Click(object sender, RoutedEventArgs e)
@@ -41,11 +41,19 @@ namespace haiti
                     Uri aboutUri = new Uri("AboutPage.xaml", UriKind.Relative);
                     this.NavigationService.Navigate(aboutUri);
                     break;
-                case "Programs":
-                    Uri programsUri = new Uri("ProgramsPage.xaml", UriKind.Relative);
+                case "Kids":
+                    Uri programsUri = new Uri("KidsPage.xaml", UriKind.Relative);
                     this.NavigationService.Navigate(programsUri);
                     break;
-            }            
+                case "Teens":
+                    Uri teensUri = new Uri("TeensPage.xaml", UriKind.Relative);
+                    this.NavigationService.Navigate(teensUri);
+                    break;
+                case "Teachers":
+                    Uri teachersUri = new Uri("TeachersPage.xaml", UriKind.Relative);
+                    this.NavigationService.Navigate(teachersUri);
+                    break;
+            }
 
         }
     }

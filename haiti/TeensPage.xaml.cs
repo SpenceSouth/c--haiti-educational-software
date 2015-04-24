@@ -16,15 +16,14 @@ using System.Windows.Shapes;
 namespace haiti
 {
     /// <summary>
-    /// Interaction logic for Page3.xaml
+    /// Interaction logic for TeensPage.xaml
     /// </summary>
-    public partial class ProgramsPage : Page
+    public partial class TeensPage : Page
     {
-        public ProgramsPage()
+        public TeensPage()
         {
-            MessageBox.Show("Number of categories found by parser " + DataSheetParser.getSize().ToString());
+            InitializeComponent();
         }
-
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
@@ -40,9 +39,17 @@ namespace haiti
                     Uri aboutUri = new Uri("AboutPage.xaml", UriKind.Relative);
                     this.NavigationService.Navigate(aboutUri);
                     break;
-                case "Programs":
-                    Uri programsUri = new Uri("ProgramsPage.xaml", UriKind.Relative);
+                case "Kids":
+                    Uri programsUri = new Uri("KidsPage.xaml", UriKind.Relative);
                     this.NavigationService.Navigate(programsUri);
+                    break;
+                case "Teens":
+                    Uri teensUri = new Uri("TeensPage.xaml", UriKind.Relative);
+                    this.NavigationService.Navigate(teensUri);
+                    break;
+                case "Teachers":
+                    Uri teachersUri = new Uri("TeachersPage.xaml", UriKind.Relative);
+                    this.NavigationService.Navigate(teachersUri);
                     break;
             }
 

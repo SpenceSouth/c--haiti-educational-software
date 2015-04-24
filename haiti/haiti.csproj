@@ -81,16 +81,24 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
-    <Page Include="about.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
-    <Compile Include="about.xaml.cs">
-      <DependentUpon>about.xaml</DependentUpon>
-    </Compile>
     <Compile Include="App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
       <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="kids\Math_Level_Three.xaml.cs">
+      <DependentUpon>Math_Level_Three.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="kids\Page1.xaml.cs">
+      <DependentUpon>Page1.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="TeachersPage.xaml.cs">
+      <DependentUpon>TeachersPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="TeensPage.xaml.cs">
+      <DependentUpon>TeensPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="template.xaml.cs">
+      <DependentUpon>template.xaml</DependentUpon>
     </Compile>
     <Page Include="AboutPage.xaml">
       <SubType>Designer</SubType>
@@ -100,7 +108,27 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="ProgramsPage.xaml">
+    <Page Include="KidsPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="kids\Math_Level_Three.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="kids\Page1.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="TeachersPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="TeensPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="template.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -109,7 +137,6 @@
     <Compile Include="AboutPage.xaml.cs">
       <DependentUpon>AboutPage.xaml</DependentUpon>
     </Compile>
-    <Compile Include="GuiCreator.cs" />
     <Compile Include="HomePage.xaml.cs">
       <DependentUpon>HomePage.xaml</DependentUpon>
     </Compile>
@@ -117,8 +144,8 @@
     <Compile Include="parser\DataSheetParser.cs" />
     <Compile Include="parser\Software.cs" />
     <Compile Include="parser\Subject.cs" />
-    <Compile Include="ProgramsPage.xaml.cs">
-      <DependentUpon>ProgramsPage.xaml</DependentUpon>
+    <Compile Include="KidsPage.xaml.cs">
+      <DependentUpon>KidsPage.xaml</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs">
       <SubType>Code</SubType>
@@ -147,7 +174,11 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Resource Include="assets\level1icon.png" />
+    <Resource Include="assets\level2icon.png" />
+    <Resource Include="assets\level3icon.png" />
+  </ItemGroup>
   <ItemGroup>
     <BootstrapperPackage Include=".NETFramework,Version=v4.5">
       <Visible>False</Visible>
@@ -179,6 +210,58 @@
   </ItemGroup>
   <ItemGroup>
     <Resource Include="assets\homePageLogo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="assets\art.png" />
+    <Resource Include="assets\artAndMusic.png" />
+    <Resource Include="assets\blankLabelTempalte.png" />
+    <Resource Include="assets\default.png" />
+    <Resource Include="assets\english.png" />
+    <Resource Include="assets\foreignLanguage.png" />
+    <Resource Include="assets\generalKnowledge.png" />
+    <Resource Include="assets\geography.png" />
+    <Resource Include="assets\healthAndSafety.png" />
+    <Resource Include="assets\history.png" />
+    <Resource Include="assets\keyboardTypingPractice.png" />
+    <Resource Include="assets\math.png" />
+    <Resource Include="assets\microsoftExcel.png" />
+    <Resource Include="assets\microsoftPowerPoint.png" />
+    <Resource Include="assets\microsoftWord.png" />
+    <Resource Include="assets\music.png" />
+    <Resource Include="assets\readingAndWriting.png" />
+    <Resource Include="assets\science.png" />
+    <Resource Include="assets\socialStudies.png" />
+    <Resource Include="assets\spelling.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="assets\numbers.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="assets\phonics.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="assets\rhymes.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="assets\storybooks.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="assets\computer.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="assets\activity.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="assets\alphabet.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="assets\numbers.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="assets\phonics.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="assets\rhymes.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

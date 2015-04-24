@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -16,13 +17,13 @@ using System.Windows.Shapes;
 namespace haiti
 {
     /// <summary>
-    /// Interaction logic for AboutPage.xaml
+    /// Interaction logic for Math_Level_Three.xaml
     /// </summary>
-    public partial class AboutPage : Page
+    public partial class Math_Level_Three : Page
     {
-        public AboutPage()
+        public Math_Level_Three()
         {
-
+            InitializeComponent();
         }
 
         private void Button_Click(object sender, RoutedEventArgs e)
@@ -54,6 +55,17 @@ namespace haiti
             }
 
         }
-    
+
+        private void Program_Click(object sender, RoutedEventArgs e)
+        {
+            string name = (string)((Button)sender).Content;
+
+            switch (name)
+            {
+                case "Addition":
+                    Process.Start("C:\\Olltwit\\Addition\\addition.exe");
+                    break;
+            }
+        }
     }
 }
