@@ -59,20 +59,51 @@
         <Grid x:Name="ProgramField" Grid.Row="1" Grid.Column="0" >
             <Grid.RowDefinitions>
                 <RowDefinition Height="1*" />
-                <RowDefinition Height="4*" />
-                <RowDefinition Height="4*" />
-                <RowDefinition Height="4*" />
-                <RowDefinition Height="4*" />
+                <RowDefinition Height="2*" />
+                <RowDefinition Height="1*" />
+                <RowDefinition Height="2*" />
+                <RowDefinition Height="2*" />
+                <RowDefinition Height="2*" />
+                <RowDefinition Height="2*" />
+                <RowDefinition Height="2*" />
+                <RowDefinition Height="2*" />
                 <RowDefinition Height="1*" />
             </Grid.RowDefinitions>
             <Grid.ColumnDefinitions>
                 <ColumnDefinition Width="1*" />
-                <ColumnDefinition Width="4*" />
-                <ColumnDefinition Width="4*" />
-                <ColumnDefinition Width="4*" />
-                <ColumnDefinition Width="4*" />
+                <ColumnDefinition Width="3*" />
+                <ColumnDefinition Width="3*" />
+                <ColumnDefinition Width="3*" />
                 <ColumnDefinition Width="1*" />
             </Grid.ColumnDefinitions>
+
+            <!--Headers for level columns-->
+            <Image Grid.Row="1" Grid.Column="1" Source="assets/teensLevel1Icon.png"/>
+            <TextBlock Grid.Row="2" Grid.Column="1" Text="LEVEL 1 (Grades 7 - 8)" HorizontalAlignment="Center"/>
+            <Image Grid.Row="1" Grid.Column="2" Source="assets/teensLevel2Icon.png"/>
+            <TextBlock Grid.Row="2" Grid.Column="2" Text="LEVEL 2 (Grades 9 - 10)" HorizontalAlignment="Center"/>
+            <Image Grid.Row="1" Grid.Column="3" Source="assets/teensLevel3Icon.png"/>
+            <TextBlock Grid.Row="2" Grid.Column="3" Text="LEVEL 3 (Grades 11 - 12)" HorizontalAlignment="Center"/>
+
+            <!--Categories for Level 1-->
+            <Button x:Name="mathOneButton"          Grid.Row="3" Grid.Column="1" Click="Category_Click"/>
+            <Button x:Name="scienceOneButton"       Grid.Row="4" Grid.Column="1" Click="Category_Click"/>
+            <Button x:Name="englishOneButton"       Grid.Row="5" Grid.Column="1" Click="Category_Click"/>
+            <Button x:Name="generalOneButton"       Grid.Row="6" Grid.Column="1" Click="Category_Click"/>
+
+            <!--Categories for Level 2-->
+            <Button x:Name="mathTwoButton"         Grid.Row="3" Grid.Column="2" Click="Category_Click"/>
+            <Button x:Name="scienceTwoButton"      Grid.Row="4" Grid.Column="2" Click="Category_Click"/>
+            <Button x:Name="englishTwoButton"      Grid.Row="5" Grid.Column="2" Click="Category_Click"/>
+            <Button x:Name="generalTwoButton"      Grid.Row="6" Grid.Column="2" Click="Category_Click"/>
+
+            <!--Categories for Level 3-->
+            <Button x:Name="mathThreeButton"       Grid.Row="3" Grid.Column="3" Click="Category_Click"/>
+            <Button x:Name="scienceThreeButton"    Grid.Row="4" Grid.Column="3" Click="Category_Click"/>
+            <Button x:Name="englishThreeButton"    Grid.Row="5" Grid.Column="3" Click="Category_Click"/>
+            <Button x:Name="generalThreeButton"    Grid.Row="6" Grid.Column="3" Click="Category_Click"/>
+            <Button x:Name="jobsButton"            Grid.Row="7" Grid.Column="3" Click="Category_Click"/>
+            <Button x:Name="computerButton"        Grid.Row="8" Grid.Column="3" Click="Category_Click"/>
 
         </Grid>
 

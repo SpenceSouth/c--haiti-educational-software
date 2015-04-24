@@ -85,11 +85,23 @@
       <DependentUpon>App.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="kids\Activitybook_Level_Two.xaml.cs">
+      <DependentUpon>Activitybook_Level_Two.xaml</DependentUpon>
+    </Compile>
     <Compile Include="kids\Alphabet_Level_One.xaml.cs">
       <DependentUpon>Alphabet_Level_One.xaml</DependentUpon>
     </Compile>
     <Compile Include="kids\Art_Level_One.xaml.cs">
       <DependentUpon>Art_Level_One.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="kids\Computer_Level_Three.xaml.cs">
+      <DependentUpon>Computer_Level_Three.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="kids\English_Level_Three.xaml.cs">
+      <DependentUpon>English_Level_Three.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="kids\Health_Safety_Level_Two.xaml.cs">
+      <DependentUpon>Health_Safety_Level_Two.xaml</DependentUpon>
     </Compile>
     <Compile Include="kids\Math_Level_Three.xaml.cs">
       <DependentUpon>Math_Level_Three.xaml</DependentUpon>
@@ -100,12 +112,36 @@
     <Compile Include="kids\Phonics_Level_One.xaml.cs">
       <DependentUpon>Phonics_Level_One.xaml</DependentUpon>
     </Compile>
+    <Compile Include="kids\Reading_Writing_Level_Two.xaml.cs">
+      <DependentUpon>Reading_Writing_Level_Two.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="kids\Rhymes_Level_One.xaml.cs">
+      <DependentUpon>Rhymes_Level_One.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="kids\Science_Level_Three.xaml.cs">
+      <DependentUpon>Science_Level_Three.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="kids\Storybooks_Level_Two.xaml.cs">
+      <DependentUpon>Storybooks_Level_Two.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="TeachersPage.xaml.cs">
       <DependentUpon>TeachersPage.xaml</DependentUpon>
     </Compile>
     <Compile Include="TeensPage.xaml.cs">
       <DependentUpon>TeensPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="teens\English_Level_One.xaml.cs">
+      <DependentUpon>English_Level_One.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="teens\General_Level_One.xaml.cs">
+      <DependentUpon>General_Level_One.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="teens\Math_Level_One.xaml.cs">
+      <DependentUpon>Math_Level_One.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="teens\Science_Level_One.xaml.cs">
+      <DependentUpon>Science_Level_One.xaml</DependentUpon>
     </Compile>
     <Page Include="AboutPage.xaml">
       <SubType>Designer</SubType>
@@ -119,6 +155,10 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="kids\Activitybook_Level_Two.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="kids\Alphabet_Level_One.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
@@ -126,6 +166,18 @@
     <Page Include="kids\Art_Level_One.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
+    </Page>
+    <Page Include="kids\Computer_Level_Three.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="kids\English_Level_Three.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="kids\Health_Safety_Level_Two.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="kids\Math_Level_Three.xaml">
       <Generator>MSBuild:Compile</Generator>
@@ -139,11 +191,43 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="kids\Reading_Writing_Level_Two.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="kids\Rhymes_Level_One.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="kids\Science_Level_Three.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="kids\Storybooks_Level_Two.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="TeachersPage.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="TeensPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="teens\English_Level_One.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="teens\General_Level_One.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="teens\Math_Level_One.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="teens\Science_Level_One.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -283,6 +367,10 @@
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>
+    <Resource Include="assets\teensLevel1Icon.png" />
+    <Resource Include="assets\teensLevel2Icon.png" />
+    <Resource Include="assets\teensLevel3Icon.png" />
+    <Resource Include="assets\jobs.png" />
     <Content Include="installers\addition.exe">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>

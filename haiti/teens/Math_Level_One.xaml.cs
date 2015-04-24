@@ -1,6 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Diagnostics;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -14,19 +13,18 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace haiti
+namespace haiti.teens
 {
     /// <summary>
-    /// Interaction logic for HomePage.xaml
+    /// Interaction logic for Math_Level_One.xaml
     /// </summary>
-    public partial class HomePage : Page
+    public partial class Math_Level_One : Page
     {
-        public HomePage()
+        public Math_Level_One()
         {
             InitializeComponent();
-            this.WindowHeight = 800;
-            this.WindowWidth = 1024;
         }
+
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
@@ -57,5 +55,7 @@ namespace haiti
             }
 
         }
+
+       
     }
 }

@@ -179,6 +179,30 @@ namespace haiti
                 case "phonicsButton":
                     this.NavigationService.Navigate(new Uri("/kids/Phonics_Level_One.xaml", UriKind.Relative));
                     break;
+                case "rhymesButton":
+                    this.NavigationService.Navigate(new Uri("/kids/Rhymes_Level_One.xaml", UriKind.Relative));
+                    break;
+                case "healthButton":
+                    this.NavigationService.Navigate(new Uri("/kids/Health_Safety_Level_Two.xaml", UriKind.Relative));
+                    break;
+                case "readingButton":
+                    this.NavigationService.Navigate(new Uri("/kids/Reading_Writing_Level_Two.xaml", UriKind.Relative));
+                    break;
+                case "storybooksButton":
+                    this.NavigationService.Navigate(new Uri("/kids/Storybooks_Level_Two.xaml", UriKind.Relative));
+                    break;
+                case "activitybooksButton":
+                    this.NavigationService.Navigate(new Uri("/kids/Activitybook_Level_Two.xaml", UriKind.Relative));
+                    break;
+                case "englishButton":
+                    this.NavigationService.Navigate(new Uri("/kids/English_Level_Three.xaml", UriKind.Relative));
+                    break;
+                case "scienceButton":
+                    this.NavigationService.Navigate(new Uri("/kids/Science_Level_Three.xaml", UriKind.Relative));
+                    break;
+                case "computerButton":
+                    this.NavigationService.Navigate(new Uri("/kids/Computer_Level_Three.xaml", UriKind.Relative));
+                    break;
                 default:
                     return;
             }

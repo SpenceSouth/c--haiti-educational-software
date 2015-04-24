@@ -23,6 +23,41 @@ namespace haiti
         public TeensPage()
         {
             InitializeComponent();
+            //Add images to existing xaml buttons level 1
+            addImageToButton(mathOneButton, "/assets/math.png");
+            addImageToButton(scienceOneButton, "/assets/science.png");
+            addImageToButton(englishOneButton, "/assets/english.png");
+            addImageToButton(generalOneButton, "/assets/generalKnowledge.png");
+
+            //Add images to level 2
+            addImageToButton(mathTwoButton, "/assets/math.png");
+            addImageToButton(scienceTwoButton, "/assets/science.png");
+            addImageToButton(englishTwoButton, "/assets/english.png");
+            addImageToButton(generalTwoButton, "/assets/generalKnowledge.png");
+
+            //Add images to level 3
+            addImageToButton(mathThreeButton, "/assets/math.png");
+            addImageToButton(scienceThreeButton, "/assets/science.png");
+            addImageToButton(englishThreeButton, "/assets/english.png");
+            addImageToButton(generalThreeButton, "/assets/generalKnowledge.png");
+            addImageToButton(jobsButton, "/assets/jobs.png");
+            addImageToButton(computerButton, "/assets/computer.png");
+        }
+
+        private void addImageToButton(Button b, String src)
+        {
+
+            Image img = new Image();
+            img.Source = new BitmapImage(new Uri(src, UriKind.RelativeOrAbsolute));
+
+            StackPanel stackPnl = new StackPanel();
+            stackPnl.Orientation = Orientation.Horizontal;
+            stackPnl.Margin = new Thickness(10);
+            stackPnl.Children.Add(img);
+
+            b.Content = stackPnl;
+            b.Background = Brushes.White;
+
         }
 
         private void Button_Click(object sender, RoutedEventArgs e)
@@ -53,6 +88,29 @@ namespace haiti
                     break;
             }
 
+        }
+
+        private void Category_Click(object sender, RoutedEventArgs e)
+        {
+            string name = (string)((Button)sender).Name;
+
+            switch (name)
+            {
+                case "mathOneButton":
+                    this.NavigationService.Navigate(new Uri("/teens/Math_Level_One.xaml", UriKind.Relative));
+                    break;
+                case "scienceOneButton":
+                    this.NavigationService.Navigate(new Uri("/teens/Science_Level_One.xaml", UriKind.Relative));
+                    break;
+                case "englishOneButton":
+                    this.NavigationService.Navigate(new Uri("/teens/English_Level_One.xaml", UriKind.Relative));
+                    break;
+                case "generalOneButton":
+                    this.NavigationService.Navigate(new Uri("/teens/General_Level_One.xaml", UriKind.Relative));
+                    break;
+                default:
+                    break;
+            }
         }
     }
 }
