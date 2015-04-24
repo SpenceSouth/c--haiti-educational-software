@@ -14,14 +14,14 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace haiti.level_one
+namespace haiti
 {
     /// <summary>
-    /// Interaction logic for Math_Level_One.xaml
+    /// Interaction logic for Math_Level_Three.xaml
     /// </summary>
-    public partial class Math_Level_One : Page
+    public partial class Math_Level_Three : Page
     {
-        public Math_Level_One()
+        public Math_Level_Three()
         {
             InitializeComponent();
         }

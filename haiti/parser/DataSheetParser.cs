@@ -25,6 +25,7 @@ namespace haiti
         public static void parse(){
 
             //Gets all of the files in the folder to begin parsing
+
             string[] listOfFiles = Directory.GetFiles(@"C:\\UNF\\datasheets");
 
             foreach(string file in listOfFiles){

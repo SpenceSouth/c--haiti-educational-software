@@ -16,7 +16,7 @@ using System.Windows.Shapes;
 namespace haiti
 {
     /// <summary>
-    /// Interaction logic for Page3.xaml
+    /// Interaction logic for KidsPage.xaml
     /// </summary>
     public partial class KidsPage : Page
     {
@@ -165,7 +165,7 @@ namespace haiti
             switch (name)
             {
                 case "mathButton":
-                    this.NavigationService.Navigate(new Uri("/level_one/Math_Level_One.xaml",UriKind.Relative));
+                    this.NavigationService.Navigate(new Uri("/kids/Math_Level_Three.xaml",UriKind.Relative));
                     break;
                 default:
                     return;
