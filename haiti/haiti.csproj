@@ -85,7 +85,9 @@
       <DependentUpon>App.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="Page1.xaml.cs" />
+    <Compile Include="kids\Math_Level_Three.xaml.cs">
+      <DependentUpon>Math_Level_Three.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="TeachersPage.xaml.cs">
       <DependentUpon>TeachersPage.xaml</DependentUpon>
@@ -104,6 +106,10 @@
     <Page Include="KidsPage.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="kids\Math_Level_Three.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
     </Page>
     <Page Include="TeachersPage.xaml">
       <SubType>Designer</SubType>
