@@ -131,17 +131,47 @@
     <Compile Include="TeensPage.xaml.cs">
       <DependentUpon>TeensPage.xaml</DependentUpon>
     </Compile>
+    <Compile Include="teens\Computer_Level_Three.xaml.cs">
+      <DependentUpon>Computer_Level_Three.xaml</DependentUpon>
+    </Compile>
     <Compile Include="teens\English_Level_One.xaml.cs">
       <DependentUpon>English_Level_One.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="teens\English_Level_Three.xaml.cs">
+      <DependentUpon>English_Level_Three.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="teens\English_Level_Two.xaml.cs">
+      <DependentUpon>English_Level_Two.xaml</DependentUpon>
     </Compile>
     <Compile Include="teens\General_Level_One.xaml.cs">
       <DependentUpon>General_Level_One.xaml</DependentUpon>
     </Compile>
+    <Compile Include="teens\General_Level_Three.xaml.cs">
+      <DependentUpon>General_Level_Three.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="teens\General_Level_Two.xaml.cs">
+      <DependentUpon>General_Level_Two.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="teens\Jobs_Level_Three.xaml.cs">
+      <DependentUpon>Jobs_Level_Three.xaml</DependentUpon>
+    </Compile>
     <Compile Include="teens\Math_Level_One.xaml.cs">
       <DependentUpon>Math_Level_One.xaml</DependentUpon>
     </Compile>
+    <Compile Include="teens\Math_Level_Three.xaml.cs">
+      <DependentUpon>Math_Level_Three.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="teens\Math_Level_Two.xaml.cs">
+      <DependentUpon>Math_Level_Two.xaml</DependentUpon>
+    </Compile>
     <Compile Include="teens\Science_Level_One.xaml.cs">
       <DependentUpon>Science_Level_One.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="teens\Science_Level_Three.xaml.cs">
+      <DependentUpon>Science_Level_Three.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="teens\Science_Level_Two.xaml.cs">
+      <DependentUpon>Science_Level_Two.xaml</DependentUpon>
     </Compile>
     <Page Include="AboutPage.xaml">
       <SubType>Designer</SubType>
@@ -215,7 +245,19 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="teens\Computer_Level_Three.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="teens\English_Level_One.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="teens\English_Level_Three.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="teens\English_Level_Two.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -223,11 +265,39 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="teens\General_Level_Three.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="teens\General_Level_Two.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="teens\Jobs_Level_Three.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="teens\Math_Level_One.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="teens\Math_Level_Three.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="teens\Math_Level_Two.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="teens\Science_Level_One.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="teens\Science_Level_Three.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="teens\Science_Level_Two.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

@@ -108,6 +108,36 @@ namespace haiti
                 case "generalOneButton":
                     this.NavigationService.Navigate(new Uri("/teens/General_Level_One.xaml", UriKind.Relative));
                     break;
+                case "mathTwoButton":
+                    this.NavigationService.Navigate(new Uri("/teens/Math_Level_Two.xaml", UriKind.Relative));
+                    break;
+                case "scienceTwoButton":
+                    this.NavigationService.Navigate(new Uri("/teens/Science_Level_Two.xaml", UriKind.Relative));
+                    break;
+                case "englishTwoButton":
+                    this.NavigationService.Navigate(new Uri("/teens/English_Level_Two.xaml", UriKind.Relative));
+                    break;
+                case "generalTwoButton":
+                    this.NavigationService.Navigate(new Uri("/teens/General_Level_Two.xaml", UriKind.Relative));
+                    break;
+                case "mathThreeButton":
+                    this.NavigationService.Navigate(new Uri("/teens/Math_Level_Three.xaml", UriKind.Relative));
+                    break;
+                case "scienceThreeButton":
+                    this.NavigationService.Navigate(new Uri("/teens/Science_Level_Three.xaml", UriKind.Relative));
+                    break;
+                case "englishThreeButton":
+                    this.NavigationService.Navigate(new Uri("/teens/English_Level_Three.xaml", UriKind.Relative));
+                    break;
+                case "generalThreeButton":
+                    this.NavigationService.Navigate(new Uri("/teens/General_Level_Three.xaml", UriKind.Relative));
+                    break;
+                case "jobsButton":
+                    this.NavigationService.Navigate(new Uri("/teens/Jobs_Level_Three.xaml", UriKind.Relative));
+                    break;
+                case "computerButton":
+                    this.NavigationService.Navigate(new Uri("/teens/Computer_Level_Three.xaml", UriKind.Relative));
+                    break;
                 default:
                     break;
             }
