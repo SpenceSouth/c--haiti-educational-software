@@ -26,7 +26,11 @@ namespace haiti
             }
             catch (Exception ex)
             {
-                var dr = MessageBox.Show("Sure", "Some Title", MessageBoxButton.YesNo);
+
+                String title = "Installation Needed";
+                String prompt = "It appears you are missing some necessary files required to run this program.  Would you like to install them?";
+
+                var dr = MessageBox.Show(prompt, title, MessageBoxButton.YesNo);
 
                 if (dr == MessageBoxResult.Yes)
                 {
@@ -41,7 +45,7 @@ namespace haiti
 
         public static void runOlliwitAddition()
         {
-            start("C:\\Olltwit\\Addition\\addition.exe", "/installers/addition.exe");
+            start("C:\\Olltwit\\Addition\\additin.exe", "installers\\addition.exe");
         }
 
     }
