@@ -88,6 +88,7 @@
     <Compile Include="level_one\Math_Level_One.xaml.cs">
       <DependentUpon>Math_Level_One.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Program.cs" />
     <Compile Include="TeachersPage.xaml.cs">
       <DependentUpon>TeachersPage.xaml</DependentUpon>
     </Compile>
@@ -255,6 +256,12 @@
   </ItemGroup>
   <ItemGroup>
     <Resource Include="assets\rhymes.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="assets\addition-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="installers\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

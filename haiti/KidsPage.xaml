@@ -78,11 +78,11 @@
 
             <!--Headers for level columns-->
             <Image Grid.Row="1" Grid.Column="1" Source="assets/level1icon.png"/>
-            <TextBlock Grid.Row="2" Grid.Column="1" Text="LEVEL 1" HorizontalAlignment="Center"/>
+            <TextBlock Grid.Row="2" Grid.Column="1" Text="LEVEL 1 (Pre-K - 2)" HorizontalAlignment="Center"/>
             <Image Grid.Row="1" Grid.Column="2" Source="assets/level2icon.png"/>
-            <TextBlock Grid.Row="2" Grid.Column="2" Text="LEVEL 2" HorizontalAlignment="Center"/>
+            <TextBlock Grid.Row="2" Grid.Column="2" Text="LEVEL 2 (3 - 4)" HorizontalAlignment="Center"/>
             <Image Grid.Row="1" Grid.Column="3" Source="assets/level3icon.png"/>
-            <TextBlock Grid.Row="2" Grid.Column="3" Text="LEVEL 3" HorizontalAlignment="Center"/>
+            <TextBlock Grid.Row="2" Grid.Column="3" Text="LEVEL 3 (5 - 6)" HorizontalAlignment="Center"/>
             
             <!--Categories for Level 1-->
             <Button x:Name="artButton"              Grid.Row="3" Grid.Column="1" Click="Category_Click"/>
