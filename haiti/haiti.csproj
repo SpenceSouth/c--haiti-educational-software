@@ -116,6 +116,18 @@
     <Compile Include="kids\Health_Safety_Level_Two.xaml.cs">
       <DependentUpon>Health_Safety_Level_Two.xaml</DependentUpon>
     </Compile>
+    <Compile Include="kids\math_level_3\Division.xaml.cs">
+      <DependentUpon>Division.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="kids\math_level_3\Multiplication.xaml.cs">
+      <DependentUpon>Multiplication.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="kids\math_level_3\Percentages.xaml.cs">
+      <DependentUpon>Percentages.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="kids\math_level_3\Subtraction.xaml.cs">
+      <DependentUpon>Subtraction.xaml</DependentUpon>
+    </Compile>
     <Compile Include="kids\Math_Level_Three.xaml.cs">
       <DependentUpon>Math_Level_Three.xaml</DependentUpon>
     </Compile>
@@ -136,6 +148,9 @@
     </Compile>
     <Compile Include="kids\Storybooks_Level_Two.xaml.cs">
       <DependentUpon>Storybooks_Level_Two.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="kids\math_level_3\Numbers.xaml.cs">
+      <DependentUpon>Numbers.xaml</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="TeachersPage.xaml.cs">
@@ -230,6 +245,22 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
+    <Page Include="kids\math_level_3\Division.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="kids\math_level_3\Multiplication.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="kids\math_level_3\Percentages.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="kids\math_level_3\Subtraction.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="kids\Math_Level_Three.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
@@ -257,6 +288,10 @@
     <Page Include="kids\Storybooks_Level_Two.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
+    </Page>
+    <Page Include="kids\math_level_3\Numbers.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="TeachersPage.xaml">
       <SubType>Designer</SubType>
@@ -461,19 +496,10 @@
     <None Include="kids\level_3\Math\Division.ppt">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Include="kids\level_3\Math\Multiplication_1 - Copy.ppt">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
     <None Include="kids\level_3\Math\Multiplication_1.ppt">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Include="kids\level_3\Math\NumbersPowerPoint_1_ - Copy.pptx">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
     <None Include="kids\level_3\Math\NumbersPowerPoint_1_.pptx">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Include="kids\level_3\Math\Percentage - Copy.pot">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
     <None Include="kids\level_3\Math\Percentage.pot">
