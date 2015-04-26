@@ -102,7 +102,7 @@ namespace haiti
                     this.NavigationService.Navigate(uri);
                     break;
                 case "Subtraction":
-                    Program.runOlliwitAddition();
+                    this.NavigationService.Navigate(new Uri("kids\\math_level_3\\Subtraction.xaml", UriKind.Relative));
                     break;
                 case "Multiplication":
                     Program.runOlliwitAddition();
@@ -111,10 +111,10 @@ namespace haiti
                     Program.runOlliwitAddition();
                     break;
                 case "Numbers":
-                    Program.runOlliwitAddition();
+                    this.NavigationService.Navigate(new Uri("kids\\math_level_3\\Numbers.xaml", UriKind.Relative));
                     break;
                 case "Percentages":
-                    Program.runOlliwitAddition();
+                    this.NavigationService.Navigate(new Uri("kids\\math_level_3\\Percentages.xaml", UriKind.Relative));
                     break;
                 case "Counting":
                     Program.runOlliwitAddition();
