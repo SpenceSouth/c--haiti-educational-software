@@ -682,6 +682,11 @@
     </COMReference>
   </ItemGroup>
   <ItemGroup>
+    <Resource Include="assets\Haiti_pic_original.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="assets\waits.jpg" />
+    <Resource Include="assets\s.png" />
     <Content Include="kids\level_1\Rhymes\alphabet.mp3" />
     <Content Include="kids\level_1\Rhymes\bingo.mp3" />
     <Content Include="kids\level_1\Rhymes\ifyourehappyandyouknowit.mp3" />
