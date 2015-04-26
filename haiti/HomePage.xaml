@@ -90,7 +90,7 @@
                 <ColumnDefinition Width="0.25*" />
             </Grid.ColumnDefinitions>
             
-            <Image Grid.Row="1" Grid.Column="1" Source="assets/homePagePic.png"/>
+            <Image Grid.Row="1" Grid.Column="1" Source="assets/Haiti_pic_original.jpg"/>
         </Grid>
 
     </Grid>
