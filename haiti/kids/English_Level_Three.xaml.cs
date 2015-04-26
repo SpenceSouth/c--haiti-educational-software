@@ -1,6 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Diagnostics;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -29,7 +28,7 @@ namespace haiti.kids
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
-            string name = (string) ((Button) sender).Content;
+            string name = (string)((Button)sender).Content;
 
             switch (name)
             {
@@ -57,35 +56,5 @@ namespace haiti.kids
 
         }
 
-        private void Program_Click(object sender, RoutedEventArgs e)
-        {
-            string name = (string) ((Button) sender).Name;
-
-            switch (name)
-            {
-
-                case "button0":
-                    Process.Start("kids\\level_3\\English\\childrensillustrateddictionary.pdf");
-                    break;
-                case "button1":
-                    Process.Start("kids\\level_3\\English\\justenoughenglishgrammarillustrated.pdf");
-                    break;
-                case "button2":
-                    Process.Start("kids\\level_3\\English\\lyoungchildrenspicturedictionary.pdf");
-                    break;
-                case "button3":
-                    Process.Start("kids\\level_3\\English\\picturegrammarforchildrenstarter.pdf");
-                    break;
-            }
-
-
-            /*
-                case "Multiplication":
-                    Program.openMultiplicationPPT();
-                    break;
-                 */
-        }
     }
-
 }
-

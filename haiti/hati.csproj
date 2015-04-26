@@ -1,0 +1,314 @@
+   <UpdatePeriodically>false</UpdatePeriodically>
+     <UpdateRequired>false</UpdateRequired>
+     <MapFileExtensions>true</MapFileExtensions>
+     <ApplicationRevision>4</ApplicationRevision>
+     <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+     <UseApplicationTrust>false</UseApplicationTrust>
+     <PublishWizardCompleted>true</PublishWizardCompleted>
+
+     <None Include="kids\level_2\Storybooks\If I Could Fly an Airplane - travel book.doc" />
+     <None Include="kids\level_2\Storybooks\World-Famous-Nursary-Rhymes-Volume-2.pdf" />
+     <None Include="kids\level_2\Storybooks\World-Famous-Nursery-Rhymes-Volume-1.pdf" />
+
+    <Content Include="kids\level_3\Computer\Mr. Computer.ppt">
+       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+
+    </Content>
+    <Content Include="kids\level_3\English\childrensillustrateddictionary.pdf">
+       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+
+    </Content>
+    <Content Include="kids\level_3\English\justenoughenglishgrammarillustrated.pdf">
+       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="kids\level_3\English\lyoungchildrenspicturedictionary.pdf">
+       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="kids\level_3\English\picturegrammarforchildrenstarter.pdf">
+       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="kids\level_3\Math\add_sub.ppt">
+       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="kids\level_3\Math\count-pictures-1 %281%29.pdf">
+       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="kids\level_3\Math\count-pictures-1.pdf">
+       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="kids\level_3\Math\count-pictures-2.pdf">
+       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="kids\level_3\Math\count-pictures-3.pdf">
+       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="kids\level_3\Math\count-pictures-4.pdf">
+       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="kids\level_3\Math\count-pictures-5.pdf">
+       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="kids\level_3\Math\count-pictures-6.pdf">
+       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="kids\level_3\Math\count-pictures-7.pdf">
+       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="kids\level_3\Math\count-pictures-8.pdf">
+       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+     </Content>
+     <Content Include="kids\level_3\Math\Division - Copy.ppt">
+       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+
+     </Content>
+     <Content Include="kids\level_3\Math\Division.ppt">
+       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+     </Content>
+     <Content Include="kids\level_3\Math\Multiplication_1.ppt">
+       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+     </Content>
+     <Content Include="kids\level_3\Math\NumbersPowerPoint_1_.pptx">
+       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+     </Content>
+     <Content Include="kids\level_3\Math\Percentage.pot">
+       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+     </Content>
+     <Content Include="kids\level_3\Math\subtract-one-digit-numbers-1 - Copy.pdf">
+       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+     </Content>
+     <Content Include="kids\level_3\Math\subtract-one-digit-numbers-1.pdf">
+       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+     </Content>
+     <Content Include="kids\level_3\Math\subtract-one-digit-numbers-10.pdf">
+       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+     </Content>
+     <Content Include="kids\level_3\Math\subtract-one-digit-numbers-2.pdf">
+       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+     </Content>
+     <Content Include="kids\level_3\Math\subtract-one-digit-numbers-3.pdf">
+       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+     </Content>
+     <Content Include="kids\level_3\Math\subtract-one-digit-numbers-4.pdf">
+       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+     </Content>
+     <Content Include="kids\level_3\Math\subtract-one-digit-numbers-5.pdf">
+       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+     </Content>
+     <Content Include="kids\level_3\Math\subtract-one-digit-numbers-6.pdf">
+       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+     </Content>
+     <Content Include="kids\level_3\Math\subtract-one-digit-numbers-7.pdf">
+       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+     </Content>
+     <Content Include="kids\level_3\Math\subtract-one-digit-numbers-8.pdf">
+       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+     </Content>
+     <Content Include="kids\level_3\Math\subtract-one-digit-numbers-9.pdf">
+       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+     </Content>
+     <Content Include="kids\level_3\Science\Characteristics_of_Plants.ppt" />
+     <Content Include="kids\level_3\Science\completeflagsoftheworldsmithsonianhandbooks.pdf" />
+     <Content Include="kids\level_3\Science\ECOSYSTEM_for_kids.ppt" />
+     <Content Include="kids\level_3\Science\Essential_Nutrients_of_Plants.ppt" />
+     <Content Include="kids\level_3\Science\everythingonearth.pdf" />
+     <Content Include="kids\level_3\Science\Human body.ppt" />
+     <Content Include="kids\level_3\Science\humanbodysystemsforkids.pdf" />
+     <Content Include="kids\level_3\Science\life cycle of plans.ppt" />
+     <Content Include="kids\level_3\Science\Our_Solar_System.ppt" />
+     <Content Include="kids\level_3\Science\Simple_Machines1.ppt" />
+     <Content Include="kids\level_3\Science\Types_of_plant.ppt" />
+     <Content Include="kids\level_3\Science\Water.ppt" />
+     <None Include="packages.config" />
+     <None Include="Properties\Settings.settings">
+       <Generator>SettingsSingleFileGenerator</Generator>
+     <None Include="App.config" />
+   </ItemGroup>
+   <ItemGroup>
+     <Resource Include="assets\level1icon.png">
+       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+     </Resource>
+     <Resource Include="assets\level2icon.png">
+       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+     </Resource>
+     <Resource Include="assets\level3icon.png">
+       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+     </Resource>
+   </ItemGroup>
+   <ItemGroup>
+     <BootstrapperPackage Include=".NETFramework,Version=v4.5">
+     </BootstrapperPackage>
+   </ItemGroup>
+   <ItemGroup>
+     <Resource Include="assets\banner1.jpg">
+       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+     </Resource>
+   </ItemGroup>
+   <ItemGroup>
+     <Resource Include="assets\CLSlogo4.JPG">
+       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+     </Resource>
+   </ItemGroup>
+   <ItemGroup>
+     <Resource Include="assets\logo.png">
+       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+     </Resource>
+   </ItemGroup>
+   <ItemGroup>
+     <Resource Include="assets\homePagePic.png">
+       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+     </Resource>
+   </ItemGroup>
+   <ItemGroup>
+     <Resource Include="assets\homePageLogo.png">
+       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+     </Resource>
+   </ItemGroup>
+   <ItemGroup>
+     <Resource Include="assets\art.png">
+       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+     </Resource>
+     <Resource Include="assets\artAndMusic.png">
+       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+     </Resource>
+     <Resource Include="assets\blankLabelTempalte.png">
+       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+     </Resource>
+     <Resource Include="assets\default.png">
+       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+     </Resource>
+     <Resource Include="assets\english.png">
+       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+     </Resource>
+     <Resource Include="assets\foreignLanguage.png">
+       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+     </Resource>
+     <Resource Include="assets\generalKnowledge.png">
+       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+     </Resource>
+     <Resource Include="assets\geography.png">
+       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+     </Resource>
+     <Resource Include="assets\healthAndSafety.png">
+       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+     </Resource>
+     <Resource Include="assets\history.png">
+       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+     </Resource>
+     <Resource Include="assets\keyboardTypingPractice.png">
+       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+     </Resource>
+     <Resource Include="assets\math.png">
+       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+     </Resource>
+     <Resource Include="assets\microsoftExcel.png">
+       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+     </Resource>
+     <Resource Include="assets\microsoftPowerPoint.png">
+       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+     </Resource>
+     <Resource Include="assets\microsoftWord.png">
+       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+     </Resource>
+     <Resource Include="assets\music.png">
+       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+     </Resource>
+     <Resource Include="assets\readingAndWriting.png">
+       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+     </Resource>
+     <Resource Include="assets\science.png">
+       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+     </Resource>
+     <Resource Include="assets\socialStudies.png">
+       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+     </Resource>
+     <Resource Include="assets\spelling.png">
+       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+     </Resource>
+   </ItemGroup>
+   <ItemGroup>
+     <Resource Include="assets\numbers.jpg">
+       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+     </Resource>
+   </ItemGroup>
+   <ItemGroup>
+     <Resource Include="assets\phonics.jpg">
+       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+     </Resource>
+   </ItemGroup>
+   <ItemGroup>
+     <Resource Include="assets\rhymes.jpg">
+       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+     </Resource>
+   </ItemGroup>
+   <ItemGroup>
+     <Resource Include="assets\storybooks.png">
+       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+     </Resource>
+   </ItemGroup>
+   <ItemGroup>
+     <Resource Include="assets\computer.png">
+       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+     </Resource>
+   </ItemGroup>
+   <ItemGroup>
+     <Resource Include="assets\activity.png">
+       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+     </Resource>
+   </ItemGroup>
+   <ItemGroup>
+     <Resource Include="assets\alphabet.png">
+       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+     </Resource>
+   </ItemGroup>
+   <ItemGroup>
+     <Resource Include="assets\numbers.png">
+       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+     </Resource>
+   </ItemGroup>
+   <ItemGroup>
+     <Resource Include="assets\phonics.png">
+       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+     </Resource>
+   </ItemGroup>
+   <ItemGroup>
+     <Resource Include="assets\rhymes.png">
+       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+     </Resource>
+   </ItemGroup>
+   <ItemGroup>
+     <Resource Include="assets\addition-icon.png">
+       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+     </Resource>
+   </ItemGroup>
+   <ItemGroup>
+     <COMReference Include="Microsoft.Office.Core">
+     <Resource Include="assets\Haiti_pic_original.jpg">
+       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+     </Resource>
+     <Resource Include="assets\waits.jpg">
+       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+     </Resource>
+     <Resource Include="assets\s.png">
+       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+     </Resource>
+     <Content Include="kids\level_1\Rhymes\alphabet.mp3" />
+     <Content Include="kids\level_1\Rhymes\bingo.mp3" />
+     <Content Include="kids\level_1\Rhymes\ifyourehappyandyouknowit.mp3" />
+     <Resource Include="kids\level_2\Activity books\write5.png" />
+     <Resource Include="kids\level_2\Activity books\write_number.png" />
+     <Resource Include="kids\level_2\Activity books\yard.jpg" />
+     <Resource Include="assets\teensLevel1Icon.png">
+       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+     </Resource>
+     <Resource Include="assets\teensLevel2Icon.png">
+       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+     </Resource>
+     <Resource Include="assets\teensLevel3Icon.png">
+       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+     </Resource>
+     <Resource Include="assets\jobs.png">
+       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+     </Resource>
+     <Content Include="installers\addition.exe">
+       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+     </Content>
