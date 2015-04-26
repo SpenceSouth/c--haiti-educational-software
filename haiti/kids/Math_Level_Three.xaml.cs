@@ -105,10 +105,10 @@ namespace haiti
                     this.NavigationService.Navigate(new Uri("kids\\math_level_3\\Subtraction.xaml", UriKind.Relative));
                     break;
                 case "Multiplication":
-                    Program.runOlliwitAddition();
+                    this.NavigationService.Navigate(new Uri("kids\\math_level_3\\Multiplication.xaml", UriKind.Relative));
                     break;
                 case "Division":
-                    Program.runOlliwitAddition();
+                    this.NavigationService.Navigate(new Uri("kids\\math_level_3\\Division.xaml", UriKind.Relative));
                     break;
                 case "Numbers":
                     this.NavigationService.Navigate(new Uri("kids\\math_level_3\\Numbers.xaml", UriKind.Relative));

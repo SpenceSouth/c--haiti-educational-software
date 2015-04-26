@@ -113,6 +113,12 @@
     <Compile Include="kids\Health_Safety_Level_Two.xaml.cs">
       <DependentUpon>Health_Safety_Level_Two.xaml</DependentUpon>
     </Compile>
+    <Compile Include="kids\math_level_3\Division.xaml.cs">
+      <DependentUpon>Division.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="kids\math_level_3\Multiplication.xaml.cs">
+      <DependentUpon>Multiplication.xaml</DependentUpon>
+    </Compile>
     <Compile Include="kids\math_level_3\Percentages.xaml.cs">
       <DependentUpon>Percentages.xaml</DependentUpon>
     </Compile>
@@ -231,6 +237,14 @@
     <Page Include="kids\Health_Safety_Level_Two.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
+    </Page>
+    <Page Include="kids\math_level_3\Division.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="kids\math_level_3\Multiplication.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="kids\math_level_3\Percentages.xaml">
       <SubType>Designer</SubType>
