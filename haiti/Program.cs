@@ -68,7 +68,7 @@ namespace haiti
         }
         public static void runPeriodicTable()
         {
-            start("C:\\Program Files (x86)\\freshney.org\\Periodic Table\\", "installers\\ptinstaller.exe");
+            start("C:\\Program Files (x86)\\freshney.org\\Periodic Table\\ADPT.exe", "installers\\ptinstaller.exe");
                 //todo need .exe
         }
         public static void runSeTerra()
