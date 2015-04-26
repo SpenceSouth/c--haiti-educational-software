@@ -98,6 +98,25 @@ namespace haiti
             switch (name)
             {
                 case "Addition":
+                    Uri uri = new Uri("kids\\Addition.xaml", UriKind.Relative);
+                    this.NavigationService.Navigate(uri);
+                    break;
+                case "Subtraction":
+                    Program.runOlliwitAddition();
+                    break;
+                case "Multiplication":
+                    Program.runOlliwitAddition();
+                    break;
+                case "Division":
+                    Program.runOlliwitAddition();
+                    break;
+                case "Numbers":
+                    Program.runOlliwitAddition();
+                    break;
+                case "Percentages":
+                    Program.runOlliwitAddition();
+                    break;
+                case "Counting":
                     Program.runOlliwitAddition();
                     break;
 
