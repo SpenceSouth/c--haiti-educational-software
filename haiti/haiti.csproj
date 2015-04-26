@@ -92,6 +92,9 @@
       <DependentUpon>App.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="kids\math_level_3\Counting.xaml.cs">
+      <DependentUpon>Counting.xaml</DependentUpon>
+    </Compile>
     <Compile Include="kids\Activitybook_Level_Two.xaml.cs">
       <DependentUpon>Activitybook_Level_Two.xaml</DependentUpon>
     </Compile>
@@ -184,6 +187,10 @@
       <DependentUpon>Science_Level_Two.xaml</DependentUpon>
     </Compile>
     <Page Include="AboutPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="kids\math_level_3\Counting.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -741,9 +748,7 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="kids\math_level_3\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

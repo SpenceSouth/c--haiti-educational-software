@@ -117,7 +117,8 @@ namespace haiti
                     Program.runOlliwitAddition();
                     break;
                 case "Counting":
-                    Program.runOlliwitAddition();
+                     uri = new Uri("kids\\math_level_3\\Counting.xaml", UriKind.Relative);
+                    this.NavigationService.Navigate(uri);
                     break;
 
                 /*
