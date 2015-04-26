@@ -100,6 +100,12 @@ namespace haiti
                 case "Addition":
                     Program.runOlliwitAddition();
                     break;
+
+                /*
+                case "Multiplication":
+                    Program.openMultiplicationPPT();
+                    break;
+                 */
             }
         }
     }

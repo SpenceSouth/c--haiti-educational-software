@@ -6,6 +6,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows;
 
+
 namespace haiti
 {
     class Program
@@ -47,6 +48,32 @@ namespace haiti
         {
             start("C:\\Olltwit\\Addition\\addition.exe", "installers\\addition.exe");
         }
+
+        public static void runBookwormAdventure()
+        {
+            start("C:\\Program Files (x86)\\PopCap Games\\Bookworm Adventures Deluxe\\BookwormAdventures.exe", "installers\\BWASetup.exe");
+        }
+
+        public static void runTuxMath()
+        {
+            start("C:\\Program Files (x86)\\TuxMath\\TuxMath.exe", "installers\\tuxmath-2.0.2-win32-installer.exe");
+        }
+        public static void runTuxPaint()
+        {
+            start("C:\\Program Files (x86)\\TuxPaint\\TuxPaint.exe", "installers\\tuxpaint-0.9.22-win32-installer.exe");
+        }
+        public static void runTuxType()
+        {
+            start("C:\\Program Files (x86)\\TuxType\\TuxType.exe", "installers\\tuxtype-1.8.1-win32-installer.exe");
+        }
+
+        /*
+        public static void runEurope()
+        {
+            start("C:\Program Files\7Jag\Europe!\" )
+        }
+        */
+        
 
     }
 }
