@@ -86,13 +86,5 @@ namespace haiti
             start("C:\\Program Files\\CrazySoft\\Smart Educational Games\\CrazySoft.exe", "installers\\SmartEg-Setup_Demo.exe");
         }
 
-        /*
-        public static void runEurope()
-        {
-            start("C:\Program Files\7Jag\Europe!\" )
-        }
-        */
-        
-
     }
 }
