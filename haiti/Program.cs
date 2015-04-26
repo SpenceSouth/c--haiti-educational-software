@@ -66,6 +66,25 @@ namespace haiti
         {
             start("C:\\Program Files (x86)\\TuxType\\TuxType.exe", "installers\\tuxtype-1.8.1-win32-installer.exe");
         }
+        public static void runPeriodicTable()
+        {
+            start("C:\\Program Files (x86)\\freshney.org\\Periodic Table\\", "installers\\ptinstaller.exe");
+                //todo need .exe
+        }
+        public static void runSeTerra()
+        {
+            start("C:\\Program Files (x86)\\Seterra\\Seterra.exe", "installers\\seterra.exe");
+        }
+
+        public static void runEurope()
+        {
+            start("C:\\Program Files\\7Jag\\Europe!\\europewin.exe", "installers\\europe-setup.exe");
+        }
+
+        public static void runEducationalGames()
+        {
+            start("C:\\Program Files\\CrazySoft\\Smart Educational Games\\CrazySoft.exe", "installers\\SmartEg-Setup_Demo.exe");
+        }
 
         /*
         public static void runEurope()
