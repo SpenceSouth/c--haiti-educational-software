@@ -7,8 +7,6 @@
       d:DesignHeight="300" d:DesignWidth="300"
 	Title="Math_Level_Three">
 
-
-
     <Grid>
         <Grid.RowDefinitions>
             <RowDefinition Height="1*" />
@@ -32,7 +30,7 @@
 
 
             <Grid Grid.Row="0" Grid.Column="0" Background="Black">
-                <TextBlock Grid.Row="0" Grid.Column="0" Text="Teens - Math&#x0a;Level Three" TextAlignment="Center" Background="Black" Foreground="White" TextWrapping="Wrap" FontSize="30" FontWeight="Bold" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                <TextBlock Grid.Row="0" Grid.Column="0" Text="Kids - Math&#x0a;Level Three" TextAlignment="Center" Background="Black" Foreground="White" TextWrapping="Wrap" FontSize="30" FontWeight="Bold" HorizontalAlignment="Center" VerticalAlignment="Center"/>
             </Grid>
 
             <Grid Grid.Row="0" Grid.Column="1" Margin="0.2,0,-0.4,0.2">
@@ -57,48 +55,83 @@
 
         </Grid>
 
+        <!--This set of rows makes up the space for program buttons-->
+        <Grid x:Name="ProgramField" Grid.Row="1" Grid.Column="0" >
+            <Grid.RowDefinitions>
+                <RowDefinition Height="1*" />
+                <RowDefinition Height="4*" />
+                <RowDefinition Height="8*" />
+                <RowDefinition Height="8*" />
+                <RowDefinition Height="8*" />
+                <RowDefinition Height="8*" />
+                <RowDefinition Height="8*" />
+                <RowDefinition Height="8*" />
+                <RowDefinition Height="8*" />
+                <RowDefinition Height="8*" />
+                <RowDefinition Height="5*" />
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="1*" />
+                <ColumnDefinition Width="4*" />
+                <ColumnDefinition Width="1*" />
+                <ColumnDefinition Width="5*" />
+                <ColumnDefinition Width="1*" />
+            </Grid.ColumnDefinitions>
+
+            <TextBlock Grid.Row="1" Grid.Column="1" Text="Program" />
+            <TextBlock Grid.Row="1" Grid.Column="3" Text="Description" />
 
 
-        <ScrollViewer Grid.Row="1" Grid.Column="0">
+            <Button x:Name="Addition_Button" Grid.Row="2" Grid.Column="1" Content="Addition" Click="Program_Click" />
+            <!--  <Button x:Name="Multiplication_Button" Grid.Row="3" Grid.Column="1" Content="Multiplication" Click="Program_Click" />-->
+            <Border Grid.Row="2" Grid.Column="3" BorderThickness="1" BorderBrush="Black">
+                <TextBlock Text="On the opening screen you will find that your mouse pointer turns into a hand over the three types of problems you can choose. Choose a type of addition sum that you would like to try ranging from single to three figure problems." TextWrapping="Wrap" HorizontalAlignment="Left" />
+            </Border>
 
-            <StackPanel Orientation="Vertical" HorizontalAlignment="Center" VerticalAlignment="Center">
-                <StackPanel Orientation="Horizontal">
-                    <Button x:Name="button0" Content=""               Margin="10" Click="Program_Click"   Width="150px" Height="100px"/>
-                    <Button x:Name="button1" Content=""                Margin="10" Click="Program_Click"   Width="150px" Height="100px"/>
-                    <Button x:Name="button2" Content=""    Margin="10" Click="Program_Click"   Width="150px" Height="100px"/>
-                    <Button x:Name="button3" Content=""  Margin="10" Click="Program_Click"   Width="150px" Height="100px"/>
-                </StackPanel>
-                <StackPanel Orientation="Horizontal">
-                    <Button x:Name="button4" Content=""    Margin="10" Click="Program_Click"  Width="150px" Height="100px"/>
-                    <Button x:Name="button5" Content=""     Margin="10" Click="Program_Click"  Width="150px" Height="100px"/>
-                    <Button x:Name="button6" Content="" Margin="10" Click="Program_Click" Width="150px" Height="100px"/>
-                    <Button x:Name="button7" Content=""     Margin="10" Click="Program_Click"  Width="150px" Height="100px"/>
-                </StackPanel>
-                <StackPanel Orientation="Horizontal">
-                    <Button x:Name="button8" Content=""     Margin="10" Click="Program_Click"  Width="150px" Height="100px"/>
-                    <Button x:Name="button9" Content=""     Margin="10" Click="Program_Click"  Width="150px" Height="100px"/>
-                    <Button x:Name="button10" Content=""    Margin="10" Click="Program_Click"  Width="150px" Height="100px"/>
-                    <Button x:Name="button11" Content=""   Margin="10" Click="Program_Click"  Width="150px" Height="100px"/>
-                </StackPanel>
-                <StackPanel Orientation="Horizontal">
-                    <Button x:Name="button12" Content=""   Margin="10" Click="Program_Click"  Width="150px" Height="100px"/>
-                    <Button x:Name="button13" Content=""   Margin="10" Click="Program_Click"  Width="150px" Height="100px"/>
-                    <Button x:Name="button14" Content=""                Margin="10" Click="Program_Click"  Width="150px" Height="100px"/>
-                    <Button x:Name="button15" Content="" Margin="10" Click="Program_Click"  Width="150px" Height="100px"/>
-                </StackPanel>
-                <StackPanel Orientation="Horizontal">
-                    <Button x:Name="button16" Content=""                Margin="10" Click="Program_Click"  Width="150px" Height="100px"/>
-                    <Button x:Name="button17" Content=""         Margin="10" Click="Program_Click"  Width="150px" Height="100px"/>
-                    <Button x:Name="button18" Content=""                Margin="10" Click="Program_Click"  Width="150px" Height="100px"/>
-                    <Button x:Name="button19" Content=""             Margin="10" Click="Program_Click"  Width="150px" Height="100px"/>
-                </StackPanel>
-                <StackPanel Orientation="Horizontal">
-                    <Button x:Name="button20" Content=""            Margin="10" Click="Program_Click"  Width="150px" Height="100px"/>
-                    <Button x:Name="button21" Content=""          Margin="10" Click="Program_Click"  Width="150px" Height="100px"/>
-                    <Button x:Name="button22" Content=""            Margin="10" Click="Program_Click"  Width="150px" Height="100px"/>
-                </StackPanel>
-            </StackPanel>
-        </ScrollViewer>
+
+            <Button x:Name="Subtraction_Button" Grid.Row="3" Grid.Column="1" Content="Subtraction" Click="Program_Click" />
+            <Border Grid.Row="3" Grid.Column="3" BorderThickness="1" BorderBrush="Black">
+                <TextBlock Text="Insert subtraction description here" TextWrapping="Wrap" HorizontalAlignment="Left" />
+            </Border>
+
+
+            <Button x:Name="Multiplication_Button" Grid.Row="4" Grid.Column="1" Content="Multiplication" Click="Program_Click" />
+            <Border Grid.Row="4" Grid.Column="3" BorderThickness="1" BorderBrush="Black">
+                <TextBlock Text="Insert multiplication description here" TextWrapping="Wrap" HorizontalAlignment="Left" />
+            </Border>
+
+
+            <Button x:Name="Division_Button" Grid.Row="5" Grid.Column="1" Content="Division" Click="Program_Click" />
+            <Border Grid.Row="5" Grid.Column="3" BorderThickness="1" BorderBrush="Black">
+                <TextBlock Text="Insert division description here" TextWrapping="Wrap" HorizontalAlignment="Left" />
+            </Border>
+
+
+            <Button x:Name="Lengths_Button" Grid.Row="6" Grid.Column="1" Content="Lengths" Click="Program_Click" />
+            <Border Grid.Row="6" Grid.Column="3" BorderThickness="1" BorderBrush="Black">
+                <TextBlock Text="Insert counting description here" TextWrapping="Wrap" HorizontalAlignment="Left" />
+            </Border>
+
+
+            <Button x:Name="Graphs_Button" Grid.Row="7" Grid.Column="1" Content="Graphs" Click="Program_Click" />
+            <Border Grid.Row="7" Grid.Column="3" BorderThickness="1" BorderBrush="Black">
+                <TextBlock Text="Insert numbers description here" TextWrapping="Wrap" HorizontalAlignment="Left" />
+            </Border>
+
+
+            <Button x:Name="Percentage_Button" Grid.Row="8" Grid.Column="1" Content="Percentages" Click="Program_Click" />
+            <Border Grid.Row="8" Grid.Column="3" BorderThickness="1" BorderBrush="Black">
+                <TextBlock Text="Insert percentage description here" TextWrapping="Wrap" HorizontalAlignment="Left" />
+            </Border>
+
+
+            <Button x:Name="Fractions_Button" Grid.Row="9" Grid.Column="1" Content="Fractions" Click="Program_Click" />
+            <Border Grid.Row="9" Grid.Column="3" BorderThickness="1" BorderBrush="Black">
+                <TextBlock Text="Insert percentage description here" TextWrapping="Wrap" HorizontalAlignment="Left" />
+            </Border>
+
+        </Grid>
+
     </Grid>
 </Page>
 

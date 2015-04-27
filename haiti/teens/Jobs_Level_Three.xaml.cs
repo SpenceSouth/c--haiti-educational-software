@@ -62,13 +62,13 @@ namespace haiti.teens
             switch (name)
             {
                 case "careerChoices2Button":
-                    Process.Start("");
+                    Process.Start("teens\\level_3\\Jobs\\Career-Choices.ppt");
                     break;
                 case "jobspptButton":
-                    Process.Start("");
+                    Process.Start("teens\\level_3\\Jobs\\jobs.ppt");
                     break;
                 case "jobsAndProfessionsButton":
-                    Process.Start("");
+                    Process.Start("teens\\level_3\\Jobs\\jobsandprofessions.ppt");
                     break;
                 default:
                     break;

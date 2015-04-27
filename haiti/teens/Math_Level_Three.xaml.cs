@@ -55,83 +55,78 @@ namespace haiti.teens
             }
 
         }
+
+        private void addImageToButton(Button b, String src)
+        {
+
+            Image img = new Image();
+            img.Source = new BitmapImage(new Uri(src, UriKind.RelativeOrAbsolute));
+
+            StackPanel stackPnl = new StackPanel();
+            stackPnl.Orientation = Orientation.Horizontal;
+            stackPnl.Margin = new Thickness(10);
+            stackPnl.Children.Add(img);
+
+            b.Content = stackPnl;
+            b.Background = Brushes.White;
+
+        }
+
+        private void addImageToButton(Button b, String src, String text)
+        {
+
+            Image img = new Image();
+            img.Source = new BitmapImage(new Uri(src, UriKind.RelativeOrAbsolute));
+
+            StackPanel stackPnl = new StackPanel();
+            stackPnl.Orientation = Orientation.Horizontal;
+            stackPnl.Margin = new Thickness(10);
+            stackPnl.Children.Add(img);
+            TextBlock t = new TextBlock();
+            t.Text = text;
+            //stackPnl.Children.Add(t);
+
+            b.Content = stackPnl;
+            b.Background = Brushes.White;
+
+        }
+
         private void Program_Click(object sender, RoutedEventArgs e)
         {
-            string name = (string)((Button)sender).Name;
+            string name = (string)((Button)sender).Content;
 
             switch (name)
             {
-                case "button0":
-                    Process.Start("");
+                case "Addition":
+                    this.NavigationService.Navigate(new Uri("teens\\math_general\\addition.xaml", UriKind.Relative));
                     break;
-                case "button1":
-                    Process.Start("");
+                case "Subtraction":
+                    this.NavigationService.Navigate(new Uri("teens\\math_general\\subtraction.xaml", UriKind.Relative));
                     break;
-                case "button2":
-                    Process.Start("");
+                case "Multiplication":
+                    this.NavigationService.Navigate(new Uri("teens\\math_general\\multiplication.xaml", UriKind.Relative));
                     break;
-                case "button3":
-                    Process.Start("");
+                case "Division":
+                    this.NavigationService.Navigate(new Uri("teens\\math_general\\division.xaml", UriKind.Relative));
                     break;
-                case "button4":
-                    Process.Start("");
+                case "Lengths":
+                    this.NavigationService.Navigate(new Uri("teens\\math_general\\lengths.xaml", UriKind.Relative));
                     break;
-                case "button5":
-                    Process.Start("");
+                case "Percentages":
+                    this.NavigationService.Navigate(new Uri("teens\\math_general\\percentages.xaml", UriKind.Relative));
                     break;
-                case "button6":
-                    Process.Start("");
+                case "Graphs":
+                    this.NavigationService.Navigate(new Uri("teens\\math_general\\graphs.xaml", UriKind.Relative));
                     break;
-                case "button7":
-                    Process.Start("");
+                case "Fractions":
+                    this.NavigationService.Navigate(new Uri("teens\\math_general\\fractions.xaml", UriKind.Relative));
                     break;
-                case "button8":
-                    Process.Start("");
+
+                /*
+                case "Multiplication":
+                    Program.openMultiplicationPPT();
                     break;
-                case "button9":
-                    Process.Start("");
-                    break;
-                case "button10":
-                    Process.Start("");
-                    break;
-                case "button11":
-                    Process.Start("");
-                    break;
-                case "button12":
-                    Process.Start("");
-                    break;
-                case "button13":
-                    Process.Start("");
-                    break;
-                case "button14":
-                    Process.Start("");
-                    break;
-                case "button15":
-                    Process.Start("");
-                    break;
-                case "button16":
-                    Process.Start("");
-                    break;
-                case "button17":
-                    Process.Start("");
-                    break;
-                case "button18":
-                    Process.Start("");
-                    break;
-                case "button19":
-                    Process.Start("");
-                    break;
-                case "button20":
-                    Process.Start("");
-                    break;
-                case "button21":
-                    Process.Start("");
-                    break;
-                case "button22":
-                    Process.Start("");
-                    break;
-                default:
-                    break;
+                 */
             }
         }
 

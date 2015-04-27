@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -13,19 +14,17 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace haiti.teens
+namespace haiti.teens.Science_Level_1_and_2
 {
     /// <summary>
-    /// Interaction logic for Math_Level_One.xaml
+    /// Interaction logic for Science_People.xaml
     /// </summary>
-    public partial class Math_Level_One : Page
+    public partial class Science_People : Page
     {
-        public Math_Level_One()
+        public Science_People()
         {
             InitializeComponent();
         }
-
-
         private void Button_Click(object sender, RoutedEventArgs e)
         {
             string name = (string)((Button)sender).Content;
@@ -55,46 +54,21 @@ namespace haiti.teens
             }
 
         }
-
         private void Program_Click(object sender, RoutedEventArgs e)
         {
-            string name = (string)((Button)sender).Content;
+            string name = (string)((Button)sender).Name;
 
             switch (name)
             {
-                case "Addition":
-                    this.NavigationService.Navigate(new Uri("teens\\math_general\\addition.xaml", UriKind.Relative));
+                case "humandBodyPDF":
+                    Process.Start("teens\\level_3\\Science\\People\\Human Body-7th grade.pdf");
                     break;
-                case "Subtraction":
-                    this.NavigationService.Navigate(new Uri("teens\\math_general\\subtraction.xaml", UriKind.Relative));
+                case "humanBodyPPT":
+                    Process.Start("teens\\level_3\\Science\\People\\Human body.ppt");
                     break;
-                case "Multiplication":
-                    this.NavigationService.Navigate(new Uri("teens\\math_general\\multiplication.xaml", UriKind.Relative));
+                default:
                     break;
-                case "Division":
-                    this.NavigationService.Navigate(new Uri("teens\\math_general\\division.xaml", UriKind.Relative));
-                    break;
-                case "Lengths":
-                    this.NavigationService.Navigate(new Uri("teens\\math_general\\lengths.xaml", UriKind.Relative));
-                    break;
-                case "Percentages":
-                    this.NavigationService.Navigate(new Uri("teens\\math_general\\percentages.xaml", UriKind.Relative));
-                    break;
-                case "Graphs":
-                    this.NavigationService.Navigate(new Uri("teens\\math_general\\graphs.xaml", UriKind.Relative));
-                    break;
-                case "Fractions":
-                    this.NavigationService.Navigate(new Uri("teens\\math_general\\fractions.xaml", UriKind.Relative));
-                    break;
-
-                /*
-                case "Multiplication":
-                    Program.openMultiplicationPPT();
-                    break;
-                 */
             }
         }
-
-       
     }
 }

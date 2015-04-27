@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -13,14 +14,14 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace haiti.teens
+namespace haiti.teens.math_general
 {
     /// <summary>
-    /// Interaction logic for Science_Level_Two.xaml
+    /// Interaction logic for subtraction.xaml
     /// </summary>
-    public partial class Science_Level_Two : Page
+    public partial class subtraction : Page
     {
-        public Science_Level_Two()
+        public subtraction()
         {
             InitializeComponent();
         }
@@ -61,24 +62,13 @@ namespace haiti.teens
 
             switch (name)
             {
-                case "PeopleButton":
-                    this.NavigationService.Navigate(new Uri("teens\\Science_Level_1_and_2\\Science_People.xaml", UriKind.Relative));
-                    break;
-                case "AnimalsButton":
-                    this.NavigationService.Navigate(new Uri("teens\\Science_Level_1_and_2\\Science_Animals.xaml", UriKind.Relative));
-                    break;
-                case "PlantsButton":
-                    this.NavigationService.Navigate(new Uri("teens\\Science_Level_1_and_2\\Science_Plants.xaml", UriKind.Relative));
-                    break;
-                case "PhysicsButton":
-                    this.NavigationService.Navigate(new Uri("teens\\Science_Level_1_and_2\\Science_Physics.xaml", UriKind.Relative));
+                case "button0":
+                    Process.Start("teens\\level_3\\Math\\ADD__Substraction.ppt");
                     break;
                 default:
-                    break;
-
+                    return;
             }
-        }       
 
-       
+        }
     }
 }

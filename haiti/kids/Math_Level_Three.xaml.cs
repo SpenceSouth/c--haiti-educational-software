@@ -120,12 +120,7 @@ namespace haiti
                      uri = new Uri("kids\\math_level_3\\Counting.xaml", UriKind.Relative);
                     this.NavigationService.Navigate(uri);
                     break;
-
-                /*
-                case "Multiplication":
-                    Program.openMultiplicationPPT();
-                    break;
-                 */
+       
             }
         }
     }
