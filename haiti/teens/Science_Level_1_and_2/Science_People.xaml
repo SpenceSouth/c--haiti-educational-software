@@ -1,13 +1,11 @@
-﻿<Page x:Class="haiti.teens.Science_Level_Three"
+﻿<Page x:Class="haiti.teens.Science_Level_1_and_2.Science_People"
       xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
       xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
       xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
       xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
       mc:Ignorable="d" 
       d:DesignHeight="300" d:DesignWidth="300"
-	Title="Science_Level_Three">
-
-
+	Title="Science_People">
 
     <Grid>
         <Grid.RowDefinitions>
@@ -32,7 +30,7 @@
 
 
             <Grid Grid.Row="0" Grid.Column="0" Background="Black">
-                <TextBlock Grid.Row="0" Grid.Column="0" Text="Teens - Science&#x0a;Level Three" TextAlignment="Center" Background="Black" Foreground="White" TextWrapping="Wrap" FontSize="30" FontWeight="Bold" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                <TextBlock Grid.Row="0" Grid.Column="0" Text="Teens - Science&#x0a;People" TextAlignment="Center" Background="Black" Foreground="White" TextWrapping="Wrap" FontSize="30" FontWeight="Bold" HorizontalAlignment="Center" VerticalAlignment="Center"/>
             </Grid>
 
             <Grid Grid.Row="0" Grid.Column="1" Margin="0.2,0,-0.4,0.2">
@@ -64,10 +62,6 @@
                 <RowDefinition Height="8*" />
                 <RowDefinition Height="8*" />
                 <RowDefinition Height="8*" />
-                <RowDefinition Height="8*" />
-                <RowDefinition Height="8*" />
-                <RowDefinition Height="8*" />
-                <RowDefinition Height="8*" />
                 <RowDefinition Height="5*" />
             </Grid.RowDefinitions>
             <Grid.ColumnDefinitions>
@@ -81,28 +75,14 @@
             <TextBlock Grid.Row="1" Grid.Column="1" Text="Program" />
             <TextBlock Grid.Row="1" Grid.Column="3" Text="Description" />
 
-
-            <Button x:Name="PeopleButton" Grid.Row="2" Grid.Column="1" Content="People" Click="Category_Click" />           
+            <Button x:Name="humanBodyPDF" Grid.Row="2" Grid.Column="1" Content="Human Body PDF" Click="Program_Click" />
             <Border Grid.Row="2" Grid.Column="3" BorderThickness="1" BorderBrush="Black">
-                <TextBlock Text="Insert What files will be found in this category here" TextWrapping="Wrap" />
+                <TextBlock Text="Insert description here" TextWrapping="Wrap" HorizontalAlignment="Left" />
             </Border>
 
-
-            <Button x:Name="AnimalsButton" Grid.Row="3" Grid.Column="1" Content="Animals" Click="Category_Click" />
+            <Button x:Name="humanBodyPPT" Grid.Row="3" Grid.Column="1" Content="Human Body PowerPoint" Click="Program_Click" />
             <Border Grid.Row="3" Grid.Column="3" BorderThickness="1" BorderBrush="Black">
-                <TextBlock Text="Insert What files will be found in this category here" TextWrapping="Wrap"/>
-            </Border>
-
-
-            <Button x:Name="PlantsButton" Grid.Row="4" Grid.Column="1" Content="Plants" Click="Category_Click" />
-            <Border Grid.Row="4" Grid.Column="3" BorderThickness="1" BorderBrush="Black">
-                <TextBlock Text="Insert What files will be found in this category here" TextWrapping="Wrap" />
-            </Border>
-
-
-            <Button x:Name="PhysicsButton" Grid.Row="5" Grid.Column="1" Content="Physics" Click="Category_Click" />
-            <Border Grid.Row="5" Grid.Column="3" BorderThickness="1" BorderBrush="Black">
-                <TextBlock Text="Insert What files will be found in this category here" TextWrapping="Wrap" />
+                <TextBlock Text="Insert description here" TextWrapping="Wrap" HorizontalAlignment="Left" />
             </Border>
 
         </Grid>

@@ -61,20 +61,20 @@ namespace haiti.teens
 
             switch (name)
             {
-                case "cillDictionaryButton":
-                    Process.Start("");
+                case "illDictionaryButton":
+                    Process.Start("teens\\level_3\\English\\childrensillustrateddictionary.pdf");
                     break;
                 case "illGrammarButton":
-                    Process.Start("");
+                    Process.Start("teens\\level_3\\English\\justenoughenglishgrammarillustrated.pdf");
                     break;
                 case "picDictionaryButton":
-                    Process.Start("");
+                    Process.Start("teens\\level_3\\English\\lyoungchildrenspicturedictionary.pdf");
                     break;
                 case "activityBookButton":
-                    Process.Start("");
+                    Process.Start("teens\\level_3\\English\\my-new-words-activity-book.pdf");
                     break;
                 case "picGrammarButton":
-                    Process.Start("");
+                    Process.Start("teens\\level_3\\English\\picturegrammarforchildrenstarter.pdf");
                     break;
                 default:
                     break;

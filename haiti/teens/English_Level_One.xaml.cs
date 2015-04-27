@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -51,6 +52,30 @@ namespace haiti.teens
                     Uri teachersUri = new Uri("TeachersPage.xaml", UriKind.Relative);
                     this.NavigationService.Navigate(teachersUri);
                     break;
+            }
+
+        }
+
+        private void Program_Click(object sender, RoutedEventArgs e)
+        {
+            string name = (string)((Button)sender).Name;
+
+            switch (name)
+            {
+                case "picGrammarButton":
+                    Process.Start("teens\\level_3\\English\\picturegrammarforchildrenstarter.pdf");
+                    break;
+                case "illustratedDictionaryButton":
+                    Process.Start("teens\\level_3\\English\\childrensillustrateddictionary.pdf");
+                    break;
+                case "picDictionaryButton":
+                    Process.Start("teens\\level_3\\English\\lyoungchildrenspicturedictionary.pdf");
+                    break;
+                case "englishGrammarButton":
+                    Process.Start("teens\\level_3\\English\\justenoughenglishgrammarillustrated.pdf");
+                    break;
+                default:
+                    return;
             }
 
         }

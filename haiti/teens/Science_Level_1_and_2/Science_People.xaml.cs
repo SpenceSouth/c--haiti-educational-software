@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -13,18 +14,17 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace haiti.teens
+namespace haiti.teens.Science_Level_1_and_2
 {
     /// <summary>
-    /// Interaction logic for Science_Level_Two.xaml
+    /// Interaction logic for Science_People.xaml
     /// </summary>
-    public partial class Science_Level_Two : Page
+    public partial class Science_People : Page
     {
-        public Science_Level_Two()
+        public Science_People()
         {
             InitializeComponent();
         }
-
         private void Button_Click(object sender, RoutedEventArgs e)
         {
             string name = (string)((Button)sender).Content;
@@ -54,31 +54,21 @@ namespace haiti.teens
             }
 
         }
-
-        private void Category_Click(object sender, RoutedEventArgs e)
+        private void Program_Click(object sender, RoutedEventArgs e)
         {
             string name = (string)((Button)sender).Name;
 
             switch (name)
             {
-                case "PeopleButton":
-                    this.NavigationService.Navigate(new Uri("teens\\Science_Level_1_and_2\\Science_People.xaml", UriKind.Relative));
+                case "humandBodyPDF":
+                    Process.Start("teens\\level_3\\Science\\People\\Human Body-7th grade.pdf");
                     break;
-                case "AnimalsButton":
-                    this.NavigationService.Navigate(new Uri("teens\\Science_Level_1_and_2\\Science_Animals.xaml", UriKind.Relative));
-                    break;
-                case "PlantsButton":
-                    this.NavigationService.Navigate(new Uri("teens\\Science_Level_1_and_2\\Science_Plants.xaml", UriKind.Relative));
-                    break;
-                case "PhysicsButton":
-                    this.NavigationService.Navigate(new Uri("teens\\Science_Level_1_and_2\\Science_Physics.xaml", UriKind.Relative));
+                case "humanBodyPPT":
+                    Process.Start("teens\\level_3\\Science\\People\\Human body.ppt");
                     break;
                 default:
                     break;
-
             }
-        }       
-
-       
+        }
     }
 }

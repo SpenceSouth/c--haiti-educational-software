@@ -13,18 +13,17 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace haiti.teens
+namespace haiti.teens.Science_Level_1_and_2
 {
     /// <summary>
-    /// Interaction logic for Science_Level_Two.xaml
+    /// Interaction logic for Science_Physics.xaml
     /// </summary>
-    public partial class Science_Level_Two : Page
+    public partial class Science_Physics : Page
     {
-        public Science_Level_Two()
+        public Science_Physics()
         {
             InitializeComponent();
         }
-
         private void Button_Click(object sender, RoutedEventArgs e)
         {
             string name = (string)((Button)sender).Content;
@@ -54,31 +53,5 @@ namespace haiti.teens
             }
 
         }
-
-        private void Category_Click(object sender, RoutedEventArgs e)
-        {
-            string name = (string)((Button)sender).Name;
-
-            switch (name)
-            {
-                case "PeopleButton":
-                    this.NavigationService.Navigate(new Uri("teens\\Science_Level_1_and_2\\Science_People.xaml", UriKind.Relative));
-                    break;
-                case "AnimalsButton":
-                    this.NavigationService.Navigate(new Uri("teens\\Science_Level_1_and_2\\Science_Animals.xaml", UriKind.Relative));
-                    break;
-                case "PlantsButton":
-                    this.NavigationService.Navigate(new Uri("teens\\Science_Level_1_and_2\\Science_Plants.xaml", UriKind.Relative));
-                    break;
-                case "PhysicsButton":
-                    this.NavigationService.Navigate(new Uri("teens\\Science_Level_1_and_2\\Science_Physics.xaml", UriKind.Relative));
-                    break;
-                default:
-                    break;
-
-            }
-        }       
-
-       
     }
 }
