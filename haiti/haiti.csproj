@@ -461,28 +461,72 @@
     <Content Include="kids\level_1\Numbers\numbers002.pdf">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <None Include="kids\level_1\Phonics\Animals-1.pps" />
-    <None Include="kids\level_1\Phonics\colors-1.pps" />
-    <None Include="kids\level_1\Phonics\Dolch Phrase Cards.pdf" />
-    <None Include="kids\level_1\Phonics\Flash Cards - Alphabet %28Lowercase%29.pps" />
-    <None Include="kids\level_1\Phonics\Flash Cards - Animals 2.pps" />
-    <None Include="kids\level_1\Phonics\Flash Cards - Colors 2.pps" />
-    <None Include="kids\level_1\Phonics\Flash Cards - Eating Time 1.pps" />
-    <None Include="kids\level_1\Phonics\Flash Cards - Food 2.pps" />
-    <None Include="kids\level_1\Phonics\Flash Cards - Food 3.pps" />
-    <None Include="kids\level_1\Phonics\Flash Cards - Food 4.pps" />
-    <None Include="kids\level_1\Phonics\Flash Cards - Fruits 2.pps" />
-    <None Include="kids\level_1\Phonics\Flash Cards - Musical Instruments 1.pps" />
-    <None Include="kids\level_1\Phonics\Flash Cards - Musical Instruments 2.pps" />
-    <None Include="kids\level_1\Phonics\Flash Cards - Musical Instruments 3.pps" />
-    <None Include="kids\level_1\Phonics\fruits and vegetables.ppt" />
-    <None Include="kids\level_1\Phonics\fruits-1.pps" />
-    <None Include="kids\level_1\Phonics\Nature-1.pps" />
-    <None Include="kids\level_1\Phonics\sea creatures-1.pps" />
-    <None Include="kids\level_1\Phonics\shapes.ppt" />
-    <None Include="kids\level_1\Phonics\Transport.ppt" />
-    <None Include="kids\level_1\Phonics\vegetable-1.pps" />
-    <None Include="kids\level_1\Phonics\wild animal-1.pps" />
+    <Content Include="kids\level_1\Phonics\Animals-1.pps">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="kids\level_1\Phonics\colors-1.pps">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="kids\level_1\Phonics\Dolch Phrase Cards.pdf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="kids\level_1\Phonics\Flash Cards - Alphabet %28Lowercase%29.pps">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="kids\level_1\Phonics\Flash Cards - Animals 2.pps">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="kids\level_1\Phonics\Flash Cards - Colors 2.pps">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="kids\level_1\Phonics\Flash Cards - Eating Time 1.pps">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="kids\level_1\Phonics\Flash Cards - Food 2.pps">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="kids\level_1\Phonics\Flash Cards - Food 3.pps">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="kids\level_1\Phonics\Flash Cards - Food 4.pps">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="kids\level_1\Phonics\Flash Cards - Fruits 2.pps">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="kids\level_1\Phonics\Flash Cards - Musical Instruments 1.pps">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="kids\level_1\Phonics\Flash Cards - Musical Instruments 2.pps">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="kids\level_1\Phonics\Flash Cards - Musical Instruments 3.pps">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="kids\level_1\Phonics\fruits and vegetables.ppt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="kids\level_1\Phonics\fruits-1.pps">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="kids\level_1\Phonics\Nature-1.pps">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="kids\level_1\Phonics\sea creatures-1.pps">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="kids\level_1\Phonics\shapes.ppt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="kids\level_1\Phonics\Transport.ppt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="kids\level_1\Phonics\vegetable-1.pps">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="kids\level_1\Phonics\wild animal-1.pps">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
     <Content Include="kids\level_2\activity_books\ab %281%29.jpg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
@@ -820,7 +864,9 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
     <None Include="kids\level_2\activity_books\Thumbs.db" />
-    <None Include="kids\level_3\Computer\Mr. Computer.ppt" />
+    <Content Include="kids\level_3\Computer\Mr. Computer.ppt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
     <Resource Include="assets\Haiti_pic_original.jpg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Resource>
@@ -836,96 +882,120 @@
     <Content Include="kids\level_3\English\picturegrammarforchildrenstarter.pdf">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <None Include="kids\level_3\Math\add_sub.ppt">
+    <Content Include="kids\level_3\Math\add_sub.ppt">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Include="kids\level_3\Math\count-pictures-1 %281%29.pdf">
+    </Content>
+    <Content Include="kids\level_3\Math\count-pictures-1 %281%29.pdf">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Include="kids\level_3\Math\count-pictures-1.pdf">
+    </Content>
+    <Content Include="kids\level_3\Math\count-pictures-1.pdf">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Include="kids\level_3\Math\count-pictures-2.pdf">
+    </Content>
+    <Content Include="kids\level_3\Math\count-pictures-2.pdf">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Include="kids\level_3\Math\count-pictures-3.pdf">
+    </Content>
+    <Content Include="kids\level_3\Math\count-pictures-3.pdf">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Include="kids\level_3\Math\count-pictures-4.pdf">
+    </Content>
+    <Content Include="kids\level_3\Math\count-pictures-4.pdf">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Include="kids\level_3\Math\count-pictures-5.pdf">
+    </Content>
+    <Content Include="kids\level_3\Math\count-pictures-5.pdf">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Include="kids\level_3\Math\count-pictures-6.pdf">
+    </Content>
+    <Content Include="kids\level_3\Math\count-pictures-6.pdf">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Include="kids\level_3\Math\count-pictures-7.pdf">
+    </Content>
+    <Content Include="kids\level_3\Math\count-pictures-7.pdf">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Include="kids\level_3\Math\count-pictures-8.pdf">
+    </Content>
+    <Content Include="kids\level_3\Math\count-pictures-8.pdf">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Include="kids\level_3\Math\Division - Copy.ppt">
+    </Content>
+    <Content Include="kids\level_3\Math\Division - Copy.ppt">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Include="kids\level_3\Math\Division.ppt">
+    </Content>
+    <Content Include="kids\level_3\Math\Division.ppt">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Include="kids\level_3\Math\Multiplication_1.ppt">
+    </Content>
+    <Content Include="kids\level_3\Math\Multiplication_1.ppt">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Include="kids\level_3\Math\NumbersPowerPoint_1_.pptx">
+    </Content>
+    <Content Include="kids\level_3\Math\NumbersPowerPoint_1_.pptx">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Include="kids\level_3\Math\Percentage.pot">
+    </Content>
+    <Content Include="kids\level_3\Math\Percentage.pot">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Include="kids\level_3\Math\subtract-one-digit-numbers-1 - Copy.pdf">
+    </Content>
+    <Content Include="kids\level_3\Math\subtract-one-digit-numbers-1 - Copy.pdf">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Include="kids\level_3\Math\subtract-one-digit-numbers-1.pdf">
+    </Content>
+    <Content Include="kids\level_3\Math\subtract-one-digit-numbers-1.pdf">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Include="kids\level_3\Math\subtract-one-digit-numbers-10.pdf">
+    </Content>
+    <Content Include="kids\level_3\Math\subtract-one-digit-numbers-10.pdf">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Include="kids\level_3\Math\subtract-one-digit-numbers-2.pdf">
+    </Content>
+    <Content Include="kids\level_3\Math\subtract-one-digit-numbers-2.pdf">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Include="kids\level_3\Math\subtract-one-digit-numbers-3.pdf">
+    </Content>
+    <Content Include="kids\level_3\Math\subtract-one-digit-numbers-3.pdf">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Include="kids\level_3\Math\subtract-one-digit-numbers-4.pdf">
+    </Content>
+    <Content Include="kids\level_3\Math\subtract-one-digit-numbers-4.pdf">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Include="kids\level_3\Math\subtract-one-digit-numbers-5.pdf">
+    </Content>
+    <Content Include="kids\level_3\Math\subtract-one-digit-numbers-5.pdf">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Include="kids\level_3\Math\subtract-one-digit-numbers-6.pdf">
+    </Content>
+    <Content Include="kids\level_3\Math\subtract-one-digit-numbers-6.pdf">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Include="kids\level_3\Math\subtract-one-digit-numbers-7.pdf">
+    </Content>
+    <Content Include="kids\level_3\Math\subtract-one-digit-numbers-7.pdf">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Include="kids\level_3\Math\subtract-one-digit-numbers-8.pdf">
+    </Content>
+    <Content Include="kids\level_3\Math\subtract-one-digit-numbers-8.pdf">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Include="kids\level_3\Math\subtract-one-digit-numbers-9.pdf">
+    </Content>
+    <Content Include="kids\level_3\Math\subtract-one-digit-numbers-9.pdf">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Include="kids\level_3\Science\Characteristics_of_Plants.ppt" />
-    <None Include="kids\level_3\Science\completeflagsoftheworldsmithsonianhandbooks.pdf" />
-    <None Include="kids\level_3\Science\ECOSYSTEM_for_kids.ppt" />
-    <None Include="kids\level_3\Science\Essential_Nutrients_of_Plants.ppt" />
-    <None Include="kids\level_3\Science\everythingonearth.pdf" />
-    <None Include="kids\level_3\Science\Human body.ppt" />
-    <None Include="kids\level_3\Science\humanbodysystemsforkids.pdf" />
-    <None Include="kids\level_3\Science\life cycle of plans.ppt" />
-    <None Include="kids\level_3\Science\Our_Solar_System.ppt" />
-    <None Include="kids\level_3\Science\Simple_Machines1.ppt" />
-    <None Include="kids\level_3\Science\Types_of_plant.ppt" />
-    <None Include="kids\level_3\Science\Water.ppt" />
+    </Content>
+    <Content Include="kids\level_3\Science\Characteristics_of_Plants.ppt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="kids\level_3\Science\completeflagsoftheworldsmithsonianhandbooks.pdf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="kids\level_3\Science\ECOSYSTEM_for_kids.ppt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="kids\level_3\Science\Essential_Nutrients_of_Plants.ppt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="kids\level_3\Science\everythingonearth.pdf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="kids\level_3\Science\Human body.ppt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="kids\level_3\Science\humanbodysystemsforkids.pdf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="kids\level_3\Science\life cycle of plans.ppt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="kids\level_3\Science\Our_Solar_System.ppt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="kids\level_3\Science\Simple_Machines1.ppt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="kids\level_3\Science\Types_of_plant.ppt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="kids\level_3\Science\Water.ppt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
