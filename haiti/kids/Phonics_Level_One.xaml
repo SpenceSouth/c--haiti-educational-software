@@ -54,7 +54,45 @@
             </Grid>
 
         </Grid>
-    </Grid>
+        <ScrollViewer Grid.Row="1" Grid.Column="0">
 
+            <StackPanel Orientation="Vertical" HorizontalAlignment="Center" VerticalAlignment="Center">
+                <StackPanel Orientation="Horizontal">
+                    <Button x:Name="button0" Content="Animals"               Margin="10" Click="Program_Click"   Width="150px" Height="100px"/>
+                    <Button x:Name="button1" Content="Colors"                Margin="10" Click="Program_Click"   Width="150px" Height="100px"/>
+                    <Button x:Name="button2" Content="Dolch Phrase Cards"    Margin="10" Click="Program_Click"   Width="150px" Height="100px"/>
+                    <Button x:Name="button3" Content="Alphabet Flash Cards"  Margin="10" Click="Program_Click"   Width="150px" Height="100px"/>                   
+                </StackPanel>
+                <StackPanel Orientation="Horizontal">
+                    <Button x:Name="button4" Content="Animals Flash Cards"    Margin="10" Click="Program_Click"  Width="150px" Height="100px"/>
+                    <Button x:Name="button5" Content="Colors Flash Cards"     Margin="10" Click="Program_Click"  Width="150px" Height="100px"/>
+                    <Button x:Name="button6" Content="Eating Time Flash Cards" Margin="10" Click="Program_Click" Width="150px" Height="100px"/>
+                    <Button x:Name="button7" Content="Food Flash Cards 1"     Margin="10" Click="Program_Click"  Width="150px" Height="100px"/>                               
+                </StackPanel>
+                <StackPanel Orientation="Horizontal">
+                    <Button x:Name="button8" Content="Food Flash Cards 2"     Margin="10" Click="Program_Click"  Width="150px" Height="100px"/>
+                    <Button x:Name="button9" Content="Food Flash Cards 3"     Margin="10" Click="Program_Click"  Width="150px" Height="100px"/>
+                    <Button x:Name="button10" Content="Fruits Flash Cards"    Margin="10" Click="Program_Click"  Width="150px" Height="100px"/>
+                    <Button x:Name="button11" Content="Instruments Cards 1"   Margin="10" Click="Program_Click"  Width="150px" Height="100px"/>
+                </StackPanel>
+                <StackPanel Orientation="Horizontal">
+                    <Button x:Name="button12" Content="Instruments Cards 2"   Margin="10" Click="Program_Click"  Width="150px" Height="100px"/>
+                    <Button x:Name="button13" Content="Instruments Cards 3"   Margin="10" Click="Program_Click"  Width="150px" Height="100px"/>
+                    <Button x:Name="button14" Content="Fruits"                Margin="10" Click="Program_Click"  Width="150px" Height="100px"/>
+                    <Button x:Name="button15" Content="Fruits and Vegatables" Margin="10" Click="Program_Click"  Width="150px" Height="100px"/>
+                </StackPanel>
+                <StackPanel Orientation="Horizontal">
+                    <Button x:Name="button16" Content="Nature"                Margin="10" Click="Program_Click"  Width="150px" Height="100px"/>
+                    <Button x:Name="button17" Content="Sea Creatures"         Margin="10" Click="Program_Click"  Width="150px" Height="100px"/>
+                    <Button x:Name="button18" Content="Shapes"                Margin="10" Click="Program_Click"  Width="150px" Height="100px"/>
+                    <Button x:Name="button19" Content="Transport"             Margin="10" Click="Program_Click"  Width="150px" Height="100px"/>
+                </StackPanel>
+                <StackPanel Orientation="Horizontal">
+                    <Button x:Name="button20" Content="Vegatables"            Margin="10" Click="Program_Click"  Width="150px" Height="100px"/>
+                    <Button x:Name="button21" Content="Wild Animals"          Margin="10" Click="Program_Click"  Width="150px" Height="100px"/>
+                </StackPanel>
+            </StackPanel>
+        </ScrollViewer>
+    </Grid>
 </Page>
 

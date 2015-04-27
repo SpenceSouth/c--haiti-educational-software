@@ -461,28 +461,72 @@
     <Content Include="kids\level_1\Numbers\numbers002.pdf">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <None Include="kids\level_1\Phonics\Animals-1.pps" />
-    <None Include="kids\level_1\Phonics\colors-1.pps" />
-    <None Include="kids\level_1\Phonics\Dolch Phrase Cards.pdf" />
-    <None Include="kids\level_1\Phonics\Flash Cards - Alphabet %28Lowercase%29.pps" />
-    <None Include="kids\level_1\Phonics\Flash Cards - Animals 2.pps" />
-    <None Include="kids\level_1\Phonics\Flash Cards - Colors 2.pps" />
-    <None Include="kids\level_1\Phonics\Flash Cards - Eating Time 1.pps" />
-    <None Include="kids\level_1\Phonics\Flash Cards - Food 2.pps" />
-    <None Include="kids\level_1\Phonics\Flash Cards - Food 3.pps" />
-    <None Include="kids\level_1\Phonics\Flash Cards - Food 4.pps" />
-    <None Include="kids\level_1\Phonics\Flash Cards - Fruits 2.pps" />
-    <None Include="kids\level_1\Phonics\Flash Cards - Musical Instruments 1.pps" />
-    <None Include="kids\level_1\Phonics\Flash Cards - Musical Instruments 2.pps" />
-    <None Include="kids\level_1\Phonics\Flash Cards - Musical Instruments 3.pps" />
-    <None Include="kids\level_1\Phonics\fruits and vegetables.ppt" />
-    <None Include="kids\level_1\Phonics\fruits-1.pps" />
-    <None Include="kids\level_1\Phonics\Nature-1.pps" />
-    <None Include="kids\level_1\Phonics\sea creatures-1.pps" />
-    <None Include="kids\level_1\Phonics\shapes.ppt" />
-    <None Include="kids\level_1\Phonics\Transport.ppt" />
-    <None Include="kids\level_1\Phonics\vegetable-1.pps" />
-    <None Include="kids\level_1\Phonics\wild animal-1.pps" />
+    <Content Include="kids\level_1\Phonics\Animals-1.pps">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="kids\level_1\Phonics\colors-1.pps">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="kids\level_1\Phonics\Dolch Phrase Cards.pdf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="kids\level_1\Phonics\Flash Cards - Alphabet %28Lowercase%29.pps">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="kids\level_1\Phonics\Flash Cards - Animals 2.pps">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="kids\level_1\Phonics\Flash Cards - Colors 2.pps">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="kids\level_1\Phonics\Flash Cards - Eating Time 1.pps">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="kids\level_1\Phonics\Flash Cards - Food 2.pps">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="kids\level_1\Phonics\Flash Cards - Food 3.pps">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="kids\level_1\Phonics\Flash Cards - Food 4.pps">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="kids\level_1\Phonics\Flash Cards - Fruits 2.pps">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="kids\level_1\Phonics\Flash Cards - Musical Instruments 1.pps">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="kids\level_1\Phonics\Flash Cards - Musical Instruments 2.pps">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="kids\level_1\Phonics\Flash Cards - Musical Instruments 3.pps">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="kids\level_1\Phonics\fruits and vegetables.ppt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="kids\level_1\Phonics\fruits-1.pps">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="kids\level_1\Phonics\Nature-1.pps">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="kids\level_1\Phonics\sea creatures-1.pps">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="kids\level_1\Phonics\shapes.ppt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="kids\level_1\Phonics\Transport.ppt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="kids\level_1\Phonics\vegetable-1.pps">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="kids\level_1\Phonics\wild animal-1.pps">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
     <Content Include="kids\level_2\activity_books\ab %281%29.jpg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
