@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -97,7 +98,10 @@ namespace haiti
                     this.NavigationService.Navigate(new Uri("/kids/Activitybook_Level_Two.xaml", UriKind.Relative));
                     break;
                 case "clsAppDocumentsButton":
-                    this.NavigationService.Navigate(new Uri("/teachers/CLS_App_Docs_Page.xaml", UriKind.Relative));
+                    Process.Start("teachers\\teacher assets\\CLS Learning Apps\\Dishi_EducationalResourcesandBookletsdocumentation.docx.docx");
+                    break;
+                case "excelButton":
+                    this.NavigationService.Navigate(new Uri("/teachers/Excel_Docs_Page.xaml", UriKind.Relative));
                     break;
                 default:
                     break;

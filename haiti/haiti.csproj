@@ -168,8 +168,8 @@
     <Compile Include="teachers\Activity_Sheets_Page.xaml.cs">
       <DependentUpon>Activity_Sheets_Page.xaml</DependentUpon>
     </Compile>
-    <Compile Include="teachers\CLS_App_Docs_Page.xaml.cs">
-      <DependentUpon>CLS_App_Docs_Page.xaml</DependentUpon>
+    <Compile Include="teachers\Excel_Docs_Page.xaml.cs">
+      <DependentUpon>Excel_Docs_Page.xaml</DependentUpon>
     </Compile>
     <Compile Include="teachers\Computer_Page.xaml.cs">
       <DependentUpon>Computer_Page.xaml</DependentUpon>
@@ -370,7 +370,7 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="teachers\CLS_App_Docs_Page.xaml">
+    <Page Include="teachers\Excel_Docs_Page.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -518,7 +518,9 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
-    <None Include="teachers\teacher assets\CLS Learning Apps\Dishi_EducationalResourcesandBookletsdocumentation.docx.docx" />
+    <None Include="teachers\teacher assets\CLS Learning Apps\Dishi_EducationalResourcesandBookletsdocumentation.docx.docx">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
     <None Include="teachers\teacher assets\Computer\Computer and Internet_Lecture2_Print.pdf">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
@@ -537,12 +539,24 @@
     <None Include="teachers\teacher assets\Computer\Lecture 2-Computer-Basics--Windows and internet.ppt">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Include="teachers\teacher assets\MS Excel\Lecture 5-BeginnerLevel1_IntroExcel.ppt" />
-    <None Include="teachers\teacher assets\MS Excel\Lecture 6-BeginnerLevel2-ExcelBasics.ppt" />
-    <None Include="teachers\teacher assets\MS Excel\Lecture 7-Advanced level1-ExcelFormulas.ppt" />
-    <None Include="teachers\teacher assets\MS Excel\Lecture 8-AdvancedLevel2-ExcelFormatting.ppt" />
-    <None Include="teachers\teacher assets\MS Word\Lecture 3-An introduction to Microsoft Office.ppt" />
-    <None Include="teachers\teacher assets\MS Word\Lecture 4-Microsoft Word Basics_Handouts.docx" />
+    <None Include="teachers\teacher assets\MS Excel\Lecture 5-BeginnerLevel1_IntroExcel.ppt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="teachers\teacher assets\MS Excel\Lecture 6-BeginnerLevel2-ExcelBasics.ppt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="teachers\teacher assets\MS Excel\Lecture 7-Advanced level1-ExcelFormulas.ppt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="teachers\teacher assets\MS Excel\Lecture 8-AdvancedLevel2-ExcelFormatting.ppt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="teachers\teacher assets\MS Word\Lecture 3-An introduction to Microsoft Office.ppt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="teachers\teacher assets\MS Word\Lecture 4-Microsoft Word Basics_Handouts.docx">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>

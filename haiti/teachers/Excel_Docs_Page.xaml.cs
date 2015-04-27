@@ -17,11 +17,11 @@ using System.Windows.Shapes;
 namespace haiti.teachers
 {
     /// <summary>
-    /// Interaction logic for Word_Page.xaml
+    /// Interaction logic for CLS_App_Docs_Page.xaml
     /// </summary>
-    public partial class Word_Page : Page
+    public partial class CLS_App_Docs_Page : Page
     {
-        public Word_Page()
+        public CLS_App_Docs_Page()
         {
             InitializeComponent();
         }
@@ -57,21 +57,24 @@ namespace haiti.teachers
             }
 
         }
-
         private void Program_Click(object sender, RoutedEventArgs e)
         {
             string name = (string)((Button)sender).Name;
 
             switch (name)
             {
-                case "Word_Basics":
-                    Process.Start("teachers\\teacher assets\\MS Word\\Lecture 4-Microsoft Word Basics_Handouts.docx");
+                case "IntroExcel":
+                    Process.Start("teachers\\teacher assets\\MS Excel\\Lecture 5-BeginnerLevel1_IntroExcel.ppt");
                     break;
-                
-                case "Word_Introduction":
-                    Process.Start("teachers\\teacher assets\\MS Word\\Lecture 3-An introduction to Microsoft Office.ppt");
+                case "ExcelBasics":
+                    Process.Start("teachers\\teacher assets\\MS Excel\\Lecture 6-BeginnerLevel2-ExcelBasics.ppt");
                     break;
-                
+                case "IntermediateExcel":
+                    Process.Start("teachers\\teacher assets\\MS Excel\\Lecture 7-Advanced level1-ExcelFormulas.ppt");
+                    break;
+                case "AdvancedExcel":
+                    Process.Start("teachers\\teacher assets\\MS Excel\\Lecture 8-AdvancedLevel2-ExcelFormatting.ppt");
+                    break;
 
 
                 /*
@@ -84,4 +87,5 @@ namespace haiti.teachers
         }
 
     }
+
 }
