@@ -55,6 +55,45 @@ namespace haiti.teens
 
         }
 
+        private void Program_Click(object sender, RoutedEventArgs e)
+        {
+            string name = (string)((Button)sender).Content;
+
+            switch (name)
+            {
+                case "Addition":
+                    this.NavigationService.Navigate(new Uri("teens\\math_general\\addition.xaml", UriKind.Relative));
+                    break;
+                case "Subtraction":
+                    this.NavigationService.Navigate(new Uri("teens\\math_general\\subtraction.xaml", UriKind.Relative));
+                    break;
+                case "Multiplication":
+                    this.NavigationService.Navigate(new Uri("teens\\math_general\\multiplication.xaml", UriKind.Relative));
+                    break;
+                case "Division":
+                    this.NavigationService.Navigate(new Uri("teens\\math_general\\division.xaml", UriKind.Relative));
+                    break;
+                case "Lengths":
+                    this.NavigationService.Navigate(new Uri("teens\\math_general\\lengths.xaml", UriKind.Relative));
+                    break;
+                case "Percentages":
+                    this.NavigationService.Navigate(new Uri("teens\\math_general\\percentages.xaml", UriKind.Relative));
+                    break;
+                case "Graphs":
+                    this.NavigationService.Navigate(new Uri("teens\\math_general\\graphs.xaml", UriKind.Relative));
+                    break;
+                case "Fractions":
+                    this.NavigationService.Navigate(new Uri("teens\\math_general\\fractions.xaml", UriKind.Relative));
+                    break;
+
+                /*
+                case "Multiplication":
+                    Program.openMultiplicationPPT();
+                    break;
+                 */
+            }
+        }
+
        
     }
 }

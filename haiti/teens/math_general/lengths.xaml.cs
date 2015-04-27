@@ -10,21 +10,21 @@ using System.Windows.Documents;
 using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
+using System.Diagnostics;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace haiti.teens
+namespace haiti.teens.math_general
 {
     /// <summary>
-    /// Interaction logic for Math_Level_One.xaml
+    /// Interaction logic for lengths.xaml
     /// </summary>
-    public partial class Math_Level_One : Page
+    public partial class lengths : Page
     {
-        public Math_Level_One()
+        public lengths()
         {
             InitializeComponent();
         }
-
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
@@ -56,45 +56,31 @@ namespace haiti.teens
 
         }
 
-        private void Program_Click(object sender, RoutedEventArgs e)
+        private void Category_Click(object sender, RoutedEventArgs e)
         {
-            string name = (string)((Button)sender).Content;
+            string name = (string)((Button)sender).Name;
 
             switch (name)
             {
-                case "Addition":
-                    this.NavigationService.Navigate(new Uri("teens\\math_general\\addition.xaml", UriKind.Relative));
+                case "button0":
+                    Process.Start("teens\\level_3\\Math\\comparing-length-of-objects-1.pdf");
                     break;
-                case "Subtraction":
-                    this.NavigationService.Navigate(new Uri("teens\\math_general\\subtraction.xaml", UriKind.Relative));
+                case "button5":
+                    Process.Start("teens\\level_3\\Math\\comparing-length-of-objects-2.pdf");
                     break;
-                case "Multiplication":
-                    this.NavigationService.Navigate(new Uri("teens\\math_general\\multiplication.xaml", UriKind.Relative));
+                case "button9":
+                    Process.Start("teens\\level_3\\Math\\comparing-length-of-objects-3.pdf");
                     break;
-                case "Division":
-                    this.NavigationService.Navigate(new Uri("teens\\math_general\\division.xaml", UriKind.Relative));
+                case "button1":
+                    Process.Start("teens\\level_3\\Math\\comparing-length-of-objects-4.pdf");
                     break;
-                case "Lengths":
-                    this.NavigationService.Navigate(new Uri("teens\\math_general\\lengths.xaml", UriKind.Relative));
+                case "button6":
+                    Process.Start("teens\\level_3\\Math\\comparing-length-of-objects-5.pdf");
                     break;
-                case "Percentages":
-                    this.NavigationService.Navigate(new Uri("teens\\math_general\\percentages.xaml", UriKind.Relative));
-                    break;
-                case "Graphs":
-                    this.NavigationService.Navigate(new Uri("teens\\math_general\\graphs.xaml", UriKind.Relative));
-                    break;
-                case "Fractions":
-                    this.NavigationService.Navigate(new Uri("teens\\math_general\\fractions.xaml", UriKind.Relative));
-                    break;
-
-                /*
-                case "Multiplication":
-                    Program.openMultiplicationPPT();
-                    break;
-                 */
+                default:
+                    return;
             }
-        }
 
-       
+        }
     }
 }

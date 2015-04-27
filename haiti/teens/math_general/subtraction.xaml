@@ -1,0 +1,98 @@
+﻿<Page x:Class="haiti.teens.math_general.subtraction"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      mc:Ignorable="d" 
+      d:DesignHeight="300" d:DesignWidth="300"
+	Title="subtraction">
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="1*" />
+            <!--<<< Will resize to the size of contents -->
+            <RowDefinition Height="5*" />
+            <!--<<< Will resize to the size of contents -->
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="1*" />
+        </Grid.ColumnDefinitions>
+
+        <!--This set of rows makes up the top title bar-->
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="1*" />
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="1*" />
+                <ColumnDefinition Width="1*" />
+            </Grid.ColumnDefinitions>
+
+
+            <Grid Grid.Row="0" Grid.Column="0" Background="Black">
+                <TextBlock Grid.Row="0" Grid.Column="0" Text="Teens Math Subtraction" Background="Black" Foreground="White" TextWrapping="Wrap" FontSize="30" FontWeight="Bold" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+            </Grid>
+
+            <Grid Grid.Row="0" Grid.Column="1">
+
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="1*" />
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="1*" />
+                    <ColumnDefinition Width="1*" />
+                    <ColumnDefinition Width="1*" />
+                    <ColumnDefinition Width="1*" />
+                    <ColumnDefinition Width="1*" />
+                </Grid.ColumnDefinitions>
+
+                <Button Grid.Row="0" Grid.Column="0" Content="Home"         Background="#33B5E5" Foreground="White" Click="Button_Click"/>
+                <Button Grid.Row="0" Grid.Column="1" Content="Kids"         Background="#AA66CC" Foreground="White" Click="Button_Click"/>
+                <Button Grid.Row="0" Grid.Column="2" Content="Teens"        Background="#99CC00" Foreground="White" Click="Button_Click"/>
+                <Button Grid.Row="0" Grid.Column="3" Content="Teachers"     Background="#FF4444" Foreground="White" Click="Button_Click"/>
+                <Button Grid.Row="0" Grid.Column="4" Content="About"        Background="#FFBB33" Foreground="White" Click="Button_Click"/>
+            </Grid>
+
+        </Grid>
+
+        <!--This set of rows makes up the space for program buttons-->
+        <Grid x:Name="ProgramField" Grid.Row="1" Grid.Column="0" >
+            <Grid.RowDefinitions>
+                <RowDefinition Height="1*" />
+                <RowDefinition Height="2*" />
+                <RowDefinition Height="2*" />
+                <RowDefinition Height="2*" />
+                <RowDefinition Height="2*" />
+                <RowDefinition Height="2*" />
+                <RowDefinition Height="1*" />
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="1*" />
+                <ColumnDefinition Width="3*" />
+                <ColumnDefinition Width="3*" />
+                <ColumnDefinition Width="3*" />
+                <ColumnDefinition Width="1*" />
+            </Grid.ColumnDefinitions>
+
+            <!--Column 1-->
+            <Button x:Name="button0"                Content="Subtraction" Grid.Row="2" Grid.Column="1" Click="Category_Click"/>
+            <!--<Button x:Name="button1"                HorizontalAlignment="Center" Grid.Row="3" Grid.Column="1" Click="Category_Click"/>
+            <Button x:Name="button2"                HorizontalAlignment="Center" Grid.Row="4" Grid.Column="1" Click="Category_Click"/>
+            <Button x:Name="button3"                HorizontalAlignment="Center" Grid.Row="5" Grid.Column="1" Click="Category_Click"/>
+            <Button x:Name="button4"                HorizontalAlignment="Center" Grid.Row="6" Grid.Column="1" Click="Category_Click"/>-->
+
+            <!--Column 2-->
+            <!--<Button x:Name="button6"                HorizontalAlignment="Center" Grid.Row="3" Grid.Column="2" Click="Category_Click"/>
+            <Button x:Name="button7"                HorizontalAlignment="Center" Grid.Row="4" Grid.Column="2" Click="Category_Click"/>
+            <Button x:Name="button8"                HorizontalAlignment="Center" Grid.Row="5" Grid.Column="2" Click="Category_Click"/>-->
+
+            <!--Column 3-->
+            <!--<Button x:Name="button9"                HorizontalAlignment="Center" Grid.Row="2" Grid.Column="3" Click="Category_Click"/>
+            <Button x:Name="button10"               HorizontalAlignment="Center" Grid.Row="3" Grid.Column="3" Click="Category_Click"/>
+            <Button x:Name="button11"               HorizontalAlignment="Center" Grid.Row="4" Grid.Column="3" Click="Category_Click"/>
+            <Button x:Name="button12"               HorizontalAlignment="Center" Grid.Row="5" Grid.Column="3" Click="Category_Click"/>-->
+
+        </Grid>
+
+    </Grid>
+</Page>
