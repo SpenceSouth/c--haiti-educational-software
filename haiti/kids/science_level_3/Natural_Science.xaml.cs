@@ -14,14 +14,14 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace haiti.kids
+namespace haiti.kids.science_level_3
 {
     /// <summary>
-    /// Interaction logic for Computer_Level_Three.xaml
+    /// Interaction logic for Natural_Science.xaml
     /// </summary>
-    public partial class Computer_Level_Three : Page
+    public partial class Natural_Science : Page
     {
-        public Computer_Level_Three()
+        public Natural_Science()
         {
             InitializeComponent();
         }
@@ -56,23 +56,37 @@ namespace haiti.kids
 
         }
 
-        private void Program_Click(object sender, RoutedEventArgs e)
+        private void Category_Click(object sender, RoutedEventArgs e)
         {
-            string name = (string)((Button)sender).Content;
+            string name = (string)((Button)sender).Name;
 
             switch (name)
             {
-                case "Computer Parts":
-                    Process.Start("kids\\level_3\\Computer\\computer_parts.ppt");
+                case "button0":
+                    Process.Start("kids\\level_3\\Science\\Characteristics_of_Plants.ppt");
                     break;
-
-                /*
-                case "Multiplication":
-                    Program.openMultiplicationPPT();
+                case "button1":
+                    Process.Start("kids\\level_3\\Science\\everythingonearth.pdf");
                     break;
-                 */
+                case "button2":
+                    Process.Start("kids\\level_3\\Science\\Water.ppt");
+                    break;
+                case "button5":
+                    Process.Start("kids\\level_3\\Science\\ECOSYSTEM_for_kids.ppt");
+                    break;
+                case "button6":
+                    Process.Start("kids\\level_3\\Science\\life cycle of plans.ppt");
+                    break;
+                case "button9":
+                    Process.Start("kids\\level_3\\Science\\Essential_Nutrients_of_Plants.ppt");
+                    break;
+                case "button10":
+                    Process.Start("kids\\level_3\\Science\\Types_of_plant.ppt");
+                    break;
+                default:
+                    return;
             }
+
         }
-       
     }
 }

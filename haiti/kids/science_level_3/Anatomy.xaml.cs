@@ -14,14 +14,14 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace haiti.kids
+namespace haiti.kids.science_level_3
 {
     /// <summary>
-    /// Interaction logic for Computer_Level_Three.xaml
+    /// Interaction logic for Anatomy.xaml
     /// </summary>
-    public partial class Computer_Level_Three : Page
+    public partial class Anatomy : Page
     {
-        public Computer_Level_Three()
+        public Anatomy()
         {
             InitializeComponent();
         }
@@ -56,23 +56,22 @@ namespace haiti.kids
 
         }
 
-        private void Program_Click(object sender, RoutedEventArgs e)
+        private void Category_Click(object sender, RoutedEventArgs e)
         {
-            string name = (string)((Button)sender).Content;
+            string name = (string)((Button)sender).Name;
 
             switch (name)
             {
-                case "Computer Parts":
-                    Process.Start("kids\\level_3\\Computer\\computer_parts.ppt");
+                case "button0":
+                    Process.Start("kids\\level_3\\Science\\Human body.ppt");
                     break;
-
-                /*
-                case "Multiplication":
-                    Program.openMultiplicationPPT();
+                case "button5":
+                    Process.Start("kids\\level_3\\Science\\humanbodysystemsforkids.pdf");
                     break;
-                 */
+                default:
+                    return;
             }
+
         }
-       
     }
 }

@@ -1,11 +1,11 @@
-﻿<Page x:Class="haiti.kids.Computer_Level_Three"
+﻿<Page x:Class="haiti.kids.science_level_3.Outer_Space"
       xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
       xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
       xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
       xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
       mc:Ignorable="d" 
       d:DesignHeight="300" d:DesignWidth="300"
-	Title="Computer_Level_Three">
+	Title="Outer_Space">
 
     <Grid>
         <Grid.RowDefinitions>
@@ -30,7 +30,7 @@
 
 
             <Grid Grid.Row="0" Grid.Column="0" Background="Black">
-                <TextBlock Grid.Row="0" Grid.Column="0" Text="Kids - Computer&#x0a;Level Three" TextAlignment="Center" Background="Black" Foreground="White" TextWrapping="Wrap" FontSize="30" FontWeight="Bold" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                <TextBlock Grid.Row="0" Grid.Column="0" Text="Kids Science Outer Space" Background="Black" Foreground="White" TextWrapping="Wrap" FontSize="30" FontWeight="Bold" HorizontalAlignment="Center" VerticalAlignment="Center"/>
             </Grid>
 
             <Grid Grid.Row="0" Grid.Column="1">
@@ -59,33 +59,38 @@
         <Grid x:Name="ProgramField" Grid.Row="1" Grid.Column="0" >
             <Grid.RowDefinitions>
                 <RowDefinition Height="1*" />
-                <RowDefinition Height="4*" />
-                <RowDefinition Height="8*" />
-                <RowDefinition Height="8*" />
-                <RowDefinition Height="8*" />
-                <RowDefinition Height="8*" />
-                <RowDefinition Height="8*" />
-                <RowDefinition Height="8*" />
-                <RowDefinition Height="8*" />
-                <RowDefinition Height="5*" />
+                <RowDefinition Height="2*" />
+                <RowDefinition Height="2*" />
+                <RowDefinition Height="2*" />
+                <RowDefinition Height="2*" />
+                <RowDefinition Height="2*" />
+                <RowDefinition Height="1*" />
             </Grid.RowDefinitions>
             <Grid.ColumnDefinitions>
                 <ColumnDefinition Width="1*" />
-                <ColumnDefinition Width="4*" />
-                <ColumnDefinition Width="1*" />
-                <ColumnDefinition Width="5*" />
+                <ColumnDefinition Width="3*" />
+                <ColumnDefinition Width="3*" />
+                <ColumnDefinition Width="3*" />
                 <ColumnDefinition Width="1*" />
             </Grid.ColumnDefinitions>
 
-            <TextBlock Grid.Row="1" Grid.Column="1" Text="Program" />
-            <TextBlock Grid.Row="1" Grid.Column="3" Text="Description" />
+            <!--Column 1-->
+            <Button x:Name="button0"                Content="Our Solar System" Grid.Row="2" Grid.Column="1" Click="Category_Click"/>
+            <!--<Button x:Name="button1"                HorizontalAlignment="Center" Grid.Row="3" Grid.Column="1" Click="Category_Click"/>
+            <Button x:Name="button2"                HorizontalAlignment="Center" Grid.Row="4" Grid.Column="1" Click="Category_Click"/>
+            <Button x:Name="button3"                HorizontalAlignment="Center" Grid.Row="5" Grid.Column="1" Click="Category_Click"/>
+            <Button x:Name="button4"                HorizontalAlignment="Center" Grid.Row="6" Grid.Column="1" Click="Category_Click"/>-->
 
+            <!--Column 2-->
+            <!--<Button x:Name="button6"                HorizontalAlignment="Center" Grid.Row="3" Grid.Column="2" Click="Category_Click"/>
+            <Button x:Name="button7"                HorizontalAlignment="Center" Grid.Row="4" Grid.Column="2" Click="Category_Click"/>
+            <Button x:Name="button8"                HorizontalAlignment="Center" Grid.Row="5" Grid.Column="2" Click="Category_Click"/>-->
 
-            <Button x:Name="Parts_Button" Grid.Row="2" Grid.Column="1" Content="Computer Parts" Click="Program_Click" />
-            <!--  <Button x:Name="Multiplication_Button" Grid.Row="3" Grid.Column="1" Content="Multiplication" Click="Program_Click" />-->
-            <Border Grid.Row="2" Grid.Column="3" BorderThickness="1" BorderBrush="Black">
-                <TextBlock Text="Keyboard, Monitor, Mouse, Printer" TextWrapping="Wrap" HorizontalAlignment="Left" />
-            </Border>
+            <!--Column 3-->
+            <!--<Button x:Name="button9"                HorizontalAlignment="Center" Grid.Row="2" Grid.Column="3" Click="Category_Click"/>
+            <Button x:Name="button10"               HorizontalAlignment="Center" Grid.Row="3" Grid.Column="3" Click="Category_Click"/>
+            <Button x:Name="button11"               HorizontalAlignment="Center" Grid.Row="4" Grid.Column="3" Click="Category_Click"/>
+            <Button x:Name="button12"               HorizontalAlignment="Center" Grid.Row="5" Grid.Column="3" Click="Category_Click"/>-->
 
         </Grid>
 

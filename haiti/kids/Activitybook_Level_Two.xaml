@@ -8,55 +8,171 @@
 	Title="Activitybook_Level_Two">
 
     <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="1*" />
+            <!--<<< Will resize to the size of contents -->
+            <RowDefinition Height="5*" />
+            <!--<<< Will resize to the size of contents -->
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="1*" />
+        </Grid.ColumnDefinitions>
 
-
+        <!--This set of rows makes up the top title bar-->
         <Grid>
             <Grid.RowDefinitions>
                 <RowDefinition Height="1*" />
-                <!--<<< Will resize to the size of contents -->
-                <RowDefinition Height="5*" />
-                <!--<<< Will resize to the size of contents -->
             </Grid.RowDefinitions>
             <Grid.ColumnDefinitions>
                 <ColumnDefinition Width="1*" />
+                <ColumnDefinition Width="1*" />
             </Grid.ColumnDefinitions>
 
-            <!--This set of rows makes up the top title bar-->
-            <Grid>
+
+            <Grid Grid.Row="0" Grid.Column="0" Background="Black">
+                <TextBlock Grid.Row="0" Grid.Column="0" Text="Kids - Activity Books&#x0a;Level Three" TextAlignment="Center" Background="Black" Foreground="White" TextWrapping="Wrap" FontSize="30" FontWeight="Bold" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+            </Grid>
+
+            <Grid Grid.Row="0" Grid.Column="1">
+
                 <Grid.RowDefinitions>
                     <RowDefinition Height="1*" />
                 </Grid.RowDefinitions>
                 <Grid.ColumnDefinitions>
                     <ColumnDefinition Width="1*" />
                     <ColumnDefinition Width="1*" />
+                    <ColumnDefinition Width="1*" />
+                    <ColumnDefinition Width="1*" />
+                    <ColumnDefinition Width="1*" />
                 </Grid.ColumnDefinitions>
 
-
-                <Grid Grid.Row="0" Grid.Column="0" Background="Black">
-                    <TextBlock Grid.Row="0" Grid.Column="0" Text="Kids - Activity Book&#x0a;Level Two" TextAlignment="Center" Background="Black" Foreground="White" TextWrapping="Wrap" FontSize="30" FontWeight="Bold" HorizontalAlignment="Center" VerticalAlignment="Center"/>
-                </Grid>
-
-                <Grid Grid.Row="0" Grid.Column="1" Margin="0.2,0,-0.4,0.2">
-
-                    <Grid.RowDefinitions>
-                        <RowDefinition Height="1*" />
-                    </Grid.RowDefinitions>
-                    <Grid.ColumnDefinitions>
-                        <ColumnDefinition Width="1*" />
-                        <ColumnDefinition Width="1*" />
-                        <ColumnDefinition Width="1*" />
-                        <ColumnDefinition Width="1*" />
-                        <ColumnDefinition Width="1*" />
-                    </Grid.ColumnDefinitions>
-
-                    <Button Grid.Row="0" Grid.Column="0" Content="Home"         Background="#33B5E5" Foreground="White" Click="Button_Click"/>
-                    <Button Grid.Row="0" Grid.Column="1" Content="Kids"         Background="#AA66CC" Foreground="White" Click="Button_Click"/>
-                    <Button Grid.Row="0" Grid.Column="2" Content="Teens"        Background="#99CC00" Foreground="White" Click="Button_Click"/>
-                    <Button Grid.Row="0" Grid.Column="3" Content="Teachers"     Background="#FF4444" Foreground="White" Click="Button_Click"/>
-                    <Button Grid.Row="0" Grid.Column="4" Content="About"        Background="#FFBB33" Foreground="White" Click="Button_Click"/>
-                </Grid>
-
+                <Button Grid.Row="0" Grid.Column="0" Content="Home"         Background="#33B5E5" Foreground="White" Click="Button_Click"/>
+                <Button Grid.Row="0" Grid.Column="1" Content="Kids"         Background="#AA66CC" Foreground="White" Click="Button_Click"/>
+                <Button Grid.Row="0" Grid.Column="2" Content="Teens"        Background="#99CC00" Foreground="White" Click="Button_Click"/>
+                <Button Grid.Row="0" Grid.Column="3" Content="Teachers"     Background="#FF4444" Foreground="White" Click="Button_Click"/>
+                <Button Grid.Row="0" Grid.Column="4" Content="About"        Background="#FFBB33" Foreground="White" Click="Button_Click"/>
             </Grid>
+
         </Grid>
+
+        <ScrollViewer Grid.Row="1" Grid.Column="0">
+
+            <StackPanel Orientation="Vertical" HorizontalAlignment="Center" VerticalAlignment="Center">
+                <StackPanel Orientation="Horizontal">
+                    <Button x:Name="button0" Content="Activity Book 1" Margin="10" Click="Program_Click" />
+                    <Button x:Name="button1" Content="Activity Book 1" Margin="10" Click="Program_Click" />
+                    <Button x:Name="button2" Content="Activity Book 1" Margin="10" Click="Program_Click" />
+                    <Button x:Name="button3" Content="Activity Book 1" Margin="10" Click="Program_Click" />
+                    <Button x:Name="button4" Content="Activity Book 1" Margin="10" Click="Program_Click" />
+                    <Button x:Name="button5" Content="Activity Book 1" Margin="10" Click="Program_Click" />
+                </StackPanel>
+                <StackPanel Orientation="Horizontal">
+                    <Button x:Name="button6" Content="Activity Book 1" Margin="10" Click="Program_Click" />
+                    <Button x:Name="button7" Content="Activity Book 1" Margin="10" Click="Program_Click" />
+                    <Button x:Name="button8" Content="Activity Book 1" Margin="10" Click="Program_Click" />
+                    <Button x:Name="button9" Content="Activity Book 1" Margin="10" Click="Program_Click" />
+                    <Button x:Name="button10" Content="Activity Book 1" Margin="10" Click="Program_Click" />
+                    <Button x:Name="button11" Content="Activity Book 1" Margin="10" Click="Program_Click" />
+                </StackPanel>
+                <StackPanel Orientation="Horizontal">
+                    <Button x:Name="button12" Content="Activity Book 1" Margin="10" Click="Program_Click" />
+                    <Button x:Name="button13" Content="Activity Book 1" Margin="10" Click="Program_Click" />
+                    <Button x:Name="button14" Content="Activity Book 1" Margin="10" Click="Program_Click" />
+                    <Button x:Name="button15" Content="Activity Book 1" Margin="10" Click="Program_Click" />
+                    <Button x:Name="button16" Content="Activity Book 1" Margin="10" Click="Program_Click" />
+                    <Button x:Name="button17" Content="Activity Book 1" Margin="10" Click="Program_Click" />
+                </StackPanel>
+                <StackPanel Orientation="Horizontal">
+                    <Button x:Name="button18" Content="Activity Book 1" Margin="10" Click="Program_Click" />
+                    <Button x:Name="button19" Content="Activity Book 1" Margin="10" Click="Program_Click" />
+                    <Button x:Name="button20" Content="Activity Book 1" Margin="10" Click="Program_Click" />
+                    <Button x:Name="button21" Content="Activity Book 1" Margin="10" Click="Program_Click" />
+                    <Button x:Name="button22" Content="Activity Book 1" Margin="10" Click="Program_Click" />
+                    <Button x:Name="button23" Content="Activity Book 1" Margin="10" Click="Program_Click" />
+                </StackPanel>
+                <StackPanel Orientation="Horizontal">
+                    <Button x:Name="button24" Content="Activity Book 1" Margin="10" Click="Program_Click" />
+                    <Button x:Name="button25" Content="Activity Book 1" Margin="10" Click="Program_Click" />
+                    <Button x:Name="button26" Content="Activity Book 1" Margin="10" Click="Program_Click" />
+                    <Button x:Name="button27" Content="Activity Book 1" Margin="10" Click="Program_Click" />
+                    <Button x:Name="button28" Content="Activity Book 1" Margin="10" Click="Program_Click" />
+                    <Button x:Name="button29" Content="Activity Book 1" Margin="10" Click="Program_Click" />
+                </StackPanel>
+                <StackPanel Orientation="Horizontal">
+                    <Button x:Name="button30" Content="Activity Book 1" Margin="10" Click="Program_Click" />
+                    <Button x:Name="button31" Content="Activity Book 1" Margin="10" Click="Program_Click" />
+                    <Button x:Name="button32" Content="Activity Book 1" Margin="10" Click="Program_Click" />
+                    <Button x:Name="button33" Content="Activity Book 1" Margin="10" Click="Program_Click" />
+                    <Button x:Name="button34" Content="Activity Book 1" Margin="10" Click="Program_Click" />
+                    <Button x:Name="button35" Content="Activity Book 1" Margin="10" Click="Program_Click" />
+                </StackPanel>
+                <StackPanel Orientation="Horizontal">
+                    <Button x:Name="button36" Content="Activity Book 1" Margin="10" Click="Program_Click" />
+                    <Button x:Name="button37" Content="Activity Book 1" Margin="10" Click="Program_Click" />
+                    <Button x:Name="button38" Content="Activity Book 1" Margin="10" Click="Program_Click" />
+                    <Button x:Name="button39" Content="Activity Book 1" Margin="10" Click="Program_Click" />
+                    <Button x:Name="button40" Content="Activity Book 1" Margin="10" Click="Program_Click" />
+                    <Button x:Name="button41" Content="Activity Book 1" Margin="10" Click="Program_Click" />
+                </StackPanel>
+                <StackPanel Orientation="Horizontal">
+                    <Button x:Name="button42" Content="Activity Book 1" Margin="10" Click="Program_Click" />
+                    <Button x:Name="button43" Content="Activity Book 1" Margin="10" Click="Program_Click" />
+                    <Button x:Name="button44" Content="Activity Book 1" Margin="10" Click="Program_Click" />
+                    <Button x:Name="button45" Content="Activity Book 1" Margin="10" Click="Program_Click" />
+                    <Button x:Name="button46" Content="Activity Book 1" Margin="10" Click="Program_Click" />
+                    <Button x:Name="button47" Content="Activity Book 1" Margin="10" Click="Program_Click" />
+                </StackPanel>
+                <StackPanel Orientation="Horizontal">
+                    <Button x:Name="button48" Content="Activity Book 1" Margin="10" Click="Program_Click" />
+                    <Button x:Name="button49" Content="Activity Book 1" Margin="10" Click="Program_Click" />
+                    <Button x:Name="button50" Content="Activity Book 1" Margin="10" Click="Program_Click" />
+                    <Button x:Name="button51" Content="Activity Book 1" Margin="10" Click="Program_Click" />
+                    <Button x:Name="button52" Content="Activity Book 1" Margin="10" Click="Program_Click" />
+                    <Button x:Name="button53" Content="Activity Book 1" Margin="10" Click="Program_Click" />
+                </StackPanel>
+                <StackPanel Orientation="Horizontal">
+                    <Button x:Name="button54" Content="Activity Book 1" Margin="10" Click="Program_Click" />
+                    <Button x:Name="button55" Content="Activity Book 1" Margin="10" Click="Program_Click" />
+                    <Button x:Name="button56" Content="Activity Book 1" Margin="10" Click="Program_Click" />
+                    <Button x:Name="button57" Content="Activity Book 1" Margin="10" Click="Program_Click" />
+                    <Button x:Name="button58" Content="Activity Book 1" Margin="10" Click="Program_Click" />
+                    <Button x:Name="button59" Content="Activity Book 1" Margin="10" Click="Program_Click" />
+                </StackPanel>
+                <StackPanel Orientation="Horizontal">
+                    <Button x:Name="button60" Content="Activity Book 1" Margin="10" Click="Program_Click" />
+                    <Button x:Name="button61" Content="Activity Book 1" Margin="10" Click="Program_Click" />
+                    <Button x:Name="button62" Content="Activity Book 1" Margin="10" Click="Program_Click" />
+                    <Button x:Name="button63" Content="Activity Book 1" Margin="10" Click="Program_Click" />
+                    <Button x:Name="button64" Content="Activity Book 1" Margin="10" Click="Program_Click" />
+                    <Button x:Name="button65" Content="Activity Book 1" Margin="10" Click="Program_Click" />
+                </StackPanel>
+                <StackPanel Orientation="Horizontal">
+                    <Button x:Name="button66" Content="Activity Book 1" Margin="10" Click="Program_Click" />
+                    <Button x:Name="button67" Content="Activity Book 1" Margin="10" Click="Program_Click" />
+                    <Button x:Name="button68" Content="Activity Book 1" Margin="10" Click="Program_Click" />
+                    <Button x:Name="button69" Content="Activity Book 1" Margin="10" Click="Program_Click" />
+                    <Button x:Name="button70" Content="Activity Book 1" Margin="10" Click="Program_Click" />
+                    <Button x:Name="button71" Content="Activity Book 1" Margin="10" Click="Program_Click" />
+                </StackPanel>
+                <StackPanel Orientation="Horizontal">
+                    <Button x:Name="button72" Content="Activity Book 1" Margin="10" Click="Program_Click" />
+                    <Button x:Name="button73" Content="Activity Book 1" Margin="10" Click="Program_Click" />
+                    <Button x:Name="button74" Content="Activity Book 1" Margin="10" Click="Program_Click" />
+                    <Button x:Name="button75" Content="Activity Book 1" Margin="10" Click="Program_Click" />
+                    <Button x:Name="button76" Content="Activity Book 1" Margin="10" Click="Program_Click" />
+                    <Button x:Name="button77" Content="Activity Book 1" Margin="10" Click="Program_Click" />
+                </StackPanel>
+                <StackPanel Orientation="Horizontal">
+                    <Button x:Name="button78" Content="Activity Book 1" Margin="10" Click="Program_Click" />
+                    <Button x:Name="button79" Content="Activity Book 1" Margin="10" Click="Program_Click" />
+                    <Button x:Name="button80" Content="Activity Book 1" Margin="10" Click="Program_Click" />
+                    <Button x:Name="button81" Content="Activity Book 1" Margin="10" Click="Program_Click" />
+                    <Button x:Name="button82" Content="Activity Book 1" Margin="10" Click="Program_Click" />
+                    <Button x:Name="button83" Content="Activity Book 1" Margin="10" Click="Program_Click" />
+                </StackPanel>
+            </StackPanel>
+
+        </ScrollViewer>
+
     </Grid>
 </Page>
