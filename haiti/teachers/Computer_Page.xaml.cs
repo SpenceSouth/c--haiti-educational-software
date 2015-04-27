@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -29,7 +30,7 @@ namespace haiti.teachers
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
-            string name = (string)((Button)sender).Content;
+            string name = (string) ((Button) sender).Content;
 
             switch (name)
             {
@@ -53,6 +54,43 @@ namespace haiti.teachers
                     Uri teachersUri = new Uri("TeachersPage.xaml", UriKind.Relative);
                     this.NavigationService.Navigate(teachersUri);
                     break;
+            }
+
+        }
+
+        
+
+        private void Program_Click(object sender, RoutedEventArgs e)
+        {
+            string name = (string) ((Button) sender).Name;
+
+            switch (name)
+            {
+                case "Computer_Basics_1":
+                    Process.Start("teachers\\teacher assets\\Computer\\Lecture 1-Basics of computer.ppt");
+                    break;
+                case "Computer_Basics_2":
+                    Process.Start("teachers\\teacher assets\\Computer\\ComputerBasics-2.pdf");
+                    break;
+                case "Lecture_1":
+                    Process.Start("teachers\\teacher assets\\Computer\\Lecture 1-Basics of computer.ppt");
+                    break;
+                case "Lecture_2":
+                    Process.Start("teachers\\teacher assets\\Computer\\Lecture 2-Computer-Basics--Windows and internet.ppt");
+                    break;
+                case "Computer_fundementals":
+                    Process.Start("teachers\\teacher assets\\Computer\\computer_fundamentals_tutorial_Textbook.pdf");
+                    break;
+                case "Computer_and_Internet":
+                    Process.Start("teachers\\teacher assets\\Computer\\Computer and Internet_Lecture2_Print.pdf");
+                    break;
+
+
+                /*
+                case "Multiplication":
+                    Program.openMultiplicationPPT();
+                    break;
+                 */
             }
 
         }
