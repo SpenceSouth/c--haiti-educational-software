@@ -19,7 +19,7 @@
         </Grid.ColumnDefinitions>
         
         <Grid Grid.Row="0" Grid.Column="0" Background="Black">
-            <TextBlock Grid.Row="0" Grid.Column="0" Text="Christian Light Haiti" Background="Black" Foreground="White" TextWrapping="Wrap" FontSize="30" FontWeight="Bold" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+            <TextBlock Grid.Row="0" Grid.Column="0" Text="CLS Learning Lab" Background="Black" Foreground="White" TextWrapping="Wrap" FontSize="30" FontWeight="Bold" HorizontalAlignment="Center" VerticalAlignment="Center"/>
         </Grid>
         <Grid Grid.Row="0" Grid.Column="2" Margin="0.2,0,-0.4,0.2">
 
@@ -58,8 +58,8 @@
                 
             </Grid.ColumnDefinitions>
 
-            <TextBlock Grid.Row="0" Grid.Column="1" Text="Welcome to the Christian Light Study Program" FontSize="20" TextAlignment="Center" FontWeight="ExtraBold" Foreground="Gray" VerticalAlignment="Bottom" HorizontalAlignment="Center"/>
-            <TextBlock Grid.Row="1" Grid.Column="1" Text="A safe place where students can create, learn, and play." FontSize="14" VerticalAlignment="Top" HorizontalAlignment="Center"/>
+            <TextBlock Grid.Row="0" Grid.Column="1" Text="Welcome to the Christian Light Study Program" FontSize="20" TextWrapping="Wrap" TextAlignment="Center" FontWeight="ExtraBold" Foreground="Gray" VerticalAlignment="Bottom" HorizontalAlignment="Center"/>
+            <TextBlock Grid.Row="1" Grid.Column="1" Text="A safe place where students can create, learn, and play." TextWrapping="Wrap" FontSize="14" VerticalAlignment="Top" HorizontalAlignment="Center"/>
             <Image Grid.Row="2" Grid.Column="1" Source="assets\homePageLogo.png"/>
         </Grid>
         
