@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -52,6 +53,46 @@ namespace haiti.kids
                     Uri teachersUri = new Uri("TeachersPage.xaml", UriKind.Relative);
                     this.NavigationService.Navigate(teachersUri);
                     break;
+            }
+
+        }
+        private void Category_Click(object sender, RoutedEventArgs e)
+        {
+            string name = (string)((Button)sender).Name;
+
+            switch (name)
+            {
+                case "button0":
+                    Process.Start("kids\\level_3\\English\\picturegrammarforchildrenstarter.pdf");
+                    break;
+                case "button1":
+                    Process.Start("kids\\level_3\\English\\childrensillustrateddictionary.pdf");
+                    break;
+                case "button2":
+                    Process.Start("kids\\level_3\\English\\lyoungchildrenspicturedictionary.pdf");
+                    break;
+                case "button3":
+                    Process.Start("kids\\level_3\\English\\childrensillustrateddictionary.pdf");
+                    break;
+              /*  case "button4":
+                    Process.Start("kids\\level_3\\Math\\count-pictures-5.pdf");
+                    break;
+                case "button5":
+                    Process.Start("kids\\level_3\\Math\\count-pictures-6.pdf");
+                    break;
+                case "button6":
+                    Process.Start("kids\\level_3\\Math\\count-pictures-7.pdf");
+                    break;
+                case "button7":
+                    Process.Start("kids\\level_3\\Math\\count-pictures-8.pdf");
+                    break;
+                case "button8":
+                    Process.Start("kids\\level_3\\Math\\count-pictures-1.pdf");
+                    break;*/
+
+
+                default:
+                    return;
             }
 
         }
