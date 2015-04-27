@@ -13,39 +13,19 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace haiti
+namespace haiti.teachers
 {
     /// <summary>
-    /// Interaction logic for TeachersPage.xaml
+    /// Interaction logic for Word_Page.xaml
     /// </summary>
-    public partial class TeachersPage : Page
+    public partial class Word_Page : Page
     {
-        public TeachersPage()
+        public Word_Page()
         {
             InitializeComponent();
-            //Add images to existing xaml buttons
-            addImageToButton(wordButton, "/assets/microsoftWord.png");
-            addImageToButton(powerpointButton, "/assets/microsoftPowerPoint.png");     
-            addImageToButton(computerButton, "/assets/computer.png");
-            addImageToButton(activitySheetsButton, "/assets/activitySheets.png");
-            addImageToButton(clsAppDocumentsButton, "/assets/clsApps.png");
         }
 
-        private void addImageToButton(Button b, String src)
-        {
 
-            Image img = new Image();
-            img.Source = new BitmapImage(new Uri(src, UriKind.RelativeOrAbsolute));
-
-            StackPanel stackPnl = new StackPanel();
-            stackPnl.Orientation = Orientation.Horizontal;
-            stackPnl.Margin = new Thickness(10);
-            stackPnl.Children.Add(img);
-
-            b.Content = stackPnl;
-            b.Background = Brushes.White;
-
-        }
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
@@ -77,24 +57,5 @@ namespace haiti
 
         }
 
-        private void Category_Click(object sender, RoutedEventArgs e)
-        {
-            string name = (string)((Button)sender).Name;
-
-            switch (name)
-            {
-                case "wordButton":
-                    this.NavigationService.Navigate(new Uri("/teachers/Word_Page.xaml", UriKind.Relative));
-                    break;
-                case "powerpointButton":
-                    break;
-                case "activitySheetsButton":
-                    break;
-                case "clsAppDocumentsButton":
-                    break;
-                default:
-                    break;
-            }
-        }
     }
 }

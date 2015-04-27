@@ -156,6 +156,9 @@
     <Compile Include="TeachersPage.xaml.cs">
       <DependentUpon>TeachersPage.xaml</DependentUpon>
     </Compile>
+    <Compile Include="teachers\Word_Page.xaml.cs">
+      <DependentUpon>Word_Page.xaml</DependentUpon>
+    </Compile>
     <Compile Include="TeensPage.xaml.cs">
       <DependentUpon>TeensPage.xaml</DependentUpon>
     </Compile>
@@ -294,6 +297,10 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="TeachersPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="teachers\Word_Page.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -693,6 +700,8 @@
     </COMReference>
   </ItemGroup>
   <ItemGroup>
+    <Resource Include="assets\clsApps.png" />
+    <Resource Include="assets\activitySheets.png" />
     <Content Include="kids\level_1\Rhymes\alphabet.mp3" />
     <Content Include="kids\level_1\Rhymes\bingo.mp3" />
     <Content Include="kids\level_1\Rhymes\ifyourehappyandyouknowit.mp3" />
