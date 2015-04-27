@@ -66,7 +66,6 @@
                 <RowDefinition Height="2*" />
                 <RowDefinition Height="2*" />
                 <RowDefinition Height="2*" />
-                <RowDefinition Height="2*" />
                 <RowDefinition Height="1*" />
             </Grid.RowDefinitions>
             <Grid.ColumnDefinitions>
@@ -103,7 +102,6 @@
             <Button x:Name="englishThreeButton"    Grid.Row="5" Grid.Column="3" Click="Category_Click"/>
             <Button x:Name="generalThreeButton"    Grid.Row="6" Grid.Column="3" Click="Category_Click"/>
             <Button x:Name="jobsButton"            Grid.Row="7" Grid.Column="3" Click="Category_Click"/>
-            <Button x:Name="computerButton"        Grid.Row="8" Grid.Column="3" Click="Category_Click"/>
 
         </Grid>
 

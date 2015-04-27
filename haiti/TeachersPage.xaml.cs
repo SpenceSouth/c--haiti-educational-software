@@ -25,7 +25,8 @@ namespace haiti
             InitializeComponent();
             //Add images to existing xaml buttons
             addImageToButton(wordButton, "/assets/microsoftWord.png");
-            addImageToButton(powerpointButton, "/assets/microsoftPowerPoint.png");     
+            addImageToButton(powerpointButton, "/assets/microsoftPowerPoint.png");
+            addImageToButton(excelButton, "/assets/microsoftExcel.png");  
             addImageToButton(computerButton, "/assets/computer.png");
             addImageToButton(activitySheetsButton, "/assets/activitySheets.png");
             addImageToButton(clsAppDocumentsButton, "/assets/clsApps.png");

@@ -183,9 +183,6 @@
     <Compile Include="TeensPage.xaml.cs">
       <DependentUpon>TeensPage.xaml</DependentUpon>
     </Compile>
-    <Compile Include="teens\Computer_Level_Three.xaml.cs">
-      <DependentUpon>Computer_Level_Three.xaml</DependentUpon>
-    </Compile>
     <Compile Include="teens\English_Level_One.xaml.cs">
       <DependentUpon>English_Level_One.xaml</DependentUpon>
     </Compile>
@@ -354,10 +351,6 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="TeensPage.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
-    <Page Include="teens\Computer_Level_Three.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

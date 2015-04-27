@@ -41,7 +41,6 @@ namespace haiti
             addImageToButton(englishThreeButton, "/assets/english.png");
             addImageToButton(generalThreeButton, "/assets/generalKnowledge.png");
             addImageToButton(jobsButton, "/assets/jobs.png");
-            addImageToButton(computerButton, "/assets/computer.png");
         }
 
         private void addImageToButton(Button b, String src)
@@ -134,9 +133,6 @@ namespace haiti
                     break;
                 case "jobsButton":
                     this.NavigationService.Navigate(new Uri("/teens/Jobs_Level_Three.xaml", UriKind.Relative));
-                    break;
-                case "computerButton":
-                    this.NavigationService.Navigate(new Uri("/teens/Computer_Level_Three.xaml", UriKind.Relative));
                     break;
                 default:
                     break;

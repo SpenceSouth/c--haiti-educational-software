@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -53,6 +54,31 @@ namespace haiti.teens
                     break;
             }
 
+        }
+        private void Program_Click(object sender, RoutedEventArgs e)
+        {
+            string name = (string)((Button)sender).Name;
+
+            switch (name)
+            {
+                case "cillDictionaryButton":
+                    Process.Start("");
+                    break;
+                case "illGrammarButton":
+                    Process.Start("");
+                    break;
+                case "picDictionaryButton":
+                    Process.Start("");
+                    break;
+                case "activityBookButton":
+                    Process.Start("");
+                    break;
+                case "picGrammarButton":
+                    Process.Start("");
+                    break;
+                default:
+                    break;
+            }
         }
 
     }

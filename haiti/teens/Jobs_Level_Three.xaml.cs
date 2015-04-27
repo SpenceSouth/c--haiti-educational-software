@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -53,6 +54,25 @@ namespace haiti.teens
                     break;
             }
 
+        }
+        private void Program_Click(object sender, RoutedEventArgs e)
+        {
+            string name = (string)((Button)sender).Name;
+
+            switch (name)
+            {
+                case "careerChoices2Button":
+                    Process.Start("");
+                    break;
+                case "jobspptButton":
+                    Process.Start("");
+                    break;
+                case "jobsAndProfessionsButton":
+                    Process.Start("");
+                    break;
+                default:
+                    break;
+            }
         }
 
        

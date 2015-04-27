@@ -81,12 +81,13 @@
 
             <!--Categories Column 1-->
             <Button x:Name="wordButton"          Grid.Row="3" Grid.Column="1" Click="Category_Click"/>
-            <Button x:Name="powerpointButton"       Grid.Row="4" Grid.Column="1" Click="Category_Click"/>
+            <Button x:Name="powerpointButton"    Grid.Row="4" Grid.Column="1" Click="Category_Click"/>
+            <Button x:Name="excelButton"         Grid.Row="5" Grid.Column="1" Click="Category_Click"/>
             
             <!--Categories Column 2-->
             <Button x:Name="computerButton"         Grid.Row="3" Grid.Column="2" Click="Category_Click"/>
-            <Button x:Name="activitySheetsButton"      Grid.Row="4" Grid.Column="2" Click="Category_Click"/>
-            <Button x:Name="clsAppDocumentsButton"      Grid.Row="5" Grid.Column="2" Click="Category_Click"/>
+            <Button x:Name="activitySheetsButton"   Grid.Row="4" Grid.Column="2" Click="Category_Click"/>
+            <Button x:Name="clsAppDocumentsButton"  Grid.Row="5" Grid.Column="2" Click="Category_Click"/>
          
 
         </Grid>

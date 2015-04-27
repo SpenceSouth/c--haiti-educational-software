@@ -56,5 +56,54 @@
             </Grid>
 
         </Grid>
+        <!--This set of rows makes up the space for program buttons-->
+        <Grid x:Name="ProgramField" Grid.Row="1" Grid.Column="0" >
+            <Grid.RowDefinitions>
+                <RowDefinition Height="1*" />
+                <RowDefinition Height="4*" />
+                <RowDefinition Height="8*" />
+                <RowDefinition Height="8*" />
+                <RowDefinition Height="8*" />
+                <RowDefinition Height="8*" />
+                <RowDefinition Height="8*" />
+                <RowDefinition Height="5*" />
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="1*" />
+                <ColumnDefinition Width="4*" />
+                <ColumnDefinition Width="1*" />
+                <ColumnDefinition Width="5*" />
+                <ColumnDefinition Width="1*" />
+            </Grid.ColumnDefinitions>
+
+            <TextBlock Grid.Row="1" Grid.Column="1" Text="Program" />
+            <TextBlock Grid.Row="1" Grid.Column="3" Text="Description" />
+
+            <Button x:Name="illDictionaryButton" Grid.Row="2" Grid.Column="1" Content="Illustrated Dictionary" Click="Program_Click" />
+            <Border Grid.Row="2" Grid.Column="3" BorderThickness="1" BorderBrush="Black">
+                <TextBlock Text="Insert description here" TextWrapping="Wrap" HorizontalAlignment="Left" />
+            </Border>
+
+            <Button x:Name="illGrammarButton" Grid.Row="3" Grid.Column="1" Content="Just Enough English Grammar Illustrated" Click="Program_Click" />
+            <Border Grid.Row="3" Grid.Column="3" BorderThickness="1" BorderBrush="Black">
+                <TextBlock Text="Insert description here" TextWrapping="Wrap" HorizontalAlignment="Left" />
+            </Border>
+
+            <Button x:Name="picDictionaryButton" Grid.Row="4" Grid.Column="1" Content="Picture Dictionary" Click="Program_Click" />
+            <Border Grid.Row="4" Grid.Column="3" BorderThickness="1" BorderBrush="Black">
+                <TextBlock Text="Insert description here" TextWrapping="Wrap" HorizontalAlignment="Left" />
+            </Border>
+
+            <Button x:Name="activityBookButton" Grid.Row="5" Grid.Column="1" Content="My New Words Activity Book" Click="Program_Click" />
+            <Border Grid.Row="5" Grid.Column="3" BorderThickness="1" BorderBrush="Black">
+                <TextBlock Text="Insert description here" TextWrapping="Wrap" HorizontalAlignment="Left" />
+            </Border>
+
+            <Button x:Name="picGrammarButton" Grid.Row="6" Grid.Column="1" Content="Picture Grammar for Children" Click="Program_Click" />
+            <Border Grid.Row="6" Grid.Column="3" BorderThickness="1" BorderBrush="Black">
+                <TextBlock Text="Insert description here" TextWrapping="Wrap" HorizontalAlignment="Left" />
+            </Border>
+
+        </Grid>
     </Grid>
 </Page>
