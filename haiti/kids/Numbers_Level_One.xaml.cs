@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -53,6 +54,23 @@ namespace haiti.kids
                     break;
             }
 
+        }
+
+        private void Program_Click(object sender, RoutedEventArgs e)
+        {
+            string name = (string)((Button)sender).Name;
+
+            switch (name)
+            {
+                case "numbersButton":
+                    Process.Start("kids\\level_1\\Numbers\\numbers.pdf");
+                    break;
+                case "numbers002Button":
+                    Process.Start("kids\\level_1\\Numbers\\numbers002.pdf");
+                    break;
+                default:
+                    break;
+            }
         }
 
        

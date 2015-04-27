@@ -23,6 +23,7 @@ namespace haiti.kids
         public Phonics_Level_One()
         {
             InitializeComponent();
+            MessageBox.Show("Need to add scrollbar");
         }
 
 

@@ -23,6 +23,8 @@ namespace haiti.kids
         public Art_Level_One()
         {
             InitializeComponent();
+
+            MessageBox.Show("Currently No Content Available");
         }
 
         private void Button_Click(object sender, RoutedEventArgs e)

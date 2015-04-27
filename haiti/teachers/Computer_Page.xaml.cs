@@ -1,6 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Diagnostics;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -14,17 +13,19 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace haiti.kids
+namespace haiti.teachers
 {
     /// <summary>
-    /// Interaction logic for Alphabet_Level_One.xaml
+    /// Interaction logic for Computer_Page.xaml
     /// </summary>
-    public partial class Alphabet_Level_One : Page
+    public partial class Computer_Page : Page
     {
-        public Alphabet_Level_One()
+        public Computer_Page()
         {
             InitializeComponent();
         }
+
+
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
@@ -53,26 +54,8 @@ namespace haiti.kids
                     this.NavigationService.Navigate(teachersUri);
                     break;
             }
+
         }
 
-        private void Program_Click(object sender, RoutedEventArgs e)
-        {
-            string name = (string)((Button)sender).Name;
-
-            switch (name)
-            {
-                case "alphabets001Button":
-                    Process.Start("kids\\level_1\\alphabets\\albhabets001.pdf");
-                    break;
-                case "alphabetsButton":
-                    Process.Start("kids\\level_1\\alphabets\\alphabets.pdf");
-                    break;
-                case "zoophabetButton":
-                    Process.Start("kids\\level_1\\alphabets\\zoophabets.pdf");
-                    break;
-                default:
-                    break;
-            }
-        }
     }
 }

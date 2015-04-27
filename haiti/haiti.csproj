@@ -156,6 +156,18 @@
     <Compile Include="TeachersPage.xaml.cs">
       <DependentUpon>TeachersPage.xaml</DependentUpon>
     </Compile>
+    <Compile Include="teachers\Activity_Sheets_Page.xaml.cs">
+      <DependentUpon>Activity_Sheets_Page.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="teachers\CLS_App_Docs_Page.xaml.cs">
+      <DependentUpon>CLS_App_Docs_Page.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="teachers\Computer_Page.xaml.cs">
+      <DependentUpon>Computer_Page.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="teachers\PowerPoint_Page.xaml.cs">
+      <DependentUpon>PowerPoint_Page.xaml</DependentUpon>
+    </Compile>
     <Compile Include="teachers\Word_Page.xaml.cs">
       <DependentUpon>Word_Page.xaml</DependentUpon>
     </Compile>
@@ -300,6 +312,22 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="teachers\Activity_Sheets_Page.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="teachers\CLS_App_Docs_Page.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="teachers\Computer_Page.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="teachers\PowerPoint_Page.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="teachers\Word_Page.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -397,11 +425,21 @@
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
     <None Include="haiti_TemporaryKey.pfx" />
-    <None Include="kids\level_1\alphabets\activity-sheets-Albhabets001.pdf" />
-    <None Include="kids\level_1\alphabets\activity-sheets-alphabets.pdf" />
-    <None Include="kids\level_1\alphabets\Zoophabet-An-Alphabet-That%27s-Hungrier-Than-Most.pdf" />
-    <None Include="kids\level_1\Numbers\activity-sheets-Numbers.pdf" />
-    <None Include="kids\level_1\Numbers\activity-sheets-Numbers002.pdf" />
+    <Content Include="kids\level_1\alphabets\albhabets001.pdf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="kids\level_1\alphabets\alphabets.pdf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="kids\level_1\alphabets\zoophabets.pdf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="kids\level_1\Numbers\numbers.pdf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="kids\level_1\Numbers\numbers002.pdf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
     <None Include="kids\level_1\Phonics\Animals-1.pps" />
     <None Include="kids\level_1\Phonics\colors-1.pps" />
     <None Include="kids\level_1\Phonics\Dolch Phrase Cards.pdf" />
@@ -434,36 +472,94 @@
     <None Include="kids\level_2\Activity books\Days of the Week Learn Write 2 _ Hungry Carterpillar.pdf" />
     <None Include="kids\level_2\Activity books\DolchNoun - Words with Pictures.pdf" />
     <None Include="kids\level_2\Activity books\Months of the Year %28final%29.pdf" />
-    <None Include="kids\level_2\Health\goodhabits.ppt" />
-    <None Include="kids\level_2\Health\Human Body-Kids.ppt" />
-    <None Include="kids\level_2\Health\KeepGermsAwayEveryDay.ppt" />
-    <None Include="kids\level_2\Health\personal-hygiene-sequence-the-pictures-1.pdf" />
-    <None Include="kids\level_2\Health\personal-hygiene-sequence-the-pictures-2.pdf" />
-    <None Include="kids\level_2\Health\personal-hygiene-sequence-the-pictures-3.pdf" />
-    <None Include="kids\level_2\Health\personal-hygiene-sequence-the-pictures-4.pdf" />
-    <None Include="kids\level_2\Health\personal-hygiene-sequence-the-pictures-5.pdf" />
-    <None Include="kids\level_2\Health\personal-hygiene-sequence-the-pictures-6.pdf" />
-    <None Include="kids\level_2\Health\personalhygiene.ppt" />
-    <None Include="kids\level_2\Health\personalhygieneandsunsafety.ppt" />
-    <None Include="kids\level_2\Reading and writing\handwriting-practice-sentences-1-printable_1.pdf" />
-    <None Include="kids\level_2\Reading and writing\handwriting-practice-sentences-2-printable.pdf" />
-    <None Include="kids\level_2\Reading and writing\handwriting-practice-sentences-3-printable_0.pdf" />
-    <None Include="kids\level_2\Reading and writing\handwriting-practice-sentences-4-printable_0.pdf" />
-    <None Include="kids\level_2\Reading and writing\handwriting-practice-sentences-5-printable_0.pdf" />
-    <None Include="kids\level_2\Reading and writing\read-clocks-and-write-the-time-1.pdf" />
-    <None Include="kids\level_2\Reading and writing\read-clocks-and-write-the-time-2.pdf" />
-    <None Include="kids\level_2\Reading and writing\read-time-1.pdf" />
-    <None Include="kids\level_2\Reading and writing\read-time-2.pdf" />
-    <None Include="kids\level_2\Reading and writing\read-time-3.pdf" />
-    <None Include="kids\level_2\Reading and writing\read-time-4.pdf" />
-    <None Include="kids\level_2\Storybooks\childrens-colors-of-the-rainbow.pdf" />
-    <None Include="kids\level_2\Storybooks\childrens-the-new-toy.pdf" />
-    <None Include="kids\level_2\Storybooks\childrens-three-little-pigs.pdf" />
-    <None Include="kids\level_2\Storybooks\If I Could Fly an Airplane - travel book.doc" />
-    <None Include="kids\level_2\Storybooks\World-Famous-Nursary-Rhymes-Volume-2.pdf" />
-    <None Include="kids\level_2\Storybooks\World-Famous-Nursery-Rhymes-Volume-1.pdf" />
+    <Content Include="kids\level_2\Health\goodhabits.ppt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="kids\level_2\Health\humanBody.ppt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="kids\level_2\Health\germsAway.ppt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="kids\level_2\Health\phs1.pdf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="kids\level_2\Health\phs2.pdf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="kids\level_2\Health\phs3.pdf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="kids\level_2\Health\phs4.pdf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="kids\level_2\Health\phs5.pdf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="kids\level_2\Health\phs6.pdf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="kids\level_2\Health\personalhygiene.ppt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="kids\level_2\Health\personalhygieneandsunsafety.ppt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="kids\level_2\Reading and writing\hps1.pdf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="kids\level_2\Reading and writing\hps2.pdf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="kids\level_2\Reading and writing\hps3.pdf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="kids\level_2\Reading and writing\hps4.pdf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="kids\level_2\Reading and writing\hps5.pdf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="kids\level_2\Reading and writing\rc1.pdf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="kids\level_2\Reading and writing\rc2.pdf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="kids\level_2\Reading and writing\readtime1.pdf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="kids\level_2\Reading and writing\readtime2.pdf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="kids\level_2\Reading and writing\readtime3.pdf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="kids\level_2\Reading and writing\readtime4.pdf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="kids\level_2\Storybooks\rainbow.pdf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="kids\level_2\Storybooks\childrensTheNewToy.pdf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="kids\level_2\Storybooks\threeLittlePigs.pdf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="kids\level_2\Storybooks\If I Could Fly an Airplane - travel book.doc">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="kids\level_2\Storybooks\nurseryRhymes2.pdf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="kids\level_2\Storybooks\nurseryRhymes1.pdf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
     <None Include="kids\level_3\Computer\Mr. Computer.ppt" />
-    <Resource Include="assets\Haiti_pic_original.jpg" />
+    <Resource Include="assets\Haiti_pic_original.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
     <Content Include="kids\level_3\English\childrensillustrateddictionary.pdf">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
@@ -702,16 +798,36 @@
   <ItemGroup>
     <Resource Include="assets\clsApps.png" />
     <Resource Include="assets\activitySheets.png" />
-    <Content Include="kids\level_1\Rhymes\alphabet.mp3" />
-    <Content Include="kids\level_1\Rhymes\bingo.mp3" />
-    <Content Include="kids\level_1\Rhymes\ifyourehappyandyouknowit.mp3" />
-    <Content Include="kids\level_1\Rhymes\itsybitsyspider.mp3" />
-    <Content Include="kids\level_1\Rhymes\oldmacdonaldhadafarm.mp3" />
-    <Content Include="kids\level_1\Rhymes\onetwobucklemyshoe.mp3" />
-    <Content Include="kids\level_1\Rhymes\onetwothreefourfive.mp3" />
-    <Content Include="kids\level_1\Rhymes\rainraingoaway.mp3" />
-    <Content Include="kids\level_1\Rhymes\ringaroundtherosie.mp3" />
-    <Content Include="kids\level_1\Rhymes\twinkletwinkle.mp3" />
+    <Content Include="kids\level_1\Rhymes\alphabet.mp3">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="kids\level_1\Rhymes\bingo.mp3">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="kids\level_1\Rhymes\ifyourehappy.mp3">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="kids\level_1\Rhymes\itsybitsyspider.mp3">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="kids\level_1\Rhymes\oldmacdonald.mp3">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="kids\level_1\Rhymes\onetwobucklemyshoe.mp3">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="kids\level_1\Rhymes\onetwothreefourfive.mp3">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="kids\level_1\Rhymes\rainraingoaway.mp3">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="kids\level_1\Rhymes\ringaroundtherosie.mp3">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="kids\level_1\Rhymes\twinkletwinkle.mp3">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
     <Resource Include="kids\level_2\Activity books\1.png" />
     <Resource Include="kids\level_2\Activity books\28b53da38bafba43085bdcd09ce3a514.jpg" />
     <Resource Include="kids\level_2\Activity books\3a15a10a364692779606f883f85a80e1.jpg" />
@@ -794,9 +910,7 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="kids\NewFolder1\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

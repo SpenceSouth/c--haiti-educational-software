@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -54,6 +55,35 @@ namespace haiti.kids
                     break;
             }
 
+        }
+
+        private void Program_Click(object sender, RoutedEventArgs e)
+        {
+            string name = (string)((Button)sender).Name;
+
+            switch (name)
+            {
+                case "rainbowButton":
+                    Process.Start("kids\\level_2\\Storybooks\\rainbow.pdf");
+                    break;
+                case "nursey1Button":
+                    Process.Start("kids\\level_2\\Storybooks\\nurseryRhymes1.pdf");
+                    break;
+                case "nursey2Button":
+                    Process.Start("kids\\level_2\\Storybooks\\nurseryThymes2.pdf");
+                    break;
+                case "newToyButton":
+                    Process.Start("kids\\level_2\\Storybooks\\childrensTheNewToy.pdf");
+                    break;
+                case "pigsButton":
+                    Process.Start("kids\\level_2\\Storybooks\\threeLittlePigs.pdf");
+                    break;
+                case "airplaneButton":
+                    Process.Start("kids\\level_2\\Storybooks\\If I Could Fly an Airplane - travel book.doc");
+                    break;               
+                default:
+                    break;
+            }
         }
 
        

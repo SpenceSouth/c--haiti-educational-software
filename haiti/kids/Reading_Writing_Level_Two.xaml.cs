@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -53,6 +54,50 @@ namespace haiti.kids
                     break;
             }
 
+        }
+
+        private void Program_Click(object sender, RoutedEventArgs e)
+        {
+            string name = (string)((Button)sender).Name;
+
+            switch (name)
+            {
+                case "hps1Button":
+                    Process.Start("kids\\level_2\\Reading and writing\\hps1.pdf");
+                    break;
+                case "hps2Button":
+                    Process.Start("kids\\level_2\\Reading and writing\\hps2.pdf");
+                    break;
+                case "hps3Button":
+                    Process.Start("kids\\level_2\\Reading and writing\\hps3.pdf");
+                    break;
+                case "hps4Button":
+                    Process.Start("kids\\level_2\\Reading and writing\\hps4.pdf");
+                    break;
+                case "hps5Button":
+                    Process.Start("kids\\level_2\\Reading and writing\\hps5.pdf");
+                    break;
+                case "rc1Button":
+                    Process.Start("kids\\level_2\\Reading and writing\\rc1.pdf");
+                    break;
+                case "rc2Button":
+                    Process.Start("kids\\level_2\\Reading and writing\\rc2.pdf");
+                    break;
+                case "readtime1Button":
+                    Process.Start("kids\\level_2\\Reading and writing\\readtime1.pdf");
+                    break;
+                case "readtime2Button":
+                    Process.Start("kids\\level_2\\Reading and writing\\readtime2.pdf");
+                    break;
+                case "readtime3Button":
+                    Process.Start("kids\\level_2\\Reading and writing\\readtime3.pdf");
+                    break;
+                case "readtime4Button":
+                    Process.Start("kids\\level_2\\Reading and writing\\readtime4.pdf");
+                    break;
+                default:
+                    break;
+            }
         }
 
        

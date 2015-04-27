@@ -87,10 +87,16 @@ namespace haiti
                     this.NavigationService.Navigate(new Uri("/teachers/Word_Page.xaml", UriKind.Relative));
                     break;
                 case "powerpointButton":
+                    this.NavigationService.Navigate(new Uri("/teachers/PowerPoint_Page.xaml", UriKind.Relative));
+                    break;
+                case "computerButton":
+                    this.NavigationService.Navigate(new Uri("/teachers/Computer_Page.xaml", UriKind.Relative));
                     break;
                 case "activitySheetsButton":
+                    this.NavigationService.Navigate(new Uri("/teachers/Activity_Sheets_Page.xaml", UriKind.Relative));
                     break;
                 case "clsAppDocumentsButton":
+                    this.NavigationService.Navigate(new Uri("/teachers/CLS_App_Docs_Page.xaml", UriKind.Relative));
                     break;
                 default:
                     break;

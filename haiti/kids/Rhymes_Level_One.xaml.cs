@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -54,6 +55,47 @@ namespace haiti.kids
                     break;
             }
 
+        }
+
+        private void Program_Click(object sender, RoutedEventArgs e)
+        {
+            string name = (string)((Button)sender).Name;
+
+            switch (name)
+            {
+                case "alphabetButton":
+                    Process.Start("kids\\level_1\\Rhymes\\alphabet.mp3");
+                    break;
+                case "bingoButton":
+                    Process.Start("kids\\level_1\\Rhymes\\bingo.mp3");
+                    break;
+                case "happyButton":
+                    Process.Start("kids\\level_1\\Rhymes\\ifyourehappy.mp3");
+                    break;
+                case "spiderButton":
+                    Process.Start("kids\\level_1\\Rhymes\\itsybitsyspider.mp3");
+                    break;
+                case "oldMacdonaldButton":
+                    Process.Start("kids\\level_1\\Rhymes\\oldmacdonald.mp3");
+                    break;
+                case "buckleShoeButton":
+                    Process.Start("kids\\level_1\\Rhymes\\onetwobucklemyshoe.mp3");
+                    break;
+                case "countingButton":
+                    Process.Start("kids\\level_1\\Rhymes\\onetwothreefourfive.mp3");
+                    break;
+                case "rainButton":
+                    Process.Start("kids\\level_1\\Rhymes\\rainraingoaway.mp3");
+                    break;
+                case "rosieButton":
+                    Process.Start("kids\\level_1\\Rhymes\\ringaroundtherosie.mp3");
+                    break;
+                case "twinkleTwinkleButton":
+                    Process.Start("kids\\level_1\\Rhymes\\twinkletwinkle.mp3");
+                    break;
+                default:
+                    break;
+            }
         }
 
        
