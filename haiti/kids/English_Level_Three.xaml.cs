@@ -56,41 +56,24 @@ namespace haiti.kids
             }
 
         }
-        private void Category_Click(object sender, RoutedEventArgs e)
+        private void Program_Click(object sender, RoutedEventArgs e)
         {
             string name = (string)((Button)sender).Name;
 
             switch (name)
             {
-                case "button0":
+                case "picGrammarButton":
                     Process.Start("kids\\level_3\\English\\picturegrammarforchildrenstarter.pdf");
                     break;
-                case "button1":
+                case "illustratedDictionaryButton":
                     Process.Start("kids\\level_3\\English\\childrensillustrateddictionary.pdf");
                     break;
-                case "button2":
+                case "picDictionaryButton":
                     Process.Start("kids\\level_3\\English\\lyoungchildrenspicturedictionary.pdf");
                     break;
-                case "button3":
-                    Process.Start("kids\\level_3\\English\\childrensillustrateddictionary.pdf");
-                    break;
-              /*  case "button4":
-                    Process.Start("kids\\level_3\\Math\\count-pictures-5.pdf");
-                    break;
-                case "button5":
-                    Process.Start("kids\\level_3\\Math\\count-pictures-6.pdf");
-                    break;
-                case "button6":
-                    Process.Start("kids\\level_3\\Math\\count-pictures-7.pdf");
-                    break;
-                case "button7":
-                    Process.Start("kids\\level_3\\Math\\count-pictures-8.pdf");
-                    break;
-                case "button8":
-                    Process.Start("kids\\level_3\\Math\\count-pictures-1.pdf");
-                    break;*/
-
-
+                case "englishGrammarButton":
+                    Process.Start("kids\\level_3\\English\\justenoughenglishgrammarillustrated.pdf");
+                    break;       
                 default:
                     return;
             }
