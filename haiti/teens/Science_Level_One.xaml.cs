@@ -55,6 +55,30 @@ namespace haiti.teens
 
         }
 
+        private void Category_Click(object sender, RoutedEventArgs e)
+        {
+            string name = (string)((Button)sender).Name;
+
+            switch (name)
+            {
+                case "PeopleButton":
+                    this.NavigationService.Navigate(new Uri("teens\\Science_Level_1_and_2\\Science_People.xaml", UriKind.Relative));
+                    break;
+                case "AnimalsButton":
+                    this.NavigationService.Navigate(new Uri("teens\\Science_Level_1_and_2\\Science_Animals.xaml", UriKind.Relative));
+                    break;
+                case "PlantsButton":
+                    this.NavigationService.Navigate(new Uri("teens\\Science_Level_1_and_2\\Science_Plants.xaml", UriKind.Relative));
+                    break;
+                case "PhysicsButton":
+                    this.NavigationService.Navigate(new Uri("teens\\Science_Level_1_and_2\\Science_Physics.xaml", UriKind.Relative));
+                    break;
+                default:
+                    break;
+
+            }
+        }       
+
        
     }
 }
