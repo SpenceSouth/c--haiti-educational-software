@@ -204,6 +204,30 @@
     <Compile Include="teens\Jobs_Level_Three.xaml.cs">
       <DependentUpon>Jobs_Level_Three.xaml</DependentUpon>
     </Compile>
+    <Compile Include="teens\math_general\addition.xaml.cs">
+      <DependentUpon>addition.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="teens\math_general\division.xaml.cs">
+      <DependentUpon>division.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="teens\math_general\fractions.xaml.cs">
+      <DependentUpon>fractions.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="teens\math_general\graphs.xaml.cs">
+      <DependentUpon>graphs.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="teens\math_general\lengths.xaml.cs">
+      <DependentUpon>lengths.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="teens\math_general\multiplication.xaml.cs">
+      <DependentUpon>multiplication.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="teens\math_general\percentages.xaml.cs">
+      <DependentUpon>percentages.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="teens\math_general\subtraction.xaml.cs">
+      <DependentUpon>subtraction.xaml</DependentUpon>
+    </Compile>
     <Compile Include="teens\Math_Level_One.xaml.cs">
       <DependentUpon>Math_Level_One.xaml</DependentUpon>
     </Compile>
@@ -393,6 +417,38 @@
     <Page Include="teens\Jobs_Level_Three.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="teens\math_general\addition.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="teens\math_general\division.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="teens\math_general\fractions.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="teens\math_general\graphs.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="teens\math_general\lengths.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="teens\math_general\multiplication.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="teens\math_general\percentages.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="teens\math_general\subtraction.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
     </Page>
     <Page Include="teens\Math_Level_One.xaml">
       <SubType>Designer</SubType>
@@ -927,75 +983,6 @@
     <Content Include="teens\level_1\GK\read-time-4.pdf">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="teens\level_1\Math\ADD__Substraction.ppt">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-    <Content Include="teens\level_1\Math\comparing-length-of-objects-1.pdf">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-    <Content Include="teens\level_1\Math\comparing-length-of-objects-2.pdf">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-    <Content Include="teens\level_1\Math\comparing-length-of-objects-3.pdf">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-    <Content Include="teens\level_1\Math\comparing-length-of-objects-4.pdf">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-    <Content Include="teens\level_1\Math\comparing-length-of-objects-5.pdf">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-    <Content Include="teens\level_1\Math\Division.ppt">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-    <Content Include="teens\level_1\Math\Division_rules.ppt">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-    <Content Include="teens\level_1\Math\Graphs.ppt">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-    <Content Include="teens\level_1\Math\halves-thirds-and-fourths-1.pdf">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-    <Content Include="teens\level_1\Math\halves-thirds-and-fourths-2.pdf">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-    <Content Include="teens\level_1\Math\halves-thirds-and-fourths-3.pdf">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-    <Content Include="teens\level_1\Math\Multiplication_1.ppt">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-    <Content Include="teens\level_1\Math\multiplication_2.ppt">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-    <Content Include="teens\level_1\Math\Multiplication_and_Division_Rules.ppt">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-    <Content Include="teens\level_1\Math\Multiplication_Expressions.ppt">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-    <Content Include="teens\level_1\Math\percent.ppt">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-    <Content Include="teens\level_1\Math\Percentage.pot">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-    <Content Include="teens\level_1\Math\record-data-with-bar-graphs-1.pdf">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-    <Content Include="teens\level_1\Math\record-data-with-bar-graphs-2.pdf">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-    <Content Include="teens\level_1\Math\record-data-with-bar-graphs-3.pdf">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-    <Content Include="teens\level_1\Math\record-data-with-bar-graphs-5.pdf">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-    <Content Include="teens\level_1\Math\record-data-with-bar-graphs-6.pdf">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
     <Content Include="teens\level_1\Science\Atoms__Atomic_Structure.ppt">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
@@ -1129,75 +1116,6 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
     <Content Include="teens\level_2\GK\Tsunami_Safety.ppt">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-    <Content Include="teens\level_2\Math\ADD__Substraction.ppt">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-    <Content Include="teens\level_2\Math\comparing-length-of-objects-1.pdf">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-    <Content Include="teens\level_2\Math\comparing-length-of-objects-2.pdf">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-    <Content Include="teens\level_2\Math\comparing-length-of-objects-3.pdf">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-    <Content Include="teens\level_2\Math\comparing-length-of-objects-4.pdf">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-    <Content Include="teens\level_2\Math\comparing-length-of-objects-5.pdf">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-    <Content Include="teens\level_2\Math\Division.ppt">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-    <Content Include="teens\level_2\Math\Division_rules.ppt">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-    <Content Include="teens\level_2\Math\Graphs.ppt">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-    <Content Include="teens\level_2\Math\halves-thirds-and-fourths-1.pdf">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-    <Content Include="teens\level_2\Math\halves-thirds-and-fourths-2.pdf">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-    <Content Include="teens\level_2\Math\halves-thirds-and-fourths-3.pdf">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-    <Content Include="teens\level_2\Math\Multiplication_1.ppt">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-    <Content Include="teens\level_2\Math\multiplication_2.ppt">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-    <Content Include="teens\level_2\Math\Multiplication_and_Division_Rules.ppt">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-    <Content Include="teens\level_2\Math\Multiplication_Expressions.ppt">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-    <Content Include="teens\level_2\Math\percent.ppt">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-    <Content Include="teens\level_2\Math\Percentage.pot">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-    <Content Include="teens\level_2\Math\record-data-with-bar-graphs-1.pdf">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-    <Content Include="teens\level_2\Math\record-data-with-bar-graphs-2.pdf">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-    <Content Include="teens\level_2\Math\record-data-with-bar-graphs-3.pdf">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-    <Content Include="teens\level_2\Math\record-data-with-bar-graphs-5.pdf">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-    <Content Include="teens\level_2\Math\record-data-with-bar-graphs-6.pdf">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
     <Content Include="teens\level_3\English\childrensillustrateddictionary.pdf">

@@ -60,7 +60,7 @@ namespace haiti.teens.Science_Level_1_and_2
 
             switch (name)
             {
-                case "humandBodyPDF":
+                case "humanBodyPDF":
                     Process.Start("teens\\level_3\\Science\\People\\Human Body-7th grade.pdf");
                     break;
                 case "humanBodyPPT":

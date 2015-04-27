@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -52,6 +53,50 @@ namespace haiti.teens.Science_Level_1_and_2
                     break;
             }
 
+        }
+
+        private void Program_Click(object sender, RoutedEventArgs e)
+        {
+            string name = (string)((Button)sender).Name;
+
+            switch (name)
+            {
+                case "b1":
+                    Process.Start("teens\\level_3\\Science\\Plants\\Characteristics_of_Plants.ppt");
+                    break;
+                case "b2":
+                    Process.Start("teens\\level_3\\Science\\Plants\\Essential_Nutrients_of_Plants.ppt");
+                    break;
+                case "b3":
+                    Process.Start("teens\\level_3\\Science\\Plants\\life cycle of plans.ppt");
+                    break;
+                case "b4":
+                    Process.Start("teens\\level_3\\Science\\Plants\\Need_of_Growing_Plants.ppt");
+                    break;
+                case "b5":
+                    Process.Start("teens\\level_3\\Science\\Plants\\Photosynthesis.ppt");
+                    break;
+                case "b6":
+                    Process.Start("teens\\level_3\\Science\\Plants\\Plans science.ppt");
+                    break;
+                case "b7":
+                    Process.Start("teens\\level_3\\Science\\Plants\\Plant cells.ppt");
+                    break;
+                case "b8":
+                    Process.Start("teens\\level_3\\Science\\Plants\\Plant_Process.ppt");
+                    break;
+                case "b9":
+                    Process.Start("teens\\level_3\\Science\\Plants\\Types_of_plant.ppt");
+                    break;
+                case "b10":
+                    Process.Start("teens\\level_3\\Science\\Plants\\Water.ppt");
+                    break;
+                case "b11":
+                    Process.Start("teens\\level_3\\Science\\Plants\\Water_Cycle.ppt");
+                    break;
+                default:
+                    break;
+            }
         }
     }
 }

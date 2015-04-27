@@ -54,5 +54,88 @@
             </Grid>
 
         </Grid>
+        <!--This set of rows makes up the space for program buttons-->
+        <Grid x:Name="ProgramField" Grid.Row="1" Grid.Column="0" >
+            <Grid.RowDefinitions>
+                <RowDefinition Height="1*" />
+                <RowDefinition Height="4*" />
+                <RowDefinition Height="8*" />
+                <RowDefinition Height="8*" />
+                <RowDefinition Height="8*" />
+                <RowDefinition Height="8*" />
+                <RowDefinition Height="8*" />
+                <RowDefinition Height="8*" />
+                <RowDefinition Height="8*" />
+                <RowDefinition Height="8*" />
+                <RowDefinition Height="8*" />
+                <RowDefinition Height="8*" />
+                <RowDefinition Height="8*" />
+                <RowDefinition Height="5*" />
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="1*" />
+                <ColumnDefinition Width="4*" />
+                <ColumnDefinition Width="1*" />
+                <ColumnDefinition Width="5*" />
+                <ColumnDefinition Width="1*" />
+            </Grid.ColumnDefinitions>
+
+            <TextBlock Grid.Row="1" Grid.Column="1" Text="Program" />
+            <TextBlock Grid.Row="1" Grid.Column="3" Text="Description" />
+
+
+            <Button x:Name="atoms" Grid.Row="2" Grid.Column="1" Content="Atoms and Atomic Structure" Click="Program_Click" />
+            <Border Grid.Row="2" Grid.Column="3" BorderThickness="1" BorderBrush="Black">
+                <TextBlock Text="Insert description here" TextWrapping="Wrap" HorizontalAlignment="Left" />
+            </Border>
+            <Button x:Name="electricity" Grid.Row="3" Grid.Column="1" Content="Basics About Electricity" Click="Program_Click" />
+            <Border Grid.Row="3" Grid.Column="3" BorderThickness="1" BorderBrush="Black">
+                <TextBlock Text="Insert description here" TextWrapping="Wrap" HorizontalAlignment="Left" />
+            </Border>
+
+            <Button x:Name="batteries" Grid.Row="4" Grid.Column="1" Content="Batteries" Click="Program_Click" />
+            <Border Grid.Row="4" Grid.Column="3" BorderThickness="1" BorderBrush="Black">
+                <TextBlock Text="Insert description here" TextWrapping="Wrap" HorizontalAlignment="Left" />
+            </Border>
+            <Button x:Name="electricSafety" Grid.Row="5" Grid.Column="1" Content="Electrical Safety" Click="Program_Click" />
+            <Border Grid.Row="5" Grid.Column="3" BorderThickness="1" BorderBrush="Black">
+                <TextBlock Text="Insert description here" TextWrapping="Wrap" HorizontalAlignment="Left" />
+            </Border>
+
+            <Button x:Name="forces" Grid.Row="6" Grid.Column="1" Content="Forces" Click="Program_Click" />
+            <Border Grid.Row="6" Grid.Column="3" BorderThickness="1" BorderBrush="Black">
+                <TextBlock Text="Insert description here" TextWrapping="Wrap" HorizontalAlignment="Left" />
+            </Border>
+            <Button x:Name="friction" Grid.Row="7" Grid.Column="1" Content="Friction" Click="Program_Click" />
+            <Border Grid.Row="7" Grid.Column="3" BorderThickness="1" BorderBrush="Black">
+                <TextBlock Text="Insert description here" TextWrapping="Wrap" HorizontalAlignment="Left" />
+            </Border>
+
+            <Button x:Name="gravity" Grid.Row="8" Grid.Column="1" Content="Gravity" Click="Program_Click" />
+            <Border Grid.Row="8" Grid.Column="3" BorderThickness="1" BorderBrush="Black">
+                <TextBlock Text="Insert description here" TextWrapping="Wrap" HorizontalAlignment="Left" />
+            </Border>
+            <Button x:Name="magnetism" Grid.Row="9" Grid.Column="1" Content="Magnetism" Click="Program_Click" />
+            <Border Grid.Row="9" Grid.Column="3" BorderThickness="1" BorderBrush="Black">
+                <TextBlock Text="Insert description here" TextWrapping="Wrap" HorizontalAlignment="Left" />
+            </Border>
+
+            <Button x:Name="solarSystem" Grid.Row="10" Grid.Column="1" Content="Our Solar System" Click="Program_Click" />
+            <Border Grid.Row="10" Grid.Column="3" BorderThickness="1" BorderBrush="Black">
+                <TextBlock Text="Insert description here" TextWrapping="Wrap" HorizontalAlignment="Left" />
+            </Border>
+            
+            <Button x:Name="refraction" Grid.Row="11" Grid.Column="1" Content="Refraction" Click="Program_Click" />
+            <Border Grid.Row="11" Grid.Column="3" BorderThickness="1" BorderBrush="Black">
+                <TextBlock Text="Insert description here" TextWrapping="Wrap" HorizontalAlignment="Left" />
+            </Border>
+            
+            <Button x:Name="machines" Grid.Row="12" Grid.Column="1" Content="Simple Machines" Click="Program_Click" />
+            <Border Grid.Row="12" Grid.Column="3" BorderThickness="1" BorderBrush="Black">
+                <TextBlock Text="Insert description here" TextWrapping="Wrap" HorizontalAlignment="Left" />
+            </Border>
+
+        </Grid>
     </Grid>
 </Page>
+
