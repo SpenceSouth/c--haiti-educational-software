@@ -62,7 +62,6 @@
                 <RowDefinition Height="4*" />
                 <RowDefinition Height="8*" />
                 <RowDefinition Height="8*" />
-                <RowDefinition Height="8*" />
                 <RowDefinition Height="5*" />
             </Grid.RowDefinitions>
             <Grid.ColumnDefinitions>
@@ -76,19 +75,14 @@
             <TextBlock Grid.Row="1" Grid.Column="1" Text="Program" />
             <TextBlock Grid.Row="1" Grid.Column="3" Text="Description" />
 
-            <Button x:Name="alphabets001Button" Grid.Row="2" Grid.Column="1" Content="Alphabets 001" Click="Program_Click" />
+            <Button x:Name="alphabets001Button" Grid.Row="2" Grid.Column="1" Content="Alphabet - Learning How to Write Letters of the Alphabet" Click="Program_Click" />
             <Border Grid.Row="2" Grid.Column="3" BorderThickness="1" BorderBrush="Black">
-                <TextBlock Text="Insert alphabets 001 description here" TextWrapping="Wrap" HorizontalAlignment="Left" />
+                <TextBlock Text="Instructions:  Press Page Down Key to advance through the letters" TextWrapping="Wrap" HorizontalAlignment="Left" />
             </Border>
 
-            <Button x:Name="alphabetsButton" Grid.Row="3" Grid.Column="1" Content="Alphabets" Click="Program_Click" />
+            <Button x:Name="zoophabetButton" Grid.Row="3" Grid.Column="1" Content="Zoo Alphabet – Storybook of Zoo Animals to learn Alphabet" Click="Program_Click" />
             <Border Grid.Row="3" Grid.Column="3" BorderThickness="1" BorderBrush="Black">
-                <TextBlock Text="Insert alphabets description here" TextWrapping="Wrap" HorizontalAlignment="Left" />
-            </Border>
-
-            <Button x:Name="zoophabetButton" Grid.Row="4" Grid.Column="1" Content="Zoophabets" Click="Program_Click" />
-            <Border Grid.Row="4" Grid.Column="3" BorderThickness="1" BorderBrush="Black">
-                <TextBlock Text="An alphabet that's hungrier than most...Insert zoophabets description here" TextWrapping="Wrap" HorizontalAlignment="Left" />
+                <TextBlock Text="Instructions:  Press Page Down Key to advance through the Letters." TextWrapping="Wrap" HorizontalAlignment="Left" />
             </Border>
 
         </Grid>

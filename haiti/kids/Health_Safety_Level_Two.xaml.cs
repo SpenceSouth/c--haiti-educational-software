@@ -71,9 +71,6 @@ namespace haiti.kids
                 case "humanBodyButton":
                     Process.Start("kids\\level_2\\Health\\humanBody.ppt");
                     break;
-                case "personalHygeineButton":
-                    Process.Start("kids\\level_2\\Health\\personalhygiene.ppt");
-                    break;
                 case "safetyButton":
                     Process.Start("kids\\level_2\\Health\\personalhygieneandsunsafety.ppt");
                     break;

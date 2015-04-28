@@ -69,9 +69,6 @@ namespace haiti.kids
                 case "nursey1Button":
                     Process.Start("kids\\level_2\\Storybooks\\nurseryRhymes1.pdf");
                     break;
-                case "nursey2Button":
-                    Process.Start("kids\\level_2\\Storybooks\\nurseryThymes2.pdf");
-                    break;
                 case "newToyButton":
                     Process.Start("kids\\level_2\\Storybooks\\childrensTheNewToy.pdf");
                     break;
@@ -79,7 +76,7 @@ namespace haiti.kids
                     Process.Start("kids\\level_2\\Storybooks\\threeLittlePigs.pdf");
                     break;
                 case "airplaneButton":
-                    Process.Start("kids\\level_2\\Storybooks\\If I Could Fly an Airplane - travel book.doc");
+                    Process.Start("kids\\level_2\\Storybooks\\airplane.doc");
                     break;               
                 default:
                     break;

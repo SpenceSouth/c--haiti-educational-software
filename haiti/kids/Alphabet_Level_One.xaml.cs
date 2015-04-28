@@ -64,9 +64,6 @@ namespace haiti.kids
                 case "alphabets001Button":
                     Process.Start("kids\\level_1\\alphabets\\albhabets001.pdf");
                     break;
-                case "alphabetsButton":
-                    Process.Start("kids\\level_1\\alphabets\\alphabets.pdf");
-                    break;
                 case "zoophabetButton":
                     Process.Start("kids\\level_1\\alphabets\\zoophabets.pdf");
                     break;
