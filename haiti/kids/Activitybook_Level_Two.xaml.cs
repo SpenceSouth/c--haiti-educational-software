@@ -74,10 +74,7 @@ namespace haiti.kids
                     {
                         Process.Start("kids\\level_2\\activity_books\\ab (1).pdf");
                     }
-                    break;
-                case "button1":
-                    Process.Start("kids\\level_2\\activity_books\\ab (2).pdf");
-                    break;
+                    break;                
                 case "button2":
                     Process.Start("kids\\level_2\\activity_books\\ab (3).pdf");
                     break;
@@ -120,7 +117,14 @@ namespace haiti.kids
                     Process.Start("kids\\level_2\\activity_books\\ab (1).gif");
                     break;
                 case "button11":
-                    Process.Start("kids\\level_2\\activity_books\\ab (2).gif");
+                    title = "Description";
+                    prompt = "Simple exercise to learn to recognize, count and write Numbers.\nWould you like to start this activity?";
+                    var dr11 = MessageBox.Show(prompt, title, MessageBoxButton.YesNo);
+
+                    if (dr11 == MessageBoxResult.Yes)
+                    {
+                        Process.Start("kids\\level_2\\activity_books\\ab (2).gif");
+                    }
                     break;
                 case "button12":
                     title = "Description";
@@ -173,7 +177,14 @@ namespace haiti.kids
                     }
                     break;
                 case "button17":
-                    Process.Start("kids\\level_2\\activity_books\\ab (8).gif");
+                    title = "Description";
+                    prompt = "Simple exercise to learn to recognize and write Number 5.\nWould you like to start this activity?";
+                    var dr17 = MessageBox.Show(prompt, title, MessageBoxButton.YesNo);
+
+                    if (dr17 == MessageBoxResult.Yes)
+                    {
+                        Process.Start("kids\\level_2\\activity_books\\ab (8).gif");
+                    }
                     break;
                 case "button18":
                     title = "Description";
@@ -226,16 +237,14 @@ namespace haiti.kids
                     }
                     break;
                 case "button23":
-                    Process.Start("kids\\level_2\\activity_books\\ab (1).jpg");
-                    break;
-                case "button24":
-                    Process.Start("kids\\level_2\\activity_books\\ab (2).jpg");
-                    break;
-                case "button25":
-                    Process.Start("kids\\level_2\\activity_books\\ab (3).jpg");
-                    break;
-                case "button26":
-                    Process.Start("kids\\level_2\\activity_books\\ab (4).jpg");
+                    title = "Description";
+                    prompt = "Simple exercise to learn to recognize spell 3 letter words.\nWould you like to start this activity?";
+                    var dr23 = MessageBox.Show(prompt, title, MessageBoxButton.YesNo);
+
+                    if (dr23 == MessageBoxResult.Yes)
+                    {
+                        Process.Start("kids\\level_2\\activity_books\\ab (1).jpg");
+                    }
                     break;
                 case "button27":
                     title = "Description";
@@ -258,7 +267,14 @@ namespace haiti.kids
                     }
                     break;
                 case "button29":
-                    Process.Start("kids\\level_2\\activity_books\\ab (7).jpg");
+                    title = "Description";
+                    prompt = "Simple exercise to learn about animals.\nWould you like to start this activity?";
+                    var dr29 = MessageBox.Show(prompt, title, MessageBoxButton.YesNo);
+
+                    if (dr29 == MessageBoxResult.Yes)
+                    {
+                        Process.Start("kids\\level_2\\activity_books\\ab (7).jpg");
+                    }
                     break;
                 case "button30":
                     title = "Description";
@@ -311,7 +327,14 @@ namespace haiti.kids
                     }
                     break;
                 case "button35":
-                    Process.Start("kids\\level_2\\activity_books\\ab (2).png");
+                    title = "Description";
+                    prompt = "Simple exercise to learn about animals and the food they eat.\nWould you like to start this activity?";
+                    var dr35 = MessageBox.Show(prompt, title, MessageBoxButton.YesNo);
+
+                    if (dr35 == MessageBoxResult.Yes)
+                    {
+                        Process.Start("kids\\level_2\\activity_books\\ab (2).png");
+                    }
                     break;
                 case "button36":
                     title = "Description";
@@ -322,15 +345,6 @@ namespace haiti.kids
                     {
                         Process.Start("kids\\level_2\\activity_books\\ab (3).png");
                     }
-                    break;
-                case "button37":
-                    Process.Start("kids\\level_2\\activity_books\\ab (4).png");
-                    break;
-                case "button38":
-                    Process.Start("kids\\level_2\\activity_books\\ab (5).png");
-                    break;
-                case "button39":
-                    Process.Start("kids\\level_2\\activity_books\\ab (6).png");
                     break;
                 case "button40":
                     title = "Description";
@@ -343,7 +357,14 @@ namespace haiti.kids
                     }
                     break;
                 case "button41":
-                    Process.Start("kids\\level_2\\activity_books\\ab (8).png");
+                    title = "Description";
+                    prompt = "Simple exercise to learn to recognize, count and write Numbers.\nWould you like to start this activity?";
+                    var dr41= MessageBox.Show(prompt, title, MessageBoxButton.YesNo);
+
+                    if (dr41 == MessageBoxResult.Yes)
+                    {
+                        Process.Start("kids\\level_2\\activity_books\\ab (8).png");
+                    }
                     break;
                 case "button42":
                     Process.Start("kids\\level_2\\activity_books\\ab (9).png");
@@ -358,17 +379,15 @@ namespace haiti.kids
                         Process.Start("kids\\level_2\\activity_books\\ab (10).png");
                     }
                     break;
-                case "button44":
-                    Process.Start("kids\\level_2\\activity_books\\ab (11).png");
-                    break;
-                case "button45":
-                    Process.Start("kids\\level_2\\activity_books\\ab (12).png");
-                    break;
-                case "button46":
-                    Process.Start("kids\\level_2\\activity_books\\ab (13).png");
-                    break;
                 case "button47":
-                    Process.Start("kids\\level_2\\activity_books\\ab (14).png");
+                    title = "Description";
+                    prompt = "Simple exercise to learn to recognize, count and write Numbers.\nWould you like to start this activity?";
+                    var dr47= MessageBox.Show(prompt, title, MessageBoxButton.YesNo);
+
+                    if (dr47 == MessageBoxResult.Yes)
+                    {
+                        Process.Start("kids\\level_2\\activity_books\\ab (14).png");
+                    }
                     break;
                 case "button48":
                     title = "Description";
@@ -421,7 +440,14 @@ namespace haiti.kids
                     }
                     break;
                 case "button53":
-                    Process.Start("kids\\level_2\\activity_books\\ab (20).png");
+                    title = "Description";
+                    prompt = "Simple exercise to learn to recognize, count and read Numbers.\nWould you like to start this activity?";
+                    var dr53= MessageBox.Show(prompt, title, MessageBoxButton.YesNo);
+
+                    if (dr53 == MessageBoxResult.Yes)
+                    {
+                        Process.Start("kids\\level_2\\activity_books\\ab (20).png");
+                    }
                     break;
                 case "button54":
                     title = "Instructions";
@@ -432,9 +458,6 @@ namespace haiti.kids
                     {
                         Process.Start("kids\\level_2\\activity_books\\ab (21).png");
                     }
-                    break;
-                case "button55":
-                    Process.Start("kids\\level_2\\activity_books\\ab (22).png");
                     break;
                 case "button56":
                     title = "Instructions";
@@ -467,7 +490,14 @@ namespace haiti.kids
                     }
                     break;
                 case "button59":
-                    Process.Start("kids\\level_2\\activity_books\\ab (26).png");
+                    title = "Instructions";
+                    prompt = "Trace lines to match the starting point to the destination.\nWould you like to start this activity?";
+                    var dr59= MessageBox.Show(prompt, title, MessageBoxButton.YesNo);
+
+                    if (dr59 == MessageBoxResult.Yes)
+                    {
+                        Process.Start("kids\\level_2\\activity_books\\ab (26).png");
+                    }
                     break;
                 case "button60":
                     title = "Instructions";
@@ -520,7 +550,14 @@ namespace haiti.kids
                     }
                     break;
                 case "button65":
-                    Process.Start("kids\\level_2\\activity_books\\ab (32).png");
+                    title = "Instructions";
+                    prompt = "Trace lines to match the starting point to the destination.\nWould you like to start this activity?";
+                    var dr65= MessageBox.Show(prompt, title, MessageBoxButton.YesNo);
+
+                    if (dr65 == MessageBoxResult.Yes)
+                    {
+                        Process.Start("kids\\level_2\\activity_books\\ab (32).png");
+                    }
                     break;
                 case "button66":
                     title = "Instructions";
@@ -564,7 +601,7 @@ namespace haiti.kids
                     break;
                 case "button70":
                     title = "Description";
-                    prompt = " Simple exercise to learn about plants and fruits.\nWould you like to start this activity?";
+                    prompt = "Simple exercise to learn about plants and fruits.\nWould you like to start this activity?";
                     var dr70= MessageBox.Show(prompt, title, MessageBoxButton.YesNo);
 
                     if (dr70 == MessageBoxResult.Yes)
@@ -573,7 +610,14 @@ namespace haiti.kids
                     }
                     break;
                 case "button71":
-                    Process.Start("kids\\level_2\\activity_books\\ab (38).png");
+                    title = "Description";
+                    prompt = "Draw lines from the object to its shadow.\nWould you like to start this activity?";
+                    var dr71= MessageBox.Show(prompt, title, MessageBoxButton.YesNo);
+
+                    if (dr71 == MessageBoxResult.Yes)
+                    {
+                        Process.Start("kids\\level_2\\activity_books\\ab (38).png");
+                    }
                     break;
                 case "button72":
                     title = "Instructions";
@@ -626,7 +670,14 @@ namespace haiti.kids
                     }
                     break;
                 case "button77":
-                    Process.Start("kids\\level_2\\activity_books\\ab (44).png");
+                    title = "Description";
+                    prompt = "Learn to recognize patterns and shapes.\nWould you like to start this activity?";
+                    var dr77= MessageBox.Show(prompt, title, MessageBoxButton.YesNo);
+
+                    if (dr77 == MessageBoxResult.Yes)
+                    {
+                        Process.Start("kids\\level_2\\activity_books\\ab (44).png");
+                    }
                     break;
                 case "button78":
                     title = "Description";
@@ -679,7 +730,14 @@ namespace haiti.kids
                     }
                     break;
                 case "button83":
-                    Process.Start("kids\\level_2\\activity_books\\ab (50).png");
+                    title = "Description";
+                    prompt = "Simple exercise to learn to recognize and write Number 5.\nWould you like to start this activity?";
+                    var dr83= MessageBox.Show(prompt, title, MessageBoxButton.YesNo);
+
+                    if (dr83 == MessageBoxResult.Yes)
+                    {
+                        Process.Start("kids\\level_2\\activity_books\\ab (50).png");
+                    }
                     break;
                 default:
                     MessageBox.Show("Not registered");

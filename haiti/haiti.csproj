@@ -661,19 +661,10 @@
     <Content Include="kids\level_2\activity_books\ab %2811%29.jpg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="kids\level_2\activity_books\ab %2811%29.png">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
     <Content Include="kids\level_2\activity_books\ab %2812%29.gif">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="kids\level_2\activity_books\ab %2812%29.png">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
     <Content Include="kids\level_2\activity_books\ab %2813%29.gif">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-    <Content Include="kids\level_2\activity_books\ab %2813%29.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
     <Content Include="kids\level_2\activity_books\ab %2814%29.png">
@@ -697,9 +688,6 @@
     <Content Include="kids\level_2\activity_books\ab %282%29.gif">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="kids\level_2\activity_books\ab %282%29.jpg">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
     <Content Include="kids\level_2\activity_books\ab %282%29.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
@@ -707,9 +695,6 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
     <Content Include="kids\level_2\activity_books\ab %2821%29.png">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-    <Content Include="kids\level_2\activity_books\ab %2822%29.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
     <Content Include="kids\level_2\activity_books\ab %2823%29.png">
@@ -734,9 +719,6 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
     <Content Include="kids\level_2\activity_books\ab %283%29.gif">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-    <Content Include="kids\level_2\activity_books\ab %283%29.jpg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
     <Content Include="kids\level_2\activity_books\ab %283%29.png">
@@ -775,12 +757,6 @@
     <Content Include="kids\level_2\activity_books\ab %284%29.gif">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="kids\level_2\activity_books\ab %284%29.jpg">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-    <Content Include="kids\level_2\activity_books\ab %284%29.png">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
     <Content Include="kids\level_2\activity_books\ab %2840%29.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
@@ -817,9 +793,6 @@
     <Content Include="kids\level_2\activity_books\ab %285%29.jpg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="kids\level_2\activity_books\ab %285%29.png">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
     <Content Include="kids\level_2\activity_books\ab %2850%29.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
@@ -827,9 +800,6 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
     <Content Include="kids\level_2\activity_books\ab %286%29.jpg">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-    <Content Include="kids\level_2\activity_books\ab %286%29.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
     <Content Include="kids\level_2\activity_books\ab %287%29.gif">
