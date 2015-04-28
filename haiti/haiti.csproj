@@ -14,7 +14,7 @@
     <ProjectTypeGuids>{60dc8134-eba5-43b8-bcc9-bb4bc16c2548};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <WarningLevel>4</WarningLevel>
     <IsWebBootstrapper>false</IsWebBootstrapper>
-    <PublishUrl>C:\Users\Spencer\Desktop\</PublishUrl>
+    <PublishUrl>D:\</PublishUrl>
     <Install>true</Install>
     <InstallFrom>Disk</InstallFrom>
     <UpdateEnabled>false</UpdateEnabled>
@@ -24,7 +24,7 @@
     <UpdatePeriodically>false</UpdatePeriodically>
     <UpdateRequired>false</UpdateRequired>
     <MapFileExtensions>true</MapFileExtensions>
-    <ApplicationRevision>1</ApplicationRevision>
+    <ApplicationRevision>2</ApplicationRevision>
     <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
     <UseApplicationTrust>false</UseApplicationTrust>
     <PublishWizardCompleted>true</PublishWizardCompleted>
@@ -518,45 +518,45 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
-    <None Include="teachers\teacher assets\CLS Learning Apps\Dishi_EducationalResourcesandBookletsdocumentation.docx.docx">
+    <Content Include="teachers\teacher assets\CLS Learning Apps\Dishi_EducationalResourcesandBookletsdocumentation.docx.docx">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Include="teachers\teacher assets\Computer\Computer and Internet_Lecture2_Print.pdf">
+    </Content>
+    <Content Include="teachers\teacher assets\Computer\Computer and Internet_Lecture2_Print.pdf">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Include="teachers\teacher assets\Computer\Computer- Basics_ppt.pptx">
+    </Content>
+    <Content Include="teachers\teacher assets\Computer\Computer- Basics_ppt.pptx">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Include="teachers\teacher assets\Computer\ComputerBasics-2.pdf">
+    </Content>
+    <Content Include="teachers\teacher assets\Computer\ComputerBasics-2.pdf">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Include="teachers\teacher assets\Computer\computer_fundamentals_tutorial_Textbook.pdf">
+    </Content>
+    <Content Include="teachers\teacher assets\Computer\computer_fundamentals_tutorial_Textbook.pdf">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Include="teachers\teacher assets\Computer\Lecture 1-Basics of computer.ppt">
+    </Content>
+    <Content Include="teachers\teacher assets\Computer\Lecture 1-Basics of computer.ppt">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Include="teachers\teacher assets\Computer\Lecture 2-Computer-Basics--Windows and internet.ppt">
+    </Content>
+    <Content Include="teachers\teacher assets\Computer\Lecture 2-Computer-Basics--Windows and internet.ppt">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Include="teachers\teacher assets\MS Excel\Lecture 5-BeginnerLevel1_IntroExcel.ppt">
+    </Content>
+    <Content Include="teachers\teacher assets\MS Excel\Lecture 5-BeginnerLevel1_IntroExcel.ppt">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Include="teachers\teacher assets\MS Excel\Lecture 6-BeginnerLevel2-ExcelBasics.ppt">
+    </Content>
+    <Content Include="teachers\teacher assets\MS Excel\Lecture 6-BeginnerLevel2-ExcelBasics.ppt">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Include="teachers\teacher assets\MS Excel\Lecture 7-Advanced level1-ExcelFormulas.ppt">
+    </Content>
+    <Content Include="teachers\teacher assets\MS Excel\Lecture 7-Advanced level1-ExcelFormulas.ppt">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Include="teachers\teacher assets\MS Excel\Lecture 8-AdvancedLevel2-ExcelFormatting.ppt">
+    </Content>
+    <Content Include="teachers\teacher assets\MS Excel\Lecture 8-AdvancedLevel2-ExcelFormatting.ppt">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Include="teachers\teacher assets\MS Word\Lecture 3-An introduction to Microsoft Office.ppt">
+    </Content>
+    <Content Include="teachers\teacher assets\MS Word\Lecture 3-An introduction to Microsoft Office.ppt">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Include="teachers\teacher assets\MS Word\Lecture 4-Microsoft Word Basics_Handouts.docx">
+    </Content>
+    <Content Include="teachers\teacher assets\MS Word\Lecture 4-Microsoft Word Basics_Handouts.docx">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
+    </Content>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
