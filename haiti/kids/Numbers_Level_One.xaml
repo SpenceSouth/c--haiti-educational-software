@@ -62,7 +62,6 @@
                 <RowDefinition Height="4*" />
                 <RowDefinition Height="8*" />
                 <RowDefinition Height="8*" />
-                <RowDefinition Height="8*" />
                 <RowDefinition Height="5*" />
             </Grid.RowDefinitions>
             <Grid.ColumnDefinitions>
@@ -76,14 +75,9 @@
             <TextBlock Grid.Row="1" Grid.Column="1" Text="Program" />
             <TextBlock Grid.Row="1" Grid.Column="3" Text="Description" />
 
-            <Button x:Name="numbersButton" Grid.Row="2" Grid.Column="1" Content="Numbers" Click="Program_Click" />
+            <Button x:Name="numbersButton" Grid.Row="2" Grid.Column="1" Content="Numbers – Learn How to Write Numbers (0-9)" Click="Program_Click" />
             <Border Grid.Row="2" Grid.Column="3" BorderThickness="1" BorderBrush="Black">
-                <TextBlock Text="Insert description here" TextWrapping="Wrap" HorizontalAlignment="Left" />
-            </Border>
-
-            <Button x:Name="numbers002Button" Grid.Row="3" Grid.Column="1" Content="Numbers 002" Click="Program_Click" />
-            <Border Grid.Row="3" Grid.Column="3" BorderThickness="1" BorderBrush="Black">
-                <TextBlock Text="Insert description here" TextWrapping="Wrap" HorizontalAlignment="Left" />
+                <TextBlock Text="Instructions:  Press Page Down Key to advance through the numbers" TextWrapping="Wrap" HorizontalAlignment="Left" />
             </Border>
 
         </Grid>

@@ -518,6 +518,9 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+    <Content Include="kids\level_2\activity_books\satSun.pdf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
     <None Include="teachers\teacher assets\CLS Learning Apps\Dishi_EducationalResourcesandBookletsdocumentation.docx.docx">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
@@ -565,16 +568,10 @@
     <Content Include="kids\level_1\alphabets\albhabets001.pdf">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="kids\level_1\alphabets\alphabets.pdf">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
     <Content Include="kids\level_1\alphabets\zoophabets.pdf">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
     <Content Include="kids\level_1\Numbers\numbers.pdf">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-    <Content Include="kids\level_1\Numbers\numbers002.pdf">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
     <Content Include="kids\level_1\Phonics\Animals-1.pps">
@@ -892,9 +889,6 @@
     <Content Include="kids\level_2\Health\phs6.pdf">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="kids\level_2\Health\personalhygiene.ppt">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
     <Content Include="kids\level_2\Health\personalhygieneandsunsafety.ppt">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
@@ -940,7 +934,7 @@
     <Content Include="kids\level_2\Storybooks\threeLittlePigs.pdf">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="kids\level_2\Storybooks\If I Could Fly an Airplane - travel book.doc">
+    <Content Include="kids\level_2\Storybooks\airplane.doc">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
     <Content Include="kids\level_2\Storybooks\nurseryRhymes2.pdf">
@@ -959,9 +953,6 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
     <Content Include="kids\level_2\activity_books\ab %284%29.pdf">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-    <Content Include="kids\level_2\activity_books\ab %285%29.pdf">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
     <Content Include="kids\level_2\activity_books\ab %286%29.pdf">

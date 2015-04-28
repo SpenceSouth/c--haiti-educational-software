@@ -67,8 +67,7 @@
                     <RowDefinition Height="8*" />
                     <RowDefinition Height="8*" />
                     <RowDefinition Height="8*" />
-                    <RowDefinition Height="8*" />
-                    <RowDefinition Height="8*" />                    
+                    <RowDefinition Height="8*" />                  
                     <RowDefinition Height="5*" />
                 </Grid.RowDefinitions>
                 <Grid.ColumnDefinitions>
@@ -84,31 +83,26 @@
 
                 <Button x:Name="rainbowButton" Grid.Row="2" Grid.Column="1" Content="Colors of the Rainbow" Click="Program_Click" />
                 <Border Grid.Row="2" Grid.Column="3" BorderThickness="1" BorderBrush="Black">
-                    <TextBlock Text="Insert description here" TextWrapping="Wrap" HorizontalAlignment="Left" />
+                    <TextBlock Text="Thirty Six slides on the Rainbow." TextWrapping="Wrap" HorizontalAlignment="Left" />
                 </Border>
 
                 <Button x:Name="nursey1Button" Grid.Row="3" Grid.Column="1" Content="World Famous Nursary Rhymes Volume 1" Click="Program_Click" />
                 <Border Grid.Row="3" Grid.Column="3" BorderThickness="1" BorderBrush="Black">
-                    <TextBlock Text="Insert description here" TextWrapping="Wrap" HorizontalAlignment="Left" />
+                    <TextBlock Text="Thirty-nine slides on Nursery Rhymes (Man in the Moon, Wee Willie Winkie, and more!)" TextWrapping="Wrap" HorizontalAlignment="Left" />
                 </Border>
 
-                <Button x:Name="nursery2Button" Grid.Row="4" Grid.Column="1" Content="World Famous Nursary Rhymes Volume 2" Click="Program_Click" />
+                <Button x:Name="newToyButton" Grid.Row="4" Grid.Column="1" Content="The New Toy" Click="Program_Click" />
                 <Border Grid.Row="4" Grid.Column="3" BorderThickness="1" BorderBrush="Black">
-                    <TextBlock Text="Insert description here" TextWrapping="Wrap" HorizontalAlignment="Left" />
+                    <TextBlock Text="Sixteen Slides on The New Toy" TextWrapping="Wrap" HorizontalAlignment="Left" />
                 </Border>
 
-                <Button x:Name="newToyButton" Grid.Row="5" Grid.Column="1" Content="The New Toy" Click="Program_Click" />
+                <Button x:Name="pigsButton" Grid.Row="5" Grid.Column="1" Content="Three Little Pigs" Click="Program_Click" />
                 <Border Grid.Row="5" Grid.Column="3" BorderThickness="1" BorderBrush="Black">
-                    <TextBlock Text="Insert description here" TextWrapping="Wrap" HorizontalAlignment="Left" />
+                    <TextBlock Text="Thirty-two slides on this story of Three Little Pigs" TextWrapping="Wrap" HorizontalAlignment="Left" />
                 </Border>
 
-                <Button x:Name="pigsButton" Grid.Row="6" Grid.Column="1" Content="Three Little Pigs" Click="Program_Click" />
+                <Button x:Name="airplaneButton" Grid.Row="6" Grid.Column="1" Content="If I Could Fly an Airplane" Click="Program_Click" />
                 <Border Grid.Row="6" Grid.Column="3" BorderThickness="1" BorderBrush="Black">
-                    <TextBlock Text="Insert description here" TextWrapping="Wrap" HorizontalAlignment="Left" />
-                </Border>
-
-                <Button x:Name="airplaneButton" Grid.Row="7" Grid.Column="1" Content="If I Could Fly an Airplane" Click="Program_Click" />
-                <Border Grid.Row="7" Grid.Column="3" BorderThickness="1" BorderBrush="Black">
                     <TextBlock Text="Travel Book" TextWrapping="Wrap" HorizontalAlignment="Left" />
                 </Border>               
             </Grid>

@@ -89,57 +89,57 @@
 
                 <Button x:Name="hps1Button" Grid.Row="2" Grid.Column="1" Content="Handwriting Practice Sentences 1" Click="Program_Click" />
                 <Border Grid.Row="2" Grid.Column="3" BorderThickness="1" BorderBrush="Black">
-                    <TextBlock Text="Cursive Writing Worksheet" TextWrapping="Wrap" HorizontalAlignment="Left" />
+                    <TextBlock Text="Three Simple Sentences written in cursive" TextWrapping="Wrap" HorizontalAlignment="Left" />
                 </Border>
 
                 <Button x:Name="hps2Button" Grid.Row="3" Grid.Column="1" Content="Handwriting Practice Sentences 2" Click="Program_Click" />
                 <Border Grid.Row="3" Grid.Column="3" BorderThickness="1" BorderBrush="Black">
-                    <TextBlock Text="Cursive Writing Worksheet" TextWrapping="Wrap" HorizontalAlignment="Left" />
+                    <TextBlock Text="Three Simple Sentences written in cursive" TextWrapping="Wrap" HorizontalAlignment="Left" />
                 </Border>
 
                 <Button x:Name="hps3Button" Grid.Row="4" Grid.Column="1" Content="Handwriting Practice Sentences 3" Click="Program_Click" />
                 <Border Grid.Row="4" Grid.Column="3" BorderThickness="1" BorderBrush="Black">
-                    <TextBlock Text="Cursive Writing Worksheet" TextWrapping="Wrap" HorizontalAlignment="Left" />
+                    <TextBlock Text="Three Simple Sentences written in cursive" TextWrapping="Wrap" HorizontalAlignment="Left" />
                 </Border>
 
                 <Button x:Name="hps4Button" Grid.Row="5" Grid.Column="1" Content="Handwriting Practice Sentences 4" Click="Program_Click" />
                 <Border Grid.Row="5" Grid.Column="3" BorderThickness="1" BorderBrush="Black">
-                    <TextBlock Text="Cursive Writing Worksheet" TextWrapping="Wrap" HorizontalAlignment="Left" />
+                    <TextBlock Text="Three Simple Sentences written in cursive" TextWrapping="Wrap" HorizontalAlignment="Left" />
                 </Border>
 
                 <Button x:Name="hps5Button" Grid.Row="6" Grid.Column="1" Content="Handwriting Practice Sentences 5" Click="Program_Click" />
                 <Border Grid.Row="6" Grid.Column="3" BorderThickness="1" BorderBrush="Black">
-                    <TextBlock Text="Cursive Writing Worksheet" TextWrapping="Wrap" HorizontalAlignment="Left" />
+                    <TextBlock Text="Three Simple Sentences written in cursive" TextWrapping="Wrap" HorizontalAlignment="Left" />
                 </Border>
 
                 <Button x:Name="rc1Button" Grid.Row="7" Grid.Column="1" Content="Read Clocks and Write the Time 1" Click="Program_Click" />
                 <Border Grid.Row="7" Grid.Column="3" BorderThickness="1" BorderBrush="Black">
-                    <TextBlock Text="Insert description here" TextWrapping="Wrap" HorizontalAlignment="Left" />
+                    <TextBlock Text="Exercises in telling time and adding / subtracting from displayed time." TextWrapping="Wrap" HorizontalAlignment="Left" />
                 </Border>
 
                 <Button x:Name="rc2Button" Grid.Row="8" Grid.Column="1" Content="Read Clocks and Write the Time 2" Click="Program_Click" />
                 <Border Grid.Row="8" Grid.Column="3" BorderThickness="1" BorderBrush="Black">
-                    <TextBlock Text="Insert description here" TextWrapping="Wrap" HorizontalAlignment="Left" />
+                    <TextBlock Text="Exercises in telling time and adding / subtracting from displayed time." TextWrapping="Wrap" HorizontalAlignment="Left" />
                 </Border>
 
                 <Button x:Name="readtime1Button" Grid.Row="9" Grid.Column="1" Content="Read the Time 1" Click="Program_Click" />
                 <Border Grid.Row="9" Grid.Column="3" BorderThickness="1" BorderBrush="Black">
-                    <TextBlock Text="Insert description here" TextWrapping="Wrap" HorizontalAlignment="Left" />
+                    <TextBlock Text="Shows Clock; Tests ability to read clock; three exercises" TextWrapping="Wrap" HorizontalAlignment="Left" />
                 </Border>
 
                 <Button x:Name="readtime2Button" Grid.Row="10" Grid.Column="1" Content="Read the Time 2" Click="Program_Click" />
                 <Border Grid.Row="10" Grid.Column="3" BorderThickness="1" BorderBrush="Black">
-                    <TextBlock Text="Insert description here" TextWrapping="Wrap" HorizontalAlignment="Left" />
+                    <TextBlock Text="Shows Clock; Tests ability to read clock; three exercises" TextWrapping="Wrap" HorizontalAlignment="Left" />
                 </Border>
 
                 <Button x:Name="readtime3Button" Grid.Row="11" Grid.Column="1" Content="Read the Time 3" Click="Program_Click" />
                 <Border Grid.Row="11" Grid.Column="3" BorderThickness="1" BorderBrush="Black">
-                    <TextBlock Text="Insert description here" TextWrapping="Wrap" HorizontalAlignment="Left" />
+                    <TextBlock Text="Shows Clock; Tests ability to read clock; four exercises" TextWrapping="Wrap" HorizontalAlignment="Left" />
                 </Border>
 
                 <Button x:Name="readtime4Button" Grid.Row="12" Grid.Column="1" Content="Read the Time 4" Click="Program_Click" />
                 <Border Grid.Row="12" Grid.Column="3" BorderThickness="1" BorderBrush="Black">
-                    <TextBlock Text="Insert description here" TextWrapping="Wrap" HorizontalAlignment="Left" />
+                    <TextBlock Text="Shows Clock; Tests ability to read clock; four exercises" TextWrapping="Wrap" HorizontalAlignment="Left" />
                 </Border>
             </Grid>
         </Grid>

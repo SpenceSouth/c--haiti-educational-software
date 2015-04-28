@@ -59,116 +59,116 @@
 
             <StackPanel Orientation="Vertical" HorizontalAlignment="Center" VerticalAlignment="Center">
                 <StackPanel Orientation="Horizontal">
-                    <Button x:Name="button0" Content="Activity Book 1" Margin="10" Click="Program_Click" />
-                    <Button x:Name="button1" Content="Activity Book 1" Margin="10" Click="Program_Click" />
-                    <Button x:Name="button2" Content="Activity Book 1" Margin="10" Click="Program_Click" />
-                    <Button x:Name="button3" Content="Activity Book 1" Margin="10" Click="Program_Click" />
-                    <Button x:Name="button4" Content="Activity Book 1" Margin="10" Click="Program_Click" />
-                    <Button x:Name="button5" Content="Activity Book 1" Margin="10" Click="Program_Click" />
+                    <Button x:Name="button0" Content="Color spellings" Margin="10" Click="Program_Click" Width="130px" Height="75px"/>
+                    <Button x:Name="button1" Content="DELETE ME" Margin="10" Click="Program_Click" Width="130px" Height="75px"/>
+                    <Button x:Name="button2" Content="PDF" Margin="10" Click="Program_Click" Width="130px" Height="75px"/>
+                    <Button x:Name="button3" Content="PDF" Margin="10" Click="Program_Click" Width="130px" Height="75px"/>
+                    <Button x:Name="button4" Content="PDF" Margin="10" Click="Program_Click" Width="130px" Height="75px"/>
+                    <Button x:Name="button5" Content="Activity Book 1" Margin="10" Click="Program_Click" Width="130px" Height="75px"/>
                 </StackPanel>
                 <StackPanel Orientation="Horizontal">
-                    <Button x:Name="button6" Content="Activity Book 1" Margin="10" Click="Program_Click" />
-                    <Button x:Name="button7" Content="Activity Book 1" Margin="10" Click="Program_Click" />
-                    <Button x:Name="button8" Content="Activity Book 1" Margin="10" Click="Program_Click" />
-                    <Button x:Name="button9" Content="Activity Book 1" Margin="10" Click="Program_Click" />
-                    <Button x:Name="button10" Content="Activity Book 1" Margin="10" Click="Program_Click" />
-                    <Button x:Name="button11" Content="Activity Book 1" Margin="10" Click="Program_Click" />
+                    <Button x:Name="button6" Content="Days of the week" Margin="10" Click="Program_Click" Width="130px" Height="75px"/>
+                    <Button x:Name="button7" Content="Days of the week" Margin="10" Click="Program_Click" Width="130px" Height="75px"/>
+                    <Button x:Name="button8" Content="PDF" Margin="10" Click="Program_Click" Width="130px" Height="75px"/>
+                    <Button x:Name="button9" Content="PDF" Margin="10" Click="Program_Click" Width="130px" Height="75px"/>
+                    <Button x:Name="button10" Content="DELETE ME" Margin="10" Click="Program_Click" Width="130px" Height="75px"/>
+                    <Button x:Name="button11" Content="Activity Book 1" Margin="10" Click="Program_Click" Width="130px" Height="75px"/>
                 </StackPanel>
                 <StackPanel Orientation="Horizontal">
-                    <Button x:Name="button12" Content="Activity Book 1" Margin="10" Click="Program_Click" />
-                    <Button x:Name="button13" Content="Activity Book 1" Margin="10" Click="Program_Click" />
-                    <Button x:Name="button14" Content="Activity Book 1" Margin="10" Click="Program_Click" />
-                    <Button x:Name="button15" Content="Activity Book 1" Margin="10" Click="Program_Click" />
-                    <Button x:Name="button16" Content="Activity Book 1" Margin="10" Click="Program_Click" />
-                    <Button x:Name="button17" Content="Activity Book 1" Margin="10" Click="Program_Click" />
+                    <Button x:Name="button12" Content="Number 1" Margin="10" Click="Program_Click" Width="130px" Height="75px"/>
+                    <Button x:Name="button13" Content="Number 2" Margin="10" Click="Program_Click" Width="130px" Height="75px"/>
+                    <Button x:Name="button14" Content="Number 3" Margin="10" Click="Program_Click" Width="130px" Height="75px"/>
+                    <Button x:Name="button15" Content="Number 4" Margin="10" Click="Program_Click" Width="130px" Height="75px"/>
+                    <Button x:Name="button16" Content="Number 5" Margin="10" Click="Program_Click" Width="130px" Height="75px"/>
+                    <Button x:Name="button17" Content="Activity Book 1" Margin="10" Click="Program_Click" Width="130px" Height="75px"/>
                 </StackPanel>
                 <StackPanel Orientation="Horizontal">
-                    <Button x:Name="button18" Content="Activity Book 1" Margin="10" Click="Program_Click" />
-                    <Button x:Name="button19" Content="Activity Book 1" Margin="10" Click="Program_Click" />
-                    <Button x:Name="button20" Content="Activity Book 1" Margin="10" Click="Program_Click" />
-                    <Button x:Name="button21" Content="Activity Book 1" Margin="10" Click="Program_Click" />
-                    <Button x:Name="button22" Content="Activity Book 1" Margin="10" Click="Program_Click" />
-                    <Button x:Name="button23" Content="Activity Book 1" Margin="10" Click="Program_Click" />
+                    <Button x:Name="button18" Content="Number 6" Margin="10" Click="Program_Click" Width="130px" Height="75px"/>
+                    <Button x:Name="button19" Content="Number 7" Margin="10" Click="Program_Click" Width="130px" Height="75px"/>
+                    <Button x:Name="button20" Content="Number 8" Margin="10" Click="Program_Click" Width="130px" Height="75px"/>
+                    <Button x:Name="button21" Content="Number 9" Margin="10" Click="Program_Click" Width="130px" Height="75px"/>
+                    <Button x:Name="button22" Content="Number 10" Margin="10" Click="Program_Click" Width="130px" Height="75px"/>
+                    <Button x:Name="button23" Content="Activity Book 1" Margin="10" Click="Program_Click" Width="130px" Height="75px"/>
                 </StackPanel>
                 <StackPanel Orientation="Horizontal">
-                    <Button x:Name="button24" Content="Activity Book 1" Margin="10" Click="Program_Click" />
-                    <Button x:Name="button25" Content="Activity Book 1" Margin="10" Click="Program_Click" />
-                    <Button x:Name="button26" Content="Activity Book 1" Margin="10" Click="Program_Click" />
-                    <Button x:Name="button27" Content="Activity Book 1" Margin="10" Click="Program_Click" />
-                    <Button x:Name="button28" Content="Activity Book 1" Margin="10" Click="Program_Click" />
-                    <Button x:Name="button29" Content="Activity Book 1" Margin="10" Click="Program_Click" />
+                    <Button x:Name="button24" Content="DELETE ME" Margin="10" Click="Program_Click" Width="130px" Height="75px" />
+                    <Button x:Name="button25" Content="DELETE ME" Margin="10" Click="Program_Click" Width="130px" Height="75px"/>
+                    <Button x:Name="button26" Content="DELETE ME" Margin="10" Click="Program_Click" Width="130px" Height="75px"/>
+                    <Button x:Name="button27" Content="Learn to Count" Margin="10" Click="Program_Click" Width="130px" Height="75px"/>
+                    <Button x:Name="button28" Content="Match Pictures to Words" Margin="10" Click="Program_Click" Width="130px" Height="75px"/>
+                    <Button x:Name="button29" Content="Activity Book 1" Margin="10" Click="Program_Click" Width="130px" Height="75px"/>
                 </StackPanel>
                 <StackPanel Orientation="Horizontal">
-                    <Button x:Name="button30" Content="Activity Book 1" Margin="10" Click="Program_Click" />
-                    <Button x:Name="button31" Content="Activity Book 1" Margin="10" Click="Program_Click" />
-                    <Button x:Name="button32" Content="Activity Book 1" Margin="10" Click="Program_Click" />
-                    <Button x:Name="button33" Content="Activity Book 1" Margin="10" Click="Program_Click" />
-                    <Button x:Name="button34" Content="Activity Book 1" Margin="10" Click="Program_Click" />
-                    <Button x:Name="button35" Content="Activity Book 1" Margin="10" Click="Program_Click" />
+                    <Button x:Name="button30" Content="Learn to Count" Margin="10" Click="Program_Click" Width="130px" Height="75px"/>
+                    <Button x:Name="button31" Content="Find correct size" Margin="10" Click="Program_Click" Width="130px" Height="75px"/>
+                    <Button x:Name="button32" Content="Fruits and Vegatables" Margin="10" Click="Program_Click" Width="130px" Height="75px"/>
+                    <Button x:Name="button33" Content="Recognizing Animals" Margin="10" Click="Program_Click" Width="130px" Height="75px"/>
+                    <Button x:Name="button34" Content="Find the Odd One Out" Margin="10" Click="Program_Click" Width="130px" Height="75px"/>
+                    <Button x:Name="button35" Content="Activity Book 1" Margin="10" Click="Program_Click" Width="130px" Height="75px"/>
                 </StackPanel>
                 <StackPanel Orientation="Horizontal">
-                    <Button x:Name="button36" Content="Activity Book 1" Margin="10" Click="Program_Click" />
-                    <Button x:Name="button37" Content="Activity Book 1" Margin="10" Click="Program_Click" />
-                    <Button x:Name="button38" Content="Activity Book 1" Margin="10" Click="Program_Click" />
-                    <Button x:Name="button39" Content="Activity Book 1" Margin="10" Click="Program_Click" />
-                    <Button x:Name="button40" Content="Activity Book 1" Margin="10" Click="Program_Click" />
-                    <Button x:Name="button41" Content="Activity Book 1" Margin="10" Click="Program_Click" />
+                    <Button x:Name="button36" Content="Arrange Numbers" Margin="10" Click="Program_Click" Width="130px" Height="75px"/>
+                    <Button x:Name="button37" Content="DELETE ME" Margin="10" Click="Program_Click" Width="130px" Height="75px"/>
+                    <Button x:Name="button38" Content="DELETE ME" Margin="10" Click="Program_Click" Width="130px" Height="75px"/>
+                    <Button x:Name="button39" Content="DELETE ME" Margin="10" Click="Program_Click" Width="130px" Height="75px"/>
+                    <Button x:Name="button40" Content="Learn to Count" Margin="10" Click="Program_Click" Width="130px" Height="75px"/>
+                    <Button x:Name="button41" Content="Activity Book 1" Margin="10" Click="Program_Click" Width="130px" Height="75px"/>
                 </StackPanel>
                 <StackPanel Orientation="Horizontal">
-                    <Button x:Name="button42" Content="Activity Book 1" Margin="10" Click="Program_Click" />
-                    <Button x:Name="button43" Content="Activity Book 1" Margin="10" Click="Program_Click" />
-                    <Button x:Name="button44" Content="Activity Book 1" Margin="10" Click="Program_Click" />
-                    <Button x:Name="button45" Content="Activity Book 1" Margin="10" Click="Program_Click" />
-                    <Button x:Name="button46" Content="Activity Book 1" Margin="10" Click="Program_Click" />
-                    <Button x:Name="button47" Content="Activity Book 1" Margin="10" Click="Program_Click" />
+                    <Button x:Name="button42" Content="DELETE ME" Margin="10" Click="Program_Click" Width="130px" Height="75px"/>
+                    <Button x:Name="button43" Content="Learn to Count" Margin="10" Click="Program_Click" Width="130px" Height="75px"/>
+                    <Button x:Name="button44" Content="DELETE ME" Margin="10" Click="Program_Click" Width="130px" Height="75px"/>
+                    <Button x:Name="button45" Content="DELETE ME" Margin="10" Click="Program_Click" Width="130px" Height="75px"/>
+                    <Button x:Name="button46" Content="DELETE ME" Margin="10" Click="Program_Click" Width="130px" Height="75px"/>
+                    <Button x:Name="button47" Content="Activity Book 1" Margin="10" Click="Program_Click" Width="130px" Height="75px"/>
                 </StackPanel>
                 <StackPanel Orientation="Horizontal">
-                    <Button x:Name="button48" Content="Activity Book 1" Margin="10" Click="Program_Click" />
-                    <Button x:Name="button49" Content="Activity Book 1" Margin="10" Click="Program_Click" />
-                    <Button x:Name="button50" Content="Activity Book 1" Margin="10" Click="Program_Click" />
-                    <Button x:Name="button51" Content="Activity Book 1" Margin="10" Click="Program_Click" />
-                    <Button x:Name="button52" Content="Activity Book 1" Margin="10" Click="Program_Click" />
-                    <Button x:Name="button53" Content="Activity Book 1" Margin="10" Click="Program_Click" />
+                    <Button x:Name="button48" Content="Arrange numbers" Margin="10" Click="Program_Click" Width="130px" Height="75px"/>
+                    <Button x:Name="button49" Content="Learn to Count" Margin="10" Click="Program_Click" Width="130px" Height="75px"/>
+                    <Button x:Name="button50" Content="Find the Odd One Out" Margin="10" Click="Program_Click" Width="130px" Height="75px"/>
+                    <Button x:Name="button51" Content="Spot the Difference" Margin="10" Click="Program_Click" Width="130px" Height="75px"/>
+                    <Button x:Name="button52" Content="Learn to Count" Margin="10" Click="Program_Click" Width="130px" Height="75px"/>
+                    <Button x:Name="button53" Content="Activity Book 1" Margin="10" Click="Program_Click" Width="130px" Height="75px"/>
                 </StackPanel>
                 <StackPanel Orientation="Horizontal">
-                    <Button x:Name="button54" Content="Activity Book 1" Margin="10" Click="Program_Click" />
-                    <Button x:Name="button55" Content="Activity Book 1" Margin="10" Click="Program_Click" />
-                    <Button x:Name="button56" Content="Activity Book 1" Margin="10" Click="Program_Click" />
-                    <Button x:Name="button57" Content="Activity Book 1" Margin="10" Click="Program_Click" />
-                    <Button x:Name="button58" Content="Activity Book 1" Margin="10" Click="Program_Click" />
-                    <Button x:Name="button59" Content="Activity Book 1" Margin="10" Click="Program_Click" />
+                    <Button x:Name="button54" Content="Hedgehog Puzzle" Margin="10" Click="Program_Click" Width="130px" Height="75px"/>
+                    <Button x:Name="button55" Content="DELETE ME" Margin="10" Click="Program_Click" Width="130px" Height="75px"/>
+                    <Button x:Name="button56" Content="Princess Puzzle" Margin="10" Click="Program_Click" Width="130px" Height="75px"/>
+                    <Button x:Name="button57" Content="Bee Puzzle" Margin="10" Click="Program_Click" Width="130px" Height="75px"/>
+                    <Button x:Name="button58" Content="Little House Puzzle" Margin="10" Click="Program_Click" Width="130px" Height="75px"/>
+                    <Button x:Name="button59" Content="Activity Book 1" Margin="10" Click="Program_Click" Width="130px" Height="75px"/>
                 </StackPanel>
                 <StackPanel Orientation="Horizontal">
-                    <Button x:Name="button60" Content="Activity Book 1" Margin="10" Click="Program_Click" />
-                    <Button x:Name="button61" Content="Activity Book 1" Margin="10" Click="Program_Click" />
-                    <Button x:Name="button62" Content="Activity Book 1" Margin="10" Click="Program_Click" />
-                    <Button x:Name="button63" Content="Activity Book 1" Margin="10" Click="Program_Click" />
-                    <Button x:Name="button64" Content="Activity Book 1" Margin="10" Click="Program_Click" />
-                    <Button x:Name="button65" Content="Activity Book 1" Margin="10" Click="Program_Click" />
+                    <Button x:Name="button60" Content="Little Boy Puzzle" Margin="10" Click="Program_Click" Width="130px" Height="75px"/>
+                    <Button x:Name="button61" Content="Big Boy Puzzle" Margin="10" Click="Program_Click" Width="130px" Height="75px"/>
+                    <Button x:Name="button62" Content="Dinosaur Puzzle" Margin="10" Click="Program_Click" Width="130px" Height="75px"/>
+                    <Button x:Name="button63" Content="Little Girl Puzzle" Margin="10" Click="Program_Click" Width="130px" Height="75px"/>
+                    <Button x:Name="button64" Content="Car Puzzle" Margin="10" Click="Program_Click" Width="130px" Height="75px"/>
+                    <Button x:Name="button65" Content="Activity Book 1" Margin="10" Click="Program_Click" Width="130px" Height="75px"/>
                 </StackPanel>
                 <StackPanel Orientation="Horizontal">
-                    <Button x:Name="button66" Content="Activity Book 1" Margin="10" Click="Program_Click" />
-                    <Button x:Name="button67" Content="Activity Book 1" Margin="10" Click="Program_Click" />
-                    <Button x:Name="button68" Content="Activity Book 1" Margin="10" Click="Program_Click" />
-                    <Button x:Name="button69" Content="Activity Book 1" Margin="10" Click="Program_Click" />
-                    <Button x:Name="button70" Content="Activity Book 1" Margin="10" Click="Program_Click" />
-                    <Button x:Name="button71" Content="Activity Book 1" Margin="10" Click="Program_Click" />
+                    <Button x:Name="button66" Content="Bunny Puzzle" Margin="10" Click="Program_Click" Width="130px" Height="75px"/>
+                    <Button x:Name="button67" Content="Rooster Puzzle" Margin="10" Click="Program_Click" Width="130px" Height="75px"/>
+                    <Button x:Name="button68" Content="Butterfly Puzzle" Margin="10" Click="Program_Click" Width="130px" Height="75px"/>
+                    <Button x:Name="button69" Content="Find the Odd One Out" Margin="10" Click="Program_Click" Width="130px" Height="75px"/>
+                    <Button x:Name="button70" Content="Match Fruits to Plants" Margin="10" Click="Program_Click" Width="130px" Height="75px"/>
+                    <Button x:Name="button71" Content="Activity Book 1" Margin="10" Click="Program_Click" Width="130px" Height="75px"/>
                 </StackPanel>
                 <StackPanel Orientation="Horizontal">
-                    <Button x:Name="button72" Content="Activity Book 1" Margin="10" Click="Program_Click" />
-                    <Button x:Name="button73" Content="Activity Book 1" Margin="10" Click="Program_Click" />
-                    <Button x:Name="button74" Content="Activity Book 1" Margin="10" Click="Program_Click" />
-                    <Button x:Name="button75" Content="Activity Book 1" Margin="10" Click="Program_Click" />
-                    <Button x:Name="button76" Content="Activity Book 1" Margin="10" Click="Program_Click" />
-                    <Button x:Name="button77" Content="Activity Book 1" Margin="10" Click="Program_Click" />
+                    <Button x:Name="button72" Content="Duck Shape Puzzle" Margin="10" Click="Program_Click" Width="130px" Height="75px"/>
+                    <Button x:Name="button73" Content="House Shape Puzzle" Margin="10" Click="Program_Click" Width="130px" Height="75px"/>
+                    <Button x:Name="button74" Content="Find the Odd One Out" Margin="10" Click="Program_Click" Width="130px" Height="75px"/>
+                    <Button x:Name="button75" Content="Spot the Difference" Margin="10" Click="Program_Click" Width="130px" Height="75px"/>
+                    <Button x:Name="button76" Content="Recognize a Pattern" Margin="10" Click="Program_Click" Width="130px" Height="75px"/>
+                    <Button x:Name="button77" Content="Activity Book 1" Margin="10" Click="Program_Click" Width="130px" Height="75px"/>
                 </StackPanel>
                 <StackPanel Orientation="Horizontal">
-                    <Button x:Name="button78" Content="Activity Book 1" Margin="10" Click="Program_Click" />
-                    <Button x:Name="button79" Content="Activity Book 1" Margin="10" Click="Program_Click" />
-                    <Button x:Name="button80" Content="Activity Book 1" Margin="10" Click="Program_Click" />
-                    <Button x:Name="button81" Content="Activity Book 1" Margin="10" Click="Program_Click" />
-                    <Button x:Name="button82" Content="Activity Book 1" Margin="10" Click="Program_Click" />
-                    <Button x:Name="button83" Content="Activity Book 1" Margin="10" Click="Program_Click" />
+                    <Button x:Name="button78" Content="Find Correct Size" Margin="10" Click="Program_Click" Width="130px" Height="75px"/>
+                    <Button x:Name="button79" Content="Find Correct Size" Margin="10" Click="Program_Click" Width="130px" Height="75px"/>
+                    <Button x:Name="button80" Content="Three Little Kids Puzzle" Margin="10" Click="Program_Click" Width="130px" Height="75px"/>
+                    <Button x:Name="button81" Content="Learn to Count" Margin="10" Click="Program_Click" Width="130px" Height="75px"/>
+                    <Button x:Name="button82" Content="Number 3" Margin="10" Click="Program_Click" Width="130px" Height="75px"/>
+                    <Button x:Name="button83" Content="Activity Book 1" Margin="10" Click="Program_Click" Width="130px" Height="75px"/>
                 </StackPanel>
             </StackPanel>
 
