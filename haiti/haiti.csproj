@@ -168,8 +168,8 @@
     <Compile Include="teachers\Activity_Sheets_Page.xaml.cs">
       <DependentUpon>Activity_Sheets_Page.xaml</DependentUpon>
     </Compile>
-    <Compile Include="teachers\CLS_App_Docs_Page.xaml.cs">
-      <DependentUpon>CLS_App_Docs_Page.xaml</DependentUpon>
+    <Compile Include="teachers\Excel_Docs_Page.xaml.cs">
+      <DependentUpon>Excel_Docs_Page.xaml</DependentUpon>
     </Compile>
     <Compile Include="teachers\Computer_Page.xaml.cs">
       <DependentUpon>Computer_Page.xaml</DependentUpon>
@@ -370,7 +370,7 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="teachers\CLS_App_Docs_Page.xaml">
+    <Page Include="teachers\Excel_Docs_Page.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -518,7 +518,12 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
-    <None Include="teachers\teacher assets\CLS Learning Apps\Dishi_EducationalResourcesandBookletsdocumentation.docx.docx" />
+    <Content Include="kids\level_2\activity_books\satSun.pdf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <None Include="teachers\teacher assets\CLS Learning Apps\Dishi_EducationalResourcesandBookletsdocumentation.docx.docx">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
     <None Include="teachers\teacher assets\Computer\Computer and Internet_Lecture2_Print.pdf">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
@@ -537,12 +542,24 @@
     <None Include="teachers\teacher assets\Computer\Lecture 2-Computer-Basics--Windows and internet.ppt">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Include="teachers\teacher assets\MS Excel\Lecture 5-BeginnerLevel1_IntroExcel.ppt" />
-    <None Include="teachers\teacher assets\MS Excel\Lecture 6-BeginnerLevel2-ExcelBasics.ppt" />
-    <None Include="teachers\teacher assets\MS Excel\Lecture 7-Advanced level1-ExcelFormulas.ppt" />
-    <None Include="teachers\teacher assets\MS Excel\Lecture 8-AdvancedLevel2-ExcelFormatting.ppt" />
-    <None Include="teachers\teacher assets\MS Word\Lecture 3-An introduction to Microsoft Office.ppt" />
-    <None Include="teachers\teacher assets\MS Word\Lecture 4-Microsoft Word Basics_Handouts.docx" />
+    <None Include="teachers\teacher assets\MS Excel\Lecture 5-BeginnerLevel1_IntroExcel.ppt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="teachers\teacher assets\MS Excel\Lecture 6-BeginnerLevel2-ExcelBasics.ppt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="teachers\teacher assets\MS Excel\Lecture 7-Advanced level1-ExcelFormulas.ppt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="teachers\teacher assets\MS Excel\Lecture 8-AdvancedLevel2-ExcelFormatting.ppt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="teachers\teacher assets\MS Word\Lecture 3-An introduction to Microsoft Office.ppt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="teachers\teacher assets\MS Word\Lecture 4-Microsoft Word Basics_Handouts.docx">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -551,16 +568,10 @@
     <Content Include="kids\level_1\alphabets\albhabets001.pdf">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="kids\level_1\alphabets\alphabets.pdf">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
     <Content Include="kids\level_1\alphabets\zoophabets.pdf">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
     <Content Include="kids\level_1\Numbers\numbers.pdf">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-    <Content Include="kids\level_1\Numbers\numbers002.pdf">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
     <Content Include="kids\level_1\Phonics\Animals-1.pps">
@@ -650,19 +661,10 @@
     <Content Include="kids\level_2\activity_books\ab %2811%29.jpg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="kids\level_2\activity_books\ab %2811%29.png">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
     <Content Include="kids\level_2\activity_books\ab %2812%29.gif">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="kids\level_2\activity_books\ab %2812%29.png">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
     <Content Include="kids\level_2\activity_books\ab %2813%29.gif">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-    <Content Include="kids\level_2\activity_books\ab %2813%29.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
     <Content Include="kids\level_2\activity_books\ab %2814%29.png">
@@ -686,9 +688,6 @@
     <Content Include="kids\level_2\activity_books\ab %282%29.gif">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="kids\level_2\activity_books\ab %282%29.jpg">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
     <Content Include="kids\level_2\activity_books\ab %282%29.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
@@ -696,9 +695,6 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
     <Content Include="kids\level_2\activity_books\ab %2821%29.png">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-    <Content Include="kids\level_2\activity_books\ab %2822%29.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
     <Content Include="kids\level_2\activity_books\ab %2823%29.png">
@@ -723,9 +719,6 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
     <Content Include="kids\level_2\activity_books\ab %283%29.gif">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-    <Content Include="kids\level_2\activity_books\ab %283%29.jpg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
     <Content Include="kids\level_2\activity_books\ab %283%29.png">
@@ -764,12 +757,6 @@
     <Content Include="kids\level_2\activity_books\ab %284%29.gif">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="kids\level_2\activity_books\ab %284%29.jpg">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-    <Content Include="kids\level_2\activity_books\ab %284%29.png">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
     <Content Include="kids\level_2\activity_books\ab %2840%29.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
@@ -806,9 +793,6 @@
     <Content Include="kids\level_2\activity_books\ab %285%29.jpg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="kids\level_2\activity_books\ab %285%29.png">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
     <Content Include="kids\level_2\activity_books\ab %2850%29.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
@@ -816,9 +800,6 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
     <Content Include="kids\level_2\activity_books\ab %286%29.jpg">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-    <Content Include="kids\level_2\activity_books\ab %286%29.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
     <Content Include="kids\level_2\activity_books\ab %287%29.gif">
@@ -878,9 +859,6 @@
     <Content Include="kids\level_2\Health\phs6.pdf">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="kids\level_2\Health\personalhygiene.ppt">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
     <Content Include="kids\level_2\Health\personalhygieneandsunsafety.ppt">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
@@ -926,7 +904,7 @@
     <Content Include="kids\level_2\Storybooks\threeLittlePigs.pdf">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="kids\level_2\Storybooks\If I Could Fly an Airplane - travel book.doc">
+    <Content Include="kids\level_2\Storybooks\airplane.doc">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
     <Content Include="kids\level_2\Storybooks\nurseryRhymes2.pdf">
@@ -945,9 +923,6 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
     <Content Include="kids\level_2\activity_books\ab %284%29.pdf">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-    <Content Include="kids\level_2\activity_books\ab %285%29.pdf">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
     <Content Include="kids\level_2\activity_books\ab %286%29.pdf">

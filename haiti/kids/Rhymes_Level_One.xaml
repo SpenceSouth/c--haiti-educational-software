@@ -85,52 +85,52 @@
 
             <Button x:Name="alphabetButton" Grid.Row="2" Grid.Column="1" Content="Alphabet" Click="Program_Click" />
             <Border Grid.Row="2" Grid.Column="3" BorderThickness="1" BorderBrush="Black">
-                <TextBlock Text="Insert description here" TextWrapping="Wrap" HorizontalAlignment="Left" />
+                <TextBlock Text="Description:  Sings the alphabet; no pictures" TextWrapping="Wrap" HorizontalAlignment="Left" />
             </Border>
 
             <Button x:Name="bingoButton" Grid.Row="3" Grid.Column="1" Content="Bingo" Click="Program_Click" />
             <Border Grid.Row="3" Grid.Column="3" BorderThickness="1" BorderBrush="Black">
-                <TextBlock Text="Insert description here" TextWrapping="Wrap" HorizontalAlignment="Left" />
+                <TextBlock Text="Description: Song about Bingo the Dog" TextWrapping="Wrap" HorizontalAlignment="Left" />
             </Border>
 
             <Button x:Name="happyButton" Grid.Row="4" Grid.Column="1" Content="If You're Happy and You Know It" Click="Program_Click" />
             <Border Grid.Row="4" Grid.Column="3" BorderThickness="1" BorderBrush="Black">
-                <TextBlock Text="Insert description here" TextWrapping="Wrap" HorizontalAlignment="Left" />
+                <TextBlock Text="Description: Song about Happy is sung" TextWrapping="Wrap" HorizontalAlignment="Left" />
             </Border>
 
             <Button x:Name="spiderButton" Grid.Row="5" Grid.Column="1" Content="The Itsy Bitsy Spider" Click="Program_Click" />
             <Border Grid.Row="5" Grid.Column="3" BorderThickness="1" BorderBrush="Black">
-                <TextBlock Text="Insert description here" TextWrapping="Wrap" HorizontalAlignment="Left" />
+                <TextBlock Text="Description: Song is sung about the Itsy Bitsy Spider" TextWrapping="Wrap" HorizontalAlignment="Left" />
             </Border>
 
             <Button x:Name="oldMacdonaldButton" Grid.Row="6" Grid.Column="1" Content="Old MacDonald Had a Farm" Click="Program_Click" />
             <Border Grid.Row="6" Grid.Column="3" BorderThickness="1" BorderBrush="Black">
-                <TextBlock Text="E I E I O" TextWrapping="Wrap" HorizontalAlignment="Left" />
+                <TextBlock Text="Description: Song is sung about Old MacDonald's Farm" TextWrapping="Wrap" HorizontalAlignment="Left" />
             </Border>
 
             <Button x:Name="buckleShoeButton" Grid.Row="7" Grid.Column="1" Content="One, Two, Buckle My Shoe" Click="Program_Click" />
             <Border Grid.Row="7" Grid.Column="3" BorderThickness="1" BorderBrush="Black">
-                <TextBlock Text="Insert description here" TextWrapping="Wrap" HorizontalAlignment="Left" />
+                <TextBlock Text="Description: Song is sung about buckling one's shoe" TextWrapping="Wrap" HorizontalAlignment="Left" />
             </Border>
 
             <Button x:Name="countingButton" Grid.Row="8" Grid.Column="1" Content="One, Two, Three, Four, Five" Click="Program_Click" />
             <Border Grid.Row="8" Grid.Column="3" BorderThickness="1" BorderBrush="Black">
-                <TextBlock Text="Insert description here" TextWrapping="Wrap" HorizontalAlignment="Left" />
+                <TextBlock Text="Description: Song is sung counting one through ten" TextWrapping="Wrap" HorizontalAlignment="Left" />
             </Border>
 
             <Button x:Name="rainButton" Grid.Row="9" Grid.Column="1" Content="Rain Rain Go Away" Click="Program_Click" />
             <Border Grid.Row="9" Grid.Column="3" BorderThickness="1" BorderBrush="Black">
-                <TextBlock Text="Insert description here" TextWrapping="Wrap" HorizontalAlignment="Left" />
+                <TextBlock Text="Description: Song is sung about rain going away" TextWrapping="Wrap" HorizontalAlignment="Left" />
             </Border>
 
             <Button x:Name="rosieButton" Grid.Row="10" Grid.Column="1" Content="Ring Around the Rosie" Click="Program_Click" />
             <Border Grid.Row="10" Grid.Column="3" BorderThickness="1" BorderBrush="Black">
-                <TextBlock Text="Insert description here" TextWrapping="Wrap" HorizontalAlignment="Left" />
+                <TextBlock Text="Description: Song is Sung about Ringing around the Rosie" TextWrapping="Wrap" HorizontalAlignment="Left" />
             </Border>
 
             <Button x:Name="twinkleTwinkleButton" Grid.Row="11" Grid.Column="1" Content="Twinkle Twinkle" Click="Program_Click" />
             <Border Grid.Row="11" Grid.Column="3" BorderThickness="1" BorderBrush="Black">
-                <TextBlock Text="Insert description here" TextWrapping="Wrap" HorizontalAlignment="Left" />
+                <TextBlock Text="Description: Song Twinkle Twinkle little Star is Sung." TextWrapping="Wrap" HorizontalAlignment="Left" />
             </Border>
 
         </Grid>

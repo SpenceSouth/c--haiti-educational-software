@@ -1,0 +1,116 @@
+﻿<Page x:Class="haiti.teachers.CLS_App_Docs_Page"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      mc:Ignorable="d" 
+      d:DesignHeight="300" d:DesignWidth="300"
+	Title="CLS_App_Docs_Page">
+
+    <Grid>
+
+
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="1*" />
+                <!--<<< Will resize to the size of contents -->
+                <RowDefinition Height="5*" />
+                <!--<<< Will resize to the size of contents -->
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="1*" />
+            </Grid.ColumnDefinitions>
+
+            <!--This set of rows makes up the top title bar-->
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="1*" />
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="1*" />
+                    <ColumnDefinition Width="1*" />
+                </Grid.ColumnDefinitions>
+
+
+                <Grid Grid.Row="0" Grid.Column="0" Background="Black">
+                    <TextBlock Grid.Row="0" Grid.Column="0" Text="Teachers - Excel" TextAlignment="Center" Background="Black" Foreground="White" TextWrapping="Wrap" FontSize="30" FontWeight="Bold" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                </Grid>
+
+                <Grid Grid.Row="0" Grid.Column="1" Margin="0.2,0,-0.4,0.2">
+
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="1*" />
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="1*" />
+                        <ColumnDefinition Width="1*" />
+                        <ColumnDefinition Width="1*" />
+                        <ColumnDefinition Width="1*" />
+                        <ColumnDefinition Width="1*" />
+                    </Grid.ColumnDefinitions>
+
+                    <Button Grid.Row="0" Grid.Column="0" Content="Home"         Background="#33B5E5" Foreground="White" Click="Button_Click"/>
+                    <Button Grid.Row="0" Grid.Column="1" Content="Kids"         Background="#AA66CC" Foreground="White" Click="Button_Click"/>
+                    <Button Grid.Row="0" Grid.Column="2" Content="Teens"        Background="#99CC00" Foreground="White" Click="Button_Click"/>
+                    <Button Grid.Row="0" Grid.Column="3" Content="Teachers"     Background="#FF4444" Foreground="White" Click="Button_Click"/>
+                    <Button Grid.Row="0" Grid.Column="4" Content="About"        Background="#FFBB33" Foreground="White" Click="Button_Click"/>
+                </Grid>
+
+            </Grid>
+        </Grid>
+        <Grid x:Name="ProgramField" Grid.Row="1" Grid.Column="0" >
+            <Grid.RowDefinitions>
+                <RowDefinition Height="1*" />
+                <RowDefinition Height="4*" />
+                <RowDefinition Height="8*" />
+                <RowDefinition Height="8*" />
+                <RowDefinition Height="8*" />
+                <RowDefinition Height="8*" />
+                <RowDefinition Height="8*" />
+                <RowDefinition Height="8*" />
+                <RowDefinition Height="8*" />
+                <RowDefinition Height="5*" />
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="1*" />
+                <ColumnDefinition Width="4*" />
+                <ColumnDefinition Width="1*" />
+                <ColumnDefinition Width="5*" />
+                <ColumnDefinition Width="1*" />
+            </Grid.ColumnDefinitions>
+
+            <TextBlock Grid.Row="1" Grid.Column="1" Text="Program" />
+            <TextBlock Grid.Row="1" Grid.Column="3" Text="Description" />
+
+
+
+
+            <Button x:Name="IntroExcel" Grid.Row="4" Grid.Column="1" Content="Introduction to Excel" Click="Program_Click" />
+            <Border Grid.Row="4" Grid.Column="3" BorderThickness="1" BorderBrush="Black">
+                <TextBlock Text="Insert Word Basics description here" TextWrapping="Wrap" HorizontalAlignment="Left" />
+            </Border>
+
+
+            <Button x:Name="ExcelBasics" Grid.Row="5" Grid.Column="1" Content="Excel Basics" Click="Program_Click" />
+            <Border Grid.Row="5" Grid.Column="3" BorderThickness="1" BorderBrush="Black">
+                <TextBlock Text="Insert Word Introduction description here" TextWrapping="Wrap" HorizontalAlignment="Left" />
+            </Border>
+
+            <Button x:Name="IntermediateExcel" Grid.Row="6" Grid.Column="1" Content="Intermediate Excel" Click="Program_Click" />
+            <Border Grid.Row="6" Grid.Column="3" BorderThickness="1" BorderBrush="Black">
+                <TextBlock Text="Insert Word Basics description here" TextWrapping="Wrap" HorizontalAlignment="Left" />
+            </Border>
+
+
+            <Button x:Name="AdvancedExcel" Grid.Row="7" Grid.Column="1" Content="Advanced Excel" Click="Program_Click" />
+            <Border Grid.Row="7" Grid.Column="3" BorderThickness="1" BorderBrush="Black">
+                <TextBlock Text="Insert Word Introduction description here" TextWrapping="Wrap" HorizontalAlignment="Left" />
+            </Border>
+
+
+
+
+
+        </Grid>
+    </Grid>
+</Page>

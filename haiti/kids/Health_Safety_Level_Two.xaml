@@ -72,7 +72,6 @@
                     <RowDefinition Height="8*" />
                     <RowDefinition Height="8*" />
                     <RowDefinition Height="8*" />
-                    <RowDefinition Height="8*" />
                     <RowDefinition Height="5*" />
                 </Grid.RowDefinitions>
                 <Grid.ColumnDefinitions>
@@ -88,57 +87,52 @@
 
                 <Button x:Name="goodHabitsButton" Grid.Row="2" Grid.Column="1" Content="Good Habits" Click="Program_Click" />
                 <Border Grid.Row="2" Grid.Column="3" BorderThickness="1" BorderBrush="Black">
-                    <TextBlock Text="Insert description here" TextWrapping="Wrap" HorizontalAlignment="Left" />
+                    <TextBlock Text="Description: Discusses personal hygiene such as brushing teeth, washing hands and face, showering, taking a bath, using sunblock to avoid sunburn" TextWrapping="Wrap" HorizontalAlignment="Left" />
                 </Border>
 
                 <Button x:Name="humanBodyButton" Grid.Row="3" Grid.Column="1" Content="The Human Body" Click="Program_Click" />
                 <Border Grid.Row="3" Grid.Column="3" BorderThickness="1" BorderBrush="Black">
-                    <TextBlock Text="Insert description here" TextWrapping="Wrap" HorizontalAlignment="Left" />
+                    <TextBlock Text="Description: My Body Describes Parts of Body and Illustrations" TextWrapping="Wrap" HorizontalAlignment="Left" />
                 </Border>
 
                 <Button x:Name="germsAwayButton" Grid.Row="4" Grid.Column="1" Content="Keep Germs Away" Click="Program_Click" />
                 <Border Grid.Row="4" Grid.Column="3" BorderThickness="1" BorderBrush="Black">
-                    <TextBlock Text="Insert description here" TextWrapping="Wrap" HorizontalAlignment="Left" />
+                    <TextBlock Text="Description: Washing hands, covering mouth, coughing, sneezing" TextWrapping="Wrap" HorizontalAlignment="Left" />
                 </Border>
 
-                <Button x:Name="phs1Button" Grid.Row="5" Grid.Column="1" Content="Personal Hygiene Sequence 1" Click="Program_Click" />
+                <Button x:Name="phs1Button" Grid.Row="5" Grid.Column="1" Content="Personal Hygiene 1" Click="Program_Click" />
                 <Border Grid.Row="5" Grid.Column="3" BorderThickness="1" BorderBrush="Black">
-                    <TextBlock Text="Insert description here" TextWrapping="Wrap" HorizontalAlignment="Left" />
+                    <TextBlock Text="Description: Sequencing Washing Hands, Eating, Cooking, similar activities" TextWrapping="Wrap" HorizontalAlignment="Left" />
                 </Border>
 
-                <Button x:Name="phs2Button" Grid.Row="6" Grid.Column="1" Content="Personal Hygiene Sequence 2" Click="Program_Click" />
+                <Button x:Name="phs2Button" Grid.Row="6" Grid.Column="1" Content="Personal Hygiene 2" Click="Program_Click" />
                 <Border Grid.Row="6" Grid.Column="3" BorderThickness="1" BorderBrush="Black">
-                    <TextBlock Text="Insert description here" TextWrapping="Wrap" HorizontalAlignment="Left" />
+                    <TextBlock Text="Description: Cutting Finger Nails; Sequencing of Pictures" TextWrapping="Wrap" HorizontalAlignment="Left" />
                 </Border>
 
-                <Button x:Name="phs3Button" Grid.Row="7" Grid.Column="1" Content="Personal Hygiene Sequence 3" Click="Program_Click" />
+                <Button x:Name="phs3Button" Grid.Row="7" Grid.Column="1" Content="Personal Hygiene 3" Click="Program_Click" />
                 <Border Grid.Row="7" Grid.Column="3" BorderThickness="1" BorderBrush="Black">
-                    <TextBlock Text="Insert description here" TextWrapping="Wrap" HorizontalAlignment="Left" />
+                    <TextBlock Text="Description: Sleeping and Waking Pictures" TextWrapping="Wrap" HorizontalAlignment="Left" />
                 </Border>
 
-                <Button x:Name="phs4Button" Grid.Row="8" Grid.Column="1" Content="Personal Hygiene Sequence 4" Click="Program_Click" />
+                <Button x:Name="phs4Button" Grid.Row="8" Grid.Column="1" Content="Personal Hygiene 4" Click="Program_Click" />
                 <Border Grid.Row="8" Grid.Column="3" BorderThickness="1" BorderBrush="Black">
-                    <TextBlock Text="Insert description here" TextWrapping="Wrap" HorizontalAlignment="Left" />
+                    <TextBlock Text="Description: Sequencing Showering Activities" TextWrapping="Wrap" HorizontalAlignment="Left" />
                 </Border>
 
-                <Button x:Name="phs5Button" Grid.Row="9" Grid.Column="1" Content="Personal Hygiene Sequence 5" Click="Program_Click" />
+                <Button x:Name="phs5Button" Grid.Row="9" Grid.Column="1" Content="Personal Hygiene 5" Click="Program_Click" />
                 <Border Grid.Row="9" Grid.Column="3" BorderThickness="1" BorderBrush="Black">
-                    <TextBlock Text="Insert description here" TextWrapping="Wrap" HorizontalAlignment="Left" />
+                    <TextBlock Text="Description: Sequencing Combing Hair; Taking Bath, Drying body with towel; wearing clothes" TextWrapping="Wrap" HorizontalAlignment="Left" />
                 </Border>
 
-                <Button x:Name="phs6Button" Grid.Row="10" Grid.Column="1" Content="Personal Hygiene Sequence 6" Click="Program_Click" />
+                <Button x:Name="phs6Button" Grid.Row="10" Grid.Column="1" Content="Personal Hygiene 6" Click="Program_Click" />
                 <Border Grid.Row="10" Grid.Column="3" BorderThickness="1" BorderBrush="Black">
-                    <TextBlock Text="Insert description here" TextWrapping="Wrap" HorizontalAlignment="Left" />
+                    <TextBlock Text="Description:  Playing, eating, Washing hands, drying hands" TextWrapping="Wrap" HorizontalAlignment="Left" />
                 </Border>
 
-                <Button x:Name="personalHygieneButton" Grid.Row="11" Grid.Column="1" Content="Personal Hygiene" Click="Program_Click" />
+                <Button x:Name="safetyButton" Grid.Row="11" Grid.Column="1" Content="Personal Hygiene and Sun Safety" Click="Program_Click" />
                 <Border Grid.Row="11" Grid.Column="3" BorderThickness="1" BorderBrush="Black">
-                    <TextBlock Text="Insert description here" TextWrapping="Wrap" HorizontalAlignment="Left" />
-                </Border>
-
-                <Button x:Name="safetyButton" Grid.Row="12" Grid.Column="1" Content="Personal Hygiene and Sun Safety" Click="Program_Click" />
-                <Border Grid.Row="12" Grid.Column="3" BorderThickness="1" BorderBrush="Black">
-                    <TextBlock Text="Insert description here" TextWrapping="Wrap" HorizontalAlignment="Left" />
+                    <TextBlock Text="Description: Overall health, safety, good/bad foods, sun protection." TextWrapping="Wrap" HorizontalAlignment="Left" />
                 </Border>
             </Grid>
         </Grid>

@@ -54,42 +54,90 @@
             </Grid>
 
         </Grid>
-        <ScrollViewer Grid.Row="1" Grid.Column="0">
+        <ScrollViewer Grid.Row="1" Grid.Column="0">           
+           
 
             <StackPanel Orientation="Vertical" HorizontalAlignment="Center" VerticalAlignment="Center">
                 <StackPanel Orientation="Horizontal">
-                    <Button x:Name="button0" Content="Animals"               Margin="10" Click="Program_Click"   Width="150px" Height="100px"/>
-                    <Button x:Name="button1" Content="Colors"                Margin="10" Click="Program_Click"   Width="150px" Height="100px"/>
-                    <Button x:Name="button2" Content="Dolch Phrase Cards"    Margin="10" Click="Program_Click"   Width="150px" Height="100px"/>
-                    <Button x:Name="button3" Content="Alphabet Flash Cards"  Margin="10" Click="Program_Click"   Width="150px" Height="100px"/>                   
+                    <TextBlock Text="Click on a button to see the instructions and start activity!" FontStyle="Oblique" FontSize="25px"/>
                 </StackPanel>
                 <StackPanel Orientation="Horizontal">
-                    <Button x:Name="button4" Content="Animals Flash Cards"    Margin="10" Click="Program_Click"  Width="150px" Height="100px"/>
-                    <Button x:Name="button5" Content="Colors Flash Cards"     Margin="10" Click="Program_Click"  Width="150px" Height="100px"/>
-                    <Button x:Name="button6" Content="Eating Time Flash Cards" Margin="10" Click="Program_Click" Width="150px" Height="100px"/>
-                    <Button x:Name="button7" Content="Food Flash Cards 1"     Margin="10" Click="Program_Click"  Width="150px" Height="100px"/>                               
+                    <Button x:Name="button0"  Margin="10" Click="Program_Click"   Width="175px" Height="100px">
+                        <TextBlock Text="Animals – Picture, Spelling, Audio, and Sound Animals Make" TextWrapping="Wrap" TextAlignment="Center"/>
+                     </Button>
+                    <Button x:Name="button1" Margin="10" Click="Program_Click"   Width="175px" Height="100px">
+                        <TextBlock Text="Basic Colors – Pictures, Spellings, Sounds" TextWrapping="Wrap" TextAlignment="Center"/>
+                    </Button>
+                    <Button x:Name="button2"  Margin="10" Click="Program_Click"   Width="175px" Height="100px">
+                        <TextBlock Text="Vocabulary Phrases;  Basic terms, Phrases, Sayings;  Pictures and Text" TextWrapping="Wrap" TextAlignment="Center"/>
+                    </Button>
+                    <Button x:Name="button3" Margin="10" Click="Program_Click"   Width="175px" Height="100px">
+                        <TextBlock Text="Alphabet Flash Cards" TextWrapping="Wrap" TextAlignment="Center"/>
+                    </Button>
                 </StackPanel>
                 <StackPanel Orientation="Horizontal">
-                    <Button x:Name="button8" Content="Food Flash Cards 2"     Margin="10" Click="Program_Click"  Width="150px" Height="100px"/>
-                    <Button x:Name="button9" Content="Food Flash Cards 3"     Margin="10" Click="Program_Click"  Width="150px" Height="100px"/>
-                    <Button x:Name="button10" Content="Fruits Flash Cards"    Margin="10" Click="Program_Click"  Width="150px" Height="100px"/>
-                    <Button x:Name="button11" Content="Instruments Cards 1"   Margin="10" Click="Program_Click"  Width="150px" Height="100px"/>
+                    <Button x:Name="button4" Margin="10" Click="Program_Click"  Width="175px" Height="100px">
+                        <TextBlock Text="Animals Flash Cards – More Animals; Pictures, Spelling, Audio and Animal Sounds" TextWrapping="Wrap" TextAlignment="Center"/>
+                    </Button>
+                    <Button x:Name="button5"  Margin="10" Click="Program_Click"  Width="175px" Height="100px">
+                        <TextBlock Text="More Colors – Pictures, Spellings, Sounds" TextWrapping="Wrap" TextAlignment="Center"/>
+                    </Button>
+                    <Button x:Name="button6" Margin="10" Click="Program_Click" Width="175px" Height="100px">
+                        <TextBlock Text="Eating Time Words: Utensils, Bowls, Cups; Words, Pictures, Sounds" TextWrapping="Wrap" TextAlignment="Center"/>
+                    </Button>
+                    <Button x:Name="button7" Margin="10" Click="Program_Click"  Width="175px" Height="100px">
+                        <TextBlock Text="More Basic Foods, Words, Spellings, Pictures, Sounds" TextWrapping="Wrap" TextAlignment="Center"/>
+                    </Button>
                 </StackPanel>
                 <StackPanel Orientation="Horizontal">
-                    <Button x:Name="button12" Content="Instruments Cards 2"   Margin="10" Click="Program_Click"  Width="150px" Height="100px"/>
-                    <Button x:Name="button13" Content="Instruments Cards 3"   Margin="10" Click="Program_Click"  Width="150px" Height="100px"/>
-                    <Button x:Name="button14" Content="Fruits"                Margin="10" Click="Program_Click"  Width="150px" Height="100px"/>
-                    <Button x:Name="button15" Content="Fruits and Vegatables" Margin="10" Click="Program_Click"  Width="150px" Height="100px"/>
+                    <Button x:Name="button8" Margin="10" Click="Program_Click"  Width="175px" Height="100px">
+                        <TextBlock Text="Pictures of Food, Spelling, and Sound" TextWrapping="Wrap" TextAlignment="Center"/>
+                    </Button>
+                    <Button x:Name="button9" Margin="10" Click="Program_Click"  Width="175px" Height="100px">
+                        <TextBlock Text="Basic Foods – Pictures, Spellings, Sounds" TextWrapping="Wrap" TextAlignment="Center"/>
+                    </Button>
+                    <Button x:Name="button10" Margin="10" Click="Program_Click"  Width="175px" Height="100px">
+                        <TextBlock Text="Fruit pictures, Words, Spellings, and Sounds" TextWrapping="Wrap" TextAlignment="Center"/>
+                    </Button>
+                    <Button x:Name="button11" Margin="10" Click="Program_Click"  Width="175px" Height="100px">
+                        <TextBlock Text="Musical instruments – Pictures, Spelling, and Sounds Made by Instruments" TextWrapping="Wrap" TextAlignment="Center"/>
+                    </Button>
                 </StackPanel>
                 <StackPanel Orientation="Horizontal">
-                    <Button x:Name="button16" Content="Nature"                Margin="10" Click="Program_Click"  Width="150px" Height="100px"/>
-                    <Button x:Name="button17" Content="Sea Creatures"         Margin="10" Click="Program_Click"  Width="150px" Height="100px"/>
-                    <Button x:Name="button18" Content="Shapes"                Margin="10" Click="Program_Click"  Width="150px" Height="100px"/>
-                    <Button x:Name="button19" Content="Transport"             Margin="10" Click="Program_Click"  Width="150px" Height="100px"/>
+                    <Button x:Name="button12" Margin="10" Click="Program_Click"  Width="175px" Height="100px">
+                        <TextBlock Text="More Instruments – Pictures, Spellings, Sound, and Sounds made by Instruments" TextWrapping="Wrap" TextAlignment="Center"/>
+                    </Button>
+                    <Button x:Name="button13" Margin="10" Click="Program_Click"  Width="175px" Height="100px">
+                        <TextBlock Text="More Instruments – Pictures, Spellings, Sound, and Sounds made by Instruments" TextWrapping="Wrap" TextAlignment="Center"/>
+                    </Button>
+                    <Button x:Name="button14" Margin="10" Click="Program_Click"  Width="175px" Height="100px">
+                        <TextBlock Text="More Fruit Pictures; Basic Fruits, Pictures, Spellings, and Sounds" TextWrapping="Wrap" TextAlignment="Center"/>
+                    </Button>
+                    <Button x:Name="button15" Margin="10" Click="Program_Click"  Width="175px" Height="100px">
+                        <TextBlock Text="Fruit and Vegetable Groupings – Pictures and Spellings" TextWrapping="Wrap" TextAlignment="Center"/>
+                    </Button>
                 </StackPanel>
                 <StackPanel Orientation="Horizontal">
-                    <Button x:Name="button20" Content="Vegatables"            Margin="10" Click="Program_Click"  Width="150px" Height="100px"/>
-                    <Button x:Name="button21" Content="Wild Animals"          Margin="10" Click="Program_Click"  Width="150px" Height="100px"/>
+                    <Button x:Name="button16" Margin="10" Click="Program_Click"  Width="175px" Height="100px">
+                        <TextBlock Text="Nature – Pictures, Spelling, and Sounds" TextWrapping="Wrap" TextAlignment="Center"/>
+                    </Button>
+                    <Button x:Name="button17" Margin="10" Click="Program_Click"  Width="175px" Height="100px">
+                        <TextBlock Text="Sea Creatures – Pictures, Spellings, Saying the Words." TextWrapping="Wrap" TextAlignment="Center"/>
+                    </Button>
+                    <Button x:Name="button18" Margin="10" Click="Program_Click"  Width="175px" Height="100px">
+                        <TextBlock Text="Basic Geometrical Shapes (Circles, Squares, Rectangles, Triangles)" TextWrapping="Wrap" TextAlignment="Center"/>
+                    </Button>
+                    <Button x:Name="button19" Margin="10" Click="Program_Click"  Width="175px" Height="100px">
+                        <TextBlock Text="Pictures of Land, Air, Water, Planes Vehicles." TextWrapping="Wrap" TextAlignment="Center"/>
+                    </Button>
+                </StackPanel>
+                <StackPanel Orientation="Horizontal">
+                    <Button x:Name="button20" Margin="10" Click="Program_Click"  Width="175px" Height="100px">
+                        <TextBlock Text="Vegatables" TextWrapping="Wrap" TextAlignment="Center"/>
+                    </Button>
+                    <Button x:Name="button21" Margin="10" Click="Program_Click"  Width="175px" Height="100px">
+                        <TextBlock Text="Wild Animals" TextWrapping="Wrap" TextAlignment="Center"/>
+                    </Button>
                 </StackPanel>
             </StackPanel>
         </ScrollViewer>

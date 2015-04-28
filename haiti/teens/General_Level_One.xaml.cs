@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -55,5 +56,57 @@ namespace haiti.teens
 
         }
 
+        private void Category_Click(object sender, RoutedEventArgs e)
+        {
+            string name = (string)((Button)sender).Name;
+
+            switch (name)
+            {
+                case "b1":
+                    Process.Start("teens\\level_1\\GK\\colouratlasoftheuniverse.pdf");
+                    break;
+                case "b2":
+                    Process.Start("teens\\level_1\\GK\\completeflagsoftheworldsmithsonianhandbooks.pdf");
+                    break;
+                case "b3":
+                    Process.Start("teens\\level_1\\GK\\Continents.doc");
+                    break;
+                case "b4":
+                    Process.Start("teens\\level_1\\GK\\countries.pdf");
+                    break;
+                case "b5":
+                    Process.Start("teens\\level_1\\GK\\Flags_Europe.pdf");
+                    break;
+                case "b6":
+                    Process.Start("teens\\level_1\\GK\\humanbodysystemsforkids.pdf");
+                    break;
+                case "b7":
+                    Process.Start("teens\\level_1\\GK\\north & south america.pdf");
+                    break;
+                case "b8":
+                    Process.Start("teens\\level_1\\GK\\read-clocks-and-write-the-time-1.pdf");
+                    break;
+                case "b9":
+                    Process.Start("teens\\level_1\\GK\\read-clocks-and-write-the-time-2.pdf");
+                    break;
+                case "b10":
+                    Process.Start("teens\\level_1\\GK\\read-time-1.pdf");
+                    break;
+                case "b11":
+                    Process.Start("teens\\level_1\\GK\\read-time-2.pdf");
+                    break;
+                case "b12":
+                    Process.Start("teens\\level_1\\GK\\read-time-3.pdf");
+                    break;
+                case "b13":
+                    Process.Start("teens\\level_1\\GK\\read-time-4.pdf");
+                    break;
+                case "b14":
+                    Process.Start("");
+                    break;
+                default:
+                    break;
+            }
+        }
     }
 }

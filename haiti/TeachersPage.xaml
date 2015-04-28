@@ -79,7 +79,7 @@
             <TextBlock Grid.Row="1" Grid.Column="2" Text="Other" HorizontalAlignment="Center"/>
            
             <!--Categories Column 1-->
-            <Button x:Name="wordButton"          Grid.Row="3" Grid.Column="1" Click="Category_Click"/>
+            <Button x:Name="wordButton"           Grid.Row="3" Grid.Column="1" Click="Category_Click"/>
             <Button x:Name="powerpointButton"    Grid.Row="4" Grid.Column="1" Click="Category_Click"/>
             <Button x:Name="excelButton"         Grid.Row="5" Grid.Column="1" Click="Category_Click"/>
             

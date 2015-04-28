@@ -65,9 +65,6 @@ namespace haiti.kids
                 case "numbersButton":
                     Process.Start("kids\\level_1\\Numbers\\numbers.pdf");
                     break;
-                case "numbers002Button":
-                    Process.Start("kids\\level_1\\Numbers\\numbers002.pdf");
-                    break;
                 default:
                     break;
             }

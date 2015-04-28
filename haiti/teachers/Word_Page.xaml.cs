@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -53,6 +54,31 @@ namespace haiti.teachers
                     Uri teachersUri = new Uri("TeachersPage.xaml", UriKind.Relative);
                     this.NavigationService.Navigate(teachersUri);
                     break;
+            }
+
+        }
+
+        private void Program_Click(object sender, RoutedEventArgs e)
+        {
+            string name = (string)((Button)sender).Name;
+
+            switch (name)
+            {
+                case "Word_Basics":
+                    Process.Start("teachers\\teacher assets\\MS Word\\Lecture 4-Microsoft Word Basics_Handouts.docx");
+                    break;
+                
+                case "Word_Introduction":
+                    Process.Start("teachers\\teacher assets\\MS Word\\Lecture 3-An introduction to Microsoft Office.ppt");
+                    break;
+                
+
+
+                /*
+                case "Multiplication":
+                    Program.openMultiplicationPPT();
+                    break;
+                 */
             }
 
         }
