@@ -86,5 +86,25 @@ namespace haiti
             start("C:\\Program Files\\CrazySoft\\Smart Educational Games\\CrazySoft.exe", "installers\\SmartEg-Setup_Demo.exe");
         }
 
+        public static void runKeaColor()
+        {
+            start("C:\\Program Files (x86)\\Kea\\ColoringBook\\ColoringBook4.exe", "installers\\dl41colorsetup.exe");
+        }
+
+        public static void runDrawForChild()
+        {
+            start("C:\\Program Files (x86)\\Drawing for Children\\Drawing.exe", "installers\\draw4ch2.exe");
+        }
+
+        public static void runMagicBook()
+        {
+            start("C:\\Program Files (x86)\\The MagicBook V7.5\\The MagicBook V7.5.exe", "installers\\tmb.exe");
+        }
+
+        public static void runCarsColor()
+        {
+            start("C:\\Program Files (x86)\\Cars 2 Color\\cars-2-color-game.exe", "installers\\cars-2-color-game.exe");
+        }
+
     }
 }

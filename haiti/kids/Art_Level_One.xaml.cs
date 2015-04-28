@@ -12,6 +12,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using haiti;
 
 namespace haiti.kids
 {
@@ -56,5 +57,30 @@ namespace haiti.kids
             }
         
         }
+        private void Category_Click(object sender, RoutedEventArgs e)
+        {
+            string name = (string)((Button)sender).Name;
+
+            switch (name)
+            {
+                case "button0":
+                    Program.runKeaColor();
+                    break;
+                case "button4":
+                    Program.runDrawForChild();
+                    break;
+                case "button9":
+                    Program.runMagicBook();
+                    break;
+                case "button12":
+                    Program.runCarsColor();
+                    break;
+                
+                default:
+                    return;
+            }
+
+        }
+
     }
 }
