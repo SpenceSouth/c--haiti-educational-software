@@ -93,30 +93,30 @@ namespace haiti
 
         private void Program_Click(object sender, RoutedEventArgs e)
         {
-            string name = (string)((Button)sender).Content;
+            string name = (string)((Button)sender).Name;
 
             switch (name)
             {
-                case "Addition":
+                case "Addition_Button":
                     Uri uri = new Uri("kids\\Addition.xaml", UriKind.Relative);
                     this.NavigationService.Navigate(uri);
                     break;
-                case "Subtraction":
+                case "Subtraction_Button":
                     this.NavigationService.Navigate(new Uri("kids\\math_level_3\\Subtraction.xaml", UriKind.Relative));
                     break;
-                case "Multiplication":
+                case "Multiplication_Button":
                     this.NavigationService.Navigate(new Uri("kids\\math_level_3\\Multiplication.xaml", UriKind.Relative));
                     break;
-                case "Division":
+                case "Division_Button":
                     this.NavigationService.Navigate(new Uri("kids\\math_level_3\\Division.xaml", UriKind.Relative));
                     break;
-                case "Numbers":
+                case "Numbers_Button":
                     this.NavigationService.Navigate(new Uri("kids\\math_level_3\\Numbers.xaml", UriKind.Relative));
                     break;
-                case "Percentages":
+                case "Percentage_Button":
                     this.NavigationService.Navigate(new Uri("kids\\math_level_3\\Percentages.xaml", UriKind.Relative));
                     break;
-                case "Counting":
+                case "Counting_Button":
                      uri = new Uri("kids\\math_level_3\\Counting.xaml", UriKind.Relative);
                     this.NavigationService.Navigate(uri);
                     break;

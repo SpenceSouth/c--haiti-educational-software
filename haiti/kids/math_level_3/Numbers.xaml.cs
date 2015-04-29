@@ -59,11 +59,20 @@ namespace haiti
         private void Category_Click(object sender, RoutedEventArgs e)
         {
             string name = (string)((Button)sender).Name;
+            string title = "";
+            string prompt = "";
 
             switch (name)
             {
                 case "button0":
-                    Process.Start("kids\\level_3\\Math\\NumbersPowerPoint_1_.pptx");
+                    title = "Description";
+                    prompt = "Learn to count numbers with pictures.\nWould you like to start this activity?";
+                    var dr0 = MessageBox.Show(prompt, title, MessageBoxButton.YesNo);
+
+                    if (dr0 == MessageBoxResult.Yes)
+                    {
+                        Process.Start("kids\\level_3\\Math\\NumbersPowerPoint_1_.pptx");
+                    }
                     break;
                 default:
                     return;

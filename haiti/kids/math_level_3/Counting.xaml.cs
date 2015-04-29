@@ -59,35 +59,100 @@ namespace haiti
         private void Category_Click(object sender, RoutedEventArgs e)
         {
             string name = (string)((Button)sender).Name;
+            string title = "";
+            string prompt = "";
 
             switch (name)
             {
                 case "button0":
-                    Process.Start("kids\\level_3\\Math\\NumbersPowerPoint_1_.pptx");
+                    title = "Description";
+                    prompt = "Learn to count numbers with pictures.\nWould you like to start this activity?";
+                    var dr0 = MessageBox.Show(prompt, title, MessageBoxButton.YesNo);
+
+                    if (dr0 == MessageBoxResult.Yes)
+                    {
+                        Process.Start("kids\\level_3\\Math\\NumbersPowerPoint_1_.pptx");
+                    }
                     break;
                 case "button1":
-                    Process.Start("kids\\level_3\\Math\\count-pictures-2.pdf");
+                    title = "Description";
+                    prompt = "Counting Worksheet #1.\nWould you like to start this activity?";
+                    var dr1 = MessageBox.Show(prompt, title, MessageBoxButton.YesNo);
+
+                    if (dr1 == MessageBoxResult.Yes)
+                    {
+                        Process.Start("kids\\level_3\\Math\\count-pictures-2.pdf");
+                    }
                     break;
                 case "button2":
-                    Process.Start("kids\\level_3\\Math\\count-pictures-3.pdf");
+                    title = "Description";
+                    prompt = "Counting Worksheet #2.\nWould you like to start this activity?";
+                    var dr2 = MessageBox.Show(prompt, title, MessageBoxButton.YesNo);
+
+                    if (dr2 == MessageBoxResult.Yes)
+                    {
+                        Process.Start("kids\\level_3\\Math\\count-pictures-3.pdf");
+                    }
                     break;
                 case "button3":
-                    Process.Start("kids\\level_3\\Math\\count-pictures-4.pdf");
+                    title = "Description";
+                    prompt = "Counting Worksheet #8.\nWould you like to start this activity?";
+                    var dr3 = MessageBox.Show(prompt, title, MessageBoxButton.YesNo);
+
+                    if (dr3 == MessageBoxResult.Yes)
+                    {
+                        Process.Start("kids\\level_3\\Math\\count-pictures-4.pdf");
+                    }
                     break;
                 case "button4":
-                    Process.Start("kids\\level_3\\Math\\count-pictures-5.pdf");
-                    break;
+                    title = "Description";
+                    prompt = "Counting Worksheet #3.\nWould you like to start this activity?";
+                    var dr4 = MessageBox.Show(prompt, title, MessageBoxButton.YesNo);
+
+                    if (dr4 == MessageBoxResult.Yes)
+                    {
+                        Process.Start("kids\\level_3\\Math\\count-pictures-4.pdf");
+                    }
+                    break;                
                 case "button5":
-                    Process.Start("kids\\level_3\\Math\\count-pictures-6.pdf");
+                    title = "Description";
+                    prompt = "Counting Worksheet #4.\nWould you like to start this activity?";
+                    var dr5 = MessageBox.Show(prompt, title, MessageBoxButton.YesNo);
+
+                    if (dr5 == MessageBoxResult.Yes)
+                    {
+                        Process.Start("kids\\level_3\\Math\\count-pictures-6.pdf");
+                    }
                     break;
                 case "button6":
-                    Process.Start("kids\\level_3\\Math\\count-pictures-7.pdf");
+                    title = "Description";
+                    prompt = "Counting Worksheet #5.\nWould you like to start this activity?";
+                    var dr6 = MessageBox.Show(prompt, title, MessageBoxButton.YesNo);
+
+                    if (dr6 == MessageBoxResult.Yes)
+                    {
+                        Process.Start("kids\\level_3\\Math\\count-pictures-7.pdf");
+                    }
                     break;
                 case "button7":
-                    Process.Start("kids\\level_3\\Math\\count-pictures-8.pdf");
+                    title = "Description";
+                    prompt = "Counting Worksheet #6.\nWould you like to start this activity?";
+                    var dr7 = MessageBox.Show(prompt, title, MessageBoxButton.YesNo);
+
+                    if (dr7 == MessageBoxResult.Yes)
+                    {
+                        Process.Start("kids\\level_3\\Math\\count-pictures-8.pdf");
+                    }
                     break;
                 case "button8":
-                    Process.Start("kids\\level_3\\Math\\count-pictures-1.pdf");
+                    title = "Description";
+                    prompt = "Counting Worksheet #7.\nWould you like to start this activity?";
+                    var dr8 = MessageBox.Show(prompt, title, MessageBoxButton.YesNo);
+
+                    if (dr8 == MessageBoxResult.Yes)
+                    {
+                        Process.Start("kids\\level_3\\Math\\count-pictures-1.pdf");
+                    }
                     break;
 
 
