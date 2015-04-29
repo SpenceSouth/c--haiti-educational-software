@@ -60,20 +60,50 @@ namespace haiti.kids
         private void Category_Click(object sender, RoutedEventArgs e)
         {
             string name = (string)((Button)sender).Name;
+            string title = "";
+            string prompt = "";
 
             switch (name)
             {
                 case "button0":
-                    Program.runKeaColor();
+                    title = "Instructions";
+                    prompt = "Color these fun drawings with your favorite colors.\nWould you like to start this activity?";
+                    var dr0 = MessageBox.Show(prompt, title, MessageBoxButton.YesNo);
+
+                    if (dr0 == MessageBoxResult.Yes)
+                    {
+                        Program.runKeaColor();
+                    }
                     break;
                 case "button4":
-                    Program.runDrawForChild();
+                    title = "Instructions";
+                    prompt = "Color these fun drawings with your favorite colors.\nWould you like to start this activity?";
+                    var dr4 = MessageBox.Show(prompt, title, MessageBoxButton.YesNo);
+
+                    if (dr4 == MessageBoxResult.Yes)
+                    {
+                        Program.runDrawForChild();
+                    }
                     break;
                 case "button9":
-                    Program.runMagicBook();
+                    title = "Instructions";
+                    prompt = "Color these fun drawings with your favorite colors.\nWould you like to start this activity?";
+                    var dr9 = MessageBox.Show(prompt, title, MessageBoxButton.YesNo);
+
+                    if (dr9 == MessageBoxResult.Yes)
+                    {
+                        Program.runMagicBook();
+                    }
                     break;
                 case "button12":
-                    Program.runCarsColor();
+                    title = "Instructions";
+                    prompt = "Color these fun drawings with your favorite colors.\nWould you like to start this activity?";
+                    var dr12 = MessageBox.Show(prompt, title, MessageBoxButton.YesNo);
+
+                    if (dr12 == MessageBoxResult.Yes)
+                    {
+                        Program.runCarsColor();
+                    }
                     break;
                 
                 default:

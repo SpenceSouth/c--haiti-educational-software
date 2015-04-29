@@ -73,25 +73,12 @@
                 <ColumnDefinition Width="3*" />
                 <ColumnDefinition Width="1*" />
             </Grid.ColumnDefinitions>
-            <TextBlock Text="Click a button to see the instructions and start activity!" FontStyle="Oblique" FontSize="25px" Grid.Row="1" Grid.ColumnSpan="3"/>
+            <TextBlock Text="Click a button to see the instructions and start activity!" FontStyle="Oblique" FontSize="25px" Grid.Row="1" Grid.Column="1" TextWrapping="Wrap"/>
             <!--Column 1-->
             <Button x:Name="button0"                Content="Human Body" Grid.Row="2" Grid.Column="1" Click="Category_Click"/>
-            <!--<Button x:Name="button1"                HorizontalAlignment="Center" Grid.Row="3" Grid.Column="1" Click="Category_Click"/>
-            <Button x:Name="button2"                HorizontalAlignment="Center" Grid.Row="4" Grid.Column="1" Click="Category_Click"/>
-            <Button x:Name="button3"                HorizontalAlignment="Center" Grid.Row="5" Grid.Column="1" Click="Category_Click"/>
-            <Button x:Name="button4"                HorizontalAlignment="Center" Grid.Row="6" Grid.Column="1" Click="Category_Click"/>-->
 
             <!--Column 2-->
             <Button x:Name="button5"                Content="Human Body System" Grid.Row="2" Grid.Column="2" Click="Category_Click"/>
-            <!--<Button x:Name="button6"                HorizontalAlignment="Center" Grid.Row="3" Grid.Column="2" Click="Category_Click"/>
-            <Button x:Name="button7"                HorizontalAlignment="Center" Grid.Row="4" Grid.Column="2" Click="Category_Click"/>
-            <Button x:Name="button8"                HorizontalAlignment="Center" Grid.Row="5" Grid.Column="2" Click="Category_Click"/>-->
-
-            <!--Column 3-->
-            <!--<Button x:Name="button9"                HorizontalAlignment="Center" Grid.Row="2" Grid.Column="3" Click="Category_Click"/>
-            <Button x:Name="button10"               HorizontalAlignment="Center" Grid.Row="3" Grid.Column="3" Click="Category_Click"/>
-            <Button x:Name="button11"               HorizontalAlignment="Center" Grid.Row="4" Grid.Column="3" Click="Category_Click"/>
-            <Button x:Name="button12"               HorizontalAlignment="Center" Grid.Row="5" Grid.Column="3" Click="Category_Click"/>-->
 
         </Grid>
 
