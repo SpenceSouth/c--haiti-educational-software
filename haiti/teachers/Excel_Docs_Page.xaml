@@ -57,60 +57,53 @@
                 </Grid>
 
             </Grid>
-        </Grid>
-        <Grid x:Name="ProgramField" Grid.Row="1" Grid.Column="0" >
-            <Grid.RowDefinitions>
-                <RowDefinition Height="1*" />
-                <RowDefinition Height="4*" />
-                <RowDefinition Height="8*" />
-                <RowDefinition Height="8*" />
-                <RowDefinition Height="8*" />
-                <RowDefinition Height="8*" />
-                <RowDefinition Height="8*" />
-                <RowDefinition Height="8*" />
-                <RowDefinition Height="8*" />
-                <RowDefinition Height="5*" />
-            </Grid.RowDefinitions>
-            <Grid.ColumnDefinitions>
-                <ColumnDefinition Width="1*" />
-                <ColumnDefinition Width="4*" />
-                <ColumnDefinition Width="1*" />
-                <ColumnDefinition Width="5*" />
-                <ColumnDefinition Width="1*" />
-            </Grid.ColumnDefinitions>
 
-            <TextBlock Grid.Row="1" Grid.Column="1" Text="Program" />
-            <TextBlock Grid.Row="1" Grid.Column="3" Text="Description" />
+            <Grid x:Name="ProgramField" Grid.Row="1" Grid.Column="0" >
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="1*" />
+                    <RowDefinition Height="4*" />
+                    <RowDefinition Height="8*" />
+                    <RowDefinition Height="8*" />
+                    <RowDefinition Height="8*" />
+                    <RowDefinition Height="8*" />
+                    <RowDefinition Height="5*" />
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="1*" />
+                    <ColumnDefinition Width="4*" />
+                    <ColumnDefinition Width="1*" />
+                    <ColumnDefinition Width="5*" />
+                    <ColumnDefinition Width="1*" />
+                </Grid.ColumnDefinitions>
+
+                <TextBlock Grid.Row="1" Grid.Column="1" Text="Program" />
+                <TextBlock Grid.Row="1" Grid.Column="3" Text="Description" />
 
 
+                <Button x:Name="IntroExcel" Grid.Row="2" Grid.Column="1" Content="Introduction to Excel" Click="Program_Click" />
+                <Border Grid.Row="2" Grid.Column="3" BorderThickness="1" BorderBrush="Black">
+                    <TextBlock Text="Insert Word Basics description here" TextWrapping="Wrap" HorizontalAlignment="Left" />
+                </Border>
 
 
-            <Button x:Name="IntroExcel" Grid.Row="4" Grid.Column="1" Content="Introduction to Excel" Click="Program_Click" />
-            <Border Grid.Row="4" Grid.Column="3" BorderThickness="1" BorderBrush="Black">
-                <TextBlock Text="Insert Word Basics description here" TextWrapping="Wrap" HorizontalAlignment="Left" />
-            </Border>
+                <Button x:Name="ExcelBasics" Grid.Row="3" Grid.Column="1" Content="Excel Basics" Click="Program_Click" />
+                <Border Grid.Row="3" Grid.Column="3" BorderThickness="1" BorderBrush="Black">
+                    <TextBlock Text="Insert Word Introduction description here" TextWrapping="Wrap" HorizontalAlignment="Left" />
+                </Border>
+
+                <Button x:Name="IntermediateExcel" Grid.Row="4" Grid.Column="1" Content="Intermediate Excel" Click="Program_Click" />
+                <Border Grid.Row="4" Grid.Column="3" BorderThickness="1" BorderBrush="Black">
+                    <TextBlock Text="Insert Word Basics description here" TextWrapping="Wrap" HorizontalAlignment="Left" />
+                </Border>
 
 
-            <Button x:Name="ExcelBasics" Grid.Row="5" Grid.Column="1" Content="Excel Basics" Click="Program_Click" />
-            <Border Grid.Row="5" Grid.Column="3" BorderThickness="1" BorderBrush="Black">
-                <TextBlock Text="Insert Word Introduction description here" TextWrapping="Wrap" HorizontalAlignment="Left" />
-            </Border>
-
-            <Button x:Name="IntermediateExcel" Grid.Row="6" Grid.Column="1" Content="Intermediate Excel" Click="Program_Click" />
-            <Border Grid.Row="6" Grid.Column="3" BorderThickness="1" BorderBrush="Black">
-                <TextBlock Text="Insert Word Basics description here" TextWrapping="Wrap" HorizontalAlignment="Left" />
-            </Border>
+                <Button x:Name="AdvancedExcel" Grid.Row="5" Grid.Column="1" Content="Advanced Excel" Click="Program_Click" />
+                <Border Grid.Row="5" Grid.Column="3" BorderThickness="1" BorderBrush="Black">
+                    <TextBlock Text="Insert Word Introduction description here" TextWrapping="Wrap" HorizontalAlignment="Left" />
+                </Border>
 
 
-            <Button x:Name="AdvancedExcel" Grid.Row="7" Grid.Column="1" Content="Advanced Excel" Click="Program_Click" />
-            <Border Grid.Row="7" Grid.Column="3" BorderThickness="1" BorderBrush="Black">
-                <TextBlock Text="Insert Word Introduction description here" TextWrapping="Wrap" HorizontalAlignment="Left" />
-            </Border>
-
-
-
-
-
+            </Grid>
         </Grid>
     </Grid>
 </Page>
