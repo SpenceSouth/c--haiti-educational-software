@@ -63,7 +63,7 @@ namespace haiti.kids
             switch (name)
             {
                 case "Computer Parts":
-                    Process.Start("kids\\level_3\\Computer\\computer_parts.ppt");
+                    Process.Start("kids\\level_3\\Computer\\Mr. Computer.ppt");
                     break;
 
                 /*

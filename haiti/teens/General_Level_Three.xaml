@@ -109,7 +109,7 @@
                 <!--    <Button x:Name="button31" Content=""            Margin="10" Click="Program_Click"  Width="150px" Height="100px"/>
                 </StackPanel>
                 <StackPanel Orientation="Horizontal">
-                    <Button x:Name="button32" Content=""            Margin="10" Click="Program_Click"  Width="150px" Height="100px"/> -->
+                 g   <Button x:Name="button32" Content=""            Margin="10" Click="Program_Click"  Width="150px" Height="100px"/> -->
                 </StackPanel>
             </StackPanel>
         </ScrollViewer>
