@@ -21,12 +21,12 @@ namespace haiti.kids
     /// </summary>
     public partial class Art_Level_One : Page
     {
-        public Art_Level_One()
+       /* public Art_Level_One()
         {
             InitializeComponent();
 
             MessageBox.Show("Currently No Content Available");
-        }
+        } fixed but this took forever to find :(*/
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
