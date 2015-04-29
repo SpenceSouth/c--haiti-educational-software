@@ -61,55 +61,55 @@
 
             <StackPanel Orientation="Vertical" HorizontalAlignment="Center" VerticalAlignment="Center">
                 <StackPanel Orientation="Horizontal">
-                    <Button x:Name="button0" Content=""               Margin="10" Click="Program_Click"   Width="150px" Height="100px"/>
-                    <Button x:Name="button1" Content=""                Margin="10" Click="Program_Click"   Width="150px" Height="100px"/>
-                    <Button x:Name="button2" Content=""    Margin="10" Click="Program_Click"   Width="150px" Height="100px"/>
-                    <Button x:Name="button3" Content=""  Margin="10" Click="Program_Click"   Width="150px" Height="100px"/>
+                    <Button x:Name="button0" Content="Encyclopedia of Political Science"               Margin="10" Click="Program_Click"   Width="150px" Height="100px"/>
+                    <Button x:Name="button1" Content="Illustrated Dictionary"                Margin="10" Click="Program_Click"   Width="150px" Height="100px"/>
+                    <Button x:Name="button2" Content="Climate"    Margin="10" Click="Program_Click"   Width="150px" Height="100px"/>
+                    <Button x:Name="button3" Content="Climate Factors"  Margin="10" Click="Program_Click"   Width="150px" Height="100px"/>
                 </StackPanel>
                 <StackPanel Orientation="Horizontal">
-                    <Button x:Name="button4" Content=""    Margin="10" Click="Program_Click"  Width="150px" Height="100px"/>
-                    <Button x:Name="button5" Content=""     Margin="10" Click="Program_Click"  Width="150px" Height="100px"/>
-                    <Button x:Name="button6" Content="" Margin="10" Click="Program_Click" Width="150px" Height="100px"/>
-                    <Button x:Name="button7" Content=""     Margin="10" Click="Program_Click"  Width="150px" Height="100px"/>
+                    <Button x:Name="button4" Content="Flags of the world"    Margin="10" Click="Program_Click"  Width="150px" Height="100px"/>
+                    <Button x:Name="button5" Content="Continents"     Margin="10" Click="Program_Click"  Width="150px" Height="100px"/>
+                    <Button x:Name="button6" Content="Continents and OCeans" Margin="10" Click="Program_Click" Width="150px" Height="100px"/>
+                    <Button x:Name="button7" Content="Countries"     Margin="10" Click="Program_Click"  Width="150px" Height="100px"/>
                 </StackPanel>
                 <StackPanel Orientation="Horizontal">
-                    <Button x:Name="button8" Content=""     Margin="10" Click="Program_Click"  Width="150px" Height="100px"/>
-                    <Button x:Name="button9" Content=""     Margin="10" Click="Program_Click"  Width="150px" Height="100px"/>
-                    <Button x:Name="button10" Content=""    Margin="10" Click="Program_Click"  Width="150px" Height="100px"/>
-                    <Button x:Name="button11" Content=""   Margin="10" Click="Program_Click"  Width="150px" Height="100px"/>
+                    <Button x:Name="button8" Content="Deserts"     Margin="10" Click="Program_Click"  Width="150px" Height="100px"/>
+                    <Button x:Name="button9" Content="Book: An up close look at Nature"     Margin="10" Click="Program_Click"  Width="150px" Height="100px"/>
+                    <Button x:Name="button10" Content="Flags of Europe"    Margin="10" Click="Program_Click"  Width="150px" Height="100px"/>
+                    <Button x:Name="button11" Content="Floods"   Margin="10" Click="Program_Click"  Width="150px" Height="100px"/>
                 </StackPanel>
                 <StackPanel Orientation="Horizontal">
-                    <Button x:Name="button12" Content=""   Margin="10" Click="Program_Click"  Width="150px" Height="100px"/>
-                    <Button x:Name="button13" Content=""   Margin="10" Click="Program_Click"  Width="150px" Height="100px"/>
-                    <Button x:Name="button14" Content=""                Margin="10" Click="Program_Click"  Width="150px" Height="100px"/>
-                    <Button x:Name="button15" Content="" Margin="10" Click="Program_Click"  Width="150px" Height="100px"/>
+                    <Button x:Name="button12" Content="Gravity and Friction"   Margin="10" Click="Program_Click"  Width="150px" Height="100px"/>
+                    <Button x:Name="button13" Content="Human Body Systems"   Margin="10" Click="Program_Click"  Width="150px" Height="100px"/>
+                    <Button x:Name="button14" Content="Just Enough English Grammer"                Margin="10" Click="Program_Click"  Width="150px" Height="100px"/>
+                    <Button x:Name="button15" Content="Landforms" Margin="10" Click="Program_Click"  Width="150px" Height="100px"/>
                 </StackPanel>
                 <StackPanel Orientation="Horizontal">
-                    <Button x:Name="button16" Content=""                Margin="10" Click="Program_Click"  Width="150px" Height="100px"/>
-                    <Button x:Name="button17" Content=""         Margin="10" Click="Program_Click"  Width="150px" Height="100px"/>
-                    <Button x:Name="button18" Content=""                Margin="10" Click="Program_Click"  Width="150px" Height="100px"/>
-                    <Button x:Name="button19" Content=""             Margin="10" Click="Program_Click"  Width="150px" Height="100px"/>
+                    <Button x:Name="button16" Content="Types of Landforms"                Margin="10" Click="Program_Click"  Width="150px" Height="100px"/>
+                    <Button x:Name="button17" Content="Picture Dictionary"         Margin="10" Click="Program_Click"  Width="150px" Height="100px"/>
+                    <Button x:Name="button18" Content="Mountains"                Margin="10" Click="Program_Click"  Width="150px" Height="100px"/>
+                    <Button x:Name="button19" Content="Children's Activity Book"             Margin="10" Click="Program_Click"  Width="150px" Height="100px"/>
                 </StackPanel>
                 <StackPanel Orientation="Horizontal">
-                    <Button x:Name="button20" Content=""            Margin="10" Click="Program_Click"  Width="150px" Height="100px"/>
-                    <Button x:Name="button21" Content=""          Margin="10" Click="Program_Click"  Width="150px" Height="100px"/>
-                    <Button x:Name="button22" Content=""            Margin="10" Click="Program_Click"  Width="150px" Height="100px"/>
-                    <Button x:Name="button23" Content=""            Margin="10" Click="Program_Click"  Width="150px" Height="100px"/>
+                    <Button x:Name="button20" Content="North and South America"            Margin="10" Click="Program_Click"  Width="150px" Height="100px"/>
+                    <Button x:Name="button21" Content="Ocean Facts"          Margin="10" Click="Program_Click"  Width="150px" Height="100px"/>
+                    <Button x:Name="button22" Content="Oxygen"            Margin="10" Click="Program_Click"  Width="150px" Height="100px"/>
+                    <Button x:Name="button23" Content="Picture Grammer for kids"            Margin="10" Click="Program_Click"  Width="150px" Height="100px"/>
                 </StackPanel>
                 <StackPanel Orientation="Horizontal">
-                    <Button x:Name="button24" Content=""            Margin="10" Click="Program_Click"  Width="150px" Height="100px"/>
-                    <Button x:Name="button25" Content=""          Margin="10" Click="Program_Click"  Width="150px" Height="100px"/>
-                    <Button x:Name="button26" Content=""            Margin="10" Click="Program_Click"  Width="150px" Height="100px"/>
-                    <Button x:Name="button27" Content=""            Margin="10" Click="Program_Click"  Width="150px" Height="100px"/>
+                    <Button x:Name="button24" Content="Rainbows"            Margin="10" Click="Program_Click"  Width="150px" Height="100px"/>
+                    <Button x:Name="button25" Content="Enviromentalism"          Margin="10" Click="Program_Click"  Width="150px" Height="100px"/>
+                    <Button x:Name="button26" Content="1000 Questions and Anwsers"            Margin="10" Click="Program_Click"  Width="150px" Height="100px"/>
+                    <Button x:Name="button27" Content="Visual World Atlas"            Margin="10" Click="Program_Click"  Width="150px" Height="100px"/>
                 </StackPanel>
                 <StackPanel Orientation="Horizontal">
-                    <Button x:Name="button28" Content=""            Margin="10" Click="Program_Click"  Width="150px" Height="100px"/>
-                    <Button x:Name="button29" Content=""          Margin="10" Click="Program_Click"  Width="150px" Height="100px"/>
-                    <Button x:Name="button30" Content=""            Margin="10" Click="Program_Click"  Width="150px" Height="100px"/>
-                    <Button x:Name="button31" Content=""            Margin="10" Click="Program_Click"  Width="150px" Height="100px"/>
+                    <Button x:Name="button28" Content="Tornadoes"            Margin="10" Click="Program_Click"  Width="150px" Height="100px"/>
+                    <Button x:Name="button29" Content="Tsunami Saftey"          Margin="10" Click="Program_Click"  Width="150px" Height="100px"/>
+                <!--    <Button x:Name="button30" Content=""            Margin="10" Click="Program_Click"  Width="150px" Height="100px"/>-->
+                <!--    <Button x:Name="button31" Content=""            Margin="10" Click="Program_Click"  Width="150px" Height="100px"/>
                 </StackPanel>
                 <StackPanel Orientation="Horizontal">
-                    <Button x:Name="button32" Content=""            Margin="10" Click="Program_Click"  Width="150px" Height="100px"/>
+                 g   <Button x:Name="button32" Content=""            Margin="10" Click="Program_Click"  Width="150px" Height="100px"/> -->
                 </StackPanel>
             </StackPanel>
         </ScrollViewer>
