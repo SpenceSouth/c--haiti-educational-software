@@ -59,14 +59,30 @@ namespace haiti
         private void Category_Click(object sender, RoutedEventArgs e)
         {
             string name = (string)((Button)sender).Name;
+            string title = "";
+            string prompt = "";  
 
             switch (name)
             {
                 case "button0":
-                    Program.runOlliwitAddition();
+                    title = "Instructions";
+                    prompt = "Simple program with many addition problems.\nSelect from level 1, 2, 3 based on the difficulty level.\nSolve the problem and select the correct option.\nWould you like to start this activity?";
+                    var dr0 = MessageBox.Show(prompt, title, MessageBoxButton.YesNo);
+
+                    if (dr0 == MessageBoxResult.Yes)
+                    {
+                        Program.runOlliwitAddition();
+                    }
                     break;
                 case "button5":
-                    Process.Start("kids\\level_3\\Math\\add_sub.ppt");
+                    title = "Description";
+                    prompt = "Learn about addition, subtraction and word problems.\nWould you like to start this activity?";
+                    var dr1 = MessageBox.Show(prompt, title, MessageBoxButton.YesNo);
+
+                    if (dr1 == MessageBoxResult.Yes)
+                    {
+                        Process.Start("kids\\level_3\\Math\\add_sub.ppt");
+                    }
                     break;
                 default:
                     return;

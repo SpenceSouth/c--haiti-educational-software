@@ -59,6 +59,9 @@
 
             <StackPanel Orientation="Vertical" HorizontalAlignment="Center" VerticalAlignment="Center">
                 <StackPanel Orientation="Horizontal">
+                    <TextBlock Text="Click a button to see the instructions and start activity!" FontStyle="Oblique" FontSize="25px"/>
+                </StackPanel>
+                <StackPanel Orientation="Horizontal">
                     <Button x:Name="button0" Content="Color spellings" Margin="10" Click="Program_Click" Width="130px" Height="75px"/>
                     <Button x:Name="button83" Content="Number 5" Margin="10" Click="Program_Click" Width="130px" Height="75px"/>
                     <Button x:Name="button2" Content="PDF" Margin="10" Click="Program_Click" Width="130px" Height="75px"/>
