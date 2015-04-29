@@ -59,14 +59,30 @@ namespace haiti.kids.science_level_3
         private void Category_Click(object sender, RoutedEventArgs e)
         {
             string name = (string)((Button)sender).Name;
+            string title = "";
+            string prompt = "";
 
             switch (name)
             {
                 case "button0":
-                    Process.Start("kids\\level_3\\Science\\Human body.ppt");
+                    title = "Description";
+                    prompt = "Learn about the human body and important organs.\nWould you like to start this activity?";
+                    var dr0 = MessageBox.Show(prompt, title, MessageBoxButton.YesNo);
+
+                    if (dr0 == MessageBoxResult.Yes)
+                    {
+                        Process.Start("kids\\level_3\\Science\\Human body.ppt");
+                    }
                     break;
                 case "button5":
-                    Process.Start("kids\\level_3\\Science\\humanbodysystemsforkids.pdf");
+                    title = "Description";
+                    prompt = "Learn about the human body system.\nWould you like to start this activity?";
+                    var dr5 = MessageBox.Show(prompt, title, MessageBoxButton.YesNo);
+
+                    if (dr5 == MessageBoxResult.Yes)
+                    {
+                        Process.Start("kids\\level_3\\Science\\humanbodysystemsforkids.pdf");
+                    }
                     break;
                 default:
                     return;

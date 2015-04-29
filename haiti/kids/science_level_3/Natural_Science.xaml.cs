@@ -59,29 +59,81 @@ namespace haiti.kids.science_level_3
         private void Category_Click(object sender, RoutedEventArgs e)
         {
             string name = (string)((Button)sender).Name;
+            string title = "";
+            string prompt = "";
+
 
             switch (name)
             {
                 case "button0":
-                    Process.Start("kids\\level_3\\Science\\Characteristics_of_Plants.ppt");
+                    title = "Description";
+                    prompt = "Learn about classification and characteristics of plants.\nWould you like to start this activity?";
+                    var dr0 = MessageBox.Show(prompt, title, MessageBoxButton.YesNo);
+
+                    if (dr0 == MessageBoxResult.Yes)
+                    {
+                        Process.Start("kids\\level_3\\Science\\Characteristics_of_Plants.ppt");
+                    }
                     break;
                 case "button1":
-                    Process.Start("kids\\level_3\\Science\\everythingonearth.pdf");
+                    title = "Description";
+                    prompt = "Everything on Earth.\nWould you like to start this activity?";
+                    var dr1 = MessageBox.Show(prompt, title, MessageBoxButton.YesNo);
+
+                    if (dr1 == MessageBoxResult.Yes)
+                    {
+                        Process.Start("kids\\level_3\\Science\\everythingonearth.pdf");
+                    }
                     break;
                 case "button2":
-                    Process.Start("kids\\level_3\\Science\\Water.ppt");
+                    title = "Description";
+                    prompt = "Learn about water, its origin and uses.\nWould you like to start this activity?";
+                    var dr2 = MessageBox.Show(prompt, title, MessageBoxButton.YesNo);
+
+                    if (dr2 == MessageBoxResult.Yes)
+                    {
+                        Process.Start("kids\\level_3\\Science\\Water.ppt");
+                    }
                     break;
                 case "button5":
-                    Process.Start("kids\\level_3\\Science\\ECOSYSTEM_for_kids.ppt");
+                    title = "Description";
+                    prompt = "Learn about characteristics, components and working of the ecosystem.\nWould you like to start this activity?";
+                    var dr5 = MessageBox.Show(prompt, title, MessageBoxButton.YesNo);
+
+                    if (dr5 == MessageBoxResult.Yes)
+                    {
+                        Process.Start("kids\\level_3\\Science\\ECOSYSTEM_for_kids.ppt");
+                    }
                     break;
                 case "button6":
-                    Process.Start("kids\\level_3\\Science\\life cycle of plans.ppt");
+                    title = "Description";
+                    prompt = "Learn about the living process and lifecycle of plants.\nWould you like to start this activity?";
+                    var dr6 = MessageBox.Show(prompt, title, MessageBoxButton.YesNo);
+
+                    if (dr6 == MessageBoxResult.Yes)
+                    {
+                        Process.Start("kids\\level_3\\Science\\life cycle of plans.ppt");
+                    }
                     break;
                 case "button9":
-                    Process.Start("kids\\level_3\\Science\\Essential_Nutrients_of_Plants.ppt");
+                    title = "Description";
+                    prompt = "Essential nutrients of plants: Learn about plans and what nutrients they need to survive.\nWould you like to start this activity?";
+                    var dr9 = MessageBox.Show(prompt, title, MessageBoxButton.YesNo);
+
+                    if (dr9 == MessageBoxResult.Yes)
+                    {
+                        Process.Start("kids\\level_3\\Science\\Essential_Nutrients_of_Plants.ppt");
+                    }
                     break;
                 case "button10":
-                    Process.Start("kids\\level_3\\Science\\Types_of_plant.ppt");
+                    title = "Description";
+                    prompt = "Types of plants: Learn about three main types of plants and its Characteristics.\nWould you like to start this activity?";
+                    var dr10 = MessageBox.Show(prompt, title, MessageBoxButton.YesNo);
+
+                    if (dr10 == MessageBoxResult.Yes)
+                    {
+                        Process.Start("kids\\level_3\\Science\\Types_of_plant.ppt");
+                    }
                     break;
                 default:
                     return;

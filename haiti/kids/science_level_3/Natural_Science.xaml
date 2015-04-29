@@ -73,7 +73,7 @@
                 <ColumnDefinition Width="3*" />
                 <ColumnDefinition Width="1*" />
             </Grid.ColumnDefinitions>
-
+            <TextBlock Text="Click a button to see the instructions and start activity!" FontStyle="Oblique" FontSize="25px" Grid.Row="1" Grid.ColumnSpan="3"/>
             <!--Column 1-->
             <Button x:Name="button0"                Content="Characteristics of Plants" Grid.Row="2" Grid.Column="1" Click="Category_Click"/>
             <Button x:Name="button1"                Content="Everything On Earth" Grid.Row="3" Grid.Column="1" Click="Category_Click"/>
