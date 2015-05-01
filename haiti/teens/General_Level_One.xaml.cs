@@ -63,46 +63,56 @@ namespace haiti.teens
             switch (name)
             {
                 case "b1":
-                    Process.Start("teens\\level_1\\GK\\colouratlasoftheuniverse.pdf");
+                    if (Utils.Prompt("Description", "Full color atlas of the universe, galaxies, contellations, planets, more.", 0))
+                        Process.Start("teens\\level_1\\GK\\colouratlasoftheuniverse.pdf");
                     break;
                 case "b2":
-                    Process.Start("teens\\level_1\\GK\\completeflagsoftheworldsmithsonianhandbooks.pdf");
+                    if (Utils.Prompt("Description", "Flags of all countires, history and meaning of each flag, brief country histories, coat of arms, more.", 0))
+                        Process.Start("teens\\level_1\\GK\\completeflagsoftheworldsmithsonianhandbooks.pdf");
                     break;
                 case "b3":
-                    Process.Start("teens\\level_1\\GK\\Continents.doc");
+                    if (Utils.Prompt("Description", "Continents and countries in each continent outlines", 0))
+                        Process.Start("teens\\level_1\\GK\\Continents.doc");
                     break;
                 case "b4":
-                    Process.Start("teens\\level_1\\GK\\countries.pdf");
+                    if (Utils.Prompt("Description", "Flags, geographical location in the world, recognized leader of the country.", 0))
+                        Process.Start("teens\\level_1\\GK\\countries.pdf");
                     break;
                 case "b5":
-                    Process.Start("teens\\level_1\\GK\\Flags_Europe.pdf");
+                    if (Utils.Prompt("Description", "Flags and country name.", 0))
+                        Process.Start("teens\\level_1\\GK\\Flags_Europe.pdf");
                     break;
                 case "b6":
-                    Process.Start("teens\\level_1\\GK\\humanbodysystemsforkids.pdf");
+                    if (Utils.Prompt("Description", "Taught in 7th grade.  Major bodily systems: Respiration, circulation, nervous, more.", 0))
+                        Process.Start("teens\\level_1\\GK\\humanbodysystemsforkids.pdf");
                     break;
                 case "b7":
-                    Process.Start("teens\\level_1\\GK\\north & south america.pdf");
+                    if (Utils.Prompt("Description", "Flags and names of countries on seperate slides.", 0))
+                        Process.Start("teens\\level_1\\GK\\north & south america.pdf");
                     break;
                 case "b8":
-                    Process.Start("teens\\level_1\\GK\\read-clocks-and-write-the-time-1.pdf");
+                    if (Utils.Prompt("Description", "Exercises in telling time and adding / subtracting from displayed time.", 0))
+                        Process.Start("teens\\level_1\\GK\\read-clocks-and-write-the-time-1.pdf");
                     break;
                 case "b9":
-                    Process.Start("teens\\level_1\\GK\\read-clocks-and-write-the-time-2.pdf");
+                    if (Utils.Prompt("Description", "Exercises in telling time and adding / subtracting from displayed time.", 0))
+                        Process.Start("teens\\level_1\\GK\\read-clocks-and-write-the-time-2.pdf");
                     break;
                 case "b10":
-                    Process.Start("teens\\level_1\\GK\\read-time-1.pdf");
+                    if (Utils.Prompt("Description", "Shows Clock; Tests ability to read clock; three exercises", 0))
+                        Process.Start("teens\\level_1\\GK\\read-time-1.pdf");
                     break;
                 case "b11":
-                    Process.Start("teens\\level_1\\GK\\read-time-2.pdf");
+                    if (Utils.Prompt("Description", "Shows Clock; Tests ability to read clock; three exercises", 0))
+                        Process.Start("teens\\level_1\\GK\\read-time-2.pdf");
                     break;
                 case "b12":
-                    Process.Start("teens\\level_1\\GK\\read-time-3.pdf");
+                    if (Utils.Prompt("Description", "Shows Clock; Tests ability to read clock; four exercises", 0))
+                        Process.Start("teens\\level_1\\GK\\read-time-3.pdf");
                     break;
                 case "b13":
-                    Process.Start("teens\\level_1\\GK\\read-time-4.pdf");
-                    break;
-                case "b14":
-                    Process.Start("");
+                    if (Utils.Prompt("Description", "Shows Clock; Tests ability to read clock; four exercises", 0))
+                        Process.Start("teens\\level_1\\GK\\read-time-4.pdf");
                     break;
                 default:
                     break;
