@@ -82,19 +82,19 @@
             <TextBlock Grid.Row="1" Grid.Column="3" Text="Description" />
 
 
-            <Button x:Name="PeopleButton" Grid.Row="2" Grid.Column="1" Content="Anatomy" Click="Category_Click" />           
+            <Button x:Name="PeopleButton" Grid.Row="2" Grid.Column="1" Content="People" Click="Category_Click" />           
             <Border Grid.Row="2" Grid.Column="3" BorderThickness="1" BorderBrush="Black">
-                <TextBlock Text=" Anatomy is the branch of biology concerned with the study of the structure of living organisms and their parts." TextWrapping="Wrap" />
+                <TextBlock Text="Insert What files will be found in this category here" TextWrapping="Wrap" />
             </Border>
 
 
-            <Button x:Name="AnimalsButton" Grid.Row="3" Grid.Column="1" Content="Zoology" Click="Category_Click" />
+            <Button x:Name="AnimalsButton" Grid.Row="3" Grid.Column="1" Content="Animals" Click="Category_Click" />
             <Border Grid.Row="3" Grid.Column="3" BorderThickness="1" BorderBrush="Black">
                 <TextBlock Text="Insert What files will be found in this category here" TextWrapping="Wrap"/>
             </Border>
 
 
-            <Button x:Name="PlantsButton" Grid.Row="4" Grid.Column="1" Content="Botany" Click="Category_Click" />
+            <Button x:Name="PlantsButton" Grid.Row="4" Grid.Column="1" Content="Plants" Click="Category_Click" />
             <Border Grid.Row="4" Grid.Column="3" BorderThickness="1" BorderBrush="Black">
                 <TextBlock Text="Insert What files will be found in this category here" TextWrapping="Wrap" />
             </Border>

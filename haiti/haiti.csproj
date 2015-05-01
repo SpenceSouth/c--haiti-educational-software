@@ -264,18 +264,6 @@
     <Compile Include="teens\Science_Level_1_and_2\Science_Plants.xaml.cs">
       <DependentUpon>Science_Plants.xaml</DependentUpon>
     </Compile>
-    <Compile Include="teens\Science_Level_3\Science_Anatomy.xaml.cs">
-      <DependentUpon>Science_Anatomy.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="teens\Science_Level_3\Science_Botany.xaml.cs">
-      <DependentUpon>Science_Botany.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="teens\Science_Level_3\Science_Physics_3.xaml.cs">
-      <DependentUpon>Science_Physics_3.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="teens\Science_Level_3\Science_Zoology.xaml.cs">
-      <DependentUpon>Science_Zoology.xaml</DependentUpon>
-    </Compile>
     <Compile Include="teens\Science_Level_One.xaml.cs">
       <DependentUpon>Science_Level_One.xaml</DependentUpon>
     </Compile>
@@ -523,22 +511,6 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="teens\Science_Level_1_and_2\Science_Plants.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
-    <Page Include="teens\Science_Level_3\Science_Anatomy.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
-    <Page Include="teens\Science_Level_3\Science_Botany.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
-    <Page Include="teens\Science_Level_3\Science_Physics_3.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
-    <Page Include="teens\Science_Level_3\Science_Zoology.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -1479,61 +1451,6 @@
     <Content Include="teens\level_3\Jobs\MajorsandCareers.ppt">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <Content Include="teens\level_3\Science\People\BIO_LE_BODY_SYSTEMS_CIRCULATORY_3.ppt">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-    <Content Include="teens\level_3\Science\People\BODY_SYSTEMS__CELLS.ppt">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-    <Content Include="teens\level_3\Science\People\CELL_PARTS__THEORY.ppt">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-    <Content Include="teens\level_3\Science\People\CIRCULATORY1_2.PPT">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-    <Content Include="teens\level_3\Science\People\CIRCULATORY_2.PPT">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-    <Content Include="teens\level_3\Science\People\CIRCULATORY__RESPIRATORY.ppt">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-    <Content Include="teens\level_3\Science\People\DIGESTION_2.ppt">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-    <Content Include="teens\level_3\Science\People\DIGESTIVE1_2.PPT">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-    <Content Include="teens\level_3\Science\People\DIGESTIVE_2.ppt">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-    <Content Include="teens\level_3\Science\People\SKELETAL_1.ppt">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-    <Content Include="teens\level_3\Science\Physics\ATOMIC_STRUCTURE.ppt">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-    <Content Include="teens\level_3\Science\Physics\ATOM__STATIC_ELECTRICITY.ppt">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-    <Content Include="teens\level_3\Science\Physics\BOHR_MODEL_OF_THE_ATOM.ppt">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-    <Content Include="teens\level_3\Science\Physics\ELECTRICITY__2.ppt">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-    <Content Include="teens\level_3\Science\Physics\ES_GREENHOUSE_EFFECT.ppt">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-    <Content Include="teens\level_3\Science\Physics\ES_MINERALS.ppt">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-    <Content Include="teens\level_3\Science\Physics\FORCES__EQUILIBRIUM.ppt">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-    <Content Include="teens\level_3\Science\Physics\FORCES_________GRAVITY.ppt">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-    <Content Include="teens\level_3\Science\Physics\MATTER_INTRODUCTION__2.ppt">
     <Content Include="teens\level_3\Math\Algebra I.ppt">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>

@@ -14,7 +14,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace haiti.teens.Science_Level_3
+namespace haiti.teens.Science_Level_1_and_2
 {
     /// <summary>
     /// Interaction logic for Science_Physics.xaml
@@ -61,48 +61,37 @@ namespace haiti.teens.Science_Level_3
             switch (name)
             {
                 case "atoms":
-                    if (Utils.Prompt("Description", "Introduction to atomic structure.", 0))
-                        Process.Start("teens\\level_3\\Science\\Physics\\Atoms__Atomic_Structure.ppt");
+                    Process.Start("teens\\level_3\\Science\\Physics\\Atoms__Atomic_Structure.ppt");
                     break;
                 case "electricity":
-                    if (Utils.Prompt("Description", "Basics About Electricity.", 0))
-                        Process.Start("teens\\level_3\\Science\\Physics\\Basics_about_Electricity.ppt");
+                    Process.Start("teens\\level_3\\Science\\Physics\\Basics_about_Electricity.ppt");
                     break;
                 case "batteries":
-                    if (Utils.Prompt("Description", "Introduction to batteries.", 0))
-                        Process.Start("teens\\level_3\\Science\\Physics\\Batteries.ppt");
+                    Process.Start("teens\\level_3\\Science\\Physics\\Batteries.ppt");
                     break;
                 case "electricSafety":
-                    if (Utils.Prompt("Description", "Introduction to electrical safety.", 0))
-                        Process.Start("teens\\level_3\\Science\\Physics\\Electrical_safety.ppt");
+                    Process.Start("teens\\level_3\\Science\\Physics\\Electrical_safety.ppt");
                     break;
                 case "forces":
-                    if (Utils.Prompt("Description", "Introduction to forces.", 0))
-                        Process.Start("teens\\level_3\\Science\\Physics\\Forces.ppt");
+                    Process.Start("teens\\level_3\\Science\\Physics\\Forces.ppt");
                     break;
                 case "friction":
-                    if (Utils.Prompt("Description", "Introduction to friction.", 0))
-                        Process.Start("teens\\level_3\\Science\\Physics\\Friction.pdf");
+                    Process.Start("teens\\level_3\\Science\\Physics\\Friction.pdf");
                     break;
                 case "gravity":
-                    if (Utils.Prompt("Description", "Introduction to gravity.", 0))
-                        Process.Start("teens\\level_3\\Science\\Physics\\Gravity_Garvitational_Force_Newton.ppt");
+                    Process.Start("teens\\level_3\\Science\\Physics\\Gravity_Garvitational_Force_Newton.ppt");
                     break;
                 case "magnetism":
-                    if (Utils.Prompt("Description", "Introduction to magnetism.", 0))
-                        Process.Start("teens\\level_3\\Science\\Physics\\Magnetism_Lesson_for_Kids.ppt");
+                    Process.Start("teens\\level_3\\Science\\Physics\\Magnetism_Lesson_for_Kids.ppt");
                     break;
                 case "solarSystem":
-                    if (Utils.Prompt("Description", "Introduction to our solar system.", 0))
-                        Process.Start("teens\\level_3\\Science\\Physics\\Our_Solar_System.ppt");
+                    Process.Start("teens\\level_3\\Science\\Physics\\Our_Solar_System.ppt");
                     break;
                 case "refraction":
-                    if (Utils.Prompt("Description", "Introduction to refraction.", 0))
-                        Process.Start("teens\\level_3\\Science\\Physics\\Refraction.ppt");
+                    Process.Start("teens\\level_3\\Science\\Physics\\Refraction.ppt");
                     break;
                 case "machines":
-                    if (Utils.Prompt("Description", "Introduction to simple machines.", 0))
-                        Process.Start("teens\\level_3\\Science\\Physics\\Simple_Machines1.ppt");
+                    Process.Start("teens\\level_3\\Science\\Physics\\Simple_Machines1.ppt");
                     break;
                 default:
                     break;
