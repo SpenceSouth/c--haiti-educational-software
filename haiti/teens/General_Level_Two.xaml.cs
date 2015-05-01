@@ -63,58 +63,76 @@ namespace haiti.teens
             switch (name)
             {
                 case "b1":
-                    Process.Start("teens\\level_2\\GK\\Climate.ppt");
+                    if(Utils.Prompt("Description","Causes of climate, winds, location, precipitation, deserts, mountain ranges.",0))
+                        Process.Start("teens\\level_2\\GK\\Climate.ppt");
                     break;
                 case "b2":
-                    Process.Start("teens\\level_2\\GK\\Climate__Factors__definition.ppt");
+                    if (Utils.Prompt("Description", "Factors influencing climate; Weather versus Climate; Latitude, wind currents, ocean currents, El-Nino, Greenhouse gas effect, more.", 0))
+                        Process.Start("teens\\level_2\\GK\\Climate__Factors__definition.ppt");
                     break;
                 case "b3":
-                    Process.Start("teens\\level_2\\GK\\Continents.doc");
+                    if (Utils.Prompt("Description", "Slides and outlines of continents", 0))
+                        Process.Start("teens\\level_2\\GK\\Continents.doc");
                     break;
                 case "b4":
-                    Process.Start("teens\\level_2\\GK\\Continents__Ocean.ppt");
+                    if (Utils.Prompt("Description", "Seven continents, hemispheres, and exercies", 0))
+                        Process.Start("teens\\level_2\\GK\\Continents__Ocean.ppt");
                     break;
                 case "b5":
-                    Process.Start("teens\\level_2\\GK\\countries.pdf");
+                    if (Utils.Prompt("Description", "Country outlines, flags, spelling, and famous people / country icons.", 0))
+                        Process.Start("teens\\level_2\\GK\\countries.pdf");
                     break;
                 case "b6":
-                    Process.Start("teens\\level_2\\GK\\Deserts.ppt");
+                    if (Utils.Prompt("Description", "Definitions, types of deserts, desert climate, and plants in the desert.", 0))
+                        Process.Start("teens\\level_2\\GK\\Deserts.ppt");
                     break;
                 case "b7":
-                    Process.Start("teens\\level_2\\GK\\Flags_Europe.pdf");
+                    if (Utils.Prompt("Description", "Flags and spellings of each country on each slide.", 0))
+                           Process.Start("teens\\level_2\\GK\\Flags_Europe.pdf");
                     break;
                 case "b8":
-                    Process.Start("teens\\level_2\\GK\\Floods.ppt");
+                    if (Utils.Prompt("Description", "Floods, natural causes, man-made causes, consequences, and examples.", 0))
+                        Process.Start("teens\\level_2\\GK\\Floods.ppt");
                     break;
                 case "b9":
-                    Process.Start("teens\\level_2\\GK\\Gravity_and_Friction.ppt");
+                    if (Utils.Prompt("Description", "Friction and Gravity, weight, air resistance, exercises, velocity, formulas, and types of friction.", 0))
+                        Process.Start("teens\\level_2\\GK\\Gravity_and_Friction.ppt");
                     break;
                 case "b10":
-                    Process.Start("teens\\level_2\\GK\\Landforms_.ppt");
+                    if (Utils.Prompt("Description", "Major landforms: rivers, lakes, oceans, mountains, hills, valleys, plains, peninsulas, islands, and icecaps.", 0))
+                        Process.Start("teens\\level_2\\GK\\Landforms_.ppt");
                     break;
                 case "b11":
-                    Process.Start("teens\\level_2\\GK\\Landforms_for_Kids_types.ppt");
+                    if (Utils.Prompt("Description", "Hills vs mountains, valleys, waterfalls, oceans, lakes, isthmus, and straits.", 0))
+                        Process.Start("teens\\level_2\\GK\\Landforms_for_Kids_types.ppt");
                     break;
                 case "b12":
-                    Process.Start("teens\\level_2\\GK\\Mountains.ppt");
+                    if (Utils.Prompt("Description", "Definition of moutains, famous mountains and their locations, temperatures, glaciers, climbing mountains, mount everest, Andes, and more.", 0))
+                        Process.Start("teens\\level_2\\GK\\Mountains.ppt");
                     break;
                 case "b13":
-                    Process.Start("teens\\level_2\\GK\\north & south america.pdf");
+                    if (Utils.Prompt("Description", "Flags and names of countries on seperate slide.", 0))
+                        Process.Start("teens\\level_2\\GK\\north & south america.pdf");
                     break;
                 case "b14":
-                    Process.Start("teens\\level_2\\GK\\Oceans_Facts.ppt");
+                    if (Utils.Prompt("Description", "", 0))
+                        Process.Start("teens\\level_2\\GK\\Oceans_Facts.ppt");
                     break;
                 case "b15":
-                    Process.Start("teens\\level_2\\GK\\OXYGEN.ppt");
+                    if (Utils.Prompt("Description", "Learning lesson about oxygen.", 0))
+                        Process.Start("teens\\level_2\\GK\\OXYGEN.ppt");
                     break;
                 case "b16":
-                    Process.Start("teens\\level_2\\GK\\Rainbows.ppt");
+                    if (Utils.Prompt("Description", "Learning lesson about rainbows.", 0))
+                        Process.Start("teens\\level_2\\GK\\Rainbows.ppt");
                     break;
                 case "b17":
-                    Process.Start("teens\\level_2\\GK\\tornadoes.ppt");
+                    if (Utils.Prompt("Description", "Facts about tornadoes.", 0))
+                        Process.Start("teens\\level_2\\GK\\tornadoes.ppt");
                     break;
                 case "b18":
-                    Process.Start("teens\\level_2\\GK\\Tsunami_Safety.ppt");
+                    if (Utils.Prompt("Description", "Definition, causes, tsunami safety.", 0))
+                        Process.Start("teens\\level_2\\GK\\Tsunami_Safety.ppt");
                     break;
                 default:
                     break;
