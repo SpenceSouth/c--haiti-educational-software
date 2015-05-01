@@ -258,6 +258,7 @@
     <Compile Include="teens\Science_Level_Two.xaml.cs">
       <DependentUpon>Science_Level_Two.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Utils.cs" />
     <Page Include="AboutPage.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>

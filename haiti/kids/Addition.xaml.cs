@@ -67,22 +67,15 @@ namespace haiti
                 case "button0":
                     title = "Instructions";
                     prompt = "Simple program with many addition problems.\nSelect from level 1, 2, 3 based on the difficulty level.\nSolve the problem and select the correct option.\nWould you like to start this activity?";
-                    var dr0 = MessageBox.Show(prompt, title, MessageBoxButton.YesNo);
-
-                    if (dr0 == MessageBoxResult.Yes)
-                    {
+                    if(Utils.Prompt(title,prompt))
                         Program.runOlliwitAddition();
-                    }
                     break;
                 case "button5":
                     title = "Description";
                     prompt = "Learn about addition, subtraction and word problems.\nWould you like to start this activity?";
-                    var dr1 = MessageBox.Show(prompt, title, MessageBoxButton.YesNo);
 
-                    if (dr1 == MessageBoxResult.Yes)
-                    {
+                    if (Utils.Prompt(title, prompt))
                         Process.Start("kids\\level_3\\Math\\add_sub.ppt");
-                    }
                     break;
                 default:
                     return;
