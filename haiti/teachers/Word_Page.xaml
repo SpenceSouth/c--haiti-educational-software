@@ -79,15 +79,15 @@
 
 
 
-                <Button x:Name="Word_Basics" Grid.Row="2" Grid.Column="1" Content="Word Basics" Click="Program_Click" />
+                <Button x:Name="Word_Basics" Grid.Row="2" Grid.Column="1" Content="Introduction to Word" Click="Program_Click" />
                 <Border Grid.Row="2" Grid.Column="3" BorderThickness="1" BorderBrush="Black">
-                    <TextBlock Text="Insert Word Basics description here" TextWrapping="Wrap" HorizontalAlignment="Left" />
+                    <TextBlock Text="Learn about how to create basic text documents on word application." TextWrapping="Wrap" HorizontalAlignment="Left" />
                 </Border>
 
 
-                <Button x:Name="Word_Introduction" Grid.Row="3" Grid.Column="1" Content="Word Introduction" Click="Program_Click" />
+                <Button x:Name="Word_Introduction" Grid.Row="3" Grid.Column="1" Content="Microsoft Office Applications" Click="Program_Click" />
                 <Border Grid.Row="3" Grid.Column="3" BorderThickness="1" BorderBrush="Black">
-                    <TextBlock Text="Insert Word Introduction description here" TextWrapping="Wrap" HorizontalAlignment="Left" />
+                    <TextBlock Text="Learn about different application of Microsoft applications including Word, Excel, PowerPoint and Access, Outlook emails." TextWrapping="Wrap" HorizontalAlignment="Left" />
                 </Border>
             </Grid>
 
