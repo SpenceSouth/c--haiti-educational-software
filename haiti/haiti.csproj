@@ -542,9 +542,6 @@
     <Content Include="installers\SmartEg-Setup_Demo.exe">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="installers\tmb.exe">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
     <Content Include="installers\tuxmath-2.0.2-win32-installer.exe">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>

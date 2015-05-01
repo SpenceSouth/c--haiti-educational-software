@@ -73,9 +73,8 @@
             <Button x:Name="button0"                Content="Kea Coloring Book" Grid.Row="2" Grid.Column="1" Click="Category_Click"/>
             <Button x:Name="button4"                Content="Drawing for Children"  Grid.Row="3" Grid.Column="1" Click="Category_Click"/>
 
-            <!--Column 3-->
-            <Button x:Name="button9"                Content="The Magic Book"  Grid.Row="2" Grid.Column="2" Click="Category_Click"/>
-            <Button x:Name="button12"               Content="Cars to Color"  Grid.Row="3" Grid.Column="2" Click="Category_Click"/>
+            <!--Column 3-->            
+            <Button x:Name="button12"               Content="Cars 2 Coloring Book - Paint Application"  Grid.Row="2" Grid.Column="2" Click="Category_Click"/>
 
         </Grid>
 

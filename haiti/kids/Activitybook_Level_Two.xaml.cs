@@ -67,7 +67,7 @@ namespace haiti.kids
             {
                 case "button0":
                     title = "Description";
-                    prompt = "Learn to write and spell Colors.\nWould you like to start this activity?";
+                    prompt = "Learn to write and spell colors.\nWould you like to start this activity?";
                     var dr0 = MessageBox.Show(prompt, title, MessageBoxButton.YesNo);
 
                     if (dr0 == MessageBoxResult.Yes)
@@ -278,7 +278,7 @@ namespace haiti.kids
                     break;
                 case "button30":
                     title = "Description";
-                    prompt = "Simple exercise to learn to count numbers.\nWould you like to start this activity?";
+                    prompt = "Simple exercise to learn to count objets an d write totals.\nWould you like to start this activity?";
                     var dr30= MessageBox.Show(prompt, title, MessageBoxButton.YesNo);
 
                     if (dr30 == MessageBoxResult.Yes)
@@ -711,7 +711,7 @@ namespace haiti.kids
                     break;
                 case "button81":
                     title = "Description";
-                    prompt = "Simple exercise to learn to count numbers.\nWould you like to start this activity?";
+                    prompt = "Simple exercise to learn to count objects and write totals.\nWould you like to start this activity?";
                     var dr81= MessageBox.Show(prompt, title, MessageBoxButton.YesNo);
 
                     if (dr81 == MessageBoxResult.Yes)
