@@ -85,7 +85,7 @@
             <Button x:Name="Prealegbra_Button" Grid.Row="2" Grid.Column="1" Content="Pre-Algebra" Click="Program_Click" />
             <!--  <Button x:Name="Multiplication_Button" Grid.Row="3" Grid.Column="1" Content="Multiplication" Click="Program_Click" />-->
             <Border Grid.Row="2" Grid.Column="3" BorderThickness="1" BorderBrush="Black">
-                <TextBlock Text="On the opening screen you will find that your mouse pointer turns into a hand over the three types of problems you can choose. Choose a type of addition sum that you would like to try ranging from single to three figure problems." TextWrapping="Wrap" HorizontalAlignment="Left" />
+                <TextBlock Text="Addition and Subtraction and Word Problems with addition and subtraction." TextWrapping="Wrap" HorizontalAlignment="Left" />
             </Border>
 
 

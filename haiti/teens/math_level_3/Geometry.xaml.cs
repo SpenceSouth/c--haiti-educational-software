@@ -63,8 +63,16 @@ namespace haiti.teens.math_level_3
             switch (name)
             {
                 case "button0":
-                    if (Utils.Prompt("Description", "Addition and subtraction and word problems with addition and subtraction.", 0))
-                        Process.Start("teens\\level_3\\Math\\ADD__Substraction.ppt");
+                    if (Utils.Prompt("Description", "Learn how to plot slope on a graph.", 0))
+                        Process.Start("teens\\level_3\\Math\\GRAPHING__POINT___SLOPE.ppt");
+                    break;
+                case "button1":
+                    if (Utils.Prompt("Description", "Graphing variables; Learn how to plot variables on a graph.", 0))
+                        Process.Start("teens\\level_3\\Math\\GRAPH___2___VARIABLES.ppt");
+                    break;
+                case "button2":
+                    if (Utils.Prompt("Description", "Learn about different types of triangles.", 0))
+                        Process.Start("teens\\level_3\\Math\\TRIANGLE_CLASSIFICATION.ppt");
                     break;
                 default:
                     return;
