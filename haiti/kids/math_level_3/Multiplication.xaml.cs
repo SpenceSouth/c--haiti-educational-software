@@ -65,14 +65,8 @@ namespace haiti.kids.math_level_3
             switch (name)
             {
                 case "button0":
-                    title = "Instructions";
-                    prompt = "Introduction to multiplication.\nWould you like to start this activity?";
-                    var dr0 = MessageBox.Show(prompt, title, MessageBoxButton.YesNo);
-
-                    if (dr0 == MessageBoxResult.Yes)
-                    {
+                    if (Utils.Prompt("Introduction to multiplication", "Learn about multiplication with examples and explanations.", 0))
                         Process.Start("kids\\level_3\\Math\\Multiplication_1.ppt");
-                    }
                     break;
                 default:
                     return;

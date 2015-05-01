@@ -83,7 +83,7 @@
 
                 <Button x:Name="NaturalScince_Button" Grid.Row="2" Grid.Column="1" Content="Natural Science" Click="Program_Click" />
                 <Border Grid.Row="2" Grid.Column="3" BorderThickness="1" BorderBrush="Black">
-                    <TextBlock Text="Contents: Plants, Ecosystem, Everything On Earth, Life Cycle of Plants, Types of Plant, Water" TextWrapping="Wrap" HorizontalAlignment="Left" />
+                    <TextBlock Text="Learn about our ecosystem, plants, water and many other elements." TextWrapping="Wrap" HorizontalAlignment="Left" />
                 </Border>
 
 

@@ -63,6 +63,7 @@ namespace haiti.kids
             switch (name)
             {
                 case "Computer Parts":
+                    if(Utils.Prompt("Description","Monitor, keyboard, mouse, printer, CPU; Includes exercies.", 0))
                     Process.Start("kids\\level_3\\Computer\\Mr. Computer.ppt");
                     break;
 

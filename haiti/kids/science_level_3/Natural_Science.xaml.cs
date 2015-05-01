@@ -77,7 +77,7 @@ namespace haiti.kids.science_level_3
                     break;
                 case "button1":
                     title = "Description";
-                    prompt = "Everything on Earth.\nWould you like to start this activity?";
+                    prompt = "Encyclopedic:  All about Earth, Weather, Oceans, Mammals, Birds.\nWould you like to start this activity?";
                     var dr1 = MessageBox.Show(prompt, title, MessageBoxButton.YesNo);
 
                     if (dr1 == MessageBoxResult.Yes)
@@ -117,7 +117,7 @@ namespace haiti.kids.science_level_3
                     break;
                 case "button9":
                     title = "Description";
-                    prompt = "Essential nutrients of plants: Learn about plans and what nutrients they need to survive.\nWould you like to start this activity?";
+                    prompt = "Learn about plans and what nutrients they need to survive.\nWould you like to start this activity?";
                     var dr9 = MessageBox.Show(prompt, title, MessageBoxButton.YesNo);
 
                     if (dr9 == MessageBoxResult.Yes)
@@ -127,7 +127,7 @@ namespace haiti.kids.science_level_3
                     break;
                 case "button10":
                     title = "Description";
-                    prompt = "Types of plants: Learn about three main types of plants and its Characteristics.\nWould you like to start this activity?";
+                    prompt = "Types of plants: Learn about three main types of plants and their characteristics.\nWould you like to start this activity?";
                     var dr10 = MessageBox.Show(prompt, title, MessageBoxButton.YesNo);
 
                     if (dr10 == MessageBoxResult.Yes)

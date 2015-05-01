@@ -59,38 +59,50 @@ namespace haiti.kids.math_level_3
         private void Category_Click(object sender, RoutedEventArgs e)
         {
             string name = (string)((Button)sender).Name;
+            String d = "Description";
+            String i = "Instructions";
 
             switch (name)
             {
                 case "button0":
-                    Process.Start("kids\\level_3\\Math\\subtract-one-digit-numbers-1.pdf");
+                    if(Utils.Prompt(d, "Exercises with subtraction.", 0))
+                        Process.Start("kids\\level_3\\Math\\subtract-one-digit-numbers-1.pdf");
                     break;
                 case "button1":
-                    Process.Start("kids\\level_3\\Math\\subtract-one-digit-numbers-2.pdf");
+                    if (Utils.Prompt(d, "Exercises with subtraction.", 0))
+                        Process.Start("kids\\level_3\\Math\\subtract-one-digit-numbers-2.pdf");
                     break;
                 case "button2":
-                    Process.Start("kids\\level_3\\Math\\subtract-one-digit-numbers-3.pdf");
+                    if (Utils.Prompt(d, "Exercises with subtraction.", 0))
+                        Process.Start("kids\\level_3\\Math\\subtract-one-digit-numbers-3.pdf");
                     break;
                 case "button3":
-                    Process.Start("kids\\level_3\\Math\\subtract-one-digit-numbers-4.pdf");
+                    if (Utils.Prompt(d, "Exercises with subtraction.", 0)) 
+                        Process.Start("kids\\level_3\\Math\\subtract-one-digit-numbers-4.pdf");
                     break;
                 case "button4":
-                    Process.Start("kids\\level_3\\Math\\subtract-one-digit-numbers-5.pdf");
+                    if (Utils.Prompt(d, "Exercises with subtraction.", 0))
+                        Process.Start("kids\\level_3\\Math\\subtract-one-digit-numbers-5.pdf");
                     break;
                 case "button5":
-                    Process.Start("kids\\level_3\\Math\\subtract-one-digit-numbers-6.pdf");
+                    if (Utils.Prompt(d, "Exercises with subtraction.", 0))
+                        Process.Start("kids\\level_3\\Math\\subtract-one-digit-numbers-6.pdf");
                     break;
                 case "button6":
-                    Process.Start("kids\\level_3\\Math\\subtract-one-digit-numbers-7.pdf");
+                    if (Utils.Prompt(d, "Exercises with subtraction.", 0))
+                        Process.Start("kids\\level_3\\Math\\subtract-one-digit-numbers-7.pdf");
                     break;
                 case "button7":
-                    Process.Start("kids\\level_3\\Math\\subtract-one-digit-numbers-8.pdf");
+                    if (Utils.Prompt(d, "Exercises with subtraction.", 0))
+                        Process.Start("kids\\level_3\\Math\\subtract-one-digit-numbers-8.pdf");
                     break;
                 case "button8":
-                    Process.Start("kids\\level_3\\Math\\subtract-one-digit-numbers-9.pdf");
+                    if (Utils.Prompt(d, "Exercises with subtraction.", 0))
+                        Process.Start("kids\\level_3\\Math\\subtract-one-digit-numbers-9.pdf");
                     break;
                 case "button9":
-                    Process.Start("kids\\level_3\\Math\\subtract-one-digit-numbers-10.pdf");
+                    if (Utils.Prompt(d, "Exercises with subtraction.", 0))
+                        Process.Start("kids\\level_3\\Math\\subtract-one-digit-numbers-10.pdf");
                     break;
                 default:
                     return;
