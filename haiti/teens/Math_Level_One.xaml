@@ -30,7 +30,7 @@
 
 
             <Grid Grid.Row="0" Grid.Column="0" Background="Black">
-                <TextBlock Grid.Row="0" Grid.Column="0" Text="Teens - Math&#x0a;Level Three" TextAlignment="Center" Background="Black" Foreground="White" TextWrapping="Wrap" FontSize="30" FontWeight="Bold" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                <TextBlock Grid.Row="0" Grid.Column="0" Text="Teens - Math&#x0a;Level One" TextAlignment="Center" Background="Black" Foreground="White" TextWrapping="Wrap" FontSize="30" FontWeight="Bold" HorizontalAlignment="Center" VerticalAlignment="Center"/>
             </Grid>
 
             <Grid Grid.Row="0" Grid.Column="1" Margin="0.2,0,-0.4,0.2">
@@ -121,13 +121,13 @@
 
             <Button x:Name="Percentage_Button" Grid.Row="8" Grid.Column="1" Content="Percentages" Click="Program_Click" />
             <Border Grid.Row="8" Grid.Column="3" BorderThickness="1" BorderBrush="Black">
-                <TextBlock Text="Definition of percet, comparing money and percents" TextWrapping="Wrap" HorizontalAlignment="Left" />
+                <TextBlock Text="Definition of percent, comparing money and percents" TextWrapping="Wrap" HorizontalAlignment="Left" />
             </Border>
 
 
             <Button x:Name="Fractions_Button" Grid.Row="9" Grid.Column="1" Content="Fractions" Click="Program_Click" />
             <Border Grid.Row="9" Grid.Column="3" BorderThickness="1" BorderBrush="Black">
-                <TextBlock Text="Geometric figures divided into halves, thirds, and forths." TextWrapping="Wrap" HorizontalAlignment="Left" />
+                <TextBlock Text="Geometric figures divided into halves, th" TextWrapping="Wrap" HorizontalAlignment="Left" />
             </Border>
 
         </Grid>
