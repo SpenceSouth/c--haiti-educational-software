@@ -61,6 +61,9 @@
 
             <StackPanel Orientation="Vertical" HorizontalAlignment="Center" VerticalAlignment="Center">
                 <StackPanel Orientation="Horizontal">
+                    <TextBlock Text="Click a button to see the instructions and start activity!" FontStyle="Oblique" FontSize="25px"/>
+                </StackPanel>
+                <StackPanel Orientation="Horizontal">
                     <Button x:Name="b1" Margin="10" Width="150px" Height="100px" Content="Climate" Click="Category_Click" />
                     <Button x:Name="b2" Margin="10" Width="150px" Height="100px" Content="Climate Factors" Click="Category_Click" />
                     <Button x:Name="b3" Margin="10" Width="150px" Height="100px" Content="Continents" Click="Category_Click" />

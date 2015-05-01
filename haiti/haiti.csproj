@@ -1407,6 +1407,15 @@
     <Content Include="teens\level_3\Science\Plants\Water_Cycle.ppt">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
+    <Content Include="teens\level_3\Jobs\Careers.ppt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="teens\level_3\Jobs\Careers_in_Engineering_David_Jones.ppt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="teens\level_3\Jobs\MajorsandCareers.ppt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
     <Resource Include="assets\Haiti_pic_original.jpg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Resource>
