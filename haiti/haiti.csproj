@@ -621,24 +621,24 @@
     <None Include="teachers\teacher assets\CLS Learning Apps\Dishi_EducationalResourcesandBookletsdocumentation.docx.docx">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Include="teachers\teacher assets\Computer\Computer and Internet_Lecture2_Print.pdf">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Include="teachers\teacher assets\Computer\Computer- Basics_ppt.pptx">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Include="teachers\teacher assets\Computer\ComputerBasics-2.pdf">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Include="teachers\teacher assets\Computer\computer_fundamentals_tutorial_Textbook.pdf">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Include="teachers\teacher assets\Computer\Lecture 1-Basics of computer.ppt">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Include="teachers\teacher assets\Computer\Lecture 2-Computer-Basics--Windows and internet.ppt">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
+    <Content Include="teachers\teacher assets\Computer\Computer and Internet_Lecture2_Print.pdf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="teachers\teacher assets\Computer\Computer- Basics_ppt.pptx">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="teachers\teacher assets\Computer\ComputerBasics-2.pdf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="teachers\teacher assets\Computer\computer_fundamentals_tutorial_Textbook.pdf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="teachers\teacher assets\Computer\Lecture 1-Basics of computer.ppt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="teachers\teacher assets\Computer\Lecture 2-Computer-Basics--Windows and internet.ppt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
     <None Include="teachers\teacher assets\MS Excel\Lecture 5-BeginnerLevel1_IntroExcel.ppt">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>

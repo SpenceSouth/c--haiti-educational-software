@@ -83,39 +83,37 @@
                 <TextBlock Grid.Row="2" Grid.Column="3" Text="Description" />
 
 
-                <Button x:Name="Lecture_1" Grid.Row="3" Grid.Column="1" Content="Lecture_1" Click="Program_Click" />
-
+                <Button x:Name="Lecture_1" Grid.Row="3" Grid.Column="1" Content="Computer Technology" Click="Program_Click" />
                 <Border Grid.Row="3" Grid.Column="3" BorderThickness="1" BorderBrush="Black">
-                    <TextBlock Text="On the opening screen you will find that your mouse pointer turns into a hand over the three types of problems you can choose. Choose a type of addition sum that you would like to try ranging from single to three figure problems." TextWrapping="Wrap" HorizontalAlignment="Left" />
+                    <TextBlock Text="Learn about computers and common computer technology used in day to day life." TextWrapping="Wrap" HorizontalAlignment="Left" />
                 </Border>
 
-
-                <Button x:Name="Lecture_2" Grid.Row="4" Grid.Column="1" Content="Lecture_2" Click="Program_Click" />
+                <Button x:Name="Lecture_2" Grid.Row="4" Grid.Column="1" Content="Computer Skills" Click="Program_Click" />
                 <Border Grid.Row="4" Grid.Column="3" BorderThickness="1" BorderBrush="Black">
-                    <TextBlock Text="Insert description here" TextWrapping="Wrap" HorizontalAlignment="Left" />
+                    <TextBlock Text="Learn about computer parts and skills needed to use internet in day to day life." TextWrapping="Wrap" HorizontalAlignment="Left" />
                 </Border>
 
 
-                <Button x:Name="Computer_Basics_1" Grid.Row="5" Grid.Column="1" Content="Computer_Basics" Click="Program_Click" />
+                <Button x:Name="Computer_Basics_1" Grid.Row="5" Grid.Column="1" Content="Computer Skills" Click="Program_Click" />
                 <Border Grid.Row="5" Grid.Column="3" BorderThickness="1" BorderBrush="Black">
-                    <TextBlock Text="Insert description here" TextWrapping="Wrap" HorizontalAlignment="Left" />
+                    <TextBlock Text="Learn about computer parts and skills needed to use internet in day to day life." TextWrapping="Wrap" HorizontalAlignment="Left" />
                 </Border>
 
 
-                <Button x:Name="Computer_Basics_2" Grid.Row="6" Grid.Column="1" Content="Computer_Basics_2" Click="Program_Click" />
+                <Button x:Name="Computer_Basics_2" Grid.Row="6" Grid.Column="1" Content="Computer Hardware and Software" Click="Program_Click" />
                 <Border Grid.Row="6" Grid.Column="3" BorderThickness="1" BorderBrush="Black">
-                    <TextBlock Text="Insert description here" TextWrapping="Wrap" HorizontalAlignment="Left" />
+                    <TextBlock Text="Lesson on hardware and software parts in a computer with pictures and information." TextWrapping="Wrap" HorizontalAlignment="Left" />
                 </Border>
 
 
-                <Button x:Name="Computer_fundementals" Grid.Row="7" Grid.Column="1" Content="Computer_Fundementals" Click="Program_Click" />
+                <Button x:Name="Computer_fundementals" Grid.Row="7" Grid.Column="1" Content="Computer Fundementals" Click="Program_Click" />
                 <Border Grid.Row="7" Grid.Column="3" BorderThickness="1" BorderBrush="Black">
-                    <TextBlock Text="Insert description here" TextWrapping="Wrap" HorizontalAlignment="Left" />
+                    <TextBlock Text="Text book on computers and their common uses in day to day life." TextWrapping="Wrap" HorizontalAlignment="Left" />
                 </Border>
 
                 <Button x:Name="Computer_and_Internet" Grid.Row="8" Grid.Column="1" Content="Computer and Internet" Click="Program_Click" />
                 <Border Grid.Row="8" Grid.Column="3" BorderThickness="1" BorderBrush="Black">
-                    <TextBlock Text="Insert description here" TextWrapping="Wrap" HorizontalAlignment="Left" />
+                    <TextBlock Text="Text book on basics of computers, computer parts, uses of computers and how to effectively use the Internet." TextWrapping="Wrap" HorizontalAlignment="Left" />
                 </Border>
 
 
