@@ -710,9 +710,6 @@
     <Content Include="kids\level_2\activity_books\ab %2816%29.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <Content Include="kids\level_2\activity_books\ab %2817%29.png">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
     <Content Include="kids\level_2\activity_books\ab %2818%29.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>

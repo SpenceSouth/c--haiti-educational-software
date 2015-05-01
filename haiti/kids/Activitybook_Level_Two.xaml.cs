@@ -76,16 +76,16 @@ namespace haiti.kids
                     }
                     break;                
                 case "button2":
-                    Process.Start("kids\\level_2\\activity_books\\ab (3).pdf");
+                    if (Utils.Prompt("Description", "Writing in colors", 0)) 
+                        Process.Start("kids\\level_2\\activity_books\\ab (3).pdf");                    
                     break;
                 case "button3":
-                    Process.Start("kids\\level_2\\activity_books\\ab (4).pdf");
-                    break;
-                case "button4":
-                    Process.Start("kids\\level_2\\activity_books\\ab (5).pdf");
+                    if(Utils.Prompt("Description", "How to write cursive letters; individual strokes", 0))
+                        Process.Start("kids\\level_2\\activity_books\\ab (4).pdf");
                     break;
                 case "button5":
-                    Process.Start("kids\\level_2\\activity_books\\ab (6).pdf");
+                    if(Utils.Prompt("Description", "Printing days of the week", 0))
+                        Process.Start("kids\\level_2\\activity_books\\ab (6).pdf");
                     break;
                 case "button6":
                     title = "Description";
@@ -108,10 +108,12 @@ namespace haiti.kids
                     }
                     break;
                 case "button8":
-                    Process.Start("kids\\level_2\\activity_books\\ab (9).pdf");
+                    if(Utils.Prompt("Description", "Objects with spellings", 0))
+                        Process.Start("kids\\level_2\\activity_books\\ab (9).pdf");
                     break;
                 case "button9":
-                    Process.Start("kids\\level_2\\activity_books\\ab (10).pdf");
+                    if(Utils.Prompt("Description", "Spelling and pictures to each month of the year", 0))
+                        Process.Start("kids\\level_2\\activity_books\\ab (10).pdf");
                     break;
                 case "button10":
                     Process.Start("kids\\level_2\\activity_books\\ab (1).gif");
@@ -371,7 +373,7 @@ namespace haiti.kids
                     break;
                 case "button43":
                     title = "Description";
-                    prompt = "Simple exercise to learn to recognize, count and write Numbers.\nWould you like to start this activity?";
+                    prompt = "Simple exercise to learn to recognize, count and write numbers.\nWould you like to start this activity?";
                     var dr43= MessageBox.Show(prompt, title, MessageBoxButton.YesNo);
 
                     if (dr43 == MessageBoxResult.Yes)
@@ -401,22 +403,12 @@ namespace haiti.kids
                     break;
                 case "button49":
                     title = "Description";
-                    prompt = "Simple exercise to learn to recognize, count and write Numbers.\nWould you like to start this activity?";
+                    prompt = "Simple exercise to learn to recognize, count and write numbers.\nWould you like to start this activity?";
                     var dr49= MessageBox.Show(prompt, title, MessageBoxButton.YesNo);
 
                     if (dr49 == MessageBoxResult.Yes)
                     {
                         Process.Start("kids\\level_2\\activity_books\\ab (16).png");
-                    }
-                    break;
-                case "button50":
-                    title = "Description";
-                    prompt = "Simple exercise to recognize the difference between objects.\nWould you like to start this activity?";
-                    var dr50= MessageBox.Show(prompt, title, MessageBoxButton.YesNo);
-
-                    if (dr50 == MessageBoxResult.Yes)
-                    {
-                        Process.Start("kids\\level_2\\activity_books\\ab (17).png");
                     }
                     break;
                 case "button51":
@@ -701,7 +693,7 @@ namespace haiti.kids
                     break;
                 case "button80":
                     title = "Description";
-                    prompt = "Trace lines to match the starting point to the destination.\nWould you like to start this activity?";
+                    prompt = "Puzzle with three little kids; colors and counts.\nWould you like to start this activity?";
                     var dr80= MessageBox.Show(prompt, title, MessageBoxButton.YesNo);
 
                     if (dr80 == MessageBoxResult.Yes)

@@ -64,18 +64,24 @@
                 <StackPanel Orientation="Horizontal">
                     <Button x:Name="button0"  Content="Color Spellings" Margin="10" Click="Program_Click" Width="130px" Height="75px"/>
                     <Button x:Name="button83" Content="Number 5" Margin="10" Click="Program_Click" Width="130px" Height="75px"/>
-                    <Button x:Name="button2" Content="PDF" Margin="10" Click="Program_Click" Width="130px" Height="75px"/>
-                    <Button x:Name="button3" Content="PDF" Margin="10" Click="Program_Click" Width="130px" Height="75px"/>
-                    <Button x:Name="button4" Content="PDF" Margin="10" Click="Program_Click" Width="130px" Height="75px"/>
-                    <Button x:Name="button5" Content="PDF" Margin="10" Click="Program_Click" Width="130px" Height="75px"/>
+                    <Button x:Name="button2" Content="Writing in Colors" Margin="10" Click="Program_Click" Width="130px" Height="75px"/>
+                    <Button x:Name="button3" Content="Writing Cursive Letters" Margin="10" Click="Program_Click" Width="130px" Height="75px"/>
+                    <Button x:Name="button70" Content="Match Fruits to Plants" Margin="10" Click="Program_Click" Width="130px" Height="75px"/>
+                    <Button x:Name="button5" Margin="10" Click="Program_Click" Width="130px" Height="75px">
+                        <TextBlock Text="Priting Days of the Week" TextWrapping="Wrap" HorizontalAlignment="Center"/>
+                    </Button>
                 </StackPanel>
                 <StackPanel Orientation="Horizontal">
                     <Button x:Name="button6" Margin="10" Click="Program_Click" Width="130px" Height="75px">
                         <TextBlock Text="Days of the Weeks Spellings" TextWrapping="Wrap" HorizontalAlignment="Center"/>
                     </Button>
-                    <Button x:Name="button7" Content="Days of the week" Margin="10" Click="Program_Click" Width="130px" Height="75px"/>
-                    <Button x:Name="button8" Content="PDF" Margin="10" Click="Program_Click" Width="130px" Height="75px"/>
-                    <Button x:Name="button9" Content="PDF" Margin="10" Click="Program_Click" Width="130px" Height="75px"/>
+                    <Button x:Name="button7" Margin="10" Click="Program_Click" Width="130px" Height="75px">
+                        <TextBlock Text="Days of the Weeks Spellings" TextWrapping="Wrap" HorizontalAlignment="Center"/>
+                    </Button>
+                    <Button x:Name="button8" Margin="10" Click="Program_Click" Width="130px" Height="75px">
+                        <TextBlock Text="Common Nouns (Dolch Nouns)" TextWrapping="Wrap" HorizontalAlignment="Center"/>
+                    </Button>
+                    <Button x:Name="button9" Content="Months of the Year" Margin="10" Click="Program_Click" Width="130px" Height="75px"/>
                     <Button x:Name="button82" Content="Number 3" Margin="10" Click="Program_Click" Width="130px" Height="75px"/>
                     <Button x:Name="button11" Content="Learn to Count" Margin="10" Click="Program_Click" Width="130px" Height="75px"/>
                 </StackPanel>
@@ -101,19 +107,23 @@
                     <Button x:Name="button79" Content="Find Correct Size" Margin="10" Click="Program_Click" Width="130px" Height="75px"/>
                     <Button x:Name="button27" Content="Learn to Count" Margin="10" Click="Program_Click" Width="130px" Height="75px"/>
                     <Button x:Name="button28" Content="Match Pictures to Words" Margin="10" Click="Program_Click" Width="130px" Height="75px"/>
-                    <Button x:Name="button29" Content="Recognizing Animals" Margin="10" Click="Program_Click" Width="130px" Height="75px"/>
+                    <Button x:Name="button29" Margin="10" Click="Program_Click" Width="130px" Height="75px">
+                        <TextBlock Text="Learn to Recognize Animals" TextWrapping="Wrap" HorizontalAlignment="Center"/>
+                    </Button>
                 </StackPanel>
                 <StackPanel Orientation="Horizontal">
                     <Button x:Name="button30" Content="Learn to Count 2" Margin="10" Click="Program_Click" Width="130px" Height="75px"/>
-                    <Button x:Name="button31" Content="Find correct size" Margin="10" Click="Program_Click" Width="130px" Height="75px"/>
+                    <Button x:Name="button31" Content="Find correct size 1" Margin="10" Click="Program_Click" Width="130px" Height="75px"/>
                     <Button x:Name="button32" Content="Fruits and Vegatables" Margin="10" Click="Program_Click" Width="130px" Height="75px"/>
-                    <Button x:Name="button33" Content="Recognizing Animals" Margin="10" Click="Program_Click" Width="130px" Height="75px"/>
+                    <Button x:Name="button33" Content="Recognize Animals" Margin="10" Click="Program_Click" Width="130px" Height="75px"/>
                     <Button x:Name="button34" Content="Find the Odd One Out" Margin="10" Click="Program_Click" Width="130px" Height="75px"/>
-                    <Button x:Name="button35" Content="Animals and Their Food" Margin="10" Click="Program_Click" Width="130px" Height="75px"/>
+                    <Button x:Name="button35" Margin="10" Click="Program_Click" Width="130px" Height="75px">
+                        <TextBlock Text="Learn About Animals and Their Food" TextWrapping="Wrap" HorizontalAlignment="Center"/>
+                    </Button>
                 </StackPanel>
                 <StackPanel Orientation="Horizontal">
                     <Button x:Name="button36" Content="Arrange Numbers 1" Margin="10" Click="Program_Click" Width="130px" Height="75px"/>
-                    <Button x:Name="button78" Content="Find Correct Size" Margin="10" Click="Program_Click" Width="130px" Height="75px"/>
+                    <Button x:Name="button78" Content="Find Correct Size 2" Margin="10" Click="Program_Click" Width="130px" Height="75px"/>
                     <Button x:Name="button77" Content="Recognize a Pattern" Margin="10" Click="Program_Click" Width="130px" Height="75px"/>
                     <Button x:Name="button76" Content="Recognize a Pattern" Margin="10" Click="Program_Click" Width="130px" Height="75px"/>
                     <Button x:Name="button40" Content="Learn to Count" Margin="10" Click="Program_Click" Width="130px" Height="75px"/>
@@ -121,7 +131,7 @@
                 </StackPanel>
                 <StackPanel Orientation="Horizontal">
                     <Button x:Name="button75" Content="Spot the Difference" Margin="10" Click="Program_Click" Width="130px" Height="75px"/>
-                    <Button x:Name="button43" Content="Learn to Count" Margin="10" Click="Program_Click" Width="130px" Height="75px"/>
+                    <Button x:Name="button43" Content="Learn to Count 1" Margin="10" Click="Program_Click" Width="130px" Height="75px"/>
                     <Button x:Name="button74" Content="Find the Odd One Out" Margin="10" Click="Program_Click" Width="130px" Height="75px"/>
                     <Button x:Name="button73" Content="House Shape Puzzle" Margin="10" Click="Program_Click" Width="130px" Height="75px"/>
                     <Button x:Name="button72" Content="Duck Shape Puzzle" Margin="10" Click="Program_Click" Width="130px" Height="75px"/>
@@ -129,8 +139,8 @@
                 </StackPanel>
                 <StackPanel Orientation="Horizontal">
                     <Button x:Name="button48" Content="Arrange Numbers 2" Margin="10" Click="Program_Click" Width="130px" Height="75px"/>
-                    <Button x:Name="button49" Content="Learn to Count" Margin="10" Click="Program_Click" Width="130px" Height="75px"/>
-                    <Button x:Name="button50" Content="Find the Odd One Out" Margin="10" Click="Program_Click" Width="130px" Height="75px"/>
+                    <Button x:Name="button49" Content="Learn to Count 2" Margin="10" Click="Program_Click" Width="130px" Height="75px"/>
+                    <Button x:Name="button69" Content="Find the Odd One Out" Margin="10" Click="Program_Click" Width="130px" Height="75px"/>
                     <Button x:Name="button51" Content="Spot the Difference" Margin="10" Click="Program_Click" Width="130px" Height="75px"/>
                     <Button x:Name="button52" Content="Learn to Count" Margin="10" Click="Program_Click" Width="130px" Height="75px"/>
                     <Button x:Name="button53" Content="Find the Highest Number" Margin="10" Click="Program_Click" Width="130px" Height="75px"/>
@@ -154,9 +164,7 @@
                 <StackPanel Orientation="Horizontal">
                     <Button x:Name="button66" Content="Bunny Puzzle" Margin="10" Click="Program_Click" Width="130px" Height="75px"/>
                     <Button x:Name="button67" Content="Rooster Puzzle" Margin="10" Click="Program_Click" Width="130px" Height="75px"/>
-                    <Button x:Name="button68" Content="Butterfly Puzzle" Margin="10" Click="Program_Click" Width="130px" Height="75px"/>
-                    <Button x:Name="button69" Content="Find the Odd One Out" Margin="10" Click="Program_Click" Width="130px" Height="75px"/>
-                    <Button x:Name="button70" Content="Match Fruits to Plants" Margin="10" Click="Program_Click" Width="130px" Height="75px"/>                    
+                    <Button x:Name="button68" Content="Butterfly Puzzle" Margin="10" Click="Program_Click" Width="130px" Height="75px"/>                 
                 </StackPanel>
             </StackPanel>
 

@@ -64,85 +64,112 @@ namespace haiti.teens.Science_Level_1_and_2
             switch (name)
             {
                 case "b1":
-                    Process.Start("teens\\level_3\\Science\\Animals\\allAboutLions.ppt");
+                    if(Utils.Prompt("Description", "Facts about lions.", 0))
+                        Process.Start("teens\\level_3\\Science\\Animals\\allAboutLions.ppt");
                     break;
                 case "b2":
-                    Process.Start("teens\\level_3\\Science\\Animals\\Amphibians.ppt");
+                    if(Utils.Prompt("Description", "Pictures and descriptions of frogs, toads, and other salamanders - 9 slides.", 0))
+                        Process.Start("teens\\level_3\\Science\\Animals\\Amphibians.ppt");
                     break;
                 case "b3":
+                    if (Utils.Prompt("Description", "Animal Life.", 0))
                     Process.Start("teens\\level_3\\Science\\Animals\\Animal_Life.pdf");
                     break;
                 case "b4":
-                    Process.Start("teens\\level_3\\Science\\Animals\\Animal_Life_Cycle.ppt");
+                    if(Utils.Prompt("Description", "Birth, growth, reproduction, death, life span, classification, and anatomy - 14 slides.", 0))
+                        Process.Start("teens\\level_3\\Science\\Animals\\Animal_Life_Cycle.ppt");
                     break;
                 case "b5":
-                    Process.Start("teens\\level_3\\Science\\Animals\\animalAdaptations.ppt");
+                    if(Utils.Prompt("Description", "How animals adapt to their environment."))
+                        Process.Start("teens\\level_3\\Science\\Animals\\animalAdaptations.ppt");
                     break;
                 case "b6":
-                    Process.Start("teens\\level_3\\Science\\Animals\\animalClassfications.pdf");
+                    if(Utils.Prompt("Description", "Learn about the classifications of many animals.", 0))
+                        Process.Start("teens\\level_3\\Science\\Animals\\animalClassfications.pdf");
                     break;
                 case "b7":
-                    Process.Start("teens\\level_3\\Science\\Animals\\animalFacts.ppt");
+                    if (Utils.Prompt("Description", "All about penguins - 11 slides.", 0))
+                        Process.Start("teens\\level_3\\Science\\Animals\\animalFacts.ppt");
                     break;
                 case "b8":
-                    Process.Start("teens\\level_3\\Science\\Animals\\animalFacts2.ppt");
+                    if(Utils.Prompt("Description", "Tigers, whales, panda bears, hippos, and more - 12 slides.", 0))
+                        Process.Start("teens\\level_3\\Science\\Animals\\animalFacts2.ppt");
                     break;
                 case "b9":
-                    Process.Start("teens\\level_3\\Science\\Animals\\animalGroups.pdf");
+                    if(Utils.Prompt("Description", "Learn about kinds of animals that live in groups.", 0))
+                        Process.Start("teens\\level_3\\Science\\Animals\\animalGroups.pdf");
                     break;
                 case "b10":
-                    Process.Start("teens\\level_3\\Science\\Animals\\animals_winter.ppt");
+                    if(Utils.Prompt("Description", "Description of animals in hibernation, migration, and adapting - 10 slides.", 0))
+                        Process.Start("teens\\level_3\\Science\\Animals\\animals_winter.ppt");
                     break;
                 case "b11":
-                    Process.Start("teens\\level_3\\Science\\Animals\\birds.ppt");
+                    if(Utils.Prompt("Description", "All about birds.", 0))
+                        Process.Start("teens\\level_3\\Science\\Animals\\brids.ppt");
                     break;
                 case "b12":
-                    Process.Start("teens\\level_3\\Science\\Animals\\Butterfly.ppt");
+                    if(Utils.Prompt("Description", "The butterfly lifecycle - 9 slides.", 0))
+                        Process.Start("teens\\level_3\\Science\\Animals\\Butterfly.ppt");
                     break;
                 case "b13":
-                    Process.Start("teens\\level_3\\Science\\Animals\\Dinosaur_.ppt");
+                    if(Utils.Prompt("Description", "Pictures and characteristics of a few dinosaurs - 9 slides.", 0))
+                        Process.Start("teens\\level_3\\Science\\Animals\\Dinosaur_.ppt");
                     break;
                 case "b14":
-                    Process.Start("teens\\level_3\\Science\\Animals\\Dolbhin.ppt");
+                    if(Utils.Prompt("Description", "All about dolphins.", 0))
+                        Process.Start("teens\\level_3\\Science\\Animals\\Dolbhin.ppt");
                     break;
                 case "b15":
-                    Process.Start("teens\\level_3\\Science\\Animals\\ecosystem.ppt");
+                    if (Utils.Prompt("Description", "All about the ecosystem.", 0))
+                        Process.Start("teens\\level_3\\Science\\Animals\\ecosystem.ppt");
                     break;
                 case "b16":
-                    Process.Start("teens\\level_3\\Science\\Animals\\elephant.ppt");
+                    if(Utils.Prompt("Description", "All about the lifecycle of elephants - 14 slides.", 0))
+                        Process.Start("teens\\level_3\\Science\\Animals\\elephant.ppt");
                     break;
                 case "b17":
-                    Process.Start("teens\\level_3\\Science\\Animals\\forestAnimals.ppt");
+                    if(Utils.Prompt("Description", "Pictures and description of a few forest animals such as Tigers, Leopards, and Pandas - 10 slides. "))
+                        Process.Start("teens\\level_3\\Science\\Animals\\forestAnimals.ppt");
                     break;
                 case "b18":
-                    Process.Start("teens\\level_3\\Science\\Animals\\frogLifeCycle.ppt");
+                    if(Utils.Prompt("Description", "All about a frog's metamorphosis - 15 slides.", 0))
+                        Process.Start("teens\\level_3\\Science\\Animals\\frogLifeCycle.ppt");
                     break;
                 case "b19":
-                    Process.Start("teens\\level_3\\Science\\Animals\\giraffe.pdf");
+                    if(Utils.Prompt("Description", "Interesting facts about Giraffes.", 0))
+                        Process.Start("teens\\level_3\\Science\\Animals\\giraffe.pdf");
                     break;
                 case "b20":
-                    Process.Start("teens\\level_3\\Science\\Animals\\Glow_Worms_Fire_Fly.ppt");
+                    if (Utils.Prompt("Description", "Glow worms and Fire Flies.", 0))
+                        Process.Start("teens\\level_3\\Science\\Animals\\Glow_Worms_Fire_Fly.ppt");
                     break;
                 case "b21":
-                    Process.Start("teens\\level_3\\Science\\Animals\\Insects.ppt");
+                    if(Utils.Prompt("Description", "Pictures and descriptions of several insects - 12 slides.", 0))
+                        Process.Start("teens\\level_3\\Science\\Animals\\Insects.ppt");
                     break;
                 case "b22":
-                    Process.Start("teens\\level_3\\Science\\Animals\\Interesting_Animals.ppt");
+                    if(Utils.Prompt("Description", "Descriptions of dogs, cats, butterflies(metamorphosis), and frogs(metamorphosis) - 25 slides.", 0))
+                        Process.Start("teens\\level_3\\Science\\Animals\\Interesting_Animals.ppt");
                     break;
                 case "b23":
-                    Process.Start("teens\\level_3\\Science\\Animals\\Monkeys.ppt");
+                    if(Utils.Prompt("Description", "All about monkeys; their intelligence and grooming - 11 slides.", 0))
+                        Process.Start("teens\\level_3\\Science\\Animals\\Monkeys.ppt");
                     break;
                 case "b24":
-                    Process.Start("teens\\level_3\\Science\\Animals\\Mosquitoes.ppt");
+                    if (Utils.Prompt("Description", "All about mosquitos and different species - 15 slides.", 0))
+                        Process.Start("teens\\level_3\\Science\\Animals\\Mosquitoes.ppt");
                     break;
                 case "b25":
-                    Process.Start("teens\\level_3\\Science\\Animals\\pandaBear.ppt");
+                    if(Utils.Prompt("Description", "All about a Panda's habitat, what they eat, and what they do - 11 slides.", 0))
+                        Process.Start("teens\\level_3\\Science\\Animals\\pandaBear.ppt");
                     break;
                 case "b26":
-                    Process.Start("teens\\level_3\\Science\\Animals\\polarBears.ppt");
+                    if(Utils.Prompt("Description", "Polar bears; what they eat and how they live - 8 slides.", 0))
+                        Process.Start("teens\\level_3\\Science\\Animals\\polarBears.ppt");
                     break;
                 case "b27":
-                    Process.Start("teens\\level_3\\Science\\Animals\\Vertebrates.ppt");
+                    if(Utils.Prompt("Description", "All about fish, amphibians, reptiles, mammals, and birds -17 slides.", 0))
+                        Process.Start("teens\\level_3\\Science\\Animals\\Vertebrates.ppt");
                     break;
                 default:
                     break;
