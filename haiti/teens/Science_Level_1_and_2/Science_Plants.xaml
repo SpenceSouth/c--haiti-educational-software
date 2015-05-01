@@ -30,7 +30,7 @@
 
 
             <Grid Grid.Row="0" Grid.Column="0" Background="Black">
-                <TextBlock Grid.Row="0" Grid.Column="0" Text="Teens - Science&#x0a;Plants" TextAlignment="Center" Background="Black" Foreground="White" TextWrapping="Wrap" FontSize="30" FontWeight="Bold" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                <TextBlock Grid.Row="0" Grid.Column="0" Text="Teens - Science&#x0a;Botany" TextAlignment="Center" Background="Black" Foreground="White" TextWrapping="Wrap" FontSize="30" FontWeight="Bold" HorizontalAlignment="Center" VerticalAlignment="Center"/>
             </Grid>
 
             <Grid Grid.Row="0" Grid.Column="1" Margin="0.2,0,-0.4,0.2">
@@ -94,11 +94,11 @@
             <TextBlock Text="Insert description here" TextWrapping="Wrap" HorizontalAlignment="Left" />
         </Border>
 
-        <Button x:Name="b3" Grid.Row="4" Grid.Column="1" Content="Life Cycle of Plants" Click="Program_Click" />
+        <Button x:Name="b3" Grid.Row="4" Grid.Column="1" Content="Lifecycle of Plants" Click="Program_Click" />
         <Border Grid.Row="4" Grid.Column="3" BorderThickness="1" BorderBrush="Black">
             <TextBlock Text="Insert description here" TextWrapping="Wrap" HorizontalAlignment="Left" />
         </Border>
-        <Button x:Name="b4" Grid.Row="5" Grid.Column="1" Content="Why we need to grow plants" Click="Program_Click" />
+        <Button x:Name="b4" Grid.Row="5" Grid.Column="1" Content="Why We Need To Grow Plants" Click="Program_Click" />
         <Border Grid.Row="5" Grid.Column="3" BorderThickness="1" BorderBrush="Black">
             <TextBlock Text="Insert description here" TextWrapping="Wrap" HorizontalAlignment="Left" />
         </Border>

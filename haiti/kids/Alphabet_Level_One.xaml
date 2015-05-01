@@ -77,12 +77,12 @@
 
             <Button x:Name="alphabets001Button" Grid.Row="2" Grid.Column="1" Content="Alphabet - Learning How to Write Letters of the Alphabet" Click="Program_Click" />
             <Border Grid.Row="2" Grid.Column="3" BorderThickness="1" BorderBrush="Black">
-                <TextBlock Text="Instructions:  Press Page Down Key to advance through the letters" TextWrapping="Wrap" HorizontalAlignment="Left" />
+                <TextBlock Text="Instructions:  Press page down key to advance through the letters" TextWrapping="Wrap" HorizontalAlignment="Left" />
             </Border>
 
             <Button x:Name="zoophabetButton" Grid.Row="3" Grid.Column="1" Content="Zoo Alphabet – Storybook of Zoo Animals to learn Alphabet" Click="Program_Click" />
             <Border Grid.Row="3" Grid.Column="3" BorderThickness="1" BorderBrush="Black">
-                <TextBlock Text="Instructions:  Press Page Down Key to advance through the Letters." TextWrapping="Wrap" HorizontalAlignment="Left" />
+                <TextBlock Text="Instructions:  Press page down key to advance through the letters." TextWrapping="Wrap" HorizontalAlignment="Left" />
             </Border>
 
         </Grid>

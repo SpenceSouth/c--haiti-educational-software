@@ -29,7 +29,7 @@
             </Grid.ColumnDefinitions>
 
             <Grid Grid.Row="0" Grid.Column="0" Background="Black">
-                <TextBlock Grid.Row="0" Grid.Column="0" Text="Teens - Science&#x0a;Animals" TextAlignment="Center" Background="Black" Foreground="White" TextWrapping="Wrap" FontSize="30" FontWeight="Bold" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                <TextBlock Grid.Row="0" Grid.Column="0" Text="Teens - Science&#x0a;Zoology" TextAlignment="Center" Background="Black" Foreground="White" TextWrapping="Wrap" FontSize="30" FontWeight="Bold" HorizontalAlignment="Center" VerticalAlignment="Center"/>
             </Grid>
 
             <Grid Grid.Row="0" Grid.Column="1" Margin="0.2,0,-0.4,0.2">
@@ -57,16 +57,19 @@
 
             <StackPanel Orientation="Vertical" HorizontalAlignment="Center" VerticalAlignment="Center">
                 <StackPanel Orientation="Horizontal">
+                    <TextBlock Text="Click a button to see the instructions and start activity!" FontStyle="Oblique" FontSize="25px"/>
+                </StackPanel>
+                <StackPanel Orientation="Horizontal">
                     <Button x:Name="b1" Content="All About Lions"               Margin="10" Click="Program_Click"   Width="150px" Height="100px"/>
                     <Button x:Name="b2" Content="Amphibians"                Margin="10" Click="Program_Click"   Width="150px" Height="100px"/>
                     <Button x:Name="b3" Content="Animal Life"    Margin="10" Click="Program_Click"   Width="150px" Height="100px"/>
                     <Button x:Name="b4" Content="Animal Life Cycle"  Margin="10" Click="Program_Click"   Width="150px" Height="100px"/>
                 </StackPanel>
                 <StackPanel Orientation="Horizontal">
-                    <Button x:Name="b5" Content="Animal Adaptions"    Margin="10" Click="Program_Click"  Width="150px" Height="100px"/>
+                    <Button x:Name="b5" Content="Animal Habitats"    Margin="10" Click="Program_Click"  Width="150px" Height="100px"/>
                     <Button x:Name="b6" Content="Animal Classifications"     Margin="10" Click="Program_Click"  Width="150px" Height="100px"/>
-                    <Button x:Name="b7" Content="Animal Facts 1" Margin="10" Click="Program_Click" Width="150px" Height="100px"/>
-                    <Button x:Name="b8" Content="Animal Facts 2"     Margin="10" Click="Program_Click"  Width="150px" Height="100px"/>
+                    <Button x:Name="b7" Content="Penguins" Margin="10" Click="Program_Click" Width="150px" Height="100px"/>
+                    <Button x:Name="b8" Content="Animal Facts"     Margin="10" Click="Program_Click"  Width="150px" Height="100px"/>
                 </StackPanel>
                 <StackPanel Orientation="Horizontal">
                     <Button x:Name="b9" Content="Animal Groups"     Margin="10" Click="Program_Click"  Width="150px" Height="100px"/>
@@ -84,13 +87,13 @@
                     <Button x:Name="b17" Content="Forest Animals"                Margin="10" Click="Program_Click"  Width="150px" Height="100px"/>
                     <Button x:Name="b18" Content="Frog Life Cycle"         Margin="10" Click="Program_Click"  Width="150px" Height="100px"/>
                     <Button x:Name="b19" Content="Giraffes"                Margin="10" Click="Program_Click"  Width="150px" Height="100px"/>
-                    <Button x:Name="b20" Content="Glow Worms and Fire Flys"             Margin="10" Click="Program_Click"  Width="150px" Height="100px"/>
+                    <Button x:Name="b20" Content="Glow Worms and Fire Flies"             Margin="10" Click="Program_Click"  Width="150px" Height="100px"/>
                 </StackPanel>
                 <StackPanel Orientation="Horizontal">
                     <Button x:Name="b21" Content="Insects"            Margin="10" Click="Program_Click"  Width="150px" Height="100px"/>
                     <Button x:Name="b22" Content="Interesting Animals"          Margin="10" Click="Program_Click"  Width="150px" Height="100px"/>
                     <Button x:Name="b23" Content="Monkeys"            Margin="10" Click="Program_Click"  Width="150px" Height="100px"/>
-                    <Button x:Name="b24" Content="Mosquitoes"          Margin="10" Click="Program_Click"  Width="150px" Height="100px"/>
+                    <Button x:Name="b24" Content="Mosquitos"          Margin="10" Click="Program_Click"  Width="150px" Height="100px"/>
                 </StackPanel>
                 <StackPanel Orientation="Horizontal">
                     <Button x:Name="b25" Content="Panda Bears"            Margin="10" Click="Program_Click"  Width="150px" Height="100px"/>

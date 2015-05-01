@@ -66,8 +66,8 @@ namespace haiti.kids
             switch (name)
             {
                 case "button0":
-                    title = "Instructions";
-                    prompt = "Color these fun drawings with your favorite colors.\nWould you like to start this activity?";
+                    title = "Description";
+                    prompt = "Hundreds of pages of images to color.\nWould you like to start this activity?";
                     var dr0 = MessageBox.Show(prompt, title, MessageBoxButton.YesNo);
 
                     if (dr0 == MessageBoxResult.Yes)
@@ -76,8 +76,8 @@ namespace haiti.kids
                     }
                     break;
                 case "button4":
-                    title = "Instructions";
-                    prompt = "Color these fun drawings with your favorite colors.\nWould you like to start this activity?";
+                    title = "Description";
+                    prompt = "Blank screen on which student may draw using computer.\nWould you like to start this activity?";
                     var dr4 = MessageBox.Show(prompt, title, MessageBoxButton.YesNo);
 
                     if (dr4 == MessageBoxResult.Yes)
@@ -85,19 +85,9 @@ namespace haiti.kids
                         Program.runDrawForChild();
                     }
                     break;
-                case "button9":
-                    title = "Instructions";
-                    prompt = "Color these fun drawings with your favorite colors.\nWould you like to start this activity?";
-                    var dr9 = MessageBox.Show(prompt, title, MessageBoxButton.YesNo);
-
-                    if (dr9 == MessageBoxResult.Yes)
-                    {
-                        Program.runMagicBook();
-                    }
-                    break;
                 case "button12":
                     title = "Instructions";
-                    prompt = "Color these fun drawings with your favorite colors.\nWould you like to start this activity?";
+                    prompt = "Presents pictures of cars, jeeps, racing cars, fancy cars, etc. and lets students paint the cars and observe how they look in various colors and more.\nWould you like to start this activity?";
                     var dr12 = MessageBox.Show(prompt, title, MessageBoxButton.YesNo);
 
                     if (dr12 == MessageBoxResult.Yes)

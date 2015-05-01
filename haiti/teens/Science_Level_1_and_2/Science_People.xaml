@@ -30,7 +30,7 @@
 
 
             <Grid Grid.Row="0" Grid.Column="0" Background="Black">
-                <TextBlock Grid.Row="0" Grid.Column="0" Text="Teens - Science&#x0a;People" TextAlignment="Center" Background="Black" Foreground="White" TextWrapping="Wrap" FontSize="30" FontWeight="Bold" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                <TextBlock Grid.Row="0" Grid.Column="0" Text="Teens - Science&#x0a;Biology" TextAlignment="Center" Background="Black" Foreground="White" TextWrapping="Wrap" FontSize="30" FontWeight="Bold" HorizontalAlignment="Center" VerticalAlignment="Center"/>
             </Grid>
 
             <Grid Grid.Row="0" Grid.Column="1" Margin="0.2,0,-0.4,0.2">
@@ -75,14 +75,14 @@
             <TextBlock Grid.Row="1" Grid.Column="1" Text="Program" />
             <TextBlock Grid.Row="1" Grid.Column="3" Text="Description" />
 
-            <Button x:Name="humanBodyPDF" Grid.Row="2" Grid.Column="1" Content="Human Body PDF" Click="Program_Click" />
+            <Button x:Name="humanBodyPDF" Grid.Row="2" Grid.Column="1" Content="Human Body Systems" Click="Program_Click" />
             <Border Grid.Row="2" Grid.Column="3" BorderThickness="1" BorderBrush="Black">
-                <TextBlock Text="Insert description here" TextWrapping="Wrap" HorizontalAlignment="Left" />
+                <TextBlock Text="Physical systems: Skeletal, Muscular, Digestive, Circulatory, Respiratory, etc." TextWrapping="Wrap" HorizontalAlignment="Left" />
             </Border>
 
-            <Button x:Name="humanBodyPPT" Grid.Row="3" Grid.Column="1" Content="Human Body PowerPoint" Click="Program_Click" />
+            <Button x:Name="humanBodyPPT" Grid.Row="3" Grid.Column="1" Content="Human Body - Major Organs" Click="Program_Click" />
             <Border Grid.Row="3" Grid.Column="3" BorderThickness="1" BorderBrush="Black">
-                <TextBlock Text="Insert description here" TextWrapping="Wrap" HorizontalAlignment="Left" />
+                <TextBlock Text="Pictures and functions of major human organs." TextWrapping="Wrap" HorizontalAlignment="Left" />
             </Border>
 
         </Grid>

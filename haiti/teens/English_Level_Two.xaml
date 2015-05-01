@@ -80,24 +80,23 @@
 
             <Button x:Name="illustratedDictionaryButton" Grid.Row="2" Grid.Column="1" Content="Children Illustrated Dictionary" Click="Program_Click" />
             <Border Grid.Row="2" Grid.Column="3" BorderThickness="1" BorderBrush="Black">
-                <TextBlock Text="Insert description here" TextWrapping="Wrap" HorizontalAlignment="Left" />
+                <TextBlock Text="Dictionary with many Pictures;  Ideal for Children" TextWrapping="Wrap" HorizontalAlignment="Left" />
             </Border>
 
-            <Button x:Name="englishGrammarButton" Grid.Row="3" Grid.Column="1" Content="Just Enough English Grammar" Click="Program_Click" />
+            <Button x:Name="englishGrammarButton" Grid.Row="3" Grid.Column="1" Content="English Grammar" Click="Program_Click" />
             <Border Grid.Row="3" Grid.Column="3" BorderThickness="1" BorderBrush="Black">
-                <TextBlock Text="Insert description here" TextWrapping="Wrap" HorizontalAlignment="Left" />
+                <TextBlock Text="Lengthy Book of Parts of Speech; Illustrated.  145 Pages" TextWrapping="Wrap" HorizontalAlignment="Left" />
             </Border>
 
             <Button x:Name="picDictionaryButton" Grid.Row="4" Grid.Column="1" Content="Children's Picture Dictionary" Click="Program_Click" />
             <Border Grid.Row="4" Grid.Column="3" BorderThickness="1" BorderBrush="Black">
-                <TextBlock Text="Insert description here" TextWrapping="Wrap" HorizontalAlignment="Left" />
+                <TextBlock Text="Many Illustrated Scenes with pictures and spellings.  Also contains alphabet, numbers, weather, songs, and chants.  (75 pages)" TextWrapping="Wrap" HorizontalAlignment="Left" />
             </Border>
 
             <Button x:Name="picGrammarButton" Grid.Row="5" Grid.Column="1" Content="Picture Grammar For Children" Click="Program_Click" />
             <Border Grid.Row="5" Grid.Column="3" BorderThickness="1" BorderBrush="Black">
-                <TextBlock Text="Insert description here" TextWrapping="Wrap" HorizontalAlignment="Left" />
+                <TextBlock Text="Similar to Children Picture Dictionary" TextWrapping="Wrap" HorizontalAlignment="Left" />
             </Border>
         </Grid>
     </Grid>
-
 </Page>
