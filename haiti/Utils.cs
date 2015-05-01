@@ -20,6 +20,20 @@ namespace haiti
             else
                 return false;
         }
+        
+        public static bool Prompt(String title, String prompt, int flag)
+        {
 
+            if(flag == 0){
+                prompt += "\nWould you like to start this activity?";
+            }
+
+            var dr0 = MessageBox.Show(prompt, title, MessageBoxButton.YesNo);
+
+            if (dr0 == MessageBoxResult.Yes)
+                return true;
+            else
+                return false;
+        }
     }
 }
