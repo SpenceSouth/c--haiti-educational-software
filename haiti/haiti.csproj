@@ -228,6 +228,21 @@
     <Compile Include="teens\math_general\subtraction.xaml.cs">
       <DependentUpon>subtraction.xaml</DependentUpon>
     </Compile>
+    <Compile Include="teens\math_level_3\Algebra.xaml.cs">
+      <DependentUpon>Algebra.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="teens\math_level_3\Geometry.xaml.cs">
+      <DependentUpon>Geometry.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="teens\math_level_3\Prealgebra.xaml.cs">
+      <DependentUpon>Prealgebra.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="teens\math_level_3\Probability.xaml.cs">
+      <DependentUpon>Probability.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="teens\math_level_3\Trigonometry.xaml.cs">
+      <DependentUpon>Trigonometry.xaml</DependentUpon>
+    </Compile>
     <Compile Include="teens\Math_Level_One.xaml.cs">
       <DependentUpon>Math_Level_One.xaml</DependentUpon>
     </Compile>
@@ -450,6 +465,26 @@
     <Page Include="teens\math_general\subtraction.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
+    </Page>
+    <Page Include="teens\math_level_3\Algebra.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="teens\math_level_3\Geometry.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="teens\math_level_3\Prealgebra.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="teens\math_level_3\Probability.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="teens\math_level_3\Trigonometry.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="teens\Math_Level_One.xaml">
       <SubType>Designer</SubType>

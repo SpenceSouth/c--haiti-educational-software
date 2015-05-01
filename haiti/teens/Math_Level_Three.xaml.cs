@@ -97,20 +97,17 @@ namespace haiti.teens
 
             switch (name)
             {
-                case "Addition":
-                    this.NavigationService.Navigate(new Uri("teens\\math_general\\addition.xaml", UriKind.Relative));
+                case "Pre-Algebra":
+                    this.NavigationService.Navigate(new Uri("teens\\math_level_3\\Prealgebra.xaml", UriKind.Relative));
                     break;
-                case "Subtraction":
-                    this.NavigationService.Navigate(new Uri("teens\\math_general\\subtraction.xaml", UriKind.Relative));
+                case "Algebra 1":
+                    this.NavigationService.Navigate(new Uri("teens\\math_level_3\\Algebra.xaml", UriKind.Relative));
                     break;
-                case "Multiplication":
-                    this.NavigationService.Navigate(new Uri("teens\\math_general\\multiplication.xaml", UriKind.Relative));
+                case "Geometry":
+                    this.NavigationService.Navigate(new Uri("teens\\math_level_3\\Geometry.xaml", UriKind.Relative));
                     break;
-                case "Division":
-                    this.NavigationService.Navigate(new Uri("teens\\math_general\\division.xaml", UriKind.Relative));
-                    break;
-                case "Lengths":
-                    this.NavigationService.Navigate(new Uri("teens\\math_general\\lengths.xaml", UriKind.Relative));
+                case "Probability":
+                    this.NavigationService.Navigate(new Uri("teens\\math_level_3\\Probability.xaml", UriKind.Relative));
                     break;
                 case "Percentages":
                     this.NavigationService.Navigate(new Uri("teens\\math_general\\percentages.xaml", UriKind.Relative));
@@ -118,8 +115,8 @@ namespace haiti.teens
                 case "Graphs":
                     this.NavigationService.Navigate(new Uri("teens\\math_general\\graphs.xaml", UriKind.Relative));
                     break;
-                case "Fractions":
-                    this.NavigationService.Navigate(new Uri("teens\\math_general\\fractions.xaml", UriKind.Relative));
+                case "Trigonometry":
+                    this.NavigationService.Navigate(new Uri("teens\\math_level_3\\Trigonometry.xaml", UriKind.Relative));
                     break;
 
                 /*
