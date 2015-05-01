@@ -14,7 +14,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace haiti.teens.Science_Level_1_and_2
+namespace haiti.teens.Science_Level_3
 {
     /// <summary>
     /// Interaction logic for Science_People.xaml

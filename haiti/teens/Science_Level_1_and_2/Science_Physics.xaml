@@ -1,4 +1,4 @@
-﻿<Page x:Class="haiti.teens.Science_Level_1_and_2.Science_Physics"
+﻿<Page x:Class="haiti.teens.Science_Level_3.Science_Physics"
       xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
       xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
       xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
@@ -55,86 +55,29 @@
 
         </Grid>
         <!--This set of rows makes up the space for program buttons-->
-        <Grid x:Name="ProgramField" Grid.Row="1" Grid.Column="0" >
-            <Grid.RowDefinitions>
-                <RowDefinition Height="1*" />
-                <RowDefinition Height="4*" />
-                <RowDefinition Height="8*" />
-                <RowDefinition Height="8*" />
-                <RowDefinition Height="8*" />
-                <RowDefinition Height="8*" />
-                <RowDefinition Height="8*" />
-                <RowDefinition Height="8*" />
-                <RowDefinition Height="8*" />
-                <RowDefinition Height="8*" />
-                <RowDefinition Height="8*" />
-                <RowDefinition Height="8*" />
-                <RowDefinition Height="8*" />
-                <RowDefinition Height="5*" />
-            </Grid.RowDefinitions>
-            <Grid.ColumnDefinitions>
-                <ColumnDefinition Width="1*" />
-                <ColumnDefinition Width="4*" />
-                <ColumnDefinition Width="1*" />
-                <ColumnDefinition Width="5*" />
-                <ColumnDefinition Width="1*" />
-            </Grid.ColumnDefinitions>
+        <ScrollViewer Grid.Row="1" Grid.Column="0">
 
-            <TextBlock Grid.Row="1" Grid.Column="1" Text="Program" />
-            <TextBlock Grid.Row="1" Grid.Column="3" Text="Description" />
+            <StackPanel Orientation="Vertical" HorizontalAlignment="Center" VerticalAlignment="Center">
+                <StackPanel Orientation="Horizontal">
+                    <TextBlock Text="Click a button to see the instructions and start activity!" FontStyle="Oblique" FontSize="25px"/>
+                </StackPanel>
+                <StackPanel Orientation="Horizontal">
+                    <Button x:Name="atoms" Margin="10" Content="Atomic Structure" Click="Program_Click" Width="150px" Height="100px"/>
+                    <Button x:Name="electricity" Margin="10" Content="Basics About Electricity" Click="Program_Click" Width="150px" Height="100px"/>
+                    <Button x:Name="batteries" Margin="10" Content="Batteries" Click="Program_Click" Width="150px" Height="100px"/>
+                    <Button x:Name="electricSafety" Margin="10" Content="Electrical Safety" Click="Program_Click" Width="150px" Height="100px"/>
+                    <Button x:Name="forces" Margin="10" Content="Forces" Click="Program_Click" Width="150px" Height="100px"/>
+                </StackPanel>
+                <StackPanel Orientation="Horizontal">
+                    <Button x:Name="friction" Margin="10" Content="Friction" Click="Program_Click" Width="150px" Height="100px"/>
+                    <Button x:Name="gravity" Margin="10" Content="Gravity" Click="Program_Click" Width="150px" Height="100px"/>
+                    <Button x:Name="magnetism" Margin="10" Content="Magnetism" Click="Program_Click" Width="150px" Height="100px"/>
+                    <Button x:Name="solarSystem" Margin="10" Content="Our Solar System" Click="Program_Click" Width="150px" Height="100px"/>
+                    <Button x:Name="machines" Margin="10" Content="Simple Machines" Click="Program_Click" Width="150px" Height="100px"/>
+                </StackPanel>
 
-            <Button x:Name="atoms" Grid.Row="2" Grid.Column="1" Content="Atomic Structure" Click="Program_Click" />
-            <Border Grid.Row="2" Grid.Column="3" BorderThickness="1" BorderBrush="Black">
-                <TextBlock Text="Introduction to atomic structure." TextWrapping="Wrap" HorizontalAlignment="Left" />
-            </Border>
-            <Button x:Name="electricity" Grid.Row="3" Grid.Column="1" Content="Basics About Electricity" Click="Program_Click" />
-            <Border Grid.Row="3" Grid.Column="3" BorderThickness="1" BorderBrush="Black">
-                <TextBlock Text="Introduction to basics about electricity" TextWrapping="Wrap" HorizontalAlignment="Left" />
-            </Border>
-
-            <Button x:Name="batteries" Grid.Row="4" Grid.Column="1" Content="Batteries" Click="Program_Click" />
-            <Border Grid.Row="4" Grid.Column="3" BorderThickness="1" BorderBrush="Black">
-                <TextBlock Text="Introduction to batteries" TextWrapping="Wrap" HorizontalAlignment="Left" />
-            </Border>
-            <Button x:Name="electricSafety" Grid.Row="5" Grid.Column="1" Content="Electrical Safety" Click="Program_Click" />
-            <Border Grid.Row="5" Grid.Column="3" BorderThickness="1" BorderBrush="Black">
-                <TextBlock Text="Introduction to electrical safety" TextWrapping="Wrap" HorizontalAlignment="Left" />
-            </Border>
-
-            <Button x:Name="forces" Grid.Row="6" Grid.Column="1" Content="Forces" Click="Program_Click" />
-            <Border Grid.Row="6" Grid.Column="3" BorderThickness="1" BorderBrush="Black">
-                <TextBlock Text="Introduction to forces." TextWrapping="Wrap" HorizontalAlignment="Left" />
-            </Border>
-            <Button x:Name="friction" Grid.Row="7" Grid.Column="1" Content="Friction" Click="Program_Click" />
-            <Border Grid.Row="7" Grid.Column="3" BorderThickness="1" BorderBrush="Black">
-                <TextBlock Text="Introduction to friction" TextWrapping="Wrap" HorizontalAlignment="Left" />
-            </Border>
-
-            <Button x:Name="gravity" Grid.Row="8" Grid.Column="1" Content="Gravity" Click="Program_Click" />
-            <Border Grid.Row="8" Grid.Column="3" BorderThickness="1" BorderBrush="Black">
-                <TextBlock Text="Introduction to gravity" TextWrapping="Wrap" HorizontalAlignment="Left" />
-            </Border>
-            <Button x:Name="magnetism" Grid.Row="9" Grid.Column="1" Content="Magnetism" Click="Program_Click" />
-            <Border Grid.Row="9" Grid.Column="3" BorderThickness="1" BorderBrush="Black">
-                <TextBlock Text="Introduction to magnetism" TextWrapping="Wrap" HorizontalAlignment="Left" />
-            </Border>
-
-            <Button x:Name="solarSystem" Grid.Row="10" Grid.Column="1" Content="Our Solar System" Click="Program_Click" />
-            <Border Grid.Row="10" Grid.Column="3" BorderThickness="1" BorderBrush="Black">
-                <TextBlock Text="Introduction to our solar system" TextWrapping="Wrap" HorizontalAlignment="Left" />
-            </Border>
-            
-            <Button x:Name="refraction" Grid.Row="11" Grid.Column="1" Content="Refraction" Click="Program_Click" />
-            <Border Grid.Row="11" Grid.Column="3" BorderThickness="1" BorderBrush="Black">
-                <TextBlock Text="Introduction to refraction" TextWrapping="Wrap" HorizontalAlignment="Left" />
-            </Border>
-            
-            <Button x:Name="machines" Grid.Row="12" Grid.Column="1" Content="Simple Machines" Click="Program_Click" />
-            <Border Grid.Row="12" Grid.Column="3" BorderThickness="1" BorderBrush="Black">
-                <TextBlock Text="Introduction to simple machines." TextWrapping="Wrap" HorizontalAlignment="Left" />
-            </Border>
-
-        </Grid>
+            </StackPanel>
+        </ScrollViewer>
     </Grid>
 </Page>
 
