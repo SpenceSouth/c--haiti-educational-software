@@ -30,7 +30,7 @@
 
 
             <Grid Grid.Row="0" Grid.Column="0" Background="Black">
-                <TextBlock Grid.Row="0" Grid.Column="0" Text="Kids - Math&#x0a;Level Three" TextAlignment="Center" Background="Black" Foreground="White" TextWrapping="Wrap" FontSize="30" FontWeight="Bold" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                <TextBlock Grid.Row="0" Grid.Column="0" Text="Teens - Math&#x0a;Level Three" TextAlignment="Center" Background="Black" Foreground="White" TextWrapping="Wrap" FontSize="30" FontWeight="Bold" HorizontalAlignment="Center" VerticalAlignment="Center"/>
             </Grid>
 
             <Grid Grid.Row="0" Grid.Column="1" Margin="0.2,0,-0.4,0.2">
@@ -85,49 +85,49 @@
             <Button x:Name="Addition_Button" Grid.Row="2" Grid.Column="1" Content="Addition" Click="Program_Click" />
             <!--  <Button x:Name="Multiplication_Button" Grid.Row="3" Grid.Column="1" Content="Multiplication" Click="Program_Click" />-->
             <Border Grid.Row="2" Grid.Column="3" BorderThickness="1" BorderBrush="Black">
-                <TextBlock Text="On the opening screen you will find that your mouse pointer turns into a hand over the three types of problems you can choose. Choose a type of addition sum that you would like to try ranging from single to three figure problems." TextWrapping="Wrap" HorizontalAlignment="Left" />
+                <TextBlock Text="Basic addition." TextWrapping="Wrap" HorizontalAlignment="Left" />
             </Border>
 
 
             <Button x:Name="Subtraction_Button" Grid.Row="3" Grid.Column="1" Content="Subtraction" Click="Program_Click" />
             <Border Grid.Row="3" Grid.Column="3" BorderThickness="1" BorderBrush="Black">
-                <TextBlock Text="Insert subtraction description here" TextWrapping="Wrap" HorizontalAlignment="Left" />
+                <TextBlock Text="Basic subtraction." TextWrapping="Wrap" HorizontalAlignment="Left" />
             </Border>
 
 
             <Button x:Name="Multiplication_Button" Grid.Row="4" Grid.Column="1" Content="Multiplication" Click="Program_Click" />
             <Border Grid.Row="4" Grid.Column="3" BorderThickness="1" BorderBrush="Black">
-                <TextBlock Text="Insert multiplication description here" TextWrapping="Wrap" HorizontalAlignment="Left" />
+                <TextBlock Text="Simple multiplication with supporting objects,  word problems, divsion rules, and multiplication expressions." TextWrapping="Wrap" HorizontalAlignment="Left" />
             </Border>
 
 
             <Button x:Name="Division_Button" Grid.Row="5" Grid.Column="1" Content="Division" Click="Program_Click" />
             <Border Grid.Row="5" Grid.Column="3" BorderThickness="1" BorderBrush="Black">
-                <TextBlock Text="Insert division description here" TextWrapping="Wrap" HorizontalAlignment="Left" />
+                <TextBlock Text="Introduction to division with exercises" TextWrapping="Wrap" HorizontalAlignment="Left" />
             </Border>
 
 
             <Button x:Name="Lengths_Button" Grid.Row="6" Grid.Column="1" Content="Lengths" Click="Program_Click" />
             <Border Grid.Row="6" Grid.Column="3" BorderThickness="1" BorderBrush="Black">
-                <TextBlock Text="Insert counting description here" TextWrapping="Wrap" HorizontalAlignment="Left" />
+                <TextBlock Text="Comparison sets" TextWrapping="Wrap" HorizontalAlignment="Left" />
             </Border>
 
 
             <Button x:Name="Graphs_Button" Grid.Row="7" Grid.Column="1" Content="Graphs" Click="Program_Click" />
             <Border Grid.Row="7" Grid.Column="3" BorderThickness="1" BorderBrush="Black">
-                <TextBlock Text="Insert numbers description here" TextWrapping="Wrap" HorizontalAlignment="Left" />
+                <TextBlock Text="Color bar graphs" TextWrapping="Wrap" HorizontalAlignment="Left" />
             </Border>
 
 
             <Button x:Name="Percentage_Button" Grid.Row="8" Grid.Column="1" Content="Percentages" Click="Program_Click" />
             <Border Grid.Row="8" Grid.Column="3" BorderThickness="1" BorderBrush="Black">
-                <TextBlock Text="Insert percentage description here" TextWrapping="Wrap" HorizontalAlignment="Left" />
+                <TextBlock Text="Definition of percet, comparing money and percents" TextWrapping="Wrap" HorizontalAlignment="Left" />
             </Border>
 
 
             <Button x:Name="Fractions_Button" Grid.Row="9" Grid.Column="1" Content="Fractions" Click="Program_Click" />
             <Border Grid.Row="9" Grid.Column="3" BorderThickness="1" BorderBrush="Black">
-                <TextBlock Text="Insert percentage description here" TextWrapping="Wrap" HorizontalAlignment="Left" />
+                <TextBlock Text="Geometric figures divided into halves, thirds, and forths." TextWrapping="Wrap" HorizontalAlignment="Left" />
             </Border>
 
         </Grid>

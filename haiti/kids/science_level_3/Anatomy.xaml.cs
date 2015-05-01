@@ -76,7 +76,7 @@ namespace haiti.kids.science_level_3
                     break;
                 case "button5":
                     title = "Description";
-                    prompt = "Learn about the human body system.\nWould you like to start this activity?";
+                    prompt = "Systems in the Human Body, such as respiration, circulation, etc.\nWould you like to start this activity?";
                     var dr5 = MessageBox.Show(prompt, title, MessageBoxButton.YesNo);
 
                     if (dr5 == MessageBoxResult.Yes)

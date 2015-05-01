@@ -63,16 +63,20 @@ namespace haiti.teens.math_general
             switch (name)
             {
                 case "button0":
-                    Process.Start("teens\\level_3\\Math\\Multiplication_1.ppt");
+                    if (Utils.Prompt("Description", "Simple multiplication and word problems.",0))                    
+                        Process.Start("teens\\level_3\\Math\\Multiplication_1.ppt");
                     break;
                 case "button5":
-                    Process.Start("teens\\level_3\\Math\\Multiplication_2.ppt");
+                    if (Utils.Prompt("Description", "More single digit mutliplication with supporting objects.",0))
+                        Process.Start("teens\\level_3\\Math\\Multiplication_2.ppt");
                     break;
                 case "button9":
-                    Process.Start("teens\\level_3\\Math\\Multiplication_and_Division_Rules.ppt");
+                    if (Utils.Prompt("Description", "Word problem. Multiplying and divding by 1 and 2.  Text explanations.",0))
+                        Process.Start("teens\\level_3\\Math\\Multiplication_and_Division_Rules.ppt");
                     break;
                 case "button1":
-                    Process.Start("teens\\level_3\\Math\\Multiplication_Expressions.ppt");
+                    if (Utils.Prompt("Description", "Into alegebraic expressions such as 3t or 6b (number times a variable)",0))
+                        Process.Start("teens\\level_3\\Math\\Multiplication_Expressions.ppt");
                     break;
                 default:
                     return;

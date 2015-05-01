@@ -66,7 +66,7 @@ namespace haiti.kids.math_level_3
             {
                 case "button0":
                     title = "Instructions";
-                    prompt = "Introduction to division.\nWould you like to start this activity?";
+                    prompt = "Learn about division with examples and explanations.\nWould you like to start this activity?";
                     var dr0 = MessageBox.Show(prompt, title, MessageBoxButton.YesNo);
 
                     if (dr0 == MessageBoxResult.Yes)

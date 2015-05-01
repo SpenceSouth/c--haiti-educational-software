@@ -63,22 +63,24 @@ namespace haiti.teens.math_general
             switch (name)
             {
                 case "button0":
-                    Process.Start("teens\\level_3\\Math\\record-data-with-bar-graphs-1.pdf");
+                    if (Utils.Prompt("Description", "Color bar graphs; color according to tally marks.", 0))
+                        Process.Start("teens\\level_3\\Math\\record-data-with-bar-graphs-1.pdf");
                     break;
                 case "button1":
-                    Process.Start("teens\\level_3\\Math\\record-data-with-bar-graphs-4.pdf");
+                    if (Utils.Prompt("Description", "Color according to tally marks - more.", 0))
+                        Process.Start("teens\\level_3\\Math\\record-data-with-bar-graphs-5.pdf");
                     break;
                 case "button5":
-                    Process.Start("teens\\level_3\\Math\\record-data-with-bar-graphs-2.pdf");
+                    if (Utils.Prompt("Description", "Color according to tally marks - more.", 0))
+                        Process.Start("teens\\level_3\\Math\\record-data-with-bar-graphs-2.pdf");
                     break;
                 case "button6":
-                    Process.Start("teens\\level_3\\Math\\record-data-with-bar-graphs-5.pdf");
+                    if (Utils.Prompt("Description", "Color according to tally marks - more.", 0))
+                        Process.Start("teens\\level_3\\Math\\record-data-with-bar-graphs-6.pdf");
                     break;
                 case "button9":
-                    Process.Start("teens\\level_3\\Math\\record-data-with-bar-graphs-3.pdf");
-                    break;
-                case "button10":
-                    Process.Start("teens\\level_3\\Math\\record-data-with-bar-graphs-6.pdf");
+                    if (Utils.Prompt("Description", "Color according to tally marks - more", 0))
+                        Process.Start("teens\\level_3\\Math\\record-data-with-bar-graphs-3.pdf");
                     break;
                 default:
                     return;

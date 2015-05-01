@@ -63,13 +63,16 @@ namespace haiti.kids
             switch (name)
             {
                 case "picGrammarButton":
-                    Process.Start("kids\\level_3\\English\\picturegrammarforchildrenstarter.pdf");
+                    if (Utils.Prompt("Description", "51 pages; Starter on Grammar for Children.", 0))
+                        Process.Start("kids\\level_3\\English\\picturegrammarforchildrenstarter.pdf");
                     break;
                 case "illustratedDictionaryButton":
-                    Process.Start("kids\\level_3\\English\\childrensillustrateddictionary.pdf");
+                    if(Utils.Prompt("Description", "258 page Illustrated Dictionary indexed by Letters.", 0))
+                        Process.Start("kids\\level_3\\English\\childrensillustrateddictionary.pdf");
                     break;
                 case "picDictionaryButton":
-                    Process.Start("kids\\level_3\\English\\lyoungchildrenspicturedictionary.pdf");
+                    if (Utils.Prompt("Description", "74 page illustrated young children’s picture dictionary; presented in stories. Also contains Bonuses in Numbers, Adjectives, Weather, Actions, and more.", 0))
+                        Process.Start("kids\\level_3\\English\\lyoungchildrenspicturedictionary.pdf");
                     break;
                 case "englishGrammarButton":
                     Process.Start("kids\\level_3\\English\\justenoughenglishgrammarillustrated.pdf");

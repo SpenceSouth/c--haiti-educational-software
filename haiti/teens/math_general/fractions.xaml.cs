@@ -63,13 +63,16 @@ namespace haiti.teens.math_general
             switch (name)
             {
                 case "button0":
-                    Process.Start("teens\\level_3\\Math\\halves-thirds-and-fourths-1.pdf");
+                    if (Utils.Prompt("Description", "Geometric figures divided into halves.", 0))
+                        Process.Start("teens\\level_3\\Math\\halves-thirds-and-fourths-1.pdf");
                     break;
                 case "button5":
-                    Process.Start("teens\\level_3\\Math\\halves-thirds-and-fourths-2.pdf");
+                    if (Utils.Prompt("Description", "Geometric figures divided into thirds.", 0))
+                        Process.Start("teens\\level_3\\Math\\halves-thirds-and-fourths-2.pdf");
                     break;
                 case "button9":
-                    Process.Start("teens\\level_3\\Math\\halves-thirds-and-fourths-3.pdf");
+                    if (Utils.Prompt("Description", "Geometric figures divided into fourths.", 0))
+                        Process.Start("teens\\level_3\\Math\\halves-thirds-and-fourths-3.pdf");
                     break;
                 default:
                     return;

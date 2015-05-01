@@ -63,10 +63,12 @@ namespace haiti.teens.math_general
             switch (name)
             {
                 case "button0":
-                    Process.Start("teens\\level_3\\Math\\Division.ppt");
+                    if (Utils.Prompt("Description", "Introduction to division; Division explained in pcituers.", 0))
+                        Process.Start("teens\\level_3\\Math\\Division.ppt");
                     break;
                 case "button5":
-                    Process.Start("teens\\level_3\\Math\\Division_rules.ppt");
+                    if (Utils.Prompt("Description", "Dividing by 1, 2, 3 up through dividing by 11 with exercies.", 0))
+                        Process.Start("teens\\level_3\\Math\\Division_rules.ppt");
                     break;
                 default:
                     return;

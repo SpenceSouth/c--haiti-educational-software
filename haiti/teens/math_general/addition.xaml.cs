@@ -63,7 +63,8 @@ namespace haiti.teens.math_general
             switch (name)
             {
                 case "button0":
-                    Process.Start("teens\\level_3\\Math\\ADD__Substraction.ppt");
+                    if (Utils.Prompt("Description", "Addition and subtraction and word problems with addition and subtraction.", 0))
+                        Process.Start("teens\\level_3\\Math\\ADD__Substraction.ppt");
                     break;
                 default:
                     return;
