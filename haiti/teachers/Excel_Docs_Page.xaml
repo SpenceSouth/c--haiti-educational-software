@@ -82,24 +82,24 @@
 
                 <Button x:Name="IntroExcel" Grid.Row="2" Grid.Column="1" Content="Introduction to Excel" Click="Program_Click" />
                 <Border Grid.Row="2" Grid.Column="3" BorderThickness="1" BorderBrush="Black">
-                    <TextBlock Text="Insert Word Basics description here" TextWrapping="Wrap" HorizontalAlignment="Left" />
+                    <TextBlock Text=" Lesson on basic functionality of Excel and terminology used in the application." TextWrapping="Wrap" HorizontalAlignment="Left" />
                 </Border>
 
 
                 <Button x:Name="ExcelBasics" Grid.Row="3" Grid.Column="1" Content="Excel Basics" Click="Program_Click" />
                 <Border Grid.Row="3" Grid.Column="3" BorderThickness="1" BorderBrush="Black">
-                    <TextBlock Text="Insert Word Introduction description here" TextWrapping="Wrap" HorizontalAlignment="Left" />
+                    <TextBlock Text="Lesson on basic functionality of Excel and few essential tools used in the application." TextWrapping="Wrap" HorizontalAlignment="Left" />
                 </Border>
 
                 <Button x:Name="IntermediateExcel" Grid.Row="4" Grid.Column="1" Content="Intermediate Excel" Click="Program_Click" />
                 <Border Grid.Row="4" Grid.Column="3" BorderThickness="1" BorderBrush="Black">
-                    <TextBlock Text="Insert Word Basics description here" TextWrapping="Wrap" HorizontalAlignment="Left" />
+                    <TextBlock Text="Introduction to tools used for calculations, formulas and how to effectively use them in Excel." TextWrapping="Wrap" HorizontalAlignment="Left" />
                 </Border>
 
 
                 <Button x:Name="AdvancedExcel" Grid.Row="5" Grid.Column="1" Content="Advanced Excel" Click="Program_Click" />
                 <Border Grid.Row="5" Grid.Column="3" BorderThickness="1" BorderBrush="Black">
-                    <TextBlock Text="Insert Word Introduction description here" TextWrapping="Wrap" HorizontalAlignment="Left" />
+                    <TextBlock Text="Introduction to worksheets, how to create and format data in excel." TextWrapping="Wrap" HorizontalAlignment="Left" />
                 </Border>
 
 

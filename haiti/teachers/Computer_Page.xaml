@@ -94,9 +94,9 @@
                 </Border>
 
 
-                <Button x:Name="Computer_Basics_1" Grid.Row="5" Grid.Column="1" Content="Computer Skills" Click="Program_Click" />
+                <Button x:Name="Computer_Basics_1" Grid.Row="5" Grid.Column="1" Content="Computer Parts" Click="Program_Click" />
                 <Border Grid.Row="5" Grid.Column="3" BorderThickness="1" BorderBrush="Black">
-                    <TextBlock Text="Learn about computer parts and skills needed to use internet in day to day life." TextWrapping="Wrap" HorizontalAlignment="Left" />
+                    <TextBlock Text="Simple presentation on parts of a computer with pictures and information." TextWrapping="Wrap" HorizontalAlignment="Left" />
                 </Border>
 
 
