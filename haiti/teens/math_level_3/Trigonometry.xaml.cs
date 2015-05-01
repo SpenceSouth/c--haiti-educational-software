@@ -63,8 +63,20 @@ namespace haiti.teens.math_level_3
             switch (name)
             {
                 case "button0":
-                    if (Utils.Prompt("Description", "Addition and subtraction and word problems with addition and subtraction.", 0))
-                        Process.Start("teens\\level_3\\Math\\ADD__Substraction.ppt");
+                    if (Utils.Prompt("Description", "Introduction to Trigonometry.", 0))
+                        Process.Start("teens\\level_3\\Math\\TRIGONOMETRY_LESSON.ppt");
+                    break;
+                case "button1":
+                    if (Utils.Prompt("Description", "Introduction to Trigonometry - Continued", 0))
+                        Process.Start("teens\\level_3\\Math\\TRIG_LESSON_.ppt");
+                    break;
+                case "button2":
+                    if (Utils.Prompt("Description", "Introduction to Pythagorean Theorem.", 0))
+                        Process.Start("teens\\level_3\\Math\\TRIG_PYTHAGOREAN_THEOREM.ppt");
+                    break;
+                case "button3":
+                    if (Utils.Prompt("Description", "Learn about sin and cosines and how to work with them...", 0))
+                        Process.Start("teens\\level_3\\Math\\TRIG______SINE__COSINE.ppt");
                     break;
                 default:
                     return;
