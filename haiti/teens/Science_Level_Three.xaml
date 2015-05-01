@@ -84,25 +84,25 @@
 
             <Button x:Name="PeopleButton" Grid.Row="2" Grid.Column="1" Content="Anatomy" Click="Category_Click" />           
             <Border Grid.Row="2" Grid.Column="3" BorderThickness="1" BorderBrush="Black">
-                <TextBlock Text=" Anatomy is the branch of biology concerned with the study of the structure of living organisms and their parts." TextWrapping="Wrap" />
+                <TextBlock Text="Anatomy is the branch of biology concerned with the study of the structure of living organisms and their parts." TextWrapping="Wrap" />
             </Border>
 
 
             <Button x:Name="AnimalsButton" Grid.Row="3" Grid.Column="1" Content="Zoology" Click="Category_Click" />
             <Border Grid.Row="3" Grid.Column="3" BorderThickness="1" BorderBrush="Black">
-                <TextBlock Text="Insert What files will be found in this category here" TextWrapping="Wrap"/>
+                <TextBlock Text="The branch of bioglogy that relates to the animal kingdom and how they interact with their ecosystems." TextWrapping="Wrap"/>
             </Border>
 
 
             <Button x:Name="PlantsButton" Grid.Row="4" Grid.Column="1" Content="Botany" Click="Category_Click" />
             <Border Grid.Row="4" Grid.Column="3" BorderThickness="1" BorderBrush="Black">
-                <TextBlock Text="Insert What files will be found in this category here" TextWrapping="Wrap" />
+                <TextBlock Text="The science of plant life and a branch of biology." TextWrapping="Wrap" />
             </Border>
 
 
             <Button x:Name="PhysicsButton" Grid.Row="5" Grid.Column="1" Content="Physics" Click="Category_Click" />
             <Border Grid.Row="5" Grid.Column="3" BorderThickness="1" BorderBrush="Black">
-                <TextBlock Text="Insert What files will be found in this category here" TextWrapping="Wrap" />
+                <TextBlock Text="The natural science that involves the study of matter and motion through space and time, along with related concepts such as energy and force." TextWrapping="Wrap" />
             </Border>
 
         </Grid>
