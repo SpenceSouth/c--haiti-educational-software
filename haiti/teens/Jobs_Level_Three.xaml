@@ -65,6 +65,9 @@
                 <RowDefinition Height="8*" />
                 <RowDefinition Height="8*" />
                 <RowDefinition Height="8*" />
+                <RowDefinition Height="8*" />
+                <RowDefinition Height="8*" />
+                <RowDefinition Height="8*" />
                 <RowDefinition Height="5*" />
             </Grid.RowDefinitions>
             <Grid.ColumnDefinitions>
@@ -80,17 +83,32 @@
 
             <Button x:Name="careerChoicesButton" Grid.Row="2" Grid.Column="1" Content="Career Choices" Click="Program_Click" />
             <Border Grid.Row="2" Grid.Column="3" BorderThickness="1" BorderBrush="Black">
-                <TextBlock Text="Insert description here" TextWrapping="Wrap" HorizontalAlignment="Left" />
+                <TextBlock Text="Learn about choosing the right career for you." TextWrapping="Wrap" HorizontalAlignment="Left" />
             </Border>
 
             <Button x:Name="jobspptButton" Grid.Row="3" Grid.Column="1" Content="Jobs Powerpoint" Click="Program_Click" />
             <Border Grid.Row="3" Grid.Column="3" BorderThickness="1" BorderBrush="Black">
-                <TextBlock Text="Insert description here" TextWrapping="Wrap" HorizontalAlignment="Left" />
+                <TextBlock Text="Introduction to various types of jobs that you can do." TextWrapping="Wrap" HorizontalAlignment="Left" />
             </Border>
 
             <Button x:Name="jobsAndProfessionsButton" Grid.Row="4" Grid.Column="1" Content="Jobs and Professions" Click="Program_Click" />
             <Border Grid.Row="4" Grid.Column="3" BorderThickness="1" BorderBrush="Black">
-                <TextBlock Text="Insert description here" TextWrapping="Wrap" HorizontalAlignment="Left" />
+                <TextBlock Text="Learn about famous professions and jobs that are available in today's world" TextWrapping="Wrap" HorizontalAlignment="Left" />
+            </Border>
+
+            <Button x:Name="careersButton" Grid.Row="5" Grid.Column="1" Content="Careers" Click="Program_Click" />
+            <Border Grid.Row="5" Grid.Column="3" BorderThickness="1" BorderBrush="Black">
+                <TextBlock Text="Learn about what career is right for you." TextWrapping="Wrap" HorizontalAlignment="Left" />
+            </Border>
+
+            <Button x:Name="engineeringButton" Grid.Row="6" Grid.Column="1" Content="Careers in Engineering" Click="Program_Click" />
+            <Border Grid.Row="6" Grid.Column="3" BorderThickness="1" BorderBrush="Black">
+                <TextBlock Text="Learn about the various options available in engineering field." TextWrapping="Wrap" HorizontalAlignment="Left" />
+            </Border>
+
+            <Button x:Name="majorsButton" Grid.Row="7" Grid.Column="1" Content="Majors and Careers" Click="Program_Click" />
+            <Border Grid.Row="7" Grid.Column="3" BorderThickness="1" BorderBrush="Black">
+                <TextBlock Text=" Learn about the subjects you can choose for higher education and the right career for you." TextWrapping="Wrap" HorizontalAlignment="Left" />
             </Border>
 
         </Grid>

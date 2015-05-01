@@ -70,6 +70,15 @@ namespace haiti.teens
                 case "jobsAndProfessionsButton":
                     Process.Start("teens\\level_3\\Jobs\\jobsandprofessions.ppt");
                     break;
+                case "careersButton":
+                    Process.Start("teens\\level_3\\Jobs\\careers.ppt");
+                    break;
+                case "engineeringButton":
+                    Process.Start("teens\\level_3\\Jobs\\Careers_in_Engineering_David_Jones.ppt");
+                    break;
+                case "majorsButton":
+                    Process.Start("teens\\level_3\\Jobs\\MajorsandCareers.ppt");
+                    break;
                 default:
                     break;
             }
