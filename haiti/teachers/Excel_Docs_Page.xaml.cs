@@ -76,12 +76,6 @@ namespace haiti.teachers
                     Process.Start("teachers\\teacher assets\\MS Excel\\Lecture 8-AdvancedLevel2-ExcelFormatting.ppt");
                     break;
 
-
-                /*
-                case "Multiplication":
-                    Program.openMultiplicationPPT();
-                    break;
-                 */
             }
 
         }
