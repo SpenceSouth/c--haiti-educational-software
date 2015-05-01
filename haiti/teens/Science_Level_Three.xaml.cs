@@ -62,16 +62,16 @@ namespace haiti.teens
             switch (name)
             {
                 case "PeopleButton":
-                    this.NavigationService.Navigate(new Uri("teens\\Science_Level_1_and_2\\Science_People.xaml", UriKind.Relative));
+                    this.NavigationService.Navigate(new Uri("teens\\Science_Level_3\\Science_Anatomy.xaml", UriKind.Relative));
                     break;
                 case "AnimalsButton":
-                    this.NavigationService.Navigate(new Uri("teens\\Science_Level_1_and_2\\Science_Animals.xaml", UriKind.Relative));
+                    this.NavigationService.Navigate(new Uri("teens\\Science_Level_3\\Science_Zoology.xaml", UriKind.Relative));
                     break;
                 case "PlantsButton":
-                    this.NavigationService.Navigate(new Uri("teens\\Science_Level_1_and_2\\Science_Plants.xaml", UriKind.Relative));
+                    this.NavigationService.Navigate(new Uri("teens\\Science_Level_3\\Science_Botany.xaml", UriKind.Relative));
                     break;
                 case "PhysicsButton":
-                    this.NavigationService.Navigate(new Uri("teens\\Science_Level_1_and_2\\Science_Physics.xaml", UriKind.Relative));
+                    this.NavigationService.Navigate(new Uri("teens\\Science_Level_3\\Science_Physics_3.xaml", UriKind.Relative));
                     break;
                 default:
                     break;

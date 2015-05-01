@@ -264,6 +264,18 @@
     <Compile Include="teens\Science_Level_1_and_2\Science_Plants.xaml.cs">
       <DependentUpon>Science_Plants.xaml</DependentUpon>
     </Compile>
+    <Compile Include="teens\Science_Level_3\Science_Anatomy.xaml.cs">
+      <DependentUpon>Science_Anatomy.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="teens\Science_Level_3\Science_Botany.xaml.cs">
+      <DependentUpon>Science_Botany.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="teens\Science_Level_3\Science_Physics_3.xaml.cs">
+      <DependentUpon>Science_Physics_3.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="teens\Science_Level_3\Science_Zoology.xaml.cs">
+      <DependentUpon>Science_Zoology.xaml</DependentUpon>
+    </Compile>
     <Compile Include="teens\Science_Level_One.xaml.cs">
       <DependentUpon>Science_Level_One.xaml</DependentUpon>
     </Compile>
@@ -513,6 +525,22 @@
     <Page Include="teens\Science_Level_1_and_2\Science_Plants.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="teens\Science_Level_3\Science_Anatomy.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="teens\Science_Level_3\Science_Botany.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="teens\Science_Level_3\Science_Physics_3.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="teens\Science_Level_3\Science_Zoology.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
     </Page>
     <Page Include="teens\Science_Level_One.xaml">
       <SubType>Designer</SubType>
