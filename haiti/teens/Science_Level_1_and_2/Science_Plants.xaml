@@ -87,53 +87,53 @@
 
         <Button x:Name="b1" Grid.Row="2" Grid.Column="1" Content="Characteristics of Plants" Click="Program_Click" />
         <Border Grid.Row="2" Grid.Column="3" BorderThickness="1" BorderBrush="Black">
-            <TextBlock Text="Insert description here" TextWrapping="Wrap" HorizontalAlignment="Left" />
+            <TextBlock Text="How plants are classified" TextWrapping="Wrap" HorizontalAlignment="Left" />
         </Border>
         <Button x:Name="b2" Grid.Row="3" Grid.Column="1" Content="Essential Nutrients of Plants" Click="Program_Click" />
         <Border Grid.Row="3" Grid.Column="3" BorderThickness="1" BorderBrush="Black">
-            <TextBlock Text="Insert description here" TextWrapping="Wrap" HorizontalAlignment="Left" />
+            <TextBlock Text="Nutrients essential for plant growth." TextWrapping="Wrap" HorizontalAlignment="Left" />
         </Border>
 
         <Button x:Name="b3" Grid.Row="4" Grid.Column="1" Content="Lifecycle of Plants" Click="Program_Click" />
         <Border Grid.Row="4" Grid.Column="3" BorderThickness="1" BorderBrush="Black">
-            <TextBlock Text="Insert description here" TextWrapping="Wrap" HorizontalAlignment="Left" />
+            <TextBlock Text="Plant processes and lifecycle." TextWrapping="Wrap" HorizontalAlignment="Left" />
         </Border>
         <Button x:Name="b4" Grid.Row="5" Grid.Column="1" Content="Why We Need To Grow Plants" Click="Program_Click" />
         <Border Grid.Row="5" Grid.Column="3" BorderThickness="1" BorderBrush="Black">
-            <TextBlock Text="Insert description here" TextWrapping="Wrap" HorizontalAlignment="Left" />
+            <TextBlock Text="Describes what plants need to grow." TextWrapping="Wrap" HorizontalAlignment="Left" />
         </Border>
 
         <Button x:Name="b5" Grid.Row="6" Grid.Column="1" Content="Photosynthesis" Click="Program_Click" />
         <Border Grid.Row="6" Grid.Column="3" BorderThickness="1" BorderBrush="Black">
-            <TextBlock Text="Insert description here" TextWrapping="Wrap" HorizontalAlignment="Left" />
+            <TextBlock Text="How plants make energy" TextWrapping="Wrap" HorizontalAlignment="Left" />
         </Border>
         <Button x:Name="b6" Grid.Row="7" Grid.Column="1" Content="Plant Science" Click="Program_Click" />
         <Border Grid.Row="7" Grid.Column="3" BorderThickness="1" BorderBrush="Black">
-            <TextBlock Text="Insert description here" TextWrapping="Wrap" HorizontalAlignment="Left" />
+            <TextBlock Text="Describes Agronomy, Forestry, and Horticulture." TextWrapping="Wrap" HorizontalAlignment="Left" />
         </Border>
 
         <Button x:Name="b7" Grid.Row="8" Grid.Column="1" Content="Plant Cells" Click="Program_Click" />
         <Border Grid.Row="8" Grid.Column="3" BorderThickness="1" BorderBrush="Black">
-            <TextBlock Text="Insert description here" TextWrapping="Wrap" HorizontalAlignment="Left" />
+            <TextBlock Text="The similarities and differences of animal and plant cells." TextWrapping="Wrap" HorizontalAlignment="Left" />
         </Border>
         <Button x:Name="b8" Grid.Row="9" Grid.Column="1" Content="Plant Processes" Click="Program_Click" />
         <Border Grid.Row="9" Grid.Column="3" BorderThickness="1" BorderBrush="Black">
-            <TextBlock Text="Insert description here" TextWrapping="Wrap" HorizontalAlignment="Left" />
+            <TextBlock Text="Introduction to the seven processes of plant life." TextWrapping="Wrap" HorizontalAlignment="Left" />
         </Border>
 
         <Button x:Name="b9" Grid.Row="10" Grid.Column="1" Content="Types of Plants" Click="Program_Click" />
         <Border Grid.Row="10" Grid.Column="3" BorderThickness="1" BorderBrush="Black">
-            <TextBlock Text="Insert description here" TextWrapping="Wrap" HorizontalAlignment="Left" />
+            <TextBlock Text="Characteristics of mosses, grasses, and dicots." TextWrapping="Wrap" HorizontalAlignment="Left" />
         </Border>
 
         <Button x:Name="b10" Grid.Row="11" Grid.Column="1" Content="Water" Click="Program_Click" />
         <Border Grid.Row="11" Grid.Column="3" BorderThickness="1" BorderBrush="Black">
-            <TextBlock Text="Insert description here" TextWrapping="Wrap" HorizontalAlignment="Left" />
+            <TextBlock Text="Water cycle and the various places where water can be found." TextWrapping="Wrap" HorizontalAlignment="Left" />
         </Border>
 
         <Button x:Name="b11" Grid.Row="12" Grid.Column="1" Content="Water Cycle" Click="Program_Click" />
         <Border Grid.Row="12" Grid.Column="3" BorderThickness="1" BorderBrush="Black">
-            <TextBlock Text="Insert description here" TextWrapping="Wrap" HorizontalAlignment="Left" />
+            <TextBlock Text="The water cycle from the sea, the atmosphere, and inland." TextWrapping="Wrap" HorizontalAlignment="Left" />
         </Border>
 
         </Grid>
