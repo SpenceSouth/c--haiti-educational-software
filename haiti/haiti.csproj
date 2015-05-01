@@ -1451,6 +1451,102 @@
     <Content Include="teens\level_3\Jobs\MajorsandCareers.ppt">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
+    <Content Include="teens\level_3\Math\Algebra I.ppt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="teens\level_3\Math\ALGEBRAIC_EXPRESSSIONS.ppt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="teens\level_3\Math\ALGEBRA_LESSON.ppt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="teens\level_3\Math\ALGEBRA_SQUARE_ROOT__CUBES.ppt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="teens\level_3\Math\ALGEBRA__REVIEW__1.ppt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="teens\level_3\Math\ALGEBRA__REVIEW__2.ppt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="teens\level_3\Math\ALGEBRA__REVIEW__3.ppt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="teens\level_3\Math\ALGEBRA__TO__ENGLISH.ppt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="teens\level_3\Math\ALGEBRA_____MATRICES %281%29.ppt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="teens\level_3\Math\ALGEBRA_____MATRICES.ppt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="teens\level_3\Math\AREA_PERIMETER_CIRCUMFERENC.ppt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="teens\level_3\Math\AREA__PERIMETER.ppt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="teens\level_3\Math\DECIMALS____FRACTIONS.ppt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="teens\level_3\Math\EQUATIONS___PROBLEM_SOLVING.ppt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="teens\level_3\Math\EQUATIONS____ADDING.ppt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="teens\level_3\Math\EQUATIONS______SOLVING.ppt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="teens\level_3\Math\EQUATION_OF_A_STRAIGHT_LINE.ppt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="teens\level_3\Math\GRAPHING__POINT___SLOPE.ppt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="teens\level_3\Math\GRAPH___2___VARIABLES.ppt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="teens\level_3\Math\MEAN_MEDIAN_MODE_RANGE.ppt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="teens\level_3\Math\PERCENTAGES.ppt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="teens\level_3\Math\PERCENTS.ppt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="teens\level_3\Math\Pre-Algebra.ppt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="teens\level_3\Math\Probability_combinations.ppt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="teens\level_3\Math\REAL__NUMBER__LINE___1.ppt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="teens\level_3\Math\ROUNDING__ESTIMATING.ppt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="teens\level_3\Math\TRIANGLE_CLASSIFICATION.ppt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="teens\level_3\Math\TRIGONOMETRY_LESSON.ppt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="teens\level_3\Math\TRIG_LESSON_.ppt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="teens\level_3\Math\TRIG_PYTHAGOREAN_THEOREM.ppt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="teens\level_3\Math\TRIG______SINE__COSINE.ppt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="teens\level_3\Math\Venn_diagrams_follow_up_%282%29">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
     <Resource Include="assets\Haiti_pic_original.jpg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Resource>

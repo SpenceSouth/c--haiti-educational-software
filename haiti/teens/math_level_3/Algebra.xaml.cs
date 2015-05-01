@@ -63,8 +63,28 @@ namespace haiti.teens.math_level_3
             switch (name)
             {
                 case "button0":
-                    if (Utils.Prompt("Description", "Addition and subtraction and word problems with addition and subtraction.", 0))
-                        Process.Start("teens\\level_3\\Math\\ADD__Substraction.ppt");
+                    if (Utils.Prompt("Description", "Introduction to square root and cubes problems.", 0))
+                        Process.Start("teens\\math_level_3\\Math\\ALGEBRA_SQUARE_ROOT__CUBES.ppt");
+                    break;
+                case "button1:":
+                    if (Utils.Prompt("Description", "Introduction to area, perimeter, and circumference problems.", 0))
+                        Process.Start("teens\\math_level_3\\Math\\AREA_PERIMETER_CIRCUMFERENC.ppt");
+                    break;
+                case "button2:":
+                    if (Utils.Prompt("Description", "Introduction to decimals and fractions.", 0))
+                        Process.Start("teens\\math_level_3\\Math\\DECIMALS____FRACTIONS.ppt");
+                    break;
+                case "button3:":
+                    if (Utils.Prompt("Description", "Learn to solve equations and problems.", 0))
+                        Process.Start("teens\\math_level_3\\Math\\EQUATIONS___PROBLEM_SOLVING.ppt");
+                    break;
+                case "button4:":
+                    if (Utils.Prompt("Description", "Learn about mean, median, mode and range problems..", 0))
+                        Process.Start("teens\\math_level_3\\Math\\MEAN_MEDIAN_MODE_RANGE.ppt");
+                    break;
+                case "button5:":
+                    if (Utils.Prompt("Description", "Rounding and estimating.", 0))
+                        Process.Start("teens\\math_level_3\\Math\\ROUNDING__ESTIMATING.ppt");
                     break;
                 default:
                     return;
