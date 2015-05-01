@@ -36,10 +36,6 @@ namespace haiti
             if(flag == 0){
                 prompt += "\nWould you like to start this activity?";
             }
-            if (flag == 1)
-            {
-                prompt += "\nWould you like to open this file?";
-            }
 
             var dr0 = MessageBox.Show(prompt, title, MessageBoxButton.YesNo);
 

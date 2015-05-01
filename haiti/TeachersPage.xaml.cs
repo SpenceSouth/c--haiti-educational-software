@@ -98,8 +98,7 @@ namespace haiti
                     this.NavigationService.Navigate(new Uri("/kids/Activitybook_Level_Two.xaml", UriKind.Relative));
                     break;
                 case "clsAppDocumentsButton":
-                    if (Utils.Prompt("Program List", "Here you will find a list of all the programs included in this application and descriptions for each program.", 1))
-                        Process.Start("teachers\\teacher assets\\CLS Learning Apps\\Dishi_EducationalResourcesandBookletsdocumentation.docx.docx");
+                    Process.Start("teachers\\teacher assets\\CLS Learning Apps\\Dishi_EducationalResourcesandBookletsdocumentation.docx.docx");
                     break;
                 case "excelButton":
                     this.NavigationService.Navigate(new Uri("/teachers/Excel_Docs_Page.xaml", UriKind.Relative));
