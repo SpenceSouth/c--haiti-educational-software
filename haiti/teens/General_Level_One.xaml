@@ -86,7 +86,7 @@
             <TextBlock Grid.Row="1" Grid.Column="3" Text="Description" />
 
 
-            <Button x:Name="b1" Grid.Row="2" Grid.Column="1" Content="Colour Atlas of the Universe" Click="Category_Click" />
+            <Button x:Name="b1" Grid.Row="2" Grid.Column="1" Content="Color Atlas of the Universe" Click="Category_Click" />
             <Border Grid.Row="2" Grid.Column="3" BorderThickness="1" BorderBrush="Black">
                 <TextBlock Text="" TextWrapping="Wrap" />
             </Border>
