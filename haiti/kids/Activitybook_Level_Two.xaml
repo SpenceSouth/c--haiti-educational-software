@@ -54,7 +54,7 @@
             </Grid>
 
         </Grid>
-
+        <!--This set of rows makes up the space for program buttons-->
         <ScrollViewer Grid.Row="1" Grid.Column="0">
 
             <StackPanel Orientation="Vertical" HorizontalAlignment="Center" VerticalAlignment="Center">
