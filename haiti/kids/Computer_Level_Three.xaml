@@ -81,10 +81,10 @@
             <TextBlock Grid.Row="1" Grid.Column="3" Text="Description" />
 
 
-            <Button x:Name="Parts_Button" Grid.Row="2" Grid.Column="1" Content="Computer Parts" Click="Program_Click" />
+            <Button x:Name="Parts_Button" Grid.Row="2" Grid.Column="1" Content="Basic Parts of a Computer" Click="Program_Click" />
             <!--  <Button x:Name="Multiplication_Button" Grid.Row="3" Grid.Column="1" Content="Multiplication" Click="Program_Click" />-->
             <Border Grid.Row="2" Grid.Column="3" BorderThickness="1" BorderBrush="Black">
-                <TextBlock Text="Learn about the keyboard, monitor, mouse, and printer. All essentail parts of a computer" TextWrapping="Wrap" HorizontalAlignment="Left" />
+                <TextBlock Text="Learn about the keyboard, monitor, mouse, and printer. All essential parts of a computer" TextWrapping="Wrap" HorizontalAlignment="Left" />
             </Border>
 
         </Grid>

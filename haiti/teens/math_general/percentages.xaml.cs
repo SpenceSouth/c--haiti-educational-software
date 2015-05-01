@@ -63,10 +63,12 @@ namespace haiti.teens.math_general
             switch (name)
             {
                 case "button0":
-                    Process.Start("teens\\level_3\\Math\\percent.ppt");
+                    if(Utils.Prompt("Description","Definition of Percent; Comparing money and percents."))
+                        Process.Start("teens\\level_3\\Math\\percent.ppt");
                     break;
                 case "button5":
-                    Process.Start("teens\\level_3\\Math\\Percentage.pot");
+                    if (Utils.Prompt("Description", "Percentages in daily life"))
+                        Process.Start("teens\\level_3\\Math\\Percentage.pot");
                     break;
                 default:
                     return;

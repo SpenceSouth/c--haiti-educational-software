@@ -81,7 +81,7 @@
                 <TextBlock Text="Dictionary with many Pictures;  Ideal for Children" TextWrapping="Wrap" HorizontalAlignment="Left" />
             </Border>
 
-            <Button x:Name="englishGrammarButton" Grid.Row="3" Grid.Column="1" Content="English Grammar" Click="Program_Click" />
+            <Button x:Name="englishGrammarButton" Grid.Row="3" Grid.Column="1" Content="Grammar" Click="Program_Click" />
             <Border Grid.Row="3" Grid.Column="3" BorderThickness="1" BorderBrush="Black">
                 <TextBlock Text="Lengthy Book of Parts of Speech; Illustrated.  145 Pages" TextWrapping="Wrap" HorizontalAlignment="Left" />
             </Border>

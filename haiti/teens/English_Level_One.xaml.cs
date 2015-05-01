@@ -63,16 +63,20 @@ namespace haiti.teens
             switch (name)
             {
                 case "picGrammarButton":
-                    Process.Start("teens\\level_3\\English\\picturegrammarforchildrenstarter.pdf");
+                    if(Utils.Prompt("Description","Similar to Children Picture Dictionary",0))
+                        Process.Start("teens\\level_3\\English\\picturegrammarforchildrenstarter.pdf");
                     break;
                 case "illustratedDictionaryButton":
-                    Process.Start("teens\\level_3\\English\\childrensillustrateddictionary.pdf");
+                    if (Utils.Prompt("Description", "Dictionary with many pictures.  Ideal for children.", 0))
+                        Process.Start("teens\\level_3\\English\\childrensillustrateddictionary.pdf");
                     break;
                 case "picDictionaryButton":
-                    Process.Start("teens\\level_3\\English\\lyoungchildrenspicturedictionary.pdf");
+                    if (Utils.Prompt("Description", "Many illustrated scenes with pictures and spelling.  Also contains alphabet, numbers, weather, songs, and chants.", 0))
+                        Process.Start("teens\\level_3\\English\\lyoungchildrenspicturedictionary.pdf");
                     break;
                 case "englishGrammarButton":
-                    Process.Start("teens\\level_3\\English\\justenoughenglishgrammarillustrated.pdf");
+                    if (Utils.Prompt("Description", "Lengthy book of parts of speech; Illustrated.", 0))
+                        Process.Start("teens\\level_3\\English\\justenoughenglishgrammarillustrated.pdf");
                     break;
                 default:
                     return;

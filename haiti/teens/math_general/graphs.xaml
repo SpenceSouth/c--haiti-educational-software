@@ -89,7 +89,6 @@
 
             <!--Column 3-->
             <Button x:Name="button9"                Content="Bar Graphs 3" Grid.Row="2" Grid.Column="3" Click="Category_Click"/>
-            <Button x:Name="button10"               Content="Bar Graphs 6" Grid.Row="3" Grid.Column="3" Click="Category_Click"/>
             <!--<Button x:Name="button11"               HorizontalAlignment="Center" Grid.Row="4" Grid.Column="3" Click="Category_Click"/>
             <Button x:Name="button12"               HorizontalAlignment="Center" Grid.Row="5" Grid.Column="3" Click="Category_Click"/>-->
 

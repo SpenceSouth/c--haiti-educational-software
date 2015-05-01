@@ -63,19 +63,24 @@ namespace haiti.teens.math_general
             switch (name)
             {
                 case "button0":
-                    Process.Start("teens\\level_3\\Math\\comparing-length-of-objects-1.pdf");
+                    if(Utils.Prompt("Description","Picturse and comparing long, longer, and longest.",0))
+                        Process.Start("teens\\level_3\\Math\\comparing-length-of-objects-1.pdf");
                     break;
                 case "button5":
-                    Process.Start("teens\\level_3\\Math\\comparing-length-of-objects-2.pdf");
+                    if (Utils.Prompt("Description", "Pictures and comparing short, shorter, and shortest.", 0))
+                        Process.Start("teens\\level_3\\Math\\comparing-length-of-objects-2.pdf");
                     break;
                 case "button9":
-                    Process.Start("teens\\level_3\\Math\\comparing-length-of-objects-3.pdf");
+                    if (Utils.Prompt("Description", "(Similar to comparing lengths 1) Pictures and comparing long, longer, and longest.", 0))
+                        Process.Start("teens\\level_3\\Math\\comparing-length-of-objects-3.pdf");
                     break;
                 case "button1":
-                    Process.Start("teens\\level_3\\Math\\comparing-length-of-objects-4.pdf");
+                    if (Utils.Prompt("Description", "(Similar to comparing lengths 1) Pictures and comparing long, longer, and longest.", 0))
+                        Process.Start("teens\\level_3\\Math\\comparing-length-of-objects-4.pdf");
                     break;
                 case "button6":
-                    Process.Start("teens\\level_3\\Math\\comparing-length-of-objects-5.pdf");
+                    if (Utils.Prompt("Description", "(Similar to Comparing Lengths 2) Pictures and comparing short, shorter, and shortest.", 0))
+                        Process.Start("teens\\level_3\\Math\\comparing-length-of-objects-5.pdf");
                     break;
                 default:
                     return;
