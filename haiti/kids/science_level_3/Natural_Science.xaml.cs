@@ -72,7 +72,7 @@ namespace haiti.kids.science_level_3
 
                     if (dr0 == MessageBoxResult.Yes)
                     {
-                        Process.Start("kids\\level_3\\Science\\Characteristics_of_Plants.ppt");
+                        Process.Start("kids\\level_3\\Science\\Characteristics_of_Plants.pps");
                     }
                     break;
                 case "button1":
@@ -92,7 +92,7 @@ namespace haiti.kids.science_level_3
 
                     if (dr2 == MessageBoxResult.Yes)
                     {
-                        Process.Start("kids\\level_3\\Science\\Water.ppt");
+                        Process.Start("kids\\level_3\\Science\\Water.pps");
                     }
                     break;
                 case "button5":
@@ -102,7 +102,7 @@ namespace haiti.kids.science_level_3
 
                     if (dr5 == MessageBoxResult.Yes)
                     {
-                        Process.Start("kids\\level_3\\Science\\ECOSYSTEM_for_kids.ppt");
+                        Process.Start("kids\\level_3\\Science\\ECOSYSTEM_for_kids.pps");
                     }
                     break;
                 case "button6":
@@ -112,7 +112,7 @@ namespace haiti.kids.science_level_3
 
                     if (dr6 == MessageBoxResult.Yes)
                     {
-                        Process.Start("kids\\level_3\\Science\\life cycle of plans.ppt");
+                        Process.Start("kids\\level_3\\Science\\life cycle of plans.pps");
                     }
                     break;
                 case "button9":
@@ -122,7 +122,7 @@ namespace haiti.kids.science_level_3
 
                     if (dr9 == MessageBoxResult.Yes)
                     {
-                        Process.Start("kids\\level_3\\Science\\Essential_Nutrients_of_Plants.ppt");
+                        Process.Start("kids\\level_3\\Science\\Essential_Nutrients_of_Plants.pps");
                     }
                     break;
                 case "button10":
@@ -132,7 +132,7 @@ namespace haiti.kids.science_level_3
 
                     if (dr10 == MessageBoxResult.Yes)
                     {
-                        Process.Start("kids\\level_3\\Science\\Types_of_plant.ppt");
+                        Process.Start("kids\\level_3\\Science\\Types_of_plant.pps");
                     }
                     break;
                 default:

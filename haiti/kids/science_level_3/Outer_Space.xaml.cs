@@ -71,7 +71,7 @@ namespace haiti.kids.science_level_3
 
                     if (dr0 == MessageBoxResult.Yes)
                     {
-                        Process.Start("kids\\level_3\\Science\\Our_Solar_System.ppt");
+                        Process.Start("kids\\level_3\\Science\\Our_Solar_System.pps");
                     }
                     break;
                 default:
