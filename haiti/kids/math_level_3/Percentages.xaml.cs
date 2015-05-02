@@ -64,7 +64,7 @@ namespace haiti.kids.math_level_3
             {
                 case "button0":
                     if(Utils.Prompt("Description","Learn about percentages with examples and explanations."))
-                        Process.Start("kids\\level_3\\Math\\Percentage.pot");
+                        Process.Start("kids\\level_3\\Math\\Percentage.pps");
                     break;
                 default:
                     return;

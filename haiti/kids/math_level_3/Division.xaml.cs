@@ -71,7 +71,7 @@ namespace haiti.kids.math_level_3
 
                     if (dr0 == MessageBoxResult.Yes)
                     {
-                        Process.Start("kids\\level_3\\Math\\Division.ppt");
+                        Process.Start("kids\\level_3\\Math\\Division.pps");
                     }
                     break;
                 default:

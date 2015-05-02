@@ -75,7 +75,7 @@ namespace haiti
                     prompt = "Learn about addition, subtraction and word problems.\nWould you like to start this activity?";
 
                     if (Utils.Prompt(title, prompt))
-                        Process.Start("kids\\level_3\\Math\\add_sub.ppt");
+                        Process.Start("kids\\level_3\\Math\\add_sub.pps");
                     break;
                 default:
                     return;

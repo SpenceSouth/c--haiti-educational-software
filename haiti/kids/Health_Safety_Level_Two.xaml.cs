@@ -63,16 +63,16 @@ namespace haiti.kids
             switch (name)
             {
                 case "germsAwayButton":
-                    Process.Start("kids\\level_2\\Health\\germsAway.ppt");
+                    Process.Start("kids\\level_2\\Health\\germsAway.pps");
                     break;
                 case "goodHabitsButton":
-                    Process.Start("kids\\level_2\\Health\\goodhabits.ppt");
+                    Process.Start("kids\\level_2\\Health\\goodhabits.pps");
                     break;
                 case "humanBodyButton":
-                    Process.Start("kids\\level_2\\Health\\humanBody.ppt");
+                    Process.Start("kids\\level_2\\Health\\humanBody.pps");
                     break;
                 case "safetyButton":
-                    Process.Start("kids\\level_2\\Health\\personalhygieneandsunsafety.ppt");
+                    Process.Start("kids\\level_2\\Health\\personalhygieneandsunsafety.pps");
                     break;
                 case "phs1Button":
                     Process.Start("kids\\level_2\\Health\\phs1.pdf");

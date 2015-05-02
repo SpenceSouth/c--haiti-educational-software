@@ -71,7 +71,7 @@ namespace haiti
 
                     if (dr0 == MessageBoxResult.Yes)
                     {
-                        Process.Start("kids\\level_3\\Math\\NumbersPowerPoint_1_.pptx");
+                        Process.Start("kids\\level_3\\Math\\NumbersPowerPoint_1_.pps");
                     }
                     break;
                 default:

@@ -66,7 +66,7 @@ namespace haiti.kids.math_level_3
             {
                 case "button0":
                     if (Utils.Prompt("Introduction to multiplication", "Learn about multiplication with examples and explanations.", 0))
-                        Process.Start("kids\\level_3\\Math\\Multiplication_1.ppt");
+                        Process.Start("kids\\level_3\\Math\\Multiplication_1.pps");
                     break;
                 default:
                     return;
