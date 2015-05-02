@@ -221,7 +221,7 @@ namespace haiti.kids
 
                     if (dr15 == MessageBoxResult.Yes)
                     {
-                        Process.Start("kids\\level_1\\Phonics\\fruits and vegetables.ppt");
+                        Process.Start("kids\\level_1\\Phonics\\fruits and vegetables1.pps");
                     }
                     break;
                 case "button16":
@@ -251,7 +251,7 @@ namespace haiti.kids
 
                     if (dr18 == MessageBoxResult.Yes)
                     {
-                        Process.Start("kids\\level_1\\Phonics\\shapes.ppt");
+                        Process.Start("kids\\level_1\\Phonics\\shapes1.pps");
                     }
                     break;
                 case "button19":
@@ -261,7 +261,7 @@ namespace haiti.kids
 
                     if (dr19 == MessageBoxResult.Yes)
                     {
-                     Process.Start("kids\\level_1\\Phonics\\Transport.ppt");
+                     Process.Start("kids\\level_1\\Phonics\\Transport1.pps");
                     }
                     break;
                 case "button20":
