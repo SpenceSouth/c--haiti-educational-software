@@ -164,7 +164,8 @@
                 <StackPanel Orientation="Horizontal">
                     <Button x:Name="button66" Content="Bunny Puzzle" Margin="10" Click="Program_Click" Width="130px" Height="75px"/>
                     <Button x:Name="button67" Content="Rooster Puzzle" Margin="10" Click="Program_Click" Width="130px" Height="75px"/>
-                    <Button x:Name="button68" Content="Butterfly Puzzle" Margin="10" Click="Program_Click" Width="130px" Height="75px"/>                 
+                    <Button x:Name="button68" Content="Butterfly Puzzle" Margin="10" Click="Program_Click" Width="130px" Height="75px"/>
+                    <Button x:Name="button84" Content="Smart Educational Games" Margin="10" Click="Program_Click" Width="130px" Height="75px"/>
                 </StackPanel>
             </StackPanel>
 

@@ -114,6 +114,10 @@ namespace haiti.teens
                     if (Utils.Prompt("Description", "Shows Clock; Tests ability to read clock; four exercises", 0))
                         Process.Start("teens\\level_1\\GK\\read-time-4.pdf");
                     break;
+                case "b14":
+                    if (Utils.Prompt("Description", "An interactive quiz of Europeas countries and cities; Tests georgraphic knowledge", 0))
+                        Program.runSeTerra();
+                    break;
                 default:
                     break;
             }

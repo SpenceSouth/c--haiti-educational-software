@@ -83,7 +83,7 @@ namespace haiti
 
         public static void runEducationalGames()
         {
-            start("C:\\Program Files\\CrazySoft\\Smart Educational Games\\CrazySoft.exe", "installers\\SmartEg-Setup_Demo.exe");
+            start("C:\\Program Files (x86)\\CrazySoft\\Smart Educational Games\\CrazySoft.exe", "installers\\SmartEg-Setup_Demo.exe");
         }
 
         public static void runKeaColor()

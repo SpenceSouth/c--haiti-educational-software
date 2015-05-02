@@ -731,6 +731,16 @@ namespace haiti.kids
                         Process.Start("kids\\level_2\\activity_books\\ab (50).png");
                     }
                     break;
+                case "button84":
+                    title = "Description";
+                    prompt = "A program to exercise: Memory, Math, Geography, and a scramble puzzle.  \nWould you like to start this activity?";
+                    var dr84 = MessageBox.Show(prompt, title, MessageBoxButton.YesNo);
+
+                    if (dr84 == MessageBoxResult.Yes)
+                    {
+                        Program.runEducationalGames();
+                    }
+                    break;
                 default:
                     MessageBox.Show("Not registered");
                     break;
