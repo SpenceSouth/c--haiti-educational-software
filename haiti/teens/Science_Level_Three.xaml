@@ -105,6 +105,11 @@
                 <TextBlock Text="The natural science that involves the study of matter and motion through space and time, along with related concepts such as energy and force." TextWrapping="Wrap" />
             </Border>
 
+            <Button x:Name="PeriodicTabel" Grid.Row="6" Grid.Column="1" Content="Periodic Tabel" Click="Category_Click" />
+            <Border Grid.Row="6" Grid.Column="3" BorderThickness="1" BorderBrush="Black">
+                <TextBlock Text="A program describing the chemical elements that make up. . . well everything in creation." TextWrapping="Wrap" />
+            </Border>
+
         </Grid>
     </Grid>
 </Page>

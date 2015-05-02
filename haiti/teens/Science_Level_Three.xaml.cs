@@ -73,6 +73,9 @@ namespace haiti.teens
                 case "PhysicsButton":
                     this.NavigationService.Navigate(new Uri("teens\\Science_Level_3\\Science_Physics_3.xaml", UriKind.Relative));
                     break;
+                case "PeriodicTabel":
+                    Program.runPeriodicTable();
+                    break;
                 default:
                     break;
 
