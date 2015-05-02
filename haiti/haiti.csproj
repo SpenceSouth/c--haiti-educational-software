@@ -1409,7 +1409,7 @@
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
     <Content Include="teens\level_3\Science\Animals\Glow_Worms__Fire_Fly.ppt">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
     <Content Include="teens\level_3\Science\Animals\Insects.ppt">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
@@ -1616,6 +1616,33 @@
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
     <Content Include="teens\level_3\Math\Venn_diagrams_follow_up_%282%29">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="teens\level_3\Science\Physics\ATOMIC_STRUCTURE.ppt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="teens\level_3\Science\Physics\ATOM__STATIC_ELECTRICITY.ppt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="teens\level_3\Science\Physics\BOHR_MODEL_OF_THE_ATOM.ppt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="teens\level_3\Science\Physics\ELECTRICITY__2.ppt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="teens\level_3\Science\Physics\ES_GREENHOUSE_EFFECT.ppt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="teens\level_3\Science\Physics\ES_MINERALS.ppt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="teens\level_3\Science\Physics\FORCES__EQUILIBRIUM.ppt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="teens\level_3\Science\Physics\FORCES_________GRAVITY.ppt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="teens\level_3\Science\Physics\MATTER_INTRODUCTION__2.ppt">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
     <Resource Include="assets\Haiti_pic_original.jpg">

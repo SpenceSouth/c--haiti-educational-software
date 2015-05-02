@@ -140,7 +140,7 @@ namespace haiti.teens.Science_Level_3
                     break;
                 case "b20":
                     if (Utils.Prompt("Description", "Glow worms and Fire Flies.", 0))
-                        Process.Start("teens\\level_3\\Science\\Animals\\Glow_Worms_Fire_Fly.ppt");
+                        Process.Start("teens\\level_3\\Science\\Animals\\Glow_Worms__Fire_Fly.ppt");
                     break;
                 case "b21":
                     if (Utils.Prompt("Description", "Pictures and descriptions of several insects - 12 slides.", 0))
