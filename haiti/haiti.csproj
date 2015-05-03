@@ -1645,6 +1645,9 @@
     <Content Include="teens\level_3\Science\Physics\MATTER_INTRODUCTION__2.ppt">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
+    <Content Include="teachers\teacher assets\MS PowerPoint\guideToPowerpoint.pdf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
     <Resource Include="assets\Haiti_pic_original.jpg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Resource>
