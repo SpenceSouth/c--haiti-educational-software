@@ -59,6 +59,8 @@ namespace haiti.teens
         private void Category_Click(object sender, RoutedEventArgs e)
         {
             string name = (string)((Button)sender).Name;
+            string title = "";
+            string prompt = "";  
 
             switch (name)
             {
@@ -117,6 +119,16 @@ namespace haiti.teens
                 case "b14":
                     if (Utils.Prompt("Description", "An interactive quiz of Europeas countries and cities; Tests georgraphic knowledge", 0))
                         Program.runSeTerra();
+                    break;
+                case "b15":
+                    title = "Description";
+                    prompt = "A program to exercise: Memory, Math, Geography, and a scramble puzzle.  \nWould you like to start this activity?";
+                    var dr84 = MessageBox.Show(prompt, title, MessageBoxButton.YesNo);
+
+                    if (dr84 == MessageBoxResult.Yes)
+                    {
+                        Program.runEducationalGames();
+                    }
                     break;
                 default:
                     break;

@@ -90,6 +90,7 @@
                 <StackPanel Orientation="Horizontal">
                     <Button x:Name="b13" Margin="10" Content="Read Time 4" Click="Category_Click" Width="130px" Height="75px"/>
                     <Button x:Name="b14" Margin="10" Content="SeTerra Geography" Click="Category_Click" Width="130px" Height="75px"/>
+                    <Button x:Name="b15" Margin="10" Content="Educational Games" Click="Category_Click" Width="130px" Height="75px"/>
                 </StackPanel>
             </StackPanel>
         </ScrollViewer>
