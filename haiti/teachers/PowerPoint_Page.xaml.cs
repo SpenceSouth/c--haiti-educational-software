@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -56,6 +57,20 @@ namespace haiti.teachers
             }
 
         }
+
+   private void Program_Click(object sender, RoutedEventArgs e)
+   {
+       string name = (string)((Button)sender).Name;
+
+       switch (name)
+       {
+           case "pptGuide":
+               Process.Start("teachers\\teacher assets\\MS PowerPoint\\guideToPowerpoint.pdf");
+               break;
+
+       }
+
+   }
 
 
     }

@@ -57,6 +57,34 @@
                 </Grid>
 
             </Grid>
+            <Grid x:Name="ProgramField" Grid.Row="1" Grid.Column="0" >
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="1*" />
+                    <RowDefinition Height="4*" />
+                    <RowDefinition Height="8*" />
+                    <RowDefinition Height="5*" />
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="1*" />
+                    <ColumnDefinition Width="4*" />
+                    <ColumnDefinition Width="1*" />
+                    <ColumnDefinition Width="5*" />
+                    <ColumnDefinition Width="1*" />
+                </Grid.ColumnDefinitions>
+
+                <TextBlock Grid.Row="1" Grid.Column="1" Text="Program" />
+                <TextBlock Grid.Row="1" Grid.Column="3" Text="Description" />
+
+
+
+                <Button x:Name="pptGuide" Grid.Row="2" Grid.Column="1" Content="Introduction to PowerPoint" Click="Program_Click" />
+                <Border Grid.Row="2" Grid.Column="3" BorderThickness="1" BorderBrush="Black">
+                    <TextBlock Text="A beginners guide to PowerPoint." TextWrapping="Wrap" HorizontalAlignment="Left" />
+                </Border>
+
+            </Grid>
+
         </Grid>
+
     </Grid>
 </Page>
