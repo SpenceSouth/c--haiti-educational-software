@@ -70,11 +70,10 @@
             </Grid.ColumnDefinitions>
             <TextBlock Text="Click a button to see the instructions and start activity!" FontStyle="Oblique" FontSize="25px" Grid.Row="1" Grid.Column="1" TextWrapping="Wrap"/>
             <!--Column 1-->
-            <Button x:Name="button0"                Content="Kea Coloring Book" Grid.Row="2" Grid.Column="1" Click="Category_Click"/>
-            <Button x:Name="button4"                Content="Drawing for Children"  Grid.Row="3" Grid.Column="1" Click="Category_Click"/>
+            <Button x:Name="button4"                Content="Drawing for Children"  Grid.Row="2" Grid.Column="2" Click="Category_Click"/>
 
             <!--Column 3-->            
-            <Button x:Name="button12"               Content="Cars 2 Coloring Book - Paint Application"  Grid.Row="2" Grid.Column="2" Click="Category_Click"/>
+            <Button x:Name="button12"               Content="Cars 2 Coloring Book - Paint Application"  Grid.Row="2" Grid.Column="1" Click="Category_Click"/>
 
         </Grid>
 
